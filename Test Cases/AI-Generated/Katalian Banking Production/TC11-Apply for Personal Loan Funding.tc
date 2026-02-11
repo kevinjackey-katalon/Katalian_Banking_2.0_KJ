@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>b1bbbcff-809e-4e35-8903-74bacdd74a9b</id>
+        </flow>
+    </customField>
+    <description>Login, access the vault, and apply for personal loan funding by entering personal and employment details, then sign out.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC11-Apply for Personal Loan Funding</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>37e8b9a2-31b1-4e82-84e8-3fcf71d081e0</testCaseGuid>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 4: Enter secure ID and access code to access vault - (Input data variable)</description>
+        <id>0e4acd8c-9b2d-47b3-8b9a-fce304f0b2c6</id>
+        <masked>false</masked>
+        <name>input_accessCode</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 20: Enter input value in input annualIncome - (Input data variable)</description>
+        <id>13d75463-8d2d-49cd-bde4-13cf8360f5d6</id>
+        <masked>false</masked>
+        <name>input_annualIncome</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 16: Enter input value in input currentEmployer - (Input data variable)</description>
+        <id>dacf9787-52af-4cf7-ba89-9ecf0c0c404d</id>
+        <masked>false</masked>
+        <name>input_currentEmployer</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 11: Enter input value in input dateOfBirth - (Input data variable)</description>
+        <id>36f30b55-86e1-4c48-a53b-86183a7feb54</id>
+        <masked>false</masked>
+        <name>input_dateOfBirth</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 8: Enter input value in input firstName - (Input data variable)</description>
+        <id>3167c110-d9bf-4578-8dc6-2a2694ab3198</id>
+        <masked>false</masked>
+        <name>input_firstName</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 18: Enter input value in input jobTitle - (Input data variable)</description>
+        <id>a47f4fbf-8656-4c38-8f25-74b75cd072a1</id>
+        <masked>false</masked>
+        <name>input_jobTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 10: Enter input value in input lastName - (Input data variable)</description>
+        <id>79f5dcef-69bd-482b-b6da-770fafd1a0e2</id>
+        <masked>false</masked>
+        <name>input_lastName</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 13: Enter input value in input primaryResidence - (Input data variable)</description>
+        <id>4dea5b94-4d06-4978-b5a4-52e44da2c3bf</id>
+        <masked>false</masked>
+        <name>input_primaryResidence</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 4: Enter secure ID and access code to access vault - (Input data variable)</description>
+        <id>755957d2-c274-4fa2-9160-bf8369dc78e3</id>
+        <masked>false</masked>
+        <name>input_secureId</name>
+    </variable>
+</TestCaseEntity>

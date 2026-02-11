@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login, attempt to transfer balance with insufficient funds, cancel the transfer, logout, and verify the home page.</description>
+   <name>TC2-Handle Insufficient Funds During Transfer</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>TRUETEST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>001e21af-7e12-47f1-af87-9a3571751922</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>68319b91-b03c-4a28-b690-a53a1283b2fb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1000000'</defaultValue>
+      <description>Step 5: Enter input value in input amount - (Input data variable)</description>
+      <id>68319b91-b03c-4a28-b690-a53a1283b2fb</id>
+      <masked>false</masked>
+      <name>input_amount</name>
+   </variable>
+</TestCaseEntity>

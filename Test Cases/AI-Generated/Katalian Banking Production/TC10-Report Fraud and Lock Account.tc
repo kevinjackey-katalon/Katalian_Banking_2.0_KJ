@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>951e1f2d-4050-432a-bb8d-ee36c60f1409</id>
+        </flow>
+    </customField>
+    <description>Login, access the vault, report fraud, and lock the account. Then, re-enter secure ID and access code to return to the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC10-Report Fraud and Lock Account</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>fec2c116-a1e3-456d-8899-08976af32848</testCaseGuid>
+    <variable>
+        <defaultValue>'Initiate Global Lockdown'</defaultValue>
+        <description>Step 7: Click on button globalLockdown (initiateGlobalLockdown) - (Dynamic locator variable)</description>
+        <id>724c2eba-519e-4b4f-a2ab-53c4c468f981</id>
+        <masked>false</masked>
+        <name>button_globalLockdown_ButtonInternalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'CONFIRM GLOBAL FREEZE'</defaultValue>
+        <description>Step 8: Click on button globalLockdown (confirmGlobalFreeze) -&gt; Navigate to page '/login' - (Dynamic locator variable)</description>
+        <id>9431f0cd-ead6-4a84-870e-657720088b5a</id>
+        <masked>false</masked>
+        <name>button_globalLockdown_ButtonInternalText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 4: Enter secure ID and access code to access vault - (Input data variable)</description>
+        <id>65403a7e-58ef-42da-8045-46e9453d83ea</id>
+        <masked>false</masked>
+        <name>input_accessCode</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 12: Enter input value in input accessCode - (Input data variable)</description>
+        <id>d02756f2-8b0f-4a70-a8e3-3141c1a01bfb</id>
+        <masked>false</masked>
+        <name>input_accessCode_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 4: Enter secure ID and access code to access vault - (Input data variable)</description>
+        <id>ee7af209-efbc-49e6-b80a-2856aae395ac</id>
+        <masked>false</masked>
+        <name>input_secureId</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 10: Enter input value in input secureId - (Input data variable)</description>
+        <id>9f054663-e28c-4f4d-baab-6f2e47787d39</id>
+        <masked>false</masked>
+        <name>input_secureId_1</name>
+    </variable>
+</TestCaseEntity>

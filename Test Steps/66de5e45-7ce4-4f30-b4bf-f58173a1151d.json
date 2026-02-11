@@ -1,0 +1,130 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "name": "Navigate to https://katalian-banking.vercel.app/",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Login",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Navigate to /login",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Click on input secureId",
+      "sub_steps": [],
+      "action_id": "9206018c-5621-4a42-b719-253f4ff3813a",
+      "timestamp": 1768584489808,
+      "target_name": "input_secureId"
+    },
+    {
+      "name": "Click on input accessCode",
+      "sub_steps": [],
+      "action_id": "669493d0-deec-48a1-a1fa-3f9d94900c66",
+      "timestamp": 1768584493161,
+      "target_name": "input_accessCode"
+    },
+    {
+      "name": "Click on input secureId",
+      "sub_steps": [],
+      "action_id": "2f37c11b-6a42-48f3-9f92-50e185db7e63",
+      "timestamp": 1768585008579,
+      "target_name": "input_secureId"
+    },
+    {
+      "name": "Enter input value in input secureId",
+      "sub_steps": [],
+      "action_id": "a4548a79-9270-4967-8b16-87b2602cf61a",
+      "timestamp": 1768585009746,
+      "target_name": "input_secureId"
+    },
+    {
+      "name": "Click on input accessCode",
+      "sub_steps": [],
+      "action_id": "1716bcb5-5400-4174-aa1e-16dc5c77c91e",
+      "timestamp": 1768585010055,
+      "target_name": "input_accessCode"
+    },
+    {
+      "name": "Click on input secureId",
+      "sub_steps": [],
+      "action_id": "a7dcdef4-5319-4d74-adb9-9af498d5d952",
+      "timestamp": 1768585014087,
+      "target_name": "input_secureId"
+    },
+    {
+      "name": "Enter input value in input secureId",
+      "sub_steps": [],
+      "action_id": "f29a2a61-9f67-494f-a855-ac34edd5a048",
+      "timestamp": 1768585015452,
+      "target_name": "input_secureId"
+    },
+    {
+      "name": "Click on input accessCode",
+      "sub_steps": [],
+      "action_id": "4d0e4d9c-0106-4502-8440-e6a1e494df54",
+      "timestamp": 1768585015785,
+      "target_name": "input_accessCode"
+    },
+    {
+      "name": "Enter input value in input accessCode",
+      "sub_steps": [],
+      "action_id": "c0fb3026-59af-4fae-8648-734169efa040",
+      "timestamp": 1768585016347,
+      "target_name": "input_accessCode"
+    },
+    {
+      "name": "Click on button enterVaultAccess -> Navigate to page '/dashboard'",
+      "sub_steps": [],
+      "action_id": "68a9f8b4-f521-4226-be18-8b77e77ceda9",
+      "timestamp": 1768585021061,
+      "target_name": "button_enterVaultAccess"
+    },
+    {
+      "name": "Click on div accountOverview -> Navigate to page '/account/*'",
+      "sub_steps": [],
+      "action_id": "a2bb5357-20f7-401f-b013-0218f33eac28",
+      "timestamp": 1768585047478,
+      "target_name": "div_accountOverview"
+    },
+    {
+      "name": "Click on button dateTime",
+      "sub_steps": [],
+      "action_id": "8c29cb6b-0003-456d-b757-fa9d155cdb2c",
+      "timestamp": 1768585086364,
+      "target_name": "button_dateTime"
+    },
+    {
+      "name": "Click on button downloadStatement",
+      "sub_steps": [],
+      "action_id": "1875da9e-3cdc-4063-8c95-f65172a52207",
+      "timestamp": 1768585087265,
+      "target_name": "button_downloadStatement"
+    },
+    {
+      "name": "Click on button backToPortfolio -> Navigate to page '/dashboard'",
+      "sub_steps": [],
+      "action_id": "48bf350e-6bab-4404-974e-b08bfed7a6bc",
+      "timestamp": 1768585090600,
+      "target_name": "button_backToPortfolio"
+    },
+    {
+      "name": "Click on button signOut -> Navigate to page ''",
+      "sub_steps": [],
+      "action_id": "c2caa34e-315c-4099-946b-a53e943dcad4",
+      "timestamp": 1768585092052,
+      "target_name": "button_signOut"
+    },
+    {
+      "name": "Take full page screenshot as checkpoint",
+      "sub_steps": [],
+      "target_name": ""
+    }
+  ]
+}

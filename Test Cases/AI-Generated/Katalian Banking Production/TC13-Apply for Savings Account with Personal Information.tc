@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>72e0d26e-e96f-44a8-8fa4-202f2351d1c3</id>
+        </flow>
+    </customField>
+    <description>Login and access the vault. Apply for a savings account by entering personal details and address. Sign out and verify return to home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC13-Apply for Savings Account with Personal Information</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>413b54fd-59a3-4e12-9444-4e1851d9c700</testCaseGuid>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 4: Enter secure ID and access code to access vault - (Input data variable)</description>
+        <id>7490d73a-d08d-41eb-a1f2-2c617611afa2</id>
+        <masked>false</masked>
+        <name>input_accessCode</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 17: Enter input value in input city - (Input data variable)</description>
+        <id>f7f964e1-120f-4315-9922-0fb487129441</id>
+        <masked>false</masked>
+        <name>input_city</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 12: Enter input value in input dateOfBirth - (Input data variable)</description>
+        <id>946d40f7-5cef-4ecf-ad7c-39081e75453b</id>
+        <masked>false</masked>
+        <name>input_dateOfBirth</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 7: Enter input value in input legalFirstName - (Input data variable)</description>
+        <id>8b580781-d1b2-401b-89ae-409a87e0c410</id>
+        <masked>false</masked>
+        <name>input_legalFirstName</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 11: Enter input value in input legalLastName - (Input data variable)</description>
+        <id>78664ac9-ad00-49e5-be5b-352841ec1efb</id>
+        <masked>false</masked>
+        <name>input_legalLastName</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 9: Enter input value in input middleName - (Input data variable)</description>
+        <id>8e08a253-1d03-4429-870e-3c9c880d4cf9</id>
+        <masked>false</masked>
+        <name>input_middleName</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 15: Enter input value in input primaryAddressLine - (Input data variable)</description>
+        <id>d83e2c54-fd69-4229-a5c6-d07c1e7b408b</id>
+        <masked>false</masked>
+        <name>input_primaryAddressLine</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 4: Enter secure ID and access code to access vault - (Input data variable)</description>
+        <id>c1fc854f-945f-439b-947a-4e1a9feb0df0</id>
+        <masked>false</masked>
+        <name>input_secureId</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 20: Enter input value in input zipCode - (Input data variable)</description>
+        <id>9ca2c269-2c1d-4941-be38-025d1f141db5</id>
+        <masked>false</masked>
+        <name>input_zipCode</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 18: Select option with input value from select state - (Input data variable)</description>
+        <id>be444710-98fb-442a-bf36-d9ed79586d82</id>
+        <masked>false</masked>
+        <name>select_state</name>
+    </variable>
+</TestCaseEntity>

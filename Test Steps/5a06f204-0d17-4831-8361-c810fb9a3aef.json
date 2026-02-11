@@ -1,0 +1,110 @@
+{
+    "version": "3",
+    "steps": [
+        {
+            "name": "Navigate to /login",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Login -> Navigate to page '/dashboard'",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Click on button applyNow (applyNow2) -> Navigate to page '/apply/*'",
+            "sub_steps": [],
+            "target_name": "button_applyNow"
+        },
+        {
+            "name": "Click on input firstName",
+            "sub_steps": [],
+            "target_name": "input_firstName"
+        },
+        {
+            "name": "Enter input value in input firstName",
+            "sub_steps": [],
+            "target_name": "input_firstName"
+        },
+        {
+            "name": "Click on input lastName",
+            "sub_steps": [],
+            "target_name": "input_lastName"
+        },
+        {
+            "name": "Enter input value in input lastName",
+            "sub_steps": [],
+            "target_name": "input_lastName"
+        },
+        {
+            "name": "Enter input value in input dateOfBirth",
+            "sub_steps": [],
+            "target_name": "input_dateOfBirth"
+        },
+        {
+            "name": "Click on button next",
+            "sub_steps": [],
+            "target_name": "button_next"
+        },
+        {
+            "name": "Click on input addressLine",
+            "sub_steps": [],
+            "target_name": "input_addressLine"
+        },
+        {
+            "name": "Enter input value in input addressLine",
+            "sub_steps": [],
+            "target_name": "input_addressLine"
+        },
+        {
+            "name": "Click on input city",
+            "sub_steps": [],
+            "target_name": "input_city"
+        },
+        {
+            "name": "Enter input value in input city",
+            "sub_steps": [],
+            "target_name": "input_city"
+        },
+        {
+            "name": "Select option with input value from select state",
+            "sub_steps": [],
+            "target_name": "select_state"
+        },
+        {
+            "name": "Click on input zipCode",
+            "sub_steps": [],
+            "target_name": "input_zipCode"
+        },
+        {
+            "name": "Enter input value in input zipCode",
+            "sub_steps": [],
+            "target_name": "input_zipCode"
+        },
+        {
+            "name": "Click on button submitApplication",
+            "sub_steps": [],
+            "target_name": "button_submitApplication"
+        },
+        {
+            "name": "Click on button returnToDashboard -> Navigate to page '/dashboard'",
+            "sub_steps": [],
+            "target_name": "button_returnToDashboard"
+        },
+        {
+            "name": "Click on span pending",
+            "sub_steps": [],
+            "target_name": "span_pending"
+        },
+        {
+            "name": "Click on button logout -> Navigate to page ''",
+            "sub_steps": [],
+            "target_name": "button_logout"
+        },
+        {
+            "name": "Take full page screenshot as checkpoint",
+            "sub_steps": [],
+            "target_name": ""
+        }
+    ]
+}

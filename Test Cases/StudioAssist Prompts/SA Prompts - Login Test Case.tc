@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login Test Case
+Open Browser – Launch a new browser instance.
+Navigate to URL – Go to https://katalon-demo-cura.herokuapp.com/profile.php#login.
+Input Username – In the username field (ID: txt-username), enter &quot;John Doe&quot;.
+Input Password – In the password field (ID: txt-password), enter &quot;ThisIsNotAPassword&quot;.
+Click Login Button – Click on the login button (ID: btn-login).
+Verify Successful Login –
+Verify the page header displays text “CURA Healthcare Service&quot;.</description>
+   <name>SA Prompts - Login Test Case</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c8331846-764a-4bb4-8247-8f29f5fa9d44</testCaseGuid>
+</TestCaseEntity>

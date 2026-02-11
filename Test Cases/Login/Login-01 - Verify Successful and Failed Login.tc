@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validates successful login OR (if login fails) verifies error message and captures evidence screenshots.
+Target app: https://katalian-banking.vercel.app/login</description>
+   <name>Login-01 - Verify Successful and Failed Login</name>
+   <tag>GenAI,webui,smoke,login</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>47a84551-b281-4ad6-8098-fc5d984a7fb0</testCaseGuid>
+</TestCaseEntity>

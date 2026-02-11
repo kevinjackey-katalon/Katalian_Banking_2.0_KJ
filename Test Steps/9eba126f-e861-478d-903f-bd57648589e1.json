@@ -1,0 +1,46 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "c2e4b8e3-dea3-4dc1-a554-8c88f81fb3a3",
+      "name": "Navigate to /dashboard",
+      "sub_steps": [],
+      "target_name": "",
+      "target_test_object_id": ""
+    },
+    {
+      "id": "209c13c4-c7d7-47b2-9ac1-cb64dfd99294",
+      "name": "Click on button freezeAllCards -> Navigate to page '/security/freeze-all'",
+      "sub_steps": [],
+      "action_id": "1f0bab9e-c83c-4d88-acc2-5ec634f5ae2d",
+      "timestamp": 1770049864595,
+      "target_name": "button_freezeAllCards",
+      "target_test_object_id": "a8012139-f83c-4299-9cf2-b595635aa887"
+    },
+    {
+      "id": "3f138fae-9d61-47f8-877c-a3571d7d7423",
+      "name": "Click on button authorizeCryoFreeze",
+      "sub_steps": [],
+      "action_id": "d181a15b-f97e-4c9f-b1ac-270298bff30f",
+      "timestamp": 1770049866153,
+      "target_name": "button_authorizeCryoFreeze",
+      "target_test_object_id": "60103e59-9db7-446b-aada-f09e46008e60"
+    },
+    {
+      "id": "5f5fdf4b-7531-4fa2-a020-577aedffb473",
+      "name": "Click on button backToPortfolio -> Navigate to page ''",
+      "sub_steps": [],
+      "action_id": "e0a221fa-2d66-4ff4-b7d2-ebc7e2495b68",
+      "timestamp": 1770049869829,
+      "target_name": "button_backToPortfolio",
+      "target_test_object_id": "7242621b-583a-4253-9003-dd322712bbee"
+    },
+    {
+      "id": "78a6bf71-845d-4845-a727-65bf8f9521aa",
+      "name": "Take full page screenshot as checkpoint",
+      "sub_steps": [],
+      "target_name": "",
+      "target_test_object_id": ""
+    }
+  ]
+}

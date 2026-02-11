@@ -1,0 +1,51 @@
+{
+    "version": "3",
+    "steps": [
+        {
+            "name": "Navigate to /login",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Login",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Transfer balance between accounts and review transfer",
+            "sub_steps": [
+                {
+                    "name": "Click on button transferBalance -> Navigate to page '/transfer'",
+                    "target_name": "button_transferBalance"
+                },
+                {
+                    "name": "Select option with input value from select fromAccount",
+                    "target_name": "select_fromAccount"
+                },
+                {
+                    "name": "Click on input amount",
+                    "target_name": "input_amount"
+                },
+                {
+                    "name": "Enter input value in input amount",
+                    "target_name": "input_amount"
+                },
+                {
+                    "name": "Click on button reviewTransfer",
+                    "target_name": "button_reviewTransfer"
+                }
+            ],
+            "target_name": "button_transferBalance"
+        },
+        {
+            "name": "Click on button confirmTransfer -> Navigate to page ''",
+            "sub_steps": [],
+            "target_name": "button_confirmTransfer"
+        },
+        {
+            "name": "Take full page screenshot as checkpoint",
+            "sub_steps": [],
+            "target_name": ""
+        }
+    ]
+}

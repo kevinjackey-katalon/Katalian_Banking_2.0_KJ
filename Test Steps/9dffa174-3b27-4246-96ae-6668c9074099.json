@@ -1,0 +1,60 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "name": "Navigate to https://katalian-banking.vercel.app/",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Login",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Navigate to /login",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Enter input value in input secureId -> Navigate to page '/dashboard'",
+      "sub_steps": [],
+      "action_id": "0fee3f26-2bf9-4088-bed0-7a94a3784976",
+      "timestamp": 1768585112315,
+      "target_name": "input_secureId"
+    },
+    {
+      "name": "Enter input value in input accessCode",
+      "sub_steps": [],
+      "action_id": "115f954e-3215-405c-836d-ad28fa2757e3",
+      "timestamp": 1768585113747,
+      "target_name": "input_accessCode"
+    },
+    {
+      "name": "Click on div accountOverview -> Navigate to page '/account/*'",
+      "sub_steps": [],
+      "action_id": "df4ddd5c-7281-4c06-953c-a4072492281f",
+      "timestamp": 1768585203139,
+      "target_name": "div_accountOverview"
+    },
+    {
+      "name": "Click on button dateTime2",
+      "sub_steps": [],
+      "action_id": "86da1d27-c291-4fe6-bbf4-e3076a5f9ce4",
+      "timestamp": 1768585215497,
+      "target_name": "button_dateTime2"
+    },
+    {
+      "name": "Click on button downloadStatement -> Navigate to page ''",
+      "sub_steps": [],
+      "action_id": "d492e0c4-9fb5-4bd8-b436-1e7a361278ca",
+      "timestamp": 1768585216626,
+      "target_name": "button_downloadStatement"
+    },
+    {
+      "name": "Take full page screenshot as checkpoint",
+      "sub_steps": [],
+      "target_name": ""
+    }
+  ]
+}

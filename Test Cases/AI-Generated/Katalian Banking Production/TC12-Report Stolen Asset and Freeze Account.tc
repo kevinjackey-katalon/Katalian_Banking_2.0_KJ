@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>0fe0f899-91a5-42ac-8360-7c418da51297</id>
+        </flow>
+    </customField>
+    <description>Login and access the vault. Report a stolen asset, provide details, and authorize an asset freeze. Sign out and verify return to home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC12-Report Stolen Asset and Freeze Account</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>0cf45958-5dcf-401f-9100-5e9925197704</testCaseGuid>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 4: Enter secure ID and access code to access vault - (Input data variable)</description>
+        <id>32a6a88e-0e8d-4c7d-8c9d-d2342b98d0c6</id>
+        <masked>false</masked>
+        <name>input_accessCode</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 7: Enter input value in input messageConcierge - (Input data variable)</description>
+        <id>268cdbef-3822-42fb-8957-446f11dfbbdb</id>
+        <masked>false</masked>
+        <name>input_messageConcierge</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 4: Enter secure ID and access code to access vault - (Input data variable)</description>
+        <id>7007ac0b-6989-4572-8bf5-ec31bba5ea55</id>
+        <masked>false</masked>
+        <name>input_secureId</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 10: Select option with input value from select accountType - (Input data variable)</description>
+        <id>53ee30ba-1b39-408a-a848-b08fdcac179c</id>
+        <masked>false</masked>
+        <name>select_accountType</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 12: Enter input value in textarea compromiseDescription - (Input data variable)</description>
+        <id>f134892a-dc67-4349-bd5f-4b90fd0aa272</id>
+        <masked>false</masked>
+        <name>textarea_compromiseDescription</name>
+    </variable>
+</TestCaseEntity>

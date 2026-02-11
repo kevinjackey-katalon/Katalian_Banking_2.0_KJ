@@ -1,0 +1,615 @@
+2026-01-06 10:26:39.320 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio Enterprise.app/Contents/Eclipse/configuration/org.eclipse.osgi/132/0/.cp/resources/logback/logback-execution.xml
+2026-01-06 10:26:39.321 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized
+2026-01-06 10:26:39.572 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Balance Transfers
+2026-01-06 10:26:39.601 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gia Esposito
+2026-01-06 10:26:39.601 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TrueTestGen4Project
+2026-01-06 10:26:39.602 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gia - 192.168.4.26
+2026-01-06 10:26:39.602 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-01-06 10:26:39.602 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.4.26
+2026-01-06 10:26:39.602 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-01-06 10:26:39.735 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:26:39.735 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/Katalian Banking Production/TC7-Apply for Account After Login
+2026-01-06 10:26:39.765 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) button_applyNow_divInternalHasText_1 = Apply for a Platinum Credit CardApply Now
+2026-01-06 10:26:39.769 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2026-01-06 10:26:39.770 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+2026-01-06 10:26:39.892 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 10:26:39.906 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 06, 2026 10:26:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 06, 2026 10:26:40 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.147. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 10:26:41.503 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = fdeccfa5f219d910b45a41b1e9acc169
+2026-01-06 10:26:41.504 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.147
+2026-01-06 10:26:41.504 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-01-06 10:26:41.504 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 10:26:41.507 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 10:26:41.883 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Viewport size mismatch (1,512x746). Trying to set it again.
+2026-01-06 10:26:42.880 WARN  c.k.k.c.w.k.b.SetViewPortSizeKeyword     - Viewport size mismatch (1512x1512).
+2026-01-06 10:26:46.400 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:26:46.400 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Login
+2026-01-06 10:26:46.423 DEBUG testcase.Login                           - 1: setText(findTestObject("Object Repository/Page_Katalian Bank/input_Username_username"), "bankinguser123")
+2026-01-06 10:26:47.007 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/Page_Katalian Bank/input_Password_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo")
+2026-01-06 10:26:47.269 DEBUG testcase.Login                           - 3: click(findTestObject("Object Repository/Page_Katalian Bank/button_Sign in"))
+2026-01-06 10:26:47.538 DEBUG testcase.Login                           - 4: verifyElementPresent(findTestObject("Object Repository/Page_Katalian Bank/h1_Katalian Bank"), 0)
+2026-01-06 10:26:47.558 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-01-06 10:26:47.978 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Login
+2026-01-06 10:26:47.978 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:26:48.293 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2026-01-06 10:26:48.485 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2026-01-06 10:26:48.486 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AI-Generated/Katalian Banking Production/TC7-Apply for Account After Login
+2026-01-06 10:26:48.489 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:26:48.489 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/Katalian Banking Production/TC3-Transfer Balance Between Accounts and Logout
+2026-01-06 10:26:48.502 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) input_amount = 500000
+2026-01-06 10:26:48.505 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) select_fromAccount = Checking (...7890) - Balance: $5345.54
+2026-01-06 10:26:48.506 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2026-01-06 10:26:48.506 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+2026-01-06 10:26:48.525 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 10:26:48.526 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 06, 2026 10:26:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 06, 2026 10:26:49 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.147. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 10:26:49.569 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = db2c92bcb95e44cea496e6180ede23f7
+2026-01-06 10:26:49.570 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.147
+2026-01-06 10:26:49.570 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-01-06 10:26:49.570 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 10:26:49.570 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 10:26:49.931 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Viewport size mismatch (1,512x746). Trying to set it again.
+2026-01-06 10:26:50.919 WARN  c.k.k.c.w.k.b.SetViewPortSizeKeyword     - Viewport size mismatch (1512x1512).
+2026-01-06 10:26:54.358 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:26:54.358 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Login
+2026-01-06 10:26:54.363 DEBUG testcase.Login                           - 1: setText(findTestObject("Object Repository/Page_Katalian Bank/input_Username_username"), "bankinguser123")
+2026-01-06 10:26:54.907 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/Page_Katalian Bank/input_Password_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo")
+2026-01-06 10:26:55.162 DEBUG testcase.Login                           - 3: click(findTestObject("Object Repository/Page_Katalian Bank/button_Sign in"))
+2026-01-06 10:26:55.425 DEBUG testcase.Login                           - 4: verifyElementPresent(findTestObject("Object Repository/Page_Katalian Bank/h1_Katalian Bank"), 0)
+2026-01-06 10:26:55.430 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-01-06 10:26:55.850 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Login
+2026-01-06 10:26:55.850 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:27:07.568 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at TC3-Transfer Balance Between Accounts and Logout.run(TC3-Transfer Balance Between Accounts and Logout:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767713198027.run(TempTestSuite1767713198027.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer' located by 'button >> internal:text=\"Confirm Transfer\"s' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:55)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at Script1767711631982.run(Script1767711631982.groovy:33)
+	... 15 more
+)
+2026-01-06 10:27:07.570 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/AI-Generated/Katalian Banking Production/TC3-Transfer Balance Between Accounts and Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at TC3-Transfer Balance Between Accounts and Logout.run(TC3-Transfer Balance Between Accounts and Logout:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767713198027.run(TempTestSuite1767713198027.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer' located by 'button >> internal:text=\"Confirm Transfer\"s' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:55)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2026-01-06 10:27:07.668 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2026-01-06 10:27:07.668 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AI-Generated/Katalian Banking Production/TC3-Transfer Balance Between Accounts and Logout
+2026-01-06 10:27:07.670 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:27:07.670 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/Katalian Banking Production/TC3-Transfer Balance Between Accounts and Logout
+2026-01-06 10:27:07.675 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) input_amount = 500000
+2026-01-06 10:27:07.675 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) select_fromAccount = Checking (...7890) - Balance: $5345.54
+2026-01-06 10:27:07.675 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2026-01-06 10:27:07.675 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+2026-01-06 10:27:07.678 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 10:27:07.679 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 06, 2026 10:27:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 06, 2026 10:27:08 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.147. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 10:27:08.712 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d82716e67565716d72150cdc98698e4d
+2026-01-06 10:27:08.712 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.147
+2026-01-06 10:27:08.712 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-01-06 10:27:08.713 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 10:27:08.713 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 10:27:09.064 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Viewport size mismatch (1,512x746). Trying to set it again.
+2026-01-06 10:27:10.049 WARN  c.k.k.c.w.k.b.SetViewPortSizeKeyword     - Viewport size mismatch (1512x1512).
+2026-01-06 10:27:13.482 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:27:13.482 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Login
+2026-01-06 10:27:13.487 DEBUG testcase.Login                           - 1: setText(findTestObject("Object Repository/Page_Katalian Bank/input_Username_username"), "bankinguser123")
+2026-01-06 10:27:14.027 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/Page_Katalian Bank/input_Password_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo")
+2026-01-06 10:27:14.280 DEBUG testcase.Login                           - 3: click(findTestObject("Object Repository/Page_Katalian Bank/button_Sign in"))
+2026-01-06 10:27:14.543 DEBUG testcase.Login                           - 4: verifyElementPresent(findTestObject("Object Repository/Page_Katalian Bank/h1_Katalian Bank"), 0)
+2026-01-06 10:27:14.548 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-01-06 10:27:14.963 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Login
+2026-01-06 10:27:14.963 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:27:26.556 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at TC3-Transfer Balance Between Accounts and Logout.run(TC3-Transfer Balance Between Accounts and Logout:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767713198027.run(TempTestSuite1767713198027.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer' located by 'button >> internal:text=\"Confirm Transfer\"s' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:55)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at Script1767711631982.run(Script1767711631982.groovy:33)
+	... 16 more
+)
+2026-01-06 10:27:26.558 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/AI-Generated/Katalian Banking Production/TC3-Transfer Balance Between Accounts and Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at TC3-Transfer Balance Between Accounts and Logout.run(TC3-Transfer Balance Between Accounts and Logout:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767713198027.run(TempTestSuite1767713198027.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer' located by 'button >> internal:text=\"Confirm Transfer\"s' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:55)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more
+
+2026-01-06 10:27:26.649 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2026-01-06 10:27:26.650 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AI-Generated/Katalian Banking Production/TC3-Transfer Balance Between Accounts and Logout
+2026-01-06 10:27:26.651 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:27:26.651 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/Katalian Banking Production/TC3-Transfer Balance Between Accounts and Logout
+2026-01-06 10:27:26.656 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) input_amount = 500000
+2026-01-06 10:27:26.656 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) select_fromAccount = Checking (...7890) - Balance: $5345.54
+2026-01-06 10:27:26.657 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2026-01-06 10:27:26.657 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+2026-01-06 10:27:26.659 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 10:27:26.659 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 06, 2026 10:27:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 06, 2026 10:27:27 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.147. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 10:27:27.707 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 637fda69fa5e9599af1e5ec19f594ba2
+2026-01-06 10:27:27.707 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.147
+2026-01-06 10:27:27.707 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-01-06 10:27:27.708 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 10:27:27.708 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 10:27:28.058 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Viewport size mismatch (1,512x746). Trying to set it again.
+2026-01-06 10:27:29.033 WARN  c.k.k.c.w.k.b.SetViewPortSizeKeyword     - Viewport size mismatch (1512x1512).
+2026-01-06 10:27:32.499 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:27:32.499 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Login
+2026-01-06 10:27:32.503 DEBUG testcase.Login                           - 1: setText(findTestObject("Object Repository/Page_Katalian Bank/input_Username_username"), "bankinguser123")
+2026-01-06 10:27:33.036 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/Page_Katalian Bank/input_Password_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo")
+2026-01-06 10:27:33.286 DEBUG testcase.Login                           - 3: click(findTestObject("Object Repository/Page_Katalian Bank/button_Sign in"))
+2026-01-06 10:27:33.542 DEBUG testcase.Login                           - 4: verifyElementPresent(findTestObject("Object Repository/Page_Katalian Bank/h1_Katalian Bank"), 0)
+2026-01-06 10:27:33.546 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-01-06 10:27:33.961 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Login
+2026-01-06 10:27:33.961 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:27:45.634 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at TC3-Transfer Balance Between Accounts and Logout.run(TC3-Transfer Balance Between Accounts and Logout:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767713198027.run(TempTestSuite1767713198027.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer' located by 'button >> internal:text=\"Confirm Transfer\"s' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:55)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at Script1767711631982.run(Script1767711631982.groovy:33)
+	... 17 more
+)
+2026-01-06 10:27:45.635 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/AI-Generated/Katalian Banking Production/TC3-Transfer Balance Between Accounts and Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at TC3-Transfer Balance Between Accounts and Logout.run(TC3-Transfer Balance Between Accounts and Logout:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767713198027.run(TempTestSuite1767713198027.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer' located by 'button >> internal:text=\"Confirm Transfer\"s' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:55)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 23 more
+
+2026-01-06 10:27:45.729 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2026-01-06 10:27:45.729 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AI-Generated/Katalian Banking Production/TC3-Transfer Balance Between Accounts and Logout
+2026-01-06 10:27:45.730 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:27:45.730 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/Katalian Banking Production/TC3-Transfer Balance Between Accounts and Logout
+2026-01-06 10:27:45.737 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) input_amount = 200
+2026-01-06 10:27:45.737 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) select_fromAccount = Checking (...7890) - Balance: $5345.54
+2026-01-06 10:27:45.738 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2026-01-06 10:27:45.738 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+2026-01-06 10:27:45.739 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 10:27:45.740 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 06, 2026 10:27:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 06, 2026 10:27:46 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.147. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 10:27:46.789 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0b19829e1d41c2bc96ff78679977cc43
+2026-01-06 10:27:46.790 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.147
+2026-01-06 10:27:46.790 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-01-06 10:27:46.790 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 10:27:46.790 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 10:27:47.134 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Viewport size mismatch (1,512x746). Trying to set it again.
+2026-01-06 10:27:48.117 WARN  c.k.k.c.w.k.b.SetViewPortSizeKeyword     - Viewport size mismatch (1512x1512).
+2026-01-06 10:27:51.577 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:27:51.577 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Login
+2026-01-06 10:27:51.581 DEBUG testcase.Login                           - 1: setText(findTestObject("Object Repository/Page_Katalian Bank/input_Username_username"), "bankinguser123")
+2026-01-06 10:27:52.108 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/Page_Katalian Bank/input_Password_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo")
+2026-01-06 10:27:52.356 DEBUG testcase.Login                           - 3: click(findTestObject("Object Repository/Page_Katalian Bank/button_Sign in"))
+2026-01-06 10:27:52.612 DEBUG testcase.Login                           - 4: verifyElementPresent(findTestObject("Object Repository/Page_Katalian Bank/h1_Katalian Bank"), 0)
+2026-01-06 10:27:52.618 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-01-06 10:27:53.032 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Login
+2026-01-06 10:27:53.033 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:27:54.661 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2026-01-06 10:27:54.830 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2026-01-06 10:27:54.830 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AI-Generated/Katalian Banking Production/TC3-Transfer Balance Between Accounts and Logout
+2026-01-06 10:27:54.832 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:27:54.832 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/Katalian Banking Production/TC5-Transfer Balance and Logout from Dashboard
+2026-01-06 10:27:54.840 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) input_amount = 5000
+2026-01-06 10:27:54.840 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2026-01-06 10:27:54.840 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+2026-01-06 10:27:54.863 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 10:27:54.864 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 06, 2026 10:27:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 06, 2026 10:27:55 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.147. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 10:27:55.913 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 049bc4334558390a56414d8242c12902
+2026-01-06 10:27:55.914 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.147
+2026-01-06 10:27:55.914 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-01-06 10:27:55.914 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 10:27:55.915 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 10:27:56.270 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Viewport size mismatch (1,512x746). Trying to set it again.
+2026-01-06 10:27:57.244 WARN  c.k.k.c.w.k.b.SetViewPortSizeKeyword     - Viewport size mismatch (1512x1512).
+2026-01-06 10:28:00.679 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:28:00.679 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Login
+2026-01-06 10:28:00.683 DEBUG testcase.Login                           - 1: setText(findTestObject("Object Repository/Page_Katalian Bank/input_Username_username"), "bankinguser123")
+2026-01-06 10:28:01.208 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/Page_Katalian Bank/input_Password_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo")
+2026-01-06 10:28:01.455 DEBUG testcase.Login                           - 3: click(findTestObject("Object Repository/Page_Katalian Bank/button_Sign in"))
+2026-01-06 10:28:01.709 DEBUG testcase.Login                           - 4: verifyElementPresent(findTestObject("Object Repository/Page_Katalian Bank/h1_Katalian Bank"), 0)
+2026-01-06 10:28:01.714 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-01-06 10:28:02.129 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Login
+2026-01-06 10:28:02.129 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:28:02.479 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2026-01-06 10:28:02.673 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2026-01-06 10:28:02.673 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AI-Generated/Katalian Banking Production/TC5-Transfer Balance and Logout from Dashboard
+2026-01-06 10:28:02.675 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:28:02.675 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/Katalian Banking Production/TC4-Apply for Checking Account and Transfer Balance
+2026-01-06 10:28:02.702 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) input_addressLine = 456 Liden Lane
+2026-01-06 10:28:02.707 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) input_amount = 500
+2026-01-06 10:28:02.711 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) input_city = Cincinnati
+2026-01-06 10:28:02.717 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) input_dateOfBirth = 11/11/2000
+2026-01-06 10:28:02.723 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) input_firstName = Carol
+2026-01-06 10:28:02.729 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) input_lastName = Jones
+2026-01-06 10:28:02.735 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) input_zipCode = 43221
+2026-01-06 10:28:02.742 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) select_state = Ohio
+2026-01-06 10:28:02.826 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) select_transferFrom = Checking (...7890)
+2026-01-06 10:28:02.827 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2026-01-06 10:28:02.827 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+2026-01-06 10:28:02.882 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 10:28:02.883 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 06, 2026 10:28:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 06, 2026 10:28:03 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.147. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 10:28:03.954 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b112b134385902f0a4d1ce968e587168
+2026-01-06 10:28:03.954 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.147
+2026-01-06 10:28:03.954 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-01-06 10:28:03.954 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 10:28:03.954 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 10:28:07.472 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:28:07.472 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Login
+2026-01-06 10:28:07.475 DEBUG testcase.Login                           - 1: setText(findTestObject("Object Repository/Page_Katalian Bank/input_Username_username"), "bankinguser123")
+2026-01-06 10:28:07.996 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/Page_Katalian Bank/input_Password_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo")
+2026-01-06 10:28:08.246 DEBUG testcase.Login                           - 3: click(findTestObject("Object Repository/Page_Katalian Bank/button_Sign in"))
+2026-01-06 10:28:08.501 DEBUG testcase.Login                           - 4: verifyElementPresent(findTestObject("Object Repository/Page_Katalian Bank/h1_Katalian Bank"), 0)
+2026-01-06 10:28:08.503 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-01-06 10:28:08.917 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Login
+2026-01-06 10:28:08.918 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:28:15.279 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2026-01-06 10:28:15.392 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2026-01-06 10:28:15.392 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AI-Generated/Katalian Banking Production/TC4-Apply for Checking Account and Transfer Balance
+2026-01-06 10:28:15.394 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:28:15.394 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/Katalian Banking Production/TC1-Verify Balance Transfer Between Accounts
+2026-01-06 10:28:15.397 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) input_amount = 500
+2026-01-06 10:28:15.397 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) select_fromAccount = Checking (...7890) - Balance: $5345.54
+2026-01-06 10:28:15.397 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2026-01-06 10:28:15.397 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+2026-01-06 10:28:15.413 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 10:28:15.413 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 06, 2026 10:28:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 06, 2026 10:28:16 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.147. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 10:28:16.513 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 449cddb01ca8e511aa4086a40b722746
+2026-01-06 10:28:16.513 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.147
+2026-01-06 10:28:16.513 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-01-06 10:28:16.513 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 10:28:16.513 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 10:28:19.968 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:28:19.968 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Login
+2026-01-06 10:28:19.973 DEBUG testcase.Login                           - 1: setText(findTestObject("Object Repository/Page_Katalian Bank/input_Username_username"), "bankinguser123")
+2026-01-06 10:28:20.509 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/Page_Katalian Bank/input_Password_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo")
+2026-01-06 10:28:20.761 DEBUG testcase.Login                           - 3: click(findTestObject("Object Repository/Page_Katalian Bank/button_Sign in"))
+2026-01-06 10:28:21.017 DEBUG testcase.Login                           - 4: verifyElementPresent(findTestObject("Object Repository/Page_Katalian Bank/h1_Katalian Bank"), 0)
+2026-01-06 10:28:21.028 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-01-06 10:28:21.443 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Login
+2026-01-06 10:28:21.444 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:28:23.106 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2026-01-06 10:28:23.218 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2026-01-06 10:28:23.218 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AI-Generated/Katalian Banking Production/TC1-Verify Balance Transfer Between Accounts
+2026-01-06 10:28:23.219 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:28:23.219 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/Katalian Banking Production/TC2-Handle Insufficient Funds During Transfer
+2026-01-06 10:28:23.225 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) input_amount = 1000000
+2026-01-06 10:28:23.226 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2026-01-06 10:28:23.226 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+2026-01-06 10:28:23.238 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 10:28:23.239 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 06, 2026 10:28:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 06, 2026 10:28:23 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.147. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 10:28:24.295 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 451b528c0789a7e340fbd333b70ded1d
+2026-01-06 10:28:24.295 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.147
+2026-01-06 10:28:24.295 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-01-06 10:28:24.295 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 10:28:24.296 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 10:28:27.754 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:28:27.754 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Login
+2026-01-06 10:28:27.759 DEBUG testcase.Login                           - 1: setText(findTestObject("Object Repository/Page_Katalian Bank/input_Username_username"), "bankinguser123")
+2026-01-06 10:28:28.287 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/Page_Katalian Bank/input_Password_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo")
+2026-01-06 10:28:28.534 DEBUG testcase.Login                           - 3: click(findTestObject("Object Repository/Page_Katalian Bank/button_Sign in"))
+2026-01-06 10:28:28.787 DEBUG testcase.Login                           - 4: verifyElementPresent(findTestObject("Object Repository/Page_Katalian Bank/h1_Katalian Bank"), 0)
+2026-01-06 10:28:28.792 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-01-06 10:28:29.205 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Login
+2026-01-06 10:28:29.205 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:28:29.494 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2026-01-06 10:28:29.604 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2026-01-06 10:28:29.604 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AI-Generated/Katalian Banking Production/TC2-Handle Insufficient Funds During Transfer
+2026-01-06 10:28:29.605 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:28:29.605 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/Katalian Banking Production/TC6-Submit Application and Logout from Dashboard
+2026-01-06 10:28:29.614 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) button_applyNow_divInternalHasText_1 = Apply for a Credit CardApply Now
+2026-01-06 10:28:29.617 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) input_addressLine = 868 Main Street
+2026-01-06 10:28:29.619 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) input_city = Denver
+2026-01-06 10:28:29.622 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) input_dateOfBirth = 12/11/1990
+2026-01-06 10:28:29.625 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) input_firstName = Joe
+2026-01-06 10:28:29.627 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) input_lastName = Oblio
+2026-01-06 10:28:29.629 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) input_zipCode = 34566
+2026-01-06 10:28:29.632 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) select_state = Colorado
+2026-01-06 10:28:29.632 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2026-01-06 10:28:29.632 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+2026-01-06 10:28:29.656 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 10:28:29.656 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 06, 2026 10:28:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 06, 2026 10:28:30 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.147. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 10:28:30.738 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = aa2c5469785e2a8f66c684dd8907215b
+2026-01-06 10:28:30.738 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.147
+2026-01-06 10:28:30.738 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-01-06 10:28:30.738 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 10:28:30.738 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 10:28:34.219 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:28:34.219 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Login
+2026-01-06 10:28:34.222 DEBUG testcase.Login                           - 1: setText(findTestObject("Object Repository/Page_Katalian Bank/input_Username_username"), "bankinguser123")
+2026-01-06 10:28:34.747 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/Page_Katalian Bank/input_Password_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo")
+2026-01-06 10:28:34.996 DEBUG testcase.Login                           - 3: click(findTestObject("Object Repository/Page_Katalian Bank/button_Sign in"))
+2026-01-06 10:28:35.246 DEBUG testcase.Login                           - 4: verifyElementPresent(findTestObject("Object Repository/Page_Katalian Bank/h1_Katalian Bank"), 0)
+2026-01-06 10:28:35.252 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-01-06 10:28:35.669 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Login
+2026-01-06 10:28:35.669 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:28:40.613 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2026-01-06 10:28:40.726 INFO  com.kms.katalon.core.util.KeywordUtil    - [SAUCELABS] Current run configuration: Chrome
+2026-01-06 10:28:40.727 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AI-Generated/Katalian Banking Production/TC6-Submit Application and Logout from Dashboard
+2026-01-06 10:28:40.737 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-01-06 10:28:40.737 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Balance Transfers
+2026-01-06 10:28:40.737 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

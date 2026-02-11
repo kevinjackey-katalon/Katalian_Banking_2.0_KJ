@@ -1,0 +1,50 @@
+{
+    "version": "3",
+    "steps": [
+        {
+            "name": "Navigate to /login",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Login -> Navigate to page '/dashboard'",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Click on button transferBalance -> Navigate to page '/transfer'",
+            "sub_steps": [],
+            "target_name": "button_transferBalance"
+        },
+        {
+            "name": "Click on input amount",
+            "sub_steps": [],
+            "target_name": "input_amount"
+        },
+        {
+            "name": "Enter input value in input amount",
+            "sub_steps": [],
+            "target_name": "input_amount"
+        },
+        {
+            "name": "Click on button reviewTransfer",
+            "sub_steps": [],
+            "target_name": "button_reviewTransfer"
+        },
+        {
+            "name": "Click on p insufficientFunds",
+            "sub_steps": [],
+            "target_name": "p_insufficientFunds"
+        },
+        {
+            "name": "Click on button cancel -> Navigate to page ''",
+            "sub_steps": [],
+            "target_name": "button_cancel"
+        },
+        {
+            "name": "Take full page screenshot as checkpoint",
+            "sub_steps": [],
+            "target_name": ""
+        }
+    ]
+}

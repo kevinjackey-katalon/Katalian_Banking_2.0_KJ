@@ -1,0 +1,147 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "name": "Navigate to https://katalian-banking.vercel.app/",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Login",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Navigate to /login",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Enter secure ID and access code to access vault",
+      "sub_steps": [
+        {
+          "name": "Click on input secureId",
+          "action_id": "2e746f97-8f19-460b-b79d-136fa52776a9",
+          "timestamp": 1768591110849,
+          "target_name": "input_secureId"
+        },
+        {
+          "name": "Enter input value in input secureId",
+          "action_id": "5cc18192-183b-4065-b06d-acc29501bc7c",
+          "timestamp": 1768591111682,
+          "target_name": "input_secureId"
+        },
+        {
+          "name": "Click on input accessCode",
+          "action_id": "fb7ac8ba-5c26-4c95-8775-b0f106b8931b",
+          "timestamp": 1768591112042,
+          "target_name": "input_accessCode"
+        },
+        {
+          "name": "Enter input value in input accessCode",
+          "action_id": "245635de-9b3a-4f95-98a2-5147e84684ff",
+          "timestamp": 1768591112661,
+          "target_name": "input_accessCode"
+        },
+        {
+          "name": "Click on button enterVaultAccess",
+          "action_id": "6d91572d-864a-4d11-b0c6-7b37dcaf2412",
+          "timestamp": 1768591119224,
+          "target_name": "button_enterVaultAccess"
+        }
+      ],
+      "action_id": "2e746f97-8f19-460b-b79d-136fa52776a9",
+      "timestamp": 1768591110849,
+      "target_name": "input_secureId"
+    },
+    {
+      "name": "Click on button helpCenter -> Navigate to page '/contact'",
+      "sub_steps": [],
+      "action_id": "e7fa5e51-5dfc-475b-b6df-709808b33b3a",
+      "timestamp": 1768591254063,
+      "target_name": "button_helpCenter"
+    },
+    {
+      "name": "Click on input messageConcierge",
+      "sub_steps": [],
+      "action_id": "da7c00ba-dafb-42ee-b014-623ccfe382e5",
+      "timestamp": 1768591257344,
+      "target_name": "input_messageConcierge"
+    },
+    {
+      "name": "Enter input value in input messageConcierge",
+      "sub_steps": [],
+      "action_id": "380783e6-7291-4fcb-bb88-29c9a487575a",
+      "timestamp": 1768591259794,
+      "target_name": "input_messageConcierge"
+    },
+    {
+      "name": "Click on button submit",
+      "sub_steps": [],
+      "action_id": "3278fcec-7580-4546-93dd-bd39b3b1df6d",
+      "timestamp": 1768591262589,
+      "target_name": "button_submit"
+    },
+    {
+      "name": "Click on button reportStolenAsset -> Navigate to page '/security/report'",
+      "sub_steps": [],
+      "action_id": "85191b61-be91-48c1-94db-43a490d1fd31",
+      "timestamp": 1768591272283,
+      "target_name": "button_reportStolenAsset"
+    },
+    {
+      "name": "Select option with input value from select accountType",
+      "sub_steps": [],
+      "action_id": "de7f63ab-671a-4e59-98c2-8aa6eeb65106",
+      "timestamp": 1768591275582,
+      "target_name": "select_accountType"
+    },
+    {
+      "name": "Click on textarea compromiseDescription",
+      "sub_steps": [],
+      "action_id": "382f6523-63bc-4376-bef1-d9186975b477",
+      "timestamp": 1768591276744,
+      "target_name": "textarea_compromiseDescription"
+    },
+    {
+      "name": "Enter input value in textarea compromiseDescription",
+      "sub_steps": [],
+      "action_id": "ca7ae854-9f3e-4669-b01a-82043a3ef4fd",
+      "timestamp": 1768591279937,
+      "target_name": "textarea_compromiseDescription"
+    },
+    {
+      "name": "Click on button authorizeAssetFreeze",
+      "sub_steps": [],
+      "action_id": "dabbb36b-63bd-4e10-a1a7-a57ccd79ebfd",
+      "timestamp": 1768591289028,
+      "target_name": "button_authorizeAssetFreeze"
+    },
+    {
+      "name": "Click on button executeFreezeProtocol",
+      "sub_steps": [],
+      "action_id": "730efe43-dcc6-4beb-b436-95fc483c7b1d",
+      "timestamp": 1768591291127,
+      "target_name": "button_executeFreezeProtocol"
+    },
+    {
+      "name": "Click on button backToPortfolio -> Navigate to page '/dashboard'",
+      "sub_steps": [],
+      "action_id": "d6e062aa-46dc-4457-ba28-3e1880e39cca",
+      "timestamp": 1768591295803,
+      "target_name": "button_backToPortfolio"
+    },
+    {
+      "name": "Click on button signOut -> Navigate to page ''",
+      "sub_steps": [],
+      "action_id": "438c1a14-a968-494f-988b-83cd0d12530d",
+      "timestamp": 1768591298139,
+      "target_name": "button_signOut"
+    },
+    {
+      "name": "Take full page screenshot as checkpoint",
+      "sub_steps": [],
+      "target_name": ""
+    }
+  ]
+}

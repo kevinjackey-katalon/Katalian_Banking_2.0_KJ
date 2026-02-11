@@ -1,0 +1,154 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "name": "Navigate to https://katalian-banking.vercel.app/",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Login",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Navigate to /login",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Enter secure ID and access code to access vault",
+      "sub_steps": [
+        {
+          "name": "Click on input secureId",
+          "action_id": "2e746f97-8f19-460b-b79d-136fa52776a9",
+          "timestamp": 1768591110849,
+          "target_name": "input_secureId"
+        },
+        {
+          "name": "Enter input value in input secureId",
+          "action_id": "5cc18192-183b-4065-b06d-acc29501bc7c",
+          "timestamp": 1768591111682,
+          "target_name": "input_secureId"
+        },
+        {
+          "name": "Click on input accessCode",
+          "action_id": "fb7ac8ba-5c26-4c95-8775-b0f106b8931b",
+          "timestamp": 1768591112042,
+          "target_name": "input_accessCode"
+        },
+        {
+          "name": "Enter input value in input accessCode",
+          "action_id": "245635de-9b3a-4f95-98a2-5147e84684ff",
+          "timestamp": 1768591112661,
+          "target_name": "input_accessCode"
+        },
+        {
+          "name": "Click on button enterVaultAccess",
+          "action_id": "6d91572d-864a-4d11-b0c6-7b37dcaf2412",
+          "timestamp": 1768591119224,
+          "target_name": "button_enterVaultAccess"
+        }
+      ],
+      "action_id": "2e746f97-8f19-460b-b79d-136fa52776a9",
+      "timestamp": 1768591110849,
+      "target_name": "input_secureId"
+    },
+    {
+      "name": "Click on button deposit -> Navigate to page '/deposit'",
+      "sub_steps": [],
+      "action_id": "763617c1-005f-4b79-81e0-81e033baec7b",
+      "timestamp": 1768591413597,
+      "target_name": "button_deposit"
+    },
+    {
+      "name": "Click on button checkDeposit",
+      "sub_steps": [],
+      "action_id": "1045709c-4290-4529-8c94-8dcd5ff04252",
+      "timestamp": 1768591416028,
+      "target_name": "button_checkDeposit"
+    },
+    {
+      "name": "Select option with input value from select accountSelection",
+      "sub_steps": [],
+      "action_id": "5f9037f7-6414-452d-b77d-486bb2216526",
+      "timestamp": 1768591418871,
+      "target_name": "select_accountSelection"
+    },
+    {
+      "name": "Click on input provisionAmount",
+      "sub_steps": [],
+      "action_id": "f61efe0e-bdc2-4fa4-b4d1-98c11c5d0ae0",
+      "timestamp": 1768591419487,
+      "target_name": "input_provisionAmount"
+    },
+    {
+      "name": "Enter input value in input provisionAmount",
+      "sub_steps": [],
+      "action_id": "23c4a6dd-9f30-4b0e-a5d4-1f6e4b453905",
+      "timestamp": 1768591420494,
+      "target_name": "input_provisionAmount"
+    },
+    {
+      "name": "Click on div continue",
+      "sub_steps": [],
+      "action_id": "fffe02a2-9f30-4c6b-8ce5-e189a86da36d",
+      "timestamp": 1768591422462,
+      "target_name": "div_continue"
+    },
+    {
+      "name": "Click on button depositAuthorization (continue)",
+      "sub_steps": [],
+      "action_id": "bfb1008b-fc71-4144-b956-43a2567a27b3",
+      "timestamp": 1768591422906,
+      "target_name": "button_depositAuthorization"
+    },
+    {
+      "name": "Click on div captureFront",
+      "sub_steps": [],
+      "action_id": "639e1cef-f90a-44a7-a976-f2a7f9346a1d",
+      "timestamp": 1768591424126,
+      "target_name": "div_captureFront"
+    },
+    {
+      "name": "Click on span camera",
+      "sub_steps": [],
+      "action_id": "948f7294-a149-428a-807b-f3f4b3bbe61f",
+      "timestamp": 1768591427815,
+      "target_name": "span_camera"
+    },
+    {
+      "name": "Click on button depositNavigation (continue2)",
+      "sub_steps": [],
+      "action_id": "2b3f3079-fc6e-46ad-bd3c-cf11e5245069",
+      "timestamp": 1768591432547,
+      "target_name": "button_depositNavigation"
+    },
+    {
+      "name": "Click on button depositAuthorization (authorizeDeposit)",
+      "sub_steps": [],
+      "action_id": "3a6a940b-463f-4a6c-86a8-f84614d34819",
+      "timestamp": 1768591434688,
+      "target_name": "button_depositAuthorization"
+    },
+    {
+      "name": "Click on button depositNavigation (returnToPortfolio) -> Navigate to page '/dashboard'",
+      "sub_steps": [],
+      "action_id": "3ab5b257-528a-4a22-82f5-9a156ad0d2ed",
+      "timestamp": 1768591441079,
+      "target_name": "button_depositNavigation"
+    },
+    {
+      "name": "Click on div savingsCard2 -> Navigate to page ''",
+      "sub_steps": [],
+      "action_id": "252dbb33-7999-48c6-a9c9-eb19ab95b36c",
+      "timestamp": 1768591447422,
+      "target_name": "div_savingsCard2"
+    },
+    {
+      "name": "Take full page screenshot as checkpoint",
+      "sub_steps": [],
+      "target_name": ""
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "2f2ee6bb-dda6-4a2e-943a-92845446d695",
+      "name": "Navigate to /login",
+      "sub_steps": [],
+      "target_name": "",
+      "target_test_object_id": ""
+    },
+    {
+      "id": "bfe27763-8317-4972-b476-c3a8c97d5b38",
+      "name": "Click on input secureId",
+      "sub_steps": [],
+      "action_id": "e1d1f4ce-49c7-424d-b648-e6842ee31270",
+      "timestamp": 1770142138437,
+      "target_name": "input_secureId",
+      "target_test_object_id": "021d3159-9128-42af-89d0-43f59279a10e"
+    },
+    {
+      "id": "0b9bfa2d-d4d7-442a-bbc1-81805e8d2b09",
+      "name": "Click on input secureId",
+      "sub_steps": [],
+      "action_id": "b1b710db-0e1f-4f76-8212-6c561291fd35",
+      "timestamp": 1770142139300,
+      "target_name": "input_secureId",
+      "target_test_object_id": "021d3159-9128-42af-89d0-43f59279a10e"
+    },
+    {
+      "id": "183cb334-e9e1-4090-809a-7b927b1c154a",
+      "name": "Click on input secureId",
+      "sub_steps": [],
+      "action_id": "c27a6164-2dbb-450d-8227-2b503b30466f",
+      "timestamp": 1770142145744,
+      "target_name": "input_secureId",
+      "target_test_object_id": "021d3159-9128-42af-89d0-43f59279a10e"
+    },
+    {
+      "id": "8dcab247-0992-4c54-9ff4-f903407c21be",
+      "name": "Enter input value in input secureId",
+      "sub_steps": [],
+      "action_id": "87194181-80d5-467a-b62c-1d49cbb2a880",
+      "timestamp": 1770142146062,
+      "target_name": "input_secureId",
+      "target_test_object_id": "021d3159-9128-42af-89d0-43f59279a10e"
+    },
+    {
+      "id": "0e758627-dc19-47ac-b91b-f823d8715d92",
+      "name": "Click on input accessCode",
+      "sub_steps": [],
+      "action_id": "2a931ca4-d298-4cee-acde-c7df990f8ded",
+      "timestamp": 1770142151855,
+      "target_name": "input_accessCode",
+      "target_test_object_id": "ede4bf20-9188-41a2-9ab1-d196563fbaf0"
+    },
+    {
+      "id": "4de0b3c3-9bae-49d3-a6aa-d934ef951911",
+      "name": "Enter input value in input accessCode",
+      "sub_steps": [],
+      "action_id": "0f65bee9-487f-4c9a-8fe9-0fdf1ecdc44d",
+      "timestamp": 1770142152058,
+      "target_name": "input_accessCode",
+      "target_test_object_id": "ede4bf20-9188-41a2-9ab1-d196563fbaf0"
+    },
+    {
+      "id": "02b0269a-1a48-41c0-9da4-ca5e5fe68d78",
+      "name": "Click on button enterVaultAccess -> Navigate to page ''",
+      "sub_steps": [],
+      "action_id": "3639448d-9e82-4ae9-9ee2-652c097767cf",
+      "timestamp": 1770142153887,
+      "target_name": "button_enterVaultAccess",
+      "target_test_object_id": "ab2eb22c-0dc0-41a5-860d-ce6ef74e42e5"
+    },
+    {
+      "id": "e1718d3c-9d83-447e-bed0-76e05d50e18b",
+      "name": "Take full page screenshot as checkpoint",
+      "sub_steps": [],
+      "target_name": "",
+      "target_test_object_id": ""
+    }
+  ]
+}

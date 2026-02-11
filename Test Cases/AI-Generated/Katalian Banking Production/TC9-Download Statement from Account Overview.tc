@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>9dffa174-3b27-4246-96ae-6668c9074099</id>
+        </flow>
+    </customField>
+    <description>Login to the application, access the account overview, and download the statement, then return to the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC9-Download Statement from Account Overview</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>6fa1d3f1-f15e-41a3-b801-f5d0602ace17</testCaseGuid>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 5: Enter input value in input accessCode - (Input data variable)</description>
+        <id>01cc0a14-3708-40ce-9a17-decfe6824420</id>
+        <masked>false</masked>
+        <name>input_accessCode</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 4: Enter input value in input secureId -&gt; Navigate to page '/dashboard' - (Input data variable)</description>
+        <id>3a692229-8957-4690-9831-0806f24f2b51</id>
+        <masked>false</masked>
+        <name>input_secureId</name>
+    </variable>
+</TestCaseEntity>

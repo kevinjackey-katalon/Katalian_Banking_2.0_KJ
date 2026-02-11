@@ -1,0 +1,189 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "name": "Navigate to https://katalian-banking.vercel.app/",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Login",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Navigate to /login",
+      "sub_steps": [],
+      "target_name": ""
+    },
+    {
+      "name": "Enter secure ID and access code to access vault",
+      "sub_steps": [
+        {
+          "name": "Click on input secureId",
+          "action_id": "2e746f97-8f19-460b-b79d-136fa52776a9",
+          "timestamp": 1768591110849,
+          "target_name": "input_secureId"
+        },
+        {
+          "name": "Enter input value in input secureId",
+          "action_id": "5cc18192-183b-4065-b06d-acc29501bc7c",
+          "timestamp": 1768591111682,
+          "target_name": "input_secureId"
+        },
+        {
+          "name": "Click on input accessCode",
+          "action_id": "fb7ac8ba-5c26-4c95-8775-b0f106b8931b",
+          "timestamp": 1768591112042,
+          "target_name": "input_accessCode"
+        },
+        {
+          "name": "Enter input value in input accessCode",
+          "action_id": "245635de-9b3a-4f95-98a2-5147e84684ff",
+          "timestamp": 1768591112661,
+          "target_name": "input_accessCode"
+        },
+        {
+          "name": "Click on button enterVaultAccess",
+          "action_id": "6d91572d-864a-4d11-b0c6-7b37dcaf2412",
+          "timestamp": 1768591119224,
+          "target_name": "button_enterVaultAccess"
+        }
+      ],
+      "action_id": "2e746f97-8f19-460b-b79d-136fa52776a9",
+      "timestamp": 1768591110849,
+      "target_name": "input_secureId"
+    },
+    {
+      "name": "Click on button requestLending -> Navigate to page '/loans'",
+      "sub_steps": [],
+      "action_id": "f789d3ec-8e2a-4df8-9cb7-01a9f32da7c7",
+      "timestamp": 1768591178497,
+      "target_name": "button_requestLending"
+    },
+    {
+      "name": "Click on button applyForFunding -> Navigate to page '/apply-loan/Personal'",
+      "sub_steps": [],
+      "action_id": "7633acde-c083-4f00-9033-e73befc09e78",
+      "timestamp": 1768591180930,
+      "target_name": "button_applyForFunding"
+    },
+    {
+      "name": "Click on input firstName",
+      "sub_steps": [],
+      "action_id": "36b3a1cb-d0cc-49fb-930f-43d7d76142ef",
+      "timestamp": 1768591182507,
+      "target_name": "input_firstName"
+    },
+    {
+      "name": "Enter input value in input firstName",
+      "sub_steps": [],
+      "action_id": "0d4c32a0-ccd2-466d-9fe7-3a95ba87308a",
+      "timestamp": 1768591183584,
+      "target_name": "input_firstName"
+    },
+    {
+      "name": "Click on input lastName",
+      "sub_steps": [],
+      "action_id": "63d7d01f-b815-4c53-a365-061a330f52fe",
+      "timestamp": 1768591185095,
+      "target_name": "input_lastName"
+    },
+    {
+      "name": "Enter input value in input lastName",
+      "sub_steps": [],
+      "action_id": "56e59e9a-8188-4648-9a1d-48cdd9351f15",
+      "timestamp": 1768591185756,
+      "target_name": "input_lastName"
+    },
+    {
+      "name": "Enter input value in input dateOfBirth",
+      "sub_steps": [],
+      "action_id": "f0719736-a12e-4dcf-9dc8-076afdc525a7",
+      "timestamp": 1768591191172,
+      "target_name": "input_dateOfBirth"
+    },
+    {
+      "name": "Click on input primaryResidence",
+      "sub_steps": [],
+      "action_id": "90fee459-6372-4ce8-82f6-1f5ef5ebaabb",
+      "timestamp": 1768591194086,
+      "target_name": "input_primaryResidence"
+    },
+    {
+      "name": "Enter input value in input primaryResidence",
+      "sub_steps": [],
+      "action_id": "3adf1aa7-92ab-428d-ad53-032c1d0831f7",
+      "timestamp": 1768591195530,
+      "target_name": "input_primaryResidence"
+    },
+    {
+      "name": "Click on button continue",
+      "sub_steps": [],
+      "action_id": "49817e66-10f1-4ef9-8845-74258b0835ec",
+      "timestamp": 1768591200478,
+      "target_name": "button_continue"
+    },
+    {
+      "name": "Click on input currentEmployer",
+      "sub_steps": [],
+      "action_id": "d305b24c-a593-4c80-8cb7-e727c167e2fd",
+      "timestamp": 1768591201740,
+      "target_name": "input_currentEmployer"
+    },
+    {
+      "name": "Enter input value in input currentEmployer",
+      "sub_steps": [],
+      "action_id": "73e72eae-f8f8-40c0-b2d0-77298c7fda17",
+      "timestamp": 1768591202598,
+      "target_name": "input_currentEmployer"
+    },
+    {
+      "name": "Click on input jobTitle",
+      "sub_steps": [],
+      "action_id": "2fa928fb-7b18-4e47-a763-bb96089aa3ac",
+      "timestamp": 1768591205391,
+      "target_name": "input_jobTitle"
+    },
+    {
+      "name": "Enter input value in input jobTitle",
+      "sub_steps": [],
+      "action_id": "9720594c-b14c-4a43-85bc-70cdaf4d39bb",
+      "timestamp": 1768591206821,
+      "target_name": "input_jobTitle"
+    },
+    {
+      "name": "Click on input annualIncome",
+      "sub_steps": [],
+      "action_id": "9b95d2b0-8898-4f82-b0ae-12f8029480c0",
+      "timestamp": 1768591209244,
+      "target_name": "input_annualIncome"
+    },
+    {
+      "name": "Enter input value in input annualIncome",
+      "sub_steps": [],
+      "action_id": "9cdff5da-ba95-409e-8ea6-1ba31a0e54bc",
+      "timestamp": 1768591210055,
+      "target_name": "input_annualIncome"
+    },
+    {
+      "name": "Click on button continue2 -> Navigate to page '/dashboard'",
+      "sub_steps": [],
+      "action_id": "ce86d49a-5615-46b5-a946-79953c5164b8",
+      "timestamp": 1768591213835,
+      "target_name": "button_continue2"
+    },
+    {
+      "name": "Click on button signOut -> Navigate to page ''",
+      "sub_steps": [],
+      "action_id": "ef4dfffd-abf7-430a-9672-59b853a109f3",
+      "timestamp": 1768591228277,
+      "target_name": "button_signOut"
+    },
+    {
+      "name": "Take full page screenshot as checkpoint",
+      "sub_steps": [],
+      "target_name": ""
+    }
+  ]
+}

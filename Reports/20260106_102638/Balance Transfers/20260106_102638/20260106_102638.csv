@@ -1,0 +1,145 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Balance Transfers,Chrome 143.0.7499.147,,,06-01-2026 10:26:39,06-01-2026 10:28:40,2m - 1.141s,PASSED
+,,,,,,,
+Test Cases/AI-Generated/Katalian Banking Production/TC7-Apply for Account After Login,Chrome 143.0.7499.147,"Login to the application, apply for a new account, and verify the home page.",,06-01-2026 10:26:39,06-01-2026 10:26:48,8.751s,PASSED
+"DATA BINDING - {""(Default) butto..."":""Apply for a Platinum Credit CardApply Now""}",,,,,,,
+Start listener action : enableSauceLabs,Chrome 143.0.7499.147,,,06-01-2026 10:26:39,06-01-2026 10:26:39,0.004s,PASSED
+Start setup action : setup,Chrome 143.0.7499.147,,,06-01-2026 10:26:39,06-01-2026 10:26:42,3.114s,PASSED
+reportLocation = getReportFolder(),Chrome 143.0.7499.147,,,06-01-2026 10:26:42,06-01-2026 10:26:42,0.000s,PASSED
+"""Initialize test session: Open browser and set view port""",Chrome 143.0.7499.147,,,06-01-2026 10:26:42,06-01-2026 10:26:42,0.002s,PASSED
+"TrueTestScripts.navigate("""")",Chrome 143.0.7499.147,Step 1: Navigate to /login,,06-01-2026 10:26:42,06-01-2026 10:26:46,3.448s,PASSED
+TrueTestScripts.login(),Chrome 143.0.7499.147,Step 2: Login into Application,,06-01-2026 10:26:46,06-01-2026 10:26:47,1.643s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Dynamic Objects/Page_dashboard/button_applyNow"", [""button_applyNow_divInternalHasText_1"":button_applyNow_divInternalHasText_1]))",Chrome 143.0.7499.147,Step 3: Click on button applyNow (applyNow) -> Navigate to page '/apply/*',,06-01-2026 10:26:47,06-01-2026 10:26:48,0.056s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply/input_firstName""))",Chrome 143.0.7499.147,Step 4: Click on input firstName -> Navigate to page '',,06-01-2026 10:26:48,06-01-2026 10:26:48,0.034s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""TC7-Apply for Account After Login_visual_checkpoint"")",Chrome 143.0.7499.147,Step 5: Take full page screenshot as checkpoint,,06-01-2026 10:26:48,06-01-2026 10:26:48,0.322s,PASSED
+Start tear down : teardown,Chrome 143.0.7499.147,,,06-01-2026 10:26:48,06-01-2026 10:26:48,0.092s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 143.0.7499.147,,,06-01-2026 10:26:48,06-01-2026 10:26:48,0.000s,PASSED
+,,,,,,,
+Test Cases/AI-Generated/Katalian Banking Production/TC3-Transfer Balance Between Accounts and Logout,Chrome 143.0.7499.147,"Login, transfer balance between accounts, confirm the transfer, logout, and verify the home page.",,06-01-2026 10:27:45,06-01-2026 10:27:54,9.100s,PASSED
+"DATA BINDING - {""(Default) selec..."":""Checking (...7890) - Balance: $5345.54"",""(Default) input..."":""200""}",,,,,,,
+Start listener action : enableSauceLabs,Chrome 143.0.7499.147,,,06-01-2026 10:27:45,06-01-2026 10:27:45,0.000s,PASSED
+Start setup action : setup,Chrome 143.0.7499.147,,,06-01-2026 10:27:45,06-01-2026 10:27:48,2.379s,PASSED
+reportLocation = getReportFolder(),Chrome 143.0.7499.147,,,06-01-2026 10:27:48,06-01-2026 10:27:48,0.000s,PASSED
+"""Initialize test session: Open browser and set view port""",Chrome 143.0.7499.147,,,06-01-2026 10:27:48,06-01-2026 10:27:48,0.000s,PASSED
+"TrueTestScripts.navigate("""")",Chrome 143.0.7499.147,Step 1: Navigate to /login,,06-01-2026 10:27:48,06-01-2026 10:27:51,3.401s,PASSED
+TrueTestScripts.login(),Chrome 143.0.7499.147,Step 2: Login into Application,,06-01-2026 10:27:51,06-01-2026 10:27:53,1.514s,PASSED
+"transferBalanceAndReview.execute(input_amount, select_fromAccount)",Chrome 143.0.7499.147,Step 3: Transfer balance between accounts and review transfer,,06-01-2026 10:27:53,06-01-2026 10:27:54,1.445s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer""))",Chrome 143.0.7499.147,Step 4: Click on button confirmTransfer -> Navigate to page '/dashboard',,06-01-2026 10:27:54,06-01-2026 10:27:54,0.026s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_dashboard/button_logout""))",Chrome 143.0.7499.147,Step 5: Click on button logout -> Navigate to page '',,06-01-2026 10:27:54,06-01-2026 10:27:54,0.032s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""TC3-Transfer Balance Between Accounts and Logout_visual_checkpoint"")",Chrome 143.0.7499.147,Step 6: Take full page screenshot as checkpoint,,06-01-2026 10:27:54,06-01-2026 10:27:54,0.215s,PASSED
+Start tear down : teardown,Chrome 143.0.7499.147,,,06-01-2026 10:27:54,06-01-2026 10:27:54,0.079s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 143.0.7499.147,,,06-01-2026 10:27:54,06-01-2026 10:27:54,0.000s,PASSED
+,,,,,,,
+Test Cases/AI-Generated/Katalian Banking Production/TC5-Transfer Balance and Logout from Dashboard,Chrome 143.0.7499.147,"Login to the application, transfer balance, confirm the transfer, logout, and verify the home page.",,06-01-2026 10:27:54,06-01-2026 10:28:02,7.842s,PASSED
+"DATA BINDING - {""(Default) input..."":""5000""}",,,,,,,
+Start listener action : enableSauceLabs,Chrome 143.0.7499.147,,,06-01-2026 10:27:54,06-01-2026 10:27:54,0.000s,PASSED
+Start setup action : setup,Chrome 143.0.7499.147,,,06-01-2026 10:27:54,06-01-2026 10:27:57,2.405s,PASSED
+reportLocation = getReportFolder(),Chrome 143.0.7499.147,,,06-01-2026 10:27:57,06-01-2026 10:27:57,0.000s,PASSED
+"""Initialize test session: Open browser and set view port""",Chrome 143.0.7499.147,,,06-01-2026 10:27:57,06-01-2026 10:27:57,0.000s,PASSED
+"TrueTestScripts.navigate("""")",Chrome 143.0.7499.147,Step 1: Navigate to /login,,06-01-2026 10:27:57,06-01-2026 10:28:00,3.377s,PASSED
+TrueTestScripts.login(),Chrome 143.0.7499.147,Step 2: Login into Application,,06-01-2026 10:28:00,06-01-2026 10:28:02,1.507s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_dashboard/button_transferBalance""))",Chrome 143.0.7499.147,Step 3: Click on button transferBalance -> Navigate to page '/transfer',,06-01-2026 10:28:02,06-01-2026 10:28:02,0.041s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_transfer/input_amount""))",Chrome 143.0.7499.147,Step 4: Click on input amount,,06-01-2026 10:28:02,06-01-2026 10:28:02,0.030s,PASSED
+"setText(findTestObject(""AI-Generated/Katalian Banking Production/Page_transfer/input_amount""), input_amount)",Chrome 143.0.7499.147,Step 5: Enter input value in input amount,,06-01-2026 10:28:02,06-01-2026 10:28:02,0.063s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_transfer/button_reviewTransfer""))",Chrome 143.0.7499.147,Step 6: Click on button reviewTransfer,,06-01-2026 10:28:02,06-01-2026 10:28:02,0.028s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer""))",Chrome 143.0.7499.147,Step 7: Click on button confirmTransfer -> Navigate to page '/dashboard',,06-01-2026 10:28:02,06-01-2026 10:28:02,0.029s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_dashboard/button_logout""))",Chrome 143.0.7499.147,Step 8: Click on button logout -> Navigate to page '',,06-01-2026 10:28:02,06-01-2026 10:28:02,0.032s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""TC5-Transfer Balance and Logout from Dashboard_visual_checkpoint"")",Chrome 143.0.7499.147,Step 9: Take full page screenshot as checkpoint,,06-01-2026 10:28:02,06-01-2026 10:28:02,0.222s,PASSED
+Start tear down : teardown,Chrome 143.0.7499.147,,,06-01-2026 10:28:02,06-01-2026 10:28:02,0.098s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 143.0.7499.147,,,06-01-2026 10:28:02,06-01-2026 10:28:02,0.000s,PASSED
+,,,,,,,
+Test Cases/AI-Generated/Katalian Banking Production/TC4-Apply for Checking Account and Transfer Balance,Chrome 143.0.7499.147,"Login, apply for a checking account, fill in personal and address details, submit the application, and transfer balance. Verify the home page.",,06-01-2026 10:28:02,06-01-2026 10:28:15,12.717s,PASSED
+"DATA BINDING - {""(Default) selec..."":""Checking (...7890)"",""(Default) input..."":""43221""}",,,,,,,
+Start listener action : enableSauceLabs,Chrome 143.0.7499.147,,,06-01-2026 10:28:02,06-01-2026 10:28:02,0.000s,PASSED
+Start setup action : setup,Chrome 143.0.7499.147,,,06-01-2026 10:28:02,06-01-2026 10:28:03,1.164s,PASSED
+reportLocation = getReportFolder(),Chrome 143.0.7499.147,,,06-01-2026 10:28:03,06-01-2026 10:28:03,0.000s,PASSED
+"""Initialize test session: Open browser and set view port""",Chrome 143.0.7499.147,,,06-01-2026 10:28:03,06-01-2026 10:28:03,0.001s,PASSED
+"TrueTestScripts.navigate("""")",Chrome 143.0.7499.147,Step 1: Navigate to /login,,06-01-2026 10:28:03,06-01-2026 10:28:07,3.387s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_login/div_username""))",Chrome 143.0.7499.147,Step 2: Click on div username,,06-01-2026 10:28:07,06-01-2026 10:28:07,0.034s,PASSED
+TrueTestScripts.login(),Chrome 143.0.7499.147,Step 3: Login into Application,,06-01-2026 10:28:07,06-01-2026 10:28:08,1.504s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_dashboard/button_applyNow3""))",Chrome 143.0.7499.147,Step 4: Click on button applyNow3 -> Navigate to page '/apply/Checking',,06-01-2026 10:28:08,06-01-2026 10:28:08,0.041s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply_Checking/input_firstName""))",Chrome 143.0.7499.147,Step 5: Click on input firstName,,06-01-2026 10:28:08,06-01-2026 10:28:08,0.035s,PASSED
+"setText(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply_Checking/input_firstName""), input_firstName)",Chrome 143.0.7499.147,Step 6: Enter input value in input firstName,,06-01-2026 10:28:08,06-01-2026 10:28:09,0.047s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply_Checking/input_lastName""))",Chrome 143.0.7499.147,Step 7: Click on input lastName,,06-01-2026 10:28:09,06-01-2026 10:28:09,0.027s,PASSED
+"setText(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply_Checking/input_lastName""), input_lastName)",Chrome 143.0.7499.147,Step 8: Enter input value in input lastName,,06-01-2026 10:28:09,06-01-2026 10:28:09,0.040s,PASSED
+"setText(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply_Checking/input_dateOfBirth""), input_dateOfBirth)",Chrome 143.0.7499.147,Step 9: Enter input value in input dateOfBirth,,06-01-2026 10:28:09,06-01-2026 10:28:09,0.045s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply_Checking/button_next""))",Chrome 143.0.7499.147,Step 10: Click on button next,,06-01-2026 10:28:09,06-01-2026 10:28:09,0.026s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply_Checking/input_addressLine""))",Chrome 143.0.7499.147,Step 11: Click on input addressLine,,06-01-2026 10:28:09,06-01-2026 10:28:09,0.025s,PASSED
+"setText(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply_Checking/input_addressLine""), input_addressLine)",Chrome 143.0.7499.147,Step 12: Enter input value in input addressLine,,06-01-2026 10:28:09,06-01-2026 10:28:09,0.045s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply_Checking/input_city""))",Chrome 143.0.7499.147,Step 13: Click on input city,,06-01-2026 10:28:09,06-01-2026 10:28:09,0.024s,PASSED
+"setText(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply_Checking/input_city""), input_city)",Chrome 143.0.7499.147,Step 14: Enter input value in input city,,06-01-2026 10:28:09,06-01-2026 10:28:09,0.042s,PASSED
+"TrueTestScripts.selectOption(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply_Checking/select_state""), select_state, ""label"", false)",Chrome 143.0.7499.147,Step 15: Select option with input value from select state,,06-01-2026 10:28:09,06-01-2026 10:28:11,1.749s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply_Checking/input_zipCode""))",Chrome 143.0.7499.147,Step 16: Click on input zipCode,,06-01-2026 10:28:11,06-01-2026 10:28:11,0.024s,PASSED
+"setText(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply_Checking/input_zipCode""), input_zipCode)",Chrome 143.0.7499.147,Step 17: Enter input value in input zipCode,,06-01-2026 10:28:11,06-01-2026 10:28:11,0.043s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply_Checking/button_next""))",Chrome 143.0.7499.147,Step 18: Click on button next,,06-01-2026 10:28:11,06-01-2026 10:28:11,0.026s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply_Checking/input_amount""))",Chrome 143.0.7499.147,Step 19: Click on input amount,,06-01-2026 10:28:11,06-01-2026 10:28:11,0.024s,PASSED
+"setText(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply_Checking/input_amount""), input_amount)",Chrome 143.0.7499.147,Step 20: Enter input value in input amount,,06-01-2026 10:28:11,06-01-2026 10:28:11,0.045s,PASSED
+"TrueTestScripts.selectOption(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply_Checking/select_transferFrom""), select_transferFrom, ""label"", false)",Chrome 143.0.7499.147,Step 21: Select option with input value from select transferFrom,,06-01-2026 10:28:11,06-01-2026 10:28:12,1.409s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply_Checking/button_submitApplication""))",Chrome 143.0.7499.147,Step 22: Click on button submitApplication,,06-01-2026 10:28:12,06-01-2026 10:28:12,0.026s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply_Checking/button_returnToDashboard""))",Chrome 143.0.7499.147,Step 23: Click on button returnToDashboard -> Navigate to page '/dashboard',,06-01-2026 10:28:12,06-01-2026 10:28:15,2.526s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_dashboard/button_transferBalance""))",Chrome 143.0.7499.147,Step 24: Click on button transferBalance -> Navigate to page '',,06-01-2026 10:28:15,06-01-2026 10:28:15,0.037s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""TC4-Apply for Checking Account and Transfer Balance_visual_checkpoint"")",Chrome 143.0.7499.147,Step 25: Take full page screenshot as checkpoint,,06-01-2026 10:28:15,06-01-2026 10:28:15,0.074s,PASSED
+Start tear down : teardown,Chrome 143.0.7499.147,,,06-01-2026 10:28:15,06-01-2026 10:28:15,0.088s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 143.0.7499.147,,,06-01-2026 10:28:15,06-01-2026 10:28:15,0.000s,PASSED
+,,,,,,,
+Test Cases/AI-Generated/Katalian Banking Production/TC1-Verify Balance Transfer Between Accounts,Chrome 143.0.7499.147,"Login to the application, transfer balance between accounts, confirm the transfer, and verify that the home page displays correctly.",,06-01-2026 10:28:15,06-01-2026 10:28:23,7.824s,PASSED
+"DATA BINDING - {""(Default) selec..."":""Checking (...7890) - Balance: $5345.54"",""(Default) input..."":""500""}",,,,,,,
+Start listener action : enableSauceLabs,Chrome 143.0.7499.147,,,06-01-2026 10:28:15,06-01-2026 10:28:15,0.000s,PASSED
+Start setup action : setup,Chrome 143.0.7499.147,,,06-01-2026 10:28:15,06-01-2026 10:28:16,1.148s,PASSED
+reportLocation = getReportFolder(),Chrome 143.0.7499.147,,,06-01-2026 10:28:16,06-01-2026 10:28:16,0.000s,PASSED
+"""Initialize test session: Open browser and set view port""",Chrome 143.0.7499.147,,,06-01-2026 10:28:16,06-01-2026 10:28:16,0.000s,PASSED
+"TrueTestScripts.navigate("""")",Chrome 143.0.7499.147,Step 1: Navigate to /login,,06-01-2026 10:28:16,06-01-2026 10:28:19,3.364s,PASSED
+TrueTestScripts.login(),Chrome 143.0.7499.147,Step 2: Login into Application,,06-01-2026 10:28:19,06-01-2026 10:28:21,1.534s,PASSED
+"transferBalanceAndReview.execute(input_amount, select_fromAccount)",Chrome 143.0.7499.147,Step 3: Transfer balance between accounts and review transfer,,06-01-2026 10:28:21,06-01-2026 10:28:23,1.570s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer""))",Chrome 143.0.7499.147,Step 4: Click on button confirmTransfer -> Navigate to page '',,06-01-2026 10:28:23,06-01-2026 10:28:23,0.025s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""TC1-Verify Balance Transfer Between Accounts_visual_checkpoint"")",Chrome 143.0.7499.147,Step 5: Take full page screenshot as checkpoint,,06-01-2026 10:28:23,06-01-2026 10:28:23,0.090s,PASSED
+Start tear down : teardown,Chrome 143.0.7499.147,,,06-01-2026 10:28:23,06-01-2026 10:28:23,0.086s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 143.0.7499.147,,,06-01-2026 10:28:23,06-01-2026 10:28:23,0.000s,PASSED
+,,,,,,,
+Test Cases/AI-Generated/Katalian Banking Production/TC2-Handle Insufficient Funds During Transfer,Chrome 143.0.7499.147,"Login, attempt to transfer balance with insufficient funds, cancel the transfer, logout, and verify the home page.",,06-01-2026 10:28:23,06-01-2026 10:28:29,6.385s,PASSED
+"DATA BINDING - {""(Default) input..."":""1000000""}",,,,,,,
+Start listener action : enableSauceLabs,Chrome 143.0.7499.147,,,06-01-2026 10:28:23,06-01-2026 10:28:23,0.001s,PASSED
+Start setup action : setup,Chrome 143.0.7499.147,,,06-01-2026 10:28:23,06-01-2026 10:28:24,1.099s,PASSED
+reportLocation = getReportFolder(),Chrome 143.0.7499.147,,,06-01-2026 10:28:24,06-01-2026 10:28:24,0.000s,PASSED
+"""Initialize test session: Open browser and set view port""",Chrome 143.0.7499.147,,,06-01-2026 10:28:24,06-01-2026 10:28:24,0.000s,PASSED
+"TrueTestScripts.navigate("""")",Chrome 143.0.7499.147,Step 1: Navigate to /login,,06-01-2026 10:28:24,06-01-2026 10:28:27,3.370s,PASSED
+TrueTestScripts.login(),Chrome 143.0.7499.147,Step 2: Login into Application,,06-01-2026 10:28:27,06-01-2026 10:28:29,1.510s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_dashboard/button_transferBalance""))",Chrome 143.0.7499.147,Step 3: Click on button transferBalance -> Navigate to page '/transfer',,06-01-2026 10:28:29,06-01-2026 10:28:29,0.035s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_transfer/input_amount""))",Chrome 143.0.7499.147,Step 4: Click on input amount,,06-01-2026 10:28:29,06-01-2026 10:28:29,0.032s,PASSED
+"setText(findTestObject(""AI-Generated/Katalian Banking Production/Page_transfer/input_amount""), input_amount)",Chrome 143.0.7499.147,Step 5: Enter input value in input amount,,06-01-2026 10:28:29,06-01-2026 10:28:29,0.055s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_transfer/button_reviewTransfer""))",Chrome 143.0.7499.147,Step 6: Click on button reviewTransfer,,06-01-2026 10:28:29,06-01-2026 10:28:29,0.029s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_transfer/p_insufficientFunds""))",Chrome 143.0.7499.147,Step 7: Click on p insufficientFunds,,06-01-2026 10:28:29,06-01-2026 10:28:29,0.028s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_transfer/button_cancel""))",Chrome 143.0.7499.147,Step 8: Click on button cancel -> Navigate to page '',,06-01-2026 10:28:29,06-01-2026 10:28:29,0.025s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""TC2-Handle Insufficient Funds During Transfer_visual_checkpoint"")",Chrome 143.0.7499.147,Step 9: Take full page screenshot as checkpoint,,06-01-2026 10:28:29,06-01-2026 10:28:29,0.108s,PASSED
+Start tear down : teardown,Chrome 143.0.7499.147,,,06-01-2026 10:28:29,06-01-2026 10:28:29,0.086s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 143.0.7499.147,,,06-01-2026 10:28:29,06-01-2026 10:28:29,0.000s,PASSED
+,,,,,,,
+Test Cases/AI-Generated/Katalian Banking Production/TC6-Submit Application and Logout from Dashboard,Chrome 143.0.7499.147,"Login, apply for a service, fill in personal details, submit the application, return to the dashboard, and logout. Verify the home page.",,06-01-2026 10:28:29,06-01-2026 10:28:40,11.122s,PASSED
+"DATA BINDING - {""(Default) selec..."":""Colorado"",""(Default) butto..."":""Apply for a Credit CardApply Now"",""(Default) input..."":""34566""}",,,,,,,
+Start listener action : enableSauceLabs,Chrome 143.0.7499.147,,,06-01-2026 10:28:29,06-01-2026 10:28:29,0.000s,PASSED
+Start setup action : setup,Chrome 143.0.7499.147,,,06-01-2026 10:28:29,06-01-2026 10:28:30,1.141s,PASSED
+reportLocation = getReportFolder(),Chrome 143.0.7499.147,,,06-01-2026 10:28:30,06-01-2026 10:28:30,0.001s,PASSED
+"""Initialize test session: Open browser and set view port""",Chrome 143.0.7499.147,,,06-01-2026 10:28:30,06-01-2026 10:28:30,0.000s,PASSED
+"TrueTestScripts.navigate("""")",Chrome 143.0.7499.147,Step 1: Navigate to /login,,06-01-2026 10:28:30,06-01-2026 10:28:34,3.388s,PASSED
+TrueTestScripts.login(),Chrome 143.0.7499.147,Step 2: Login into Application,,06-01-2026 10:28:34,06-01-2026 10:28:35,1.507s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Dynamic Objects/Page_dashboard/button_applyNow"", [""button_applyNow_divInternalHasText_1"":button_applyNow_divInternalHasText_1]))",Chrome 143.0.7499.147,Step 3: Click on button applyNow (applyNow2) -> Navigate to page '/apply/*',,06-01-2026 10:28:35,06-01-2026 10:28:35,0.044s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply/input_firstName""))",Chrome 143.0.7499.147,Step 4: Click on input firstName,,06-01-2026 10:28:35,06-01-2026 10:28:35,0.029s,PASSED
+"setText(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply/input_firstName""), input_firstName)",Chrome 143.0.7499.147,Step 5: Enter input value in input firstName,,06-01-2026 10:28:35,06-01-2026 10:28:35,0.049s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply/input_lastName""))",Chrome 143.0.7499.147,Step 6: Click on input lastName,,06-01-2026 10:28:35,06-01-2026 10:28:35,0.026s,PASSED
+"setText(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply/input_lastName""), input_lastName)",Chrome 143.0.7499.147,Step 7: Enter input value in input lastName,,06-01-2026 10:28:35,06-01-2026 10:28:35,0.044s,PASSED
+"setText(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply/input_dateOfBirth""), input_dateOfBirth)",Chrome 143.0.7499.147,Step 8: Enter input value in input dateOfBirth,,06-01-2026 10:28:35,06-01-2026 10:28:35,0.049s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply/button_next""))",Chrome 143.0.7499.147,Step 9: Click on button next,,06-01-2026 10:28:35,06-01-2026 10:28:35,0.026s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply/input_addressLine""))",Chrome 143.0.7499.147,Step 10: Click on input addressLine,,06-01-2026 10:28:35,06-01-2026 10:28:35,0.027s,PASSED
+"setText(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply/input_addressLine""), input_addressLine)",Chrome 143.0.7499.147,Step 11: Enter input value in input addressLine,,06-01-2026 10:28:35,06-01-2026 10:28:36,0.046s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply/input_city""))",Chrome 143.0.7499.147,Step 12: Click on input city,,06-01-2026 10:28:36,06-01-2026 10:28:36,0.024s,PASSED
+"setText(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply/input_city""), input_city)",Chrome 143.0.7499.147,Step 13: Enter input value in input city,,06-01-2026 10:28:36,06-01-2026 10:28:36,0.043s,PASSED
+"TrueTestScripts.selectOption(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply/select_state""), select_state, ""label"", false)",Chrome 143.0.7499.147,Step 14: Select option with input value from select state,,06-01-2026 10:28:36,06-01-2026 10:28:37,1.802s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply/input_zipCode""))",Chrome 143.0.7499.147,Step 15: Click on input zipCode,,06-01-2026 10:28:37,06-01-2026 10:28:37,0.024s,PASSED
+"setText(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply/input_zipCode""), input_zipCode)",Chrome 143.0.7499.147,Step 16: Enter input value in input zipCode,,06-01-2026 10:28:37,06-01-2026 10:28:37,0.041s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply/button_submitApplication""))",Chrome 143.0.7499.147,Step 17: Click on button submitApplication,,06-01-2026 10:28:37,06-01-2026 10:28:37,0.037s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_apply/button_returnToDashboard""))",Chrome 143.0.7499.147,Step 18: Click on button returnToDashboard -> Navigate to page '/dashboard',,06-01-2026 10:28:37,06-01-2026 10:28:40,2.515s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_dashboard/span_pending""))",Chrome 143.0.7499.147,Step 19: Click on span pending,,06-01-2026 10:28:40,06-01-2026 10:28:40,0.031s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/Katalian Banking Production/Page_dashboard/button_logout""))",Chrome 143.0.7499.147,Step 20: Click on button logout -> Navigate to page '',,06-01-2026 10:28:40,06-01-2026 10:28:40,0.031s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""TC6-Submit Application and Logout from Dashboard_visual_checkpoint"")",Chrome 143.0.7499.147,Step 21: Take full page screenshot as checkpoint,,06-01-2026 10:28:40,06-01-2026 10:28:40,0.078s,PASSED
+Start tear down : teardown,Chrome 143.0.7499.147,,,06-01-2026 10:28:40,06-01-2026 10:28:40,0.089s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 143.0.7499.147,,,06-01-2026 10:28:40,06-01-2026 10:28:40,0.000s,PASSED

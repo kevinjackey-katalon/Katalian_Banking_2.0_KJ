@@ -1,0 +1,11 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+1,Verify Successful Login,Verify successful login with valid credentials,"Step 1: Navigate to /login
+Step 2: Click on input secureId
+Step 3: Click on input secureId
+Step 4: Click on input secureId
+Step 5: Enter input value in input secureId
+Step 6: Click on input accessCode
+Step 7: Enter input value in input accessCode
+Step 8: Click on button enterVaultAccess -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",Trivial,NEW

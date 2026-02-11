@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login to the application, transfer balance, confirm the transfer, logout, and verify the home page.</description>
+   <name>TC5-Transfer Balance and Logout from Dashboard</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>TRUETEST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0cc3bc2d-650f-43dd-bf82-15acef35d2bf</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a54e7967-3b53-4d35-ae54-a441c215697d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'5000'</defaultValue>
+      <description>Step 5: Enter input value in input amount - (Input data variable)</description>
+      <id>a54e7967-3b53-4d35-ae54-a441c215697d</id>
+      <masked>false</masked>
+      <name>input_amount</name>
+   </variable>
+</TestCaseEntity>

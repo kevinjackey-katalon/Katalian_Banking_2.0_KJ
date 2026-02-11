@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>1ff67a38-5904-4ab8-ab9e-41181e2017ba</id>
+        </flow>
+    </customField>
+    <description>Ensure that clicking on the Savings option in Apply for New Products leads to the correct application page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "Manual Session", "assignee": "gia.esposito@katalon.com", "linkedTestCaseIds": [15727802]}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>Apply for New Savings Account</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>18b68d9e-ebaf-49d5-9378-012f401f135b</testCaseGuid>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 5: Enter input value in input accessCode - (Input data variable)</description>
+        <id>6736f982-e867-4d79-800b-dc9cdc0d9dbc</id>
+        <masked>false</masked>
+        <name>input_accessCode</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 17: Enter input value in input city - (Input data variable)</description>
+        <id>406856b4-f0bb-4a8a-b63c-c95d46f8e175</id>
+        <masked>false</masked>
+        <name>input_city</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 12: Enter input value in input dateOfBirth - (Input data variable)</description>
+        <id>d253ea61-e641-494f-b6af-7d5dad5a6d59</id>
+        <masked>false</masked>
+        <name>input_dateOfBirth</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 9: Enter input value in input legalFirstName - (Input data variable)</description>
+        <id>201d883c-5ec1-421d-ba62-69016bd6fc7b</id>
+        <masked>false</masked>
+        <name>input_legalFirstName</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 11: Enter input value in input legalLastName - (Input data variable)</description>
+        <id>67d895f9-f531-4c4c-a1ef-bf7f7df76f0e</id>
+        <masked>false</masked>
+        <name>input_legalLastName</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 15: Enter input value in input primaryAddressLine - (Input data variable)</description>
+        <id>9a706cb7-fb6e-4a93-aabf-7cd44c03a85e</id>
+        <masked>false</masked>
+        <name>input_primaryAddressLine</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 3: Enter input value in input secureId - (Input data variable)</description>
+        <id>c4def77f-8f1e-41fb-8e20-89e3aabbcb77</id>
+        <masked>false</masked>
+        <name>input_secureId</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 20: Enter input value in input zipCode - (Input data variable)</description>
+        <id>290ac685-8d20-48c7-b114-5f5976ba216a</id>
+        <masked>false</masked>
+        <name>input_zipCode</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 18: Select option with input value from select state - (Input data variable)</description>
+        <id>a6044971-6b4e-4f7b-b277-2faab50a6a6b</id>
+        <masked>false</masked>
+        <name>select_state</name>
+    </variable>
+</TestCaseEntity>

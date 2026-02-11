@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login to the application, apply for a new account, and verify the home page.</description>
+   <name>TC7-Apply for Account After Login</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>TRUETEST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a6b639c2-879a-4b71-9906-b6596a60dc62</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7a342290-e2bd-435a-982d-2b63f7b30843</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Apply for a Platinum Credit CardApply Now'</defaultValue>
+      <description>Step 3: Click on button applyNow (applyNow) -> Navigate to page '/apply/*' - (Dynamic locator variable)</description>
+      <id>7a342290-e2bd-435a-982d-2b63f7b30843</id>
+      <masked>false</masked>
+      <name>button_applyNow_divInternalHasText_1</name>
+   </variable>
+</TestCaseEntity>

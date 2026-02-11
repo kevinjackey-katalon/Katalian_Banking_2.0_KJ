@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>e60b5978-f890-4a7a-951f-7d1199f89450</id>
+        </flow>
+    </customField>
+    <description>Login to the application, access the vault, initiate a fund transfer, authorize the payment, and verify successful logout to the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC16-Verify Secure Fund Transfer and Logout Process</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>aa700ee7-a5be-4a8b-b5df-9e276a9eb8b8</testCaseGuid>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 4: Enter secure ID and access code to access vault - (Input data variable)</description>
+        <id>72e647f0-682a-43ac-9a00-731662a73125</id>
+        <masked>false</masked>
+        <name>input_accessCode</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 4: Enter secure ID and access code to access vault - (Input data variable)</description>
+        <id>acfe3375-5e3a-46b0-84aa-2c27c8e47db2</id>
+        <masked>false</masked>
+        <name>input_secureId</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 6: Select option with input value from select originLiquidity - (Input data variable)</description>
+        <id>2b33347f-184f-444a-a270-992215ac9157</id>
+        <masked>false</masked>
+        <name>select_originLiquidity</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 7: Select option with input value from select recipientFacility - (Input data variable)</description>
+        <id>86156cc7-eede-4359-b17a-a8e41235b880</id>
+        <masked>false</masked>
+        <name>select_recipientFacility</name>
+    </variable>
+</TestCaseEntity>

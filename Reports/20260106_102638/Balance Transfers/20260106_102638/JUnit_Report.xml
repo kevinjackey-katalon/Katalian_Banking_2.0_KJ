@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Balance Transfers" time="121.131" tests="7" failures="0" errors="0">
+   <testsuite name="Balance Transfers" tests="7" failures="0" errors="0" time="121.131" skipped="0" timestamp="2026-01-06T15:26:39.596Z" hostname="gia - 192.168.4.26" id="Test Suites/Balance Transfers">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/gia/Downloads/Katalian_Banking_2.0-main/Reports/20260106_102638/Balance Transfers/20260106_102638"/>
+         <property name="logFiles" value="/Users/gia/Downloads/Katalian_Banking_2.0-main/Reports/20260106_102638/Balance Transfers/20260106_102638/execution0.log, /Users/gia/Downloads/Katalian_Banking_2.0-main/Reports/20260106_102638/Balance Transfers/20260106_102638/console0.log"/>
+         <property name="attachments" value="keyes/keyes-TC7-Apply for Account After Login_visual_checkpoint.png, /Users/gia/Downloads/Katalian_Banking_2.0-main/Reports/20260106_102638/Balance Transfers/20260106_102638/1767713227479.png, /Users/gia/Downloads/Katalian_Banking_2.0-main/Reports/20260106_102638/Balance Transfers/20260106_102638/1767713246460.png, /Users/gia/Downloads/Katalian_Banking_2.0-main/Reports/20260106_102638/Balance Transfers/20260106_102638/1767713265532.png, keyes/keyes-TC3-Transfer Balance Between Accounts and Logout_visual_checkpoint.png, keyes/keyes-TC5-Transfer Balance and Logout from Dashboard_visual_checkpoint.png, keyes/keyes-TC4-Apply for Checking Account and Transfer Balance_visual_checkpoint.png, keyes/keyes-TC1-Verify Balance Transfer Between Accounts_visual_checkpoint.png, keyes/keyes-TC2-Handle Insufficient Funds During Transfer_visual_checkpoint.png, keyes/keyes-TC6-Submit Application and Logout from Dashboard_visual_checkpoint.png"/>
+         <property name="hostName" value="gia - 192.168.4.26"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Chrome 143.0.7499.147"/>
+         <property name="userFullName" value="Gia Esposito"/>
+         <property name="hostAddress" value="192.168.4.26"/>
+         <property name="sessionId" value="aa2c5469785e2a8f66c684dd8907215b"/>
+         <property name="projectName" value="TrueTestGen4Project"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/AI-Generated/Katalian Banking Production/TC7-Apply for Account After Login" time="8.751" classname="Test Cases/AI-Generated/Katalian Banking Production/TC7-Apply for Account After Login" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) butto...":"Apply for a Platinum Credit CardApply Now"}]]></property>
+         </properties>
+         <system-out><![CDATA[06-01-2026T10:26:39 - [TEST_CASE][PASSED] - Test Cases/AI-Generated/Katalian Banking Production/TC7-Apply for Account After Login: Test Cases/AI-Generated/Katalian Banking Production/TC7-Apply for Account After Login
+
+06-01-2026T10:26:39 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+06-01-2026T10:26:39 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+06-01-2026T10:26:39 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+06-01-2026T10:26:39 - [TEST_STEP][PASSED] - Start setup action : setup: Method 'setup' complete successfully
+
+06-01-2026T10:26:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-01-2026T10:26:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-01-2026T10:26:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-01-2026T10:26:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-01-2026T10:26:41 - [TEST_STEP][WARNING] - setViewPortSize(1512, 823): Viewport size mismatch (1512x1512).
+
+06-01-2026T10:26:41 - [MESSAGE][INFO] - Viewport size mismatch (1,512x746). Trying to set it again.
+
+06-01-2026T10:26:42 - [MESSAGE][WARNING] - Viewport size mismatch (1512x1512).
+
+06-01-2026T10:26:42 - [MESSAGE][PASSED] - Method 'setup' complete successfully
+
+06-01-2026T10:26:42 - [TEST_STEP][PASSED] - reportLocation = getReportFolder(): null
+
+06-01-2026T10:26:42 - [TEST_STEP][PASSED] - "Initialize test session: Open browser and set view port": null
+
+06-01-2026T10:26:42 - [TEST_STEP][PASSED] - TrueTestScripts.navigate(""): Delayed 3 second(s)
+
+06-01-2026T10:26:43 - [MESSAGE][PASSED] - Navigate to 'https://katalian-banking.vercel.app/' successfully
+
+06-01-2026T10:26:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-01-2026T10:26:46 - [TEST_STEP][PASSED] - TrueTestScripts.login(): Call Test Case 'Test Cases/Login' successfully
+
+06-01-2026T10:26:46 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+06-01-2026T10:26:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Katalian Bank/input_Username_username"), "bankinguser123"): Text 'bankinguser123' is set on object 'Object Repository/Page_Katalian Bank/input_Username_username'
+
+06-01-2026T10:26:47 - [MESSAGE][PASSED] - Text 'bankinguser123' is set on object 'Object Repository/Page_Katalian Bank/input_Username_username'
+
+06-01-2026T10:26:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Katalian Bank/input_Password_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo"): Text ****** has been set on object 'Object Repository/Page_Katalian Bank/input_Password_password'
+
+06-01-2026T10:26:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Katalian Bank/input_Password_password'
+
+06-01-2026T10:26:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Katalian Bank/button_Sign in")): Object: 'Object Repository/Page_Katalian Bank/button_Sign in' is clicked on
+
+06-01-2026T10:26:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Katalian Bank/button_Sign in' is clicked on
+
+06-01-2026T10:26:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Katalian Bank/h1_Katalian Bank"), 0): Object 'Object Repository/Page_Katalian Bank/h1_Katalian Bank' is present
+
+06-01-2026T10:26:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+06-01-2026T10:26:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Katalian Bank/h1_Katalian Bank' is present
+
+06-01-2026T10:26:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+06-01-2026T10:26:47 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Dynamic Objects/Page_dashboard/button_applyNow", ["button_applyNow_divInternalHasText_1":button_applyNow_divInternalHasText_1])): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Dynamic Objects/Page_dashboard/button_applyNow' is clicked on
+
+06-01-2026T10:26:48 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Dynamic Objects/Page_dashboard/button_applyNow' is clicked on
+
+06-01-2026T10:26:48 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_apply/input_firstName")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_firstName' is clicked on
+
+06-01-2026T10:26:48 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_firstName' is clicked on
+
+06-01-2026T10:26:48 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("TC7-Apply for Account After Login_visual_checkpoint"): Taking screenshot successfully
+
+06-01-2026T10:26:48 - [MESSAGE][INFO] - 0 hidden object(s)
+
+06-01-2026T10:26:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-TC7-Apply for Account After Login_visual_checkpoint.png]]
+
+06-01-2026T10:26:48 - [TEST_STEP][PASSED] - Start tear down : teardown: Method 'teardown' complete successfully
+
+06-01-2026T10:26:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-01-2026T10:26:48 - [MESSAGE][PASSED] - Browser is closed
+
+06-01-2026T10:26:48 - [MESSAGE][PASSED] - Method 'teardown' complete successfully
+
+06-01-2026T10:26:48 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+06-01-2026T10:26:48 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AI-Generated/Katalian Banking Production/TC3-Transfer Balance Between Accounts and Logout" time="9.1" classname="Test Cases/AI-Generated/Katalian Banking Production/TC3-Transfer Balance Between Accounts and Logout" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) selec...":"Checking (...7890) - Balance: $5345.54","(Default) input...":"200"}]]></property>
+         </properties>
+         <system-out><![CDATA[06-01-2026T10:27:45 - [TEST_CASE][PASSED] - Test Cases/AI-Generated/Katalian Banking Production/TC3-Transfer Balance Between Accounts and Logout: Test Cases/AI-Generated/Katalian Banking Production/TC3-Transfer Balance Between Accounts and Logout
+
+06-01-2026T10:27:45 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+06-01-2026T10:27:45 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+06-01-2026T10:27:45 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+06-01-2026T10:27:45 - [TEST_STEP][PASSED] - Start setup action : setup: Method 'setup' complete successfully
+
+06-01-2026T10:27:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-01-2026T10:27:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-01-2026T10:27:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-01-2026T10:27:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-01-2026T10:27:46 - [TEST_STEP][WARNING] - setViewPortSize(1512, 823): Viewport size mismatch (1512x1512).
+
+06-01-2026T10:27:47 - [MESSAGE][INFO] - Viewport size mismatch (1,512x746). Trying to set it again.
+
+06-01-2026T10:27:48 - [MESSAGE][WARNING] - Viewport size mismatch (1512x1512).
+
+06-01-2026T10:27:48 - [MESSAGE][PASSED] - Method 'setup' complete successfully
+
+06-01-2026T10:27:48 - [TEST_STEP][PASSED] - reportLocation = getReportFolder(): null
+
+06-01-2026T10:27:48 - [TEST_STEP][PASSED] - "Initialize test session: Open browser and set view port": null
+
+06-01-2026T10:27:48 - [TEST_STEP][PASSED] - TrueTestScripts.navigate(""): Delayed 3 second(s)
+
+06-01-2026T10:27:48 - [MESSAGE][PASSED] - Navigate to 'https://katalian-banking.vercel.app/' successfully
+
+06-01-2026T10:27:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-01-2026T10:27:51 - [TEST_STEP][PASSED] - TrueTestScripts.login(): Call Test Case 'Test Cases/Login' successfully
+
+06-01-2026T10:27:51 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+06-01-2026T10:27:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Katalian Bank/input_Username_username"), "bankinguser123"): Text 'bankinguser123' is set on object 'Object Repository/Page_Katalian Bank/input_Username_username'
+
+06-01-2026T10:27:52 - [MESSAGE][PASSED] - Text 'bankinguser123' is set on object 'Object Repository/Page_Katalian Bank/input_Username_username'
+
+06-01-2026T10:27:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Katalian Bank/input_Password_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo"): Text ****** has been set on object 'Object Repository/Page_Katalian Bank/input_Password_password'
+
+06-01-2026T10:27:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Katalian Bank/input_Password_password'
+
+06-01-2026T10:27:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Katalian Bank/button_Sign in")): Object: 'Object Repository/Page_Katalian Bank/button_Sign in' is clicked on
+
+06-01-2026T10:27:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Katalian Bank/button_Sign in' is clicked on
+
+06-01-2026T10:27:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Katalian Bank/h1_Katalian Bank"), 0): Object 'Object Repository/Page_Katalian Bank/h1_Katalian Bank' is present
+
+06-01-2026T10:27:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+06-01-2026T10:27:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Katalian Bank/h1_Katalian Bank' is present
+
+06-01-2026T10:27:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+06-01-2026T10:27:53 - [TEST_STEP][PASSED] - transferBalanceAndReview.execute(input_amount, select_fromAccount): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_reviewTransfer' is clicked on
+
+06-01-2026T10:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_dashboard/button_transferBalance' is clicked on
+
+06-01-2026T10:27:53 - [MESSAGE][PASSED] - All options with label '\QChecking (...7890) - Balance: $5345.54\E' are selected in object 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/select_fromAccount'  using regular expression
+
+06-01-2026T10:27:54 - [MESSAGE][PASSED] - All options with label '\QChecking (...7890) - Balance: $5345.54\E' are selected in object 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/select_fromAccount'  using regular expression
+
+06-01-2026T10:27:54 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/input_amount' is clicked on
+
+06-01-2026T10:27:54 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/input_amount'
+
+06-01-2026T10:27:54 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_reviewTransfer' is clicked on
+
+06-01-2026T10:27:54 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer' is clicked on
+
+06-01-2026T10:27:54 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer' is clicked on
+
+06-01-2026T10:27:54 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_dashboard/button_logout")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_dashboard/button_logout' is clicked on
+
+06-01-2026T10:27:54 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_dashboard/button_logout' is clicked on
+
+06-01-2026T10:27:54 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("TC3-Transfer Balance Between Accounts and Logout_visual_checkpoint"): Taking screenshot successfully
+
+06-01-2026T10:27:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+06-01-2026T10:27:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-TC3-Transfer Balance Between Accounts and Logout_visual_checkpoint.png]]
+
+06-01-2026T10:27:54 - [TEST_STEP][PASSED] - Start tear down : teardown: Method 'teardown' complete successfully
+
+06-01-2026T10:27:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-01-2026T10:27:54 - [MESSAGE][PASSED] - Browser is closed
+
+06-01-2026T10:27:54 - [MESSAGE][PASSED] - Method 'teardown' complete successfully
+
+06-01-2026T10:27:54 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+06-01-2026T10:27:54 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AI-Generated/Katalian Banking Production/TC5-Transfer Balance and Logout from Dashboard" time="7.842" classname="Test Cases/AI-Generated/Katalian Banking Production/TC5-Transfer Balance and Logout from Dashboard" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) input...":"5000"}]]></property>
+         </properties>
+         <system-out><![CDATA[06-01-2026T10:27:54 - [TEST_CASE][PASSED] - Test Cases/AI-Generated/Katalian Banking Production/TC5-Transfer Balance and Logout from Dashboard: Test Cases/AI-Generated/Katalian Banking Production/TC5-Transfer Balance and Logout from Dashboard
+
+06-01-2026T10:27:54 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+06-01-2026T10:27:54 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+06-01-2026T10:27:54 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+06-01-2026T10:27:54 - [TEST_STEP][PASSED] - Start setup action : setup: Method 'setup' complete successfully
+
+06-01-2026T10:27:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-01-2026T10:27:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-01-2026T10:27:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-01-2026T10:27:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-01-2026T10:27:55 - [TEST_STEP][WARNING] - setViewPortSize(1512, 823): Viewport size mismatch (1512x1512).
+
+06-01-2026T10:27:56 - [MESSAGE][INFO] - Viewport size mismatch (1,512x746). Trying to set it again.
+
+06-01-2026T10:27:57 - [MESSAGE][WARNING] - Viewport size mismatch (1512x1512).
+
+06-01-2026T10:27:57 - [MESSAGE][PASSED] - Method 'setup' complete successfully
+
+06-01-2026T10:27:57 - [TEST_STEP][PASSED] - reportLocation = getReportFolder(): null
+
+06-01-2026T10:27:57 - [TEST_STEP][PASSED] - "Initialize test session: Open browser and set view port": null
+
+06-01-2026T10:27:57 - [TEST_STEP][PASSED] - TrueTestScripts.navigate(""): Delayed 3 second(s)
+
+06-01-2026T10:27:57 - [MESSAGE][PASSED] - Navigate to 'https://katalian-banking.vercel.app/' successfully
+
+06-01-2026T10:28:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-01-2026T10:28:00 - [TEST_STEP][PASSED] - TrueTestScripts.login(): Call Test Case 'Test Cases/Login' successfully
+
+06-01-2026T10:28:00 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+06-01-2026T10:28:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Katalian Bank/input_Username_username"), "bankinguser123"): Text 'bankinguser123' is set on object 'Object Repository/Page_Katalian Bank/input_Username_username'
+
+06-01-2026T10:28:01 - [MESSAGE][PASSED] - Text 'bankinguser123' is set on object 'Object Repository/Page_Katalian Bank/input_Username_username'
+
+06-01-2026T10:28:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Katalian Bank/input_Password_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo"): Text ****** has been set on object 'Object Repository/Page_Katalian Bank/input_Password_password'
+
+06-01-2026T10:28:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Katalian Bank/input_Password_password'
+
+06-01-2026T10:28:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Katalian Bank/button_Sign in")): Object: 'Object Repository/Page_Katalian Bank/button_Sign in' is clicked on
+
+06-01-2026T10:28:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Katalian Bank/button_Sign in' is clicked on
+
+06-01-2026T10:28:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Katalian Bank/h1_Katalian Bank"), 0): Object 'Object Repository/Page_Katalian Bank/h1_Katalian Bank' is present
+
+06-01-2026T10:28:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+06-01-2026T10:28:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Katalian Bank/h1_Katalian Bank' is present
+
+06-01-2026T10:28:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+06-01-2026T10:28:02 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_dashboard/button_transferBalance")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_dashboard/button_transferBalance' is clicked on
+
+06-01-2026T10:28:02 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_dashboard/button_transferBalance' is clicked on
+
+06-01-2026T10:28:02 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_transfer/input_amount")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/input_amount' is clicked on
+
+06-01-2026T10:28:02 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/input_amount' is clicked on
+
+06-01-2026T10:28:02 - [TEST_STEP][PASSED] - setText(findTestObject("AI-Generated/Katalian Banking Production/Page_transfer/input_amount"), input_amount): Text '5000' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/input_amount'
+
+06-01-2026T10:28:02 - [MESSAGE][PASSED] - Text '5000' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/input_amount'
+
+06-01-2026T10:28:02 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_transfer/button_reviewTransfer")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_reviewTransfer' is clicked on
+
+06-01-2026T10:28:02 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_reviewTransfer' is clicked on
+
+06-01-2026T10:28:02 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer' is clicked on
+
+06-01-2026T10:28:02 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer' is clicked on
+
+06-01-2026T10:28:02 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_dashboard/button_logout")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_dashboard/button_logout' is clicked on
+
+06-01-2026T10:28:02 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_dashboard/button_logout' is clicked on
+
+06-01-2026T10:28:02 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("TC5-Transfer Balance and Logout from Dashboard_visual_checkpoint"): Taking screenshot successfully
+
+06-01-2026T10:28:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+06-01-2026T10:28:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-TC5-Transfer Balance and Logout from Dashboard_visual_checkpoint.png]]
+
+06-01-2026T10:28:02 - [TEST_STEP][PASSED] - Start tear down : teardown: Method 'teardown' complete successfully
+
+06-01-2026T10:28:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-01-2026T10:28:02 - [MESSAGE][PASSED] - Browser is closed
+
+06-01-2026T10:28:02 - [MESSAGE][PASSED] - Method 'teardown' complete successfully
+
+06-01-2026T10:28:02 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+06-01-2026T10:28:02 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AI-Generated/Katalian Banking Production/TC4-Apply for Checking Account and Transfer Balance" time="12.717" classname="Test Cases/AI-Generated/Katalian Banking Production/TC4-Apply for Checking Account and Transfer Balance" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) selec...":"Checking (...7890)","(Default) input...":"43221"}]]></property>
+         </properties>
+         <system-out><![CDATA[06-01-2026T10:28:02 - [TEST_CASE][PASSED] - Test Cases/AI-Generated/Katalian Banking Production/TC4-Apply for Checking Account and Transfer Balance: Test Cases/AI-Generated/Katalian Banking Production/TC4-Apply for Checking Account and Transfer Balance
+
+06-01-2026T10:28:02 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+06-01-2026T10:28:02 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+06-01-2026T10:28:02 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+06-01-2026T10:28:02 - [TEST_STEP][PASSED] - Start setup action : setup: Method 'setup' complete successfully
+
+06-01-2026T10:28:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-01-2026T10:28:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-01-2026T10:28:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-01-2026T10:28:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-01-2026T10:28:03 - [TEST_STEP][PASSED] - setViewPortSize(1512, 823): Viewport is set to new size with width = 1512 and height = 823
+
+06-01-2026T10:28:03 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1512 and height = 823
+
+06-01-2026T10:28:03 - [MESSAGE][PASSED] - Method 'setup' complete successfully
+
+06-01-2026T10:28:03 - [TEST_STEP][PASSED] - reportLocation = getReportFolder(): null
+
+06-01-2026T10:28:03 - [TEST_STEP][PASSED] - "Initialize test session: Open browser and set view port": null
+
+06-01-2026T10:28:03 - [TEST_STEP][PASSED] - TrueTestScripts.navigate(""): Delayed 3 second(s)
+
+06-01-2026T10:28:04 - [MESSAGE][PASSED] - Navigate to 'https://katalian-banking.vercel.app/' successfully
+
+06-01-2026T10:28:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-01-2026T10:28:07 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_login/div_username")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_login/div_username' is clicked on
+
+06-01-2026T10:28:07 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_login/div_username' is clicked on
+
+06-01-2026T10:28:07 - [TEST_STEP][PASSED] - TrueTestScripts.login(): Call Test Case 'Test Cases/Login' successfully
+
+06-01-2026T10:28:07 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+06-01-2026T10:28:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Katalian Bank/input_Username_username"), "bankinguser123"): Text 'bankinguser123' is set on object 'Object Repository/Page_Katalian Bank/input_Username_username'
+
+06-01-2026T10:28:07 - [MESSAGE][PASSED] - Text 'bankinguser123' is set on object 'Object Repository/Page_Katalian Bank/input_Username_username'
+
+06-01-2026T10:28:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Katalian Bank/input_Password_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo"): Text ****** has been set on object 'Object Repository/Page_Katalian Bank/input_Password_password'
+
+06-01-2026T10:28:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Katalian Bank/input_Password_password'
+
+06-01-2026T10:28:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Katalian Bank/button_Sign in")): Object: 'Object Repository/Page_Katalian Bank/button_Sign in' is clicked on
+
+06-01-2026T10:28:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Katalian Bank/button_Sign in' is clicked on
+
+06-01-2026T10:28:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Katalian Bank/h1_Katalian Bank"), 0): Object 'Object Repository/Page_Katalian Bank/h1_Katalian Bank' is present
+
+06-01-2026T10:28:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+06-01-2026T10:28:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Katalian Bank/h1_Katalian Bank' is present
+
+06-01-2026T10:28:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+06-01-2026T10:28:08 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_dashboard/button_applyNow3")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_dashboard/button_applyNow3' is clicked on
+
+06-01-2026T10:28:08 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_dashboard/button_applyNow3' is clicked on
+
+06-01-2026T10:28:08 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_apply_Checking/input_firstName")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_firstName' is clicked on
+
+06-01-2026T10:28:08 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_firstName' is clicked on
+
+06-01-2026T10:28:08 - [TEST_STEP][PASSED] - setText(findTestObject("AI-Generated/Katalian Banking Production/Page_apply_Checking/input_firstName"), input_firstName): Text 'Carol' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_firstName'
+
+06-01-2026T10:28:09 - [MESSAGE][PASSED] - Text 'Carol' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_firstName'
+
+06-01-2026T10:28:09 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_apply_Checking/input_lastName")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_lastName' is clicked on
+
+06-01-2026T10:28:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_lastName' is clicked on
+
+06-01-2026T10:28:09 - [TEST_STEP][PASSED] - setText(findTestObject("AI-Generated/Katalian Banking Production/Page_apply_Checking/input_lastName"), input_lastName): Text 'Jones' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_lastName'
+
+06-01-2026T10:28:09 - [MESSAGE][PASSED] - Text 'Jones' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_lastName'
+
+06-01-2026T10:28:09 - [TEST_STEP][PASSED] - setText(findTestObject("AI-Generated/Katalian Banking Production/Page_apply_Checking/input_dateOfBirth"), input_dateOfBirth): Text '11/11/2000' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_dateOfBirth'
+
+06-01-2026T10:28:09 - [MESSAGE][PASSED] - Text '11/11/2000' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_dateOfBirth'
+
+06-01-2026T10:28:09 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_apply_Checking/button_next")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/button_next' is clicked on
+
+06-01-2026T10:28:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/button_next' is clicked on
+
+06-01-2026T10:28:09 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_apply_Checking/input_addressLine")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_addressLine' is clicked on
+
+06-01-2026T10:28:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_addressLine' is clicked on
+
+06-01-2026T10:28:09 - [TEST_STEP][PASSED] - setText(findTestObject("AI-Generated/Katalian Banking Production/Page_apply_Checking/input_addressLine"), input_addressLine): Text '456 Liden Lane' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_addressLine'
+
+06-01-2026T10:28:09 - [MESSAGE][PASSED] - Text '456 Liden Lane' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_addressLine'
+
+06-01-2026T10:28:09 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_apply_Checking/input_city")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_city' is clicked on
+
+06-01-2026T10:28:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_city' is clicked on
+
+06-01-2026T10:28:09 - [TEST_STEP][PASSED] - setText(findTestObject("AI-Generated/Katalian Banking Production/Page_apply_Checking/input_city"), input_city): Text 'Cincinnati' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_city'
+
+06-01-2026T10:28:09 - [MESSAGE][PASSED] - Text 'Cincinnati' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_city'
+
+06-01-2026T10:28:09 - [TEST_STEP][PASSED] - TrueTestScripts.selectOption(findTestObject("AI-Generated/Katalian Banking Production/Page_apply_Checking/select_state"), select_state, "label", false): All options with label '\QOhio\E' are selected in object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/select_state'  using regular expression
+
+06-01-2026T10:28:10 - [MESSAGE][PASSED] - All options with label '\QOhio\E' are selected in object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/select_state'  using regular expression
+
+06-01-2026T10:28:11 - [MESSAGE][PASSED] - All options with label '\QOhio\E' are selected in object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/select_state'  using regular expression
+
+06-01-2026T10:28:11 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_apply_Checking/input_zipCode")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_zipCode' is clicked on
+
+06-01-2026T10:28:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_zipCode' is clicked on
+
+06-01-2026T10:28:11 - [TEST_STEP][PASSED] - setText(findTestObject("AI-Generated/Katalian Banking Production/Page_apply_Checking/input_zipCode"), input_zipCode): Text '43221' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_zipCode'
+
+06-01-2026T10:28:11 - [MESSAGE][PASSED] - Text '43221' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_zipCode'
+
+06-01-2026T10:28:11 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_apply_Checking/button_next")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/button_next' is clicked on
+
+06-01-2026T10:28:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/button_next' is clicked on
+
+06-01-2026T10:28:11 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_apply_Checking/input_amount")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_amount' is clicked on
+
+06-01-2026T10:28:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_amount' is clicked on
+
+06-01-2026T10:28:11 - [TEST_STEP][PASSED] - setText(findTestObject("AI-Generated/Katalian Banking Production/Page_apply_Checking/input_amount"), input_amount): Text '500' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_amount'
+
+06-01-2026T10:28:11 - [MESSAGE][PASSED] - Text '500' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/input_amount'
+
+06-01-2026T10:28:11 - [TEST_STEP][PASSED] - TrueTestScripts.selectOption(findTestObject("AI-Generated/Katalian Banking Production/Page_apply_Checking/select_transferFrom"), select_transferFrom, "label", false): All options with label '\QChecking (...7890)\E' are selected in object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/select_transferFrom'  using regular expression
+
+06-01-2026T10:28:11 - [MESSAGE][PASSED] - All options with label '\QChecking (...7890)\E' are selected in object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/select_transferFrom'  using regular expression
+
+06-01-2026T10:28:12 - [MESSAGE][PASSED] - All options with label '\QChecking (...7890)\E' are selected in object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/select_transferFrom'  using regular expression
+
+06-01-2026T10:28:12 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_apply_Checking/button_submitApplication")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/button_submitApplication' is clicked on
+
+06-01-2026T10:28:12 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/button_submitApplication' is clicked on
+
+06-01-2026T10:28:12 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_apply_Checking/button_returnToDashboard")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/button_returnToDashboard' is clicked on
+
+06-01-2026T10:28:15 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply_Checking/button_returnToDashboard' is clicked on
+
+06-01-2026T10:28:15 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_dashboard/button_transferBalance")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_dashboard/button_transferBalance' is clicked on
+
+06-01-2026T10:28:15 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_dashboard/button_transferBalance' is clicked on
+
+06-01-2026T10:28:15 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("TC4-Apply for Checking Account and Transfer Balance_visual_checkpoint"): Taking screenshot successfully
+
+06-01-2026T10:28:15 - [MESSAGE][INFO] - 0 hidden object(s)
+
+06-01-2026T10:28:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-TC4-Apply for Checking Account and Transfer Balance_visual_checkpoint.png]]
+
+06-01-2026T10:28:15 - [TEST_STEP][PASSED] - Start tear down : teardown: Method 'teardown' complete successfully
+
+06-01-2026T10:28:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-01-2026T10:28:15 - [MESSAGE][PASSED] - Browser is closed
+
+06-01-2026T10:28:15 - [MESSAGE][PASSED] - Method 'teardown' complete successfully
+
+06-01-2026T10:28:15 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+06-01-2026T10:28:15 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AI-Generated/Katalian Banking Production/TC1-Verify Balance Transfer Between Accounts" time="7.824" classname="Test Cases/AI-Generated/Katalian Banking Production/TC1-Verify Balance Transfer Between Accounts" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) selec...":"Checking (...7890) - Balance: $5345.54","(Default) input...":"500"}]]></property>
+         </properties>
+         <system-out><![CDATA[06-01-2026T10:28:15 - [TEST_CASE][PASSED] - Test Cases/AI-Generated/Katalian Banking Production/TC1-Verify Balance Transfer Between Accounts: Test Cases/AI-Generated/Katalian Banking Production/TC1-Verify Balance Transfer Between Accounts
+
+06-01-2026T10:28:15 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+06-01-2026T10:28:15 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+06-01-2026T10:28:15 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+06-01-2026T10:28:15 - [TEST_STEP][PASSED] - Start setup action : setup: Method 'setup' complete successfully
+
+06-01-2026T10:28:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-01-2026T10:28:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-01-2026T10:28:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-01-2026T10:28:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-01-2026T10:28:16 - [TEST_STEP][PASSED] - setViewPortSize(1512, 823): Viewport is set to new size with width = 1512 and height = 823
+
+06-01-2026T10:28:16 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1512 and height = 823
+
+06-01-2026T10:28:16 - [MESSAGE][PASSED] - Method 'setup' complete successfully
+
+06-01-2026T10:28:16 - [TEST_STEP][PASSED] - reportLocation = getReportFolder(): null
+
+06-01-2026T10:28:16 - [TEST_STEP][PASSED] - "Initialize test session: Open browser and set view port": null
+
+06-01-2026T10:28:16 - [TEST_STEP][PASSED] - TrueTestScripts.navigate(""): Delayed 3 second(s)
+
+06-01-2026T10:28:16 - [MESSAGE][PASSED] - Navigate to 'https://katalian-banking.vercel.app/' successfully
+
+06-01-2026T10:28:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-01-2026T10:28:19 - [TEST_STEP][PASSED] - TrueTestScripts.login(): Call Test Case 'Test Cases/Login' successfully
+
+06-01-2026T10:28:19 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+06-01-2026T10:28:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Katalian Bank/input_Username_username"), "bankinguser123"): Text 'bankinguser123' is set on object 'Object Repository/Page_Katalian Bank/input_Username_username'
+
+06-01-2026T10:28:20 - [MESSAGE][PASSED] - Text 'bankinguser123' is set on object 'Object Repository/Page_Katalian Bank/input_Username_username'
+
+06-01-2026T10:28:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Katalian Bank/input_Password_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo"): Text ****** has been set on object 'Object Repository/Page_Katalian Bank/input_Password_password'
+
+06-01-2026T10:28:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Katalian Bank/input_Password_password'
+
+06-01-2026T10:28:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Katalian Bank/button_Sign in")): Object: 'Object Repository/Page_Katalian Bank/button_Sign in' is clicked on
+
+06-01-2026T10:28:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Katalian Bank/button_Sign in' is clicked on
+
+06-01-2026T10:28:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Katalian Bank/h1_Katalian Bank"), 0): Object 'Object Repository/Page_Katalian Bank/h1_Katalian Bank' is present
+
+06-01-2026T10:28:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+06-01-2026T10:28:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Katalian Bank/h1_Katalian Bank' is present
+
+06-01-2026T10:28:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+06-01-2026T10:28:21 - [TEST_STEP][PASSED] - transferBalanceAndReview.execute(input_amount, select_fromAccount): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_reviewTransfer' is clicked on
+
+06-01-2026T10:28:21 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_dashboard/button_transferBalance' is clicked on
+
+06-01-2026T10:28:22 - [MESSAGE][PASSED] - All options with label '\QChecking (...7890) - Balance: $5345.54\E' are selected in object 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/select_fromAccount'  using regular expression
+
+06-01-2026T10:28:22 - [MESSAGE][PASSED] - All options with label '\QChecking (...7890) - Balance: $5345.54\E' are selected in object 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/select_fromAccount'  using regular expression
+
+06-01-2026T10:28:22 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/input_amount' is clicked on
+
+06-01-2026T10:28:22 - [MESSAGE][PASSED] - Text '500' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/input_amount'
+
+06-01-2026T10:28:23 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_reviewTransfer' is clicked on
+
+06-01-2026T10:28:23 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer' is clicked on
+
+06-01-2026T10:28:23 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_confirmTransfer' is clicked on
+
+06-01-2026T10:28:23 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("TC1-Verify Balance Transfer Between Accounts_visual_checkpoint"): Taking screenshot successfully
+
+06-01-2026T10:28:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+06-01-2026T10:28:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-TC1-Verify Balance Transfer Between Accounts_visual_checkpoint.png]]
+
+06-01-2026T10:28:23 - [TEST_STEP][PASSED] - Start tear down : teardown: Method 'teardown' complete successfully
+
+06-01-2026T10:28:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-01-2026T10:28:23 - [MESSAGE][PASSED] - Browser is closed
+
+06-01-2026T10:28:23 - [MESSAGE][PASSED] - Method 'teardown' complete successfully
+
+06-01-2026T10:28:23 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+06-01-2026T10:28:23 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AI-Generated/Katalian Banking Production/TC2-Handle Insufficient Funds During Transfer" time="6.385" classname="Test Cases/AI-Generated/Katalian Banking Production/TC2-Handle Insufficient Funds During Transfer" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) input...":"1000000"}]]></property>
+         </properties>
+         <system-out><![CDATA[06-01-2026T10:28:23 - [TEST_CASE][PASSED] - Test Cases/AI-Generated/Katalian Banking Production/TC2-Handle Insufficient Funds During Transfer: Test Cases/AI-Generated/Katalian Banking Production/TC2-Handle Insufficient Funds During Transfer
+
+06-01-2026T10:28:23 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+06-01-2026T10:28:23 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+06-01-2026T10:28:23 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+06-01-2026T10:28:23 - [TEST_STEP][PASSED] - Start setup action : setup: Method 'setup' complete successfully
+
+06-01-2026T10:28:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-01-2026T10:28:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-01-2026T10:28:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-01-2026T10:28:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-01-2026T10:28:24 - [TEST_STEP][PASSED] - setViewPortSize(1512, 823): Viewport is set to new size with width = 1512 and height = 823
+
+06-01-2026T10:28:24 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1512 and height = 823
+
+06-01-2026T10:28:24 - [MESSAGE][PASSED] - Method 'setup' complete successfully
+
+06-01-2026T10:28:24 - [TEST_STEP][PASSED] - reportLocation = getReportFolder(): null
+
+06-01-2026T10:28:24 - [TEST_STEP][PASSED] - "Initialize test session: Open browser and set view port": null
+
+06-01-2026T10:28:24 - [TEST_STEP][PASSED] - TrueTestScripts.navigate(""): Delayed 3 second(s)
+
+06-01-2026T10:28:24 - [MESSAGE][PASSED] - Navigate to 'https://katalian-banking.vercel.app/' successfully
+
+06-01-2026T10:28:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-01-2026T10:28:27 - [TEST_STEP][PASSED] - TrueTestScripts.login(): Call Test Case 'Test Cases/Login' successfully
+
+06-01-2026T10:28:27 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+06-01-2026T10:28:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Katalian Bank/input_Username_username"), "bankinguser123"): Text 'bankinguser123' is set on object 'Object Repository/Page_Katalian Bank/input_Username_username'
+
+06-01-2026T10:28:28 - [MESSAGE][PASSED] - Text 'bankinguser123' is set on object 'Object Repository/Page_Katalian Bank/input_Username_username'
+
+06-01-2026T10:28:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Katalian Bank/input_Password_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo"): Text ****** has been set on object 'Object Repository/Page_Katalian Bank/input_Password_password'
+
+06-01-2026T10:28:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Katalian Bank/input_Password_password'
+
+06-01-2026T10:28:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Katalian Bank/button_Sign in")): Object: 'Object Repository/Page_Katalian Bank/button_Sign in' is clicked on
+
+06-01-2026T10:28:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Katalian Bank/button_Sign in' is clicked on
+
+06-01-2026T10:28:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Katalian Bank/h1_Katalian Bank"), 0): Object 'Object Repository/Page_Katalian Bank/h1_Katalian Bank' is present
+
+06-01-2026T10:28:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+06-01-2026T10:28:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Katalian Bank/h1_Katalian Bank' is present
+
+06-01-2026T10:28:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+06-01-2026T10:28:29 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_dashboard/button_transferBalance")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_dashboard/button_transferBalance' is clicked on
+
+06-01-2026T10:28:29 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_dashboard/button_transferBalance' is clicked on
+
+06-01-2026T10:28:29 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_transfer/input_amount")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/input_amount' is clicked on
+
+06-01-2026T10:28:29 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/input_amount' is clicked on
+
+06-01-2026T10:28:29 - [TEST_STEP][PASSED] - setText(findTestObject("AI-Generated/Katalian Banking Production/Page_transfer/input_amount"), input_amount): Text '1000000' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/input_amount'
+
+06-01-2026T10:28:29 - [MESSAGE][PASSED] - Text '1000000' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/input_amount'
+
+06-01-2026T10:28:29 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_transfer/button_reviewTransfer")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_reviewTransfer' is clicked on
+
+06-01-2026T10:28:29 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_reviewTransfer' is clicked on
+
+06-01-2026T10:28:29 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_transfer/p_insufficientFunds")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/p_insufficientFunds' is clicked on
+
+06-01-2026T10:28:29 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/p_insufficientFunds' is clicked on
+
+06-01-2026T10:28:29 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_transfer/button_cancel")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_cancel' is clicked on
+
+06-01-2026T10:28:29 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_transfer/button_cancel' is clicked on
+
+06-01-2026T10:28:29 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("TC2-Handle Insufficient Funds During Transfer_visual_checkpoint"): Taking screenshot successfully
+
+06-01-2026T10:28:29 - [MESSAGE][INFO] - 0 hidden object(s)
+
+06-01-2026T10:28:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-TC2-Handle Insufficient Funds During Transfer_visual_checkpoint.png]]
+
+06-01-2026T10:28:29 - [TEST_STEP][PASSED] - Start tear down : teardown: Method 'teardown' complete successfully
+
+06-01-2026T10:28:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-01-2026T10:28:29 - [MESSAGE][PASSED] - Browser is closed
+
+06-01-2026T10:28:29 - [MESSAGE][PASSED] - Method 'teardown' complete successfully
+
+06-01-2026T10:28:29 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+06-01-2026T10:28:29 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AI-Generated/Katalian Banking Production/TC6-Submit Application and Logout from Dashboard" time="11.122" classname="Test Cases/AI-Generated/Katalian Banking Production/TC6-Submit Application and Logout from Dashboard" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) selec...":"Colorado","(Default) butto...":"Apply for a Credit CardApply Now","(Default) input...":"34566"}]]></property>
+         </properties>
+         <system-out><![CDATA[06-01-2026T10:28:29 - [TEST_CASE][PASSED] - Test Cases/AI-Generated/Katalian Banking Production/TC6-Submit Application and Logout from Dashboard: Test Cases/AI-Generated/Katalian Banking Production/TC6-Submit Application and Logout from Dashboard
+
+06-01-2026T10:28:29 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+06-01-2026T10:28:29 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+06-01-2026T10:28:29 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+06-01-2026T10:28:29 - [TEST_STEP][PASSED] - Start setup action : setup: Method 'setup' complete successfully
+
+06-01-2026T10:28:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-01-2026T10:28:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-01-2026T10:28:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-01-2026T10:28:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-01-2026T10:28:30 - [TEST_STEP][PASSED] - setViewPortSize(1512, 823): Viewport is set to new size with width = 1512 and height = 823
+
+06-01-2026T10:28:30 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1512 and height = 823
+
+06-01-2026T10:28:30 - [MESSAGE][PASSED] - Method 'setup' complete successfully
+
+06-01-2026T10:28:30 - [TEST_STEP][PASSED] - reportLocation = getReportFolder(): null
+
+06-01-2026T10:28:30 - [TEST_STEP][PASSED] - "Initialize test session: Open browser and set view port": null
+
+06-01-2026T10:28:30 - [TEST_STEP][PASSED] - TrueTestScripts.navigate(""): Delayed 3 second(s)
+
+06-01-2026T10:28:31 - [MESSAGE][PASSED] - Navigate to 'https://katalian-banking.vercel.app/' successfully
+
+06-01-2026T10:28:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-01-2026T10:28:34 - [TEST_STEP][PASSED] - TrueTestScripts.login(): Call Test Case 'Test Cases/Login' successfully
+
+06-01-2026T10:28:34 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+06-01-2026T10:28:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Katalian Bank/input_Username_username"), "bankinguser123"): Text 'bankinguser123' is set on object 'Object Repository/Page_Katalian Bank/input_Username_username'
+
+06-01-2026T10:28:34 - [MESSAGE][PASSED] - Text 'bankinguser123' is set on object 'Object Repository/Page_Katalian Bank/input_Username_username'
+
+06-01-2026T10:28:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Katalian Bank/input_Password_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo"): Text ****** has been set on object 'Object Repository/Page_Katalian Bank/input_Password_password'
+
+06-01-2026T10:28:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Katalian Bank/input_Password_password'
+
+06-01-2026T10:28:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Katalian Bank/button_Sign in")): Object: 'Object Repository/Page_Katalian Bank/button_Sign in' is clicked on
+
+06-01-2026T10:28:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Katalian Bank/button_Sign in' is clicked on
+
+06-01-2026T10:28:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Katalian Bank/h1_Katalian Bank"), 0): Object 'Object Repository/Page_Katalian Bank/h1_Katalian Bank' is present
+
+06-01-2026T10:28:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+06-01-2026T10:28:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Katalian Bank/h1_Katalian Bank' is present
+
+06-01-2026T10:28:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+06-01-2026T10:28:35 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Dynamic Objects/Page_dashboard/button_applyNow", ["button_applyNow_divInternalHasText_1":button_applyNow_divInternalHasText_1])): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Dynamic Objects/Page_dashboard/button_applyNow' is clicked on
+
+06-01-2026T10:28:35 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Dynamic Objects/Page_dashboard/button_applyNow' is clicked on
+
+06-01-2026T10:28:35 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_apply/input_firstName")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_firstName' is clicked on
+
+06-01-2026T10:28:35 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_firstName' is clicked on
+
+06-01-2026T10:28:35 - [TEST_STEP][PASSED] - setText(findTestObject("AI-Generated/Katalian Banking Production/Page_apply/input_firstName"), input_firstName): Text 'Joe' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_firstName'
+
+06-01-2026T10:28:35 - [MESSAGE][PASSED] - Text 'Joe' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_firstName'
+
+06-01-2026T10:28:35 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_apply/input_lastName")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_lastName' is clicked on
+
+06-01-2026T10:28:35 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_lastName' is clicked on
+
+06-01-2026T10:28:35 - [TEST_STEP][PASSED] - setText(findTestObject("AI-Generated/Katalian Banking Production/Page_apply/input_lastName"), input_lastName): Text 'Oblio' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_lastName'
+
+06-01-2026T10:28:35 - [MESSAGE][PASSED] - Text 'Oblio' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_lastName'
+
+06-01-2026T10:28:35 - [TEST_STEP][PASSED] - setText(findTestObject("AI-Generated/Katalian Banking Production/Page_apply/input_dateOfBirth"), input_dateOfBirth): Text '12/11/1990' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_dateOfBirth'
+
+06-01-2026T10:28:35 - [MESSAGE][PASSED] - Text '12/11/1990' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_dateOfBirth'
+
+06-01-2026T10:28:35 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_apply/button_next")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/button_next' is clicked on
+
+06-01-2026T10:28:35 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/button_next' is clicked on
+
+06-01-2026T10:28:35 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_apply/input_addressLine")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_addressLine' is clicked on
+
+06-01-2026T10:28:35 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_addressLine' is clicked on
+
+06-01-2026T10:28:35 - [TEST_STEP][PASSED] - setText(findTestObject("AI-Generated/Katalian Banking Production/Page_apply/input_addressLine"), input_addressLine): Text '868 Main Street' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_addressLine'
+
+06-01-2026T10:28:36 - [MESSAGE][PASSED] - Text '868 Main Street' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_addressLine'
+
+06-01-2026T10:28:36 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_apply/input_city")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_city' is clicked on
+
+06-01-2026T10:28:36 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_city' is clicked on
+
+06-01-2026T10:28:36 - [TEST_STEP][PASSED] - setText(findTestObject("AI-Generated/Katalian Banking Production/Page_apply/input_city"), input_city): Text 'Denver' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_city'
+
+06-01-2026T10:28:36 - [MESSAGE][PASSED] - Text 'Denver' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_city'
+
+06-01-2026T10:28:36 - [TEST_STEP][PASSED] - TrueTestScripts.selectOption(findTestObject("AI-Generated/Katalian Banking Production/Page_apply/select_state"), select_state, "label", false): All options with label '\QColorado\E' are selected in object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/select_state'  using regular expression
+
+06-01-2026T10:28:36 - [MESSAGE][PASSED] - All options with label '\QColorado\E' are selected in object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/select_state'  using regular expression
+
+06-01-2026T10:28:37 - [MESSAGE][PASSED] - All options with label '\QColorado\E' are selected in object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/select_state'  using regular expression
+
+06-01-2026T10:28:37 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_apply/input_zipCode")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_zipCode' is clicked on
+
+06-01-2026T10:28:37 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_zipCode' is clicked on
+
+06-01-2026T10:28:37 - [TEST_STEP][PASSED] - setText(findTestObject("AI-Generated/Katalian Banking Production/Page_apply/input_zipCode"), input_zipCode): Text '34566' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_zipCode'
+
+06-01-2026T10:28:37 - [MESSAGE][PASSED] - Text '34566' is set on object 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/input_zipCode'
+
+06-01-2026T10:28:37 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_apply/button_submitApplication")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/button_submitApplication' is clicked on
+
+06-01-2026T10:28:37 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/button_submitApplication' is clicked on
+
+06-01-2026T10:28:37 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_apply/button_returnToDashboard")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/button_returnToDashboard' is clicked on
+
+06-01-2026T10:28:40 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_apply/button_returnToDashboard' is clicked on
+
+06-01-2026T10:28:40 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_dashboard/span_pending")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_dashboard/span_pending' is clicked on
+
+06-01-2026T10:28:40 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_dashboard/span_pending' is clicked on
+
+06-01-2026T10:28:40 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Katalian Banking Production/Page_dashboard/button_logout")): Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_dashboard/button_logout' is clicked on
+
+06-01-2026T10:28:40 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Katalian Banking Production/Page_dashboard/button_logout' is clicked on
+
+06-01-2026T10:28:40 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("TC6-Submit Application and Logout from Dashboard_visual_checkpoint"): Taking screenshot successfully
+
+06-01-2026T10:28:40 - [MESSAGE][INFO] - 0 hidden object(s)
+
+06-01-2026T10:28:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-TC6-Submit Application and Logout from Dashboard_visual_checkpoint.png]]
+
+06-01-2026T10:28:40 - [TEST_STEP][PASSED] - Start tear down : teardown: Method 'teardown' complete successfully
+
+06-01-2026T10:28:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-01-2026T10:28:40 - [MESSAGE][PASSED] - Browser is closed
+
+06-01-2026T10:28:40 - [MESSAGE][PASSED] - Method 'teardown' complete successfully
+
+06-01-2026T10:28:40 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+06-01-2026T10:28:40 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-01-2026T10:26:39 - [TEST_SUITE][PASSED] - Balance Transfers: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

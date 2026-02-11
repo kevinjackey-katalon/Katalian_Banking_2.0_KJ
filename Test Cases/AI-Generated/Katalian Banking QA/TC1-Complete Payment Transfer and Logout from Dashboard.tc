@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>8a78b11f-5193-42f9-9638-bc5163fd1514</id>
+        </flow>
+    </customField>
+    <description>Login using secure ID and access code. Navigate to payments, select origin and recipient, input amount, review, authorize payment, and sign out.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC1-Complete Payment Transfer and Logout from Dashboard</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>be3e2b1b-2065-4488-ab12-9660333b8ca2</testCaseGuid>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 5: Enter input value in input accessCode - (Input data variable)</description>
+        <id>0a904582-a801-4dcf-81b8-78a66ce73463</id>
+        <masked>false</masked>
+        <name>input_accessCode</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 11: Enter input value in input liquidCapitalAmount - (Input data variable)</description>
+        <id>8a110a8c-a0f7-4e78-ba39-f7f442fd79de</id>
+        <masked>false</masked>
+        <name>input_liquidCapitalAmount</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 3: Enter input value in input secureId - (Input data variable)</description>
+        <id>c4e576cc-9bb7-412d-bf4a-7fe9edc5066f</id>
+        <masked>false</masked>
+        <name>input_secureId</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 8: Select option with input value from select originLiquidity - (Input data variable)</description>
+        <id>a30fde5f-e0ff-424c-a847-bc2919cedb5c</id>
+        <masked>false</masked>
+        <name>select_originLiquidity</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 9: Select option with input value from select recipientFacility - (Input data variable)</description>
+        <id>148c3644-9328-41cd-9ab0-ea176764efa9</id>
+        <masked>false</masked>
+        <name>select_recipientFacility</name>
+    </variable>
+</TestCaseEntity>

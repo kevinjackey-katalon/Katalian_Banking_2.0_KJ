@@ -1,0 +1,30 @@
+{
+    "version": "3",
+    "steps": [
+        {
+            "name": "Navigate to /login",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Login -> Navigate to page '/dashboard'",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Click on button applyNow (applyNow) -> Navigate to page '/apply/*'",
+            "sub_steps": [],
+            "target_name": "button_applyNow"
+        },
+        {
+            "name": "Click on input firstName -> Navigate to page ''",
+            "sub_steps": [],
+            "target_name": "input_firstName"
+        },
+        {
+            "name": "Take full page screenshot as checkpoint",
+            "sub_steps": [],
+            "target_name": ""
+        }
+    ]
+}

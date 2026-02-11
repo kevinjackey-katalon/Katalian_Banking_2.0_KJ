@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>c856b38f-8e9a-492d-92e3-ed7b3a6a0d0b</id>
+        </flow>
+    </customField>
+    <description>Login and access the vault. Initiate a check deposit by entering amount and capturing check images. Authorize the deposit and verify return to home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC15-Deposit Check into Account</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>d2810abc-ce8d-47e4-9339-c9f5c123e989</testCaseGuid>
+    <variable>
+        <defaultValue>'Continue'</defaultValue>
+        <description>Step 11: Click on button depositAuthorization (continue) - (Dynamic locator variable)</description>
+        <id>f161d26d-9bb3-4f44-b37d-3abeb7e5e372</id>
+        <masked>false</masked>
+        <name>button_depositAuthorization_ButtonInternalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'Authorize Deposit'</defaultValue>
+        <description>Step 15: Click on button depositAuthorization (authorizeDeposit) - (Dynamic locator variable)</description>
+        <id>81741f4f-9d7e-4a7b-bfa1-729ad0f3b324</id>
+        <masked>false</masked>
+        <name>button_depositAuthorization_ButtonInternalText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Continue'</defaultValue>
+        <description>Step 14: Click on button depositNavigation (continue2) - (Dynamic locator variable)</description>
+        <id>d98f1bc2-a382-4863-a90b-c72551820d6f</id>
+        <masked>false</masked>
+        <name>button_depositNavigation_ButtonInternalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'Return to Portfolio'</defaultValue>
+        <description>Step 16: Click on button depositNavigation (returnToPortfolio) -&gt; Navigate to page '/dashboard' - (Dynamic locator variable)</description>
+        <id>d1b52273-92b8-4751-9383-f61c79a12369</id>
+        <masked>false</masked>
+        <name>button_depositNavigation_ButtonInternalText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 4: Enter secure ID and access code to access vault - (Input data variable)</description>
+        <id>02a670fb-3673-40fb-94f3-c9d916c9cdef</id>
+        <masked>false</masked>
+        <name>input_accessCode</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 9: Enter input value in input provisionAmount - (Input data variable)</description>
+        <id>c18b7087-5357-47b5-8ae8-c5045dd25704</id>
+        <masked>false</masked>
+        <name>input_provisionAmount</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 4: Enter secure ID and access code to access vault - (Input data variable)</description>
+        <id>ebe0ae33-10be-430c-8799-275f5dd0bb78</id>
+        <masked>false</masked>
+        <name>input_secureId</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 7: Select option with input value from select accountSelection - (Input data variable)</description>
+        <id>da5a9e5a-d0e7-4767-bd11-19d554ef3463</id>
+        <masked>false</masked>
+        <name>select_accountSelection</name>
+    </variable>
+</TestCaseEntity>

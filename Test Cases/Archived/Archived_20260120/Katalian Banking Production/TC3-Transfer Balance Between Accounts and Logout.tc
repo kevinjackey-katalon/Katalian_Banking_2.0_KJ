@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login, transfer balance between accounts, confirm the transfer, logout, and verify the home page.</description>
+   <name>TC3-Transfer Balance Between Accounts and Logout</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>TRUETEST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4b9ae738-dc48-4e59-b84f-204173a5a5b6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e883ba1c-a959-49be-aad8-e635688363ad</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>11afbd32-8946-4d9c-a203-ce18345e3bcd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'200'</defaultValue>
+      <description>Step 3: Transfer balance between accounts and review transfer - (Input data variable)</description>
+      <id>e883ba1c-a959-49be-aad8-e635688363ad</id>
+      <masked>false</masked>
+      <name>input_amount</name>
+   </variable>
+   <variable>
+      <defaultValue>'Checking (...7890) - Balance: $5345.54'</defaultValue>
+      <description>Step 3: Transfer balance between accounts and review transfer - (Input data variable)</description>
+      <id>11afbd32-8946-4d9c-a203-ce18345e3bcd</id>
+      <masked>false</masked>
+      <name>select_fromAccount</name>
+   </variable>
+</TestCaseEntity>

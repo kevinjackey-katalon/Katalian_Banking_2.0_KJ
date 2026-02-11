@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>66de5e45-7ce4-4f30-b4bf-f58173a1151d</id>
+        </flow>
+    </customField>
+    <description>Login to the application, access the account overview, download the statement, and sign out successfully.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC8-Access Account Overview and Download Statement</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>1b9bf524-01c0-482a-b512-cd1f02972eb6</testCaseGuid>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 12: Enter input value in input accessCode - (Input data variable)</description>
+        <id>6c6bb49e-49a2-4f9b-8c0f-3f8941547589</id>
+        <masked>false</masked>
+        <name>input_accessCode</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 7: Enter input value in input secureId - (Input data variable)</description>
+        <id>c152eee6-c613-4a3b-a42d-4eee151cea2c</id>
+        <masked>false</masked>
+        <name>input_secureId</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 10: Enter input value in input secureId - (Input data variable)</description>
+        <id>8471232b-95da-4d79-976e-59b248108028</id>
+        <masked>false</masked>
+        <name>input_secureId_1</name>
+    </variable>
+</TestCaseEntity>

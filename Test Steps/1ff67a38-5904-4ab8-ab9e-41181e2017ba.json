@@ -1,0 +1,208 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "618d5587-333e-40f8-8c3a-535dbe24b901",
+      "name": "Navigate to /login",
+      "sub_steps": [],
+      "target_name": "",
+      "target_test_object_id": ""
+    },
+    {
+      "id": "260281b6-ac35-4a6e-818c-681dbbbc0f76",
+      "name": "Click on input secureId",
+      "sub_steps": [],
+      "action_id": "21fb546c-dad1-486a-88f8-354ee498cab6",
+      "timestamp": 1770049793657,
+      "target_name": "input_secureId",
+      "target_test_object_id": "b06e8462-dd22-4e1e-b833-6f71fdf34fbc"
+    },
+    {
+      "id": "254dd18d-8ab0-4de5-b64e-146801fed7cf",
+      "name": "Enter input value in input secureId",
+      "sub_steps": [],
+      "action_id": "dde08de7-9ea0-4401-b373-01855a5b58ca",
+      "timestamp": 1770049794847,
+      "target_name": "input_secureId",
+      "target_test_object_id": "b06e8462-dd22-4e1e-b833-6f71fdf34fbc"
+    },
+    {
+      "id": "99b2aa64-37ca-4348-a69d-de1637d01d93",
+      "name": "Click on input accessCode",
+      "sub_steps": [],
+      "action_id": "0be7d145-d4f5-4764-aae9-e0ab1957b32a",
+      "timestamp": 1770049795281,
+      "target_name": "input_accessCode",
+      "target_test_object_id": "367e83d8-e8d7-479b-81d3-7d74996dbc8e"
+    },
+    {
+      "id": "0cb85f5f-ab56-44b3-a364-16a796f90adb",
+      "name": "Enter input value in input accessCode",
+      "sub_steps": [],
+      "action_id": "51afe7d3-6540-467d-9623-a659cb70cec8",
+      "timestamp": 1770049795883,
+      "target_name": "input_accessCode",
+      "target_test_object_id": "367e83d8-e8d7-479b-81d3-7d74996dbc8e"
+    },
+    {
+      "id": "8813b7e5-9664-47b4-8f80-a302239c51a0",
+      "name": "Click on button enterVaultAccess -> Navigate to page '/dashboard'",
+      "sub_steps": [],
+      "action_id": "b35bf3ac-9f40-432c-8367-72237aa899f5",
+      "timestamp": 1770049799871,
+      "target_name": "button_enterVaultAccess",
+      "target_test_object_id": "ab2eb22c-0dc0-41a5-860d-ce6ef74e42e5"
+    },
+    {
+      "id": "4acb5678-aa02-46ab-86ae-ef6e4ee11860",
+      "name": "Click on button savings -> Navigate to page '/apply/Savings'",
+      "sub_steps": [],
+      "action_id": "62464096-4cea-463e-9a8d-f0e75b16e5ee",
+      "timestamp": 1770049810313,
+      "target_name": "button_savings",
+      "target_test_object_id": "2849bad9-494d-4be9-9798-986606f8d22f"
+    },
+    {
+      "id": "c0f625c2-1653-47c5-a088-c2bc55fc7420",
+      "name": "Click on input legalFirstName",
+      "sub_steps": [],
+      "action_id": "4b9e4a15-126f-4d9f-aefa-c3d693157e16",
+      "timestamp": 1770049811683,
+      "target_name": "input_legalFirstName",
+      "target_test_object_id": "c5866d40-8206-4501-8c1a-d82fcf244e2d"
+    },
+    {
+      "id": "1628d2fb-963e-43b5-aaa5-0ec161a5bc3a",
+      "name": "Enter input value in input legalFirstName",
+      "sub_steps": [],
+      "action_id": "efc90c49-8507-4c2f-b1e6-c22d12d33a00",
+      "timestamp": 1770049812595,
+      "target_name": "input_legalFirstName",
+      "target_test_object_id": "c5866d40-8206-4501-8c1a-d82fcf244e2d"
+    },
+    {
+      "id": "ddd2ddfe-365c-493d-9755-e69da7ed9eb7",
+      "name": "Click on input legalLastName",
+      "sub_steps": [],
+      "action_id": "3c71644e-ae58-431b-b96b-85f6ea165801",
+      "timestamp": 1770049813825,
+      "target_name": "input_legalLastName",
+      "target_test_object_id": "6c46946d-fdf5-4e16-b2f1-c6f73f7c8639"
+    },
+    {
+      "id": "4ca6ebd8-7289-4bcd-bdeb-c46a7ef16eea",
+      "name": "Enter input value in input legalLastName",
+      "sub_steps": [],
+      "action_id": "74b7e710-7ca3-4b16-a280-c5be8fa5e730",
+      "timestamp": 1770049814458,
+      "target_name": "input_legalLastName",
+      "target_test_object_id": "6c46946d-fdf5-4e16-b2f1-c6f73f7c8639"
+    },
+    {
+      "id": "da3b8a51-cc52-4ccb-b349-42b7013bb345",
+      "name": "Enter input value in input dateOfBirth",
+      "sub_steps": [],
+      "action_id": "24043551-cbc6-4e84-844f-dfd5d823b9e6",
+      "timestamp": 1770049818118,
+      "target_name": "input_dateOfBirth",
+      "target_test_object_id": "3294cdc3-004a-45c0-ab1b-f603bdf5e75a"
+    },
+    {
+      "id": "6b06383e-d01f-4ff3-a0d2-c5c75ea9f140",
+      "name": "Click on button continue",
+      "sub_steps": [],
+      "action_id": "4fbd1a80-dbf0-4802-b0cc-8d347d527284",
+      "timestamp": 1770049819511,
+      "target_name": "button_continue",
+      "target_test_object_id": "2c6f56e9-3aeb-4b1c-bc1b-14394f31224a"
+    },
+    {
+      "id": "5b98d0bc-4694-432e-855d-73a4d8f32e7d",
+      "name": "Click on input primaryAddressLine",
+      "sub_steps": [],
+      "action_id": "3269cb7e-ade3-450f-a3bb-40ed1576e8df",
+      "timestamp": 1770049821046,
+      "target_name": "input_primaryAddressLine",
+      "target_test_object_id": "b8048503-ea10-433f-935a-ca06fba9a0fb"
+    },
+    {
+      "id": "b675849b-b7de-462c-a18d-5f166f7d016a",
+      "name": "Enter input value in input primaryAddressLine",
+      "sub_steps": [],
+      "action_id": "e5e44455-066e-4549-82d7-f9fe9c90b430",
+      "timestamp": 1770049823015,
+      "target_name": "input_primaryAddressLine",
+      "target_test_object_id": "b8048503-ea10-433f-935a-ca06fba9a0fb"
+    },
+    {
+      "id": "ec2a4861-1a5e-4eaf-a926-fc27a2eec12c",
+      "name": "Click on input city",
+      "sub_steps": [],
+      "action_id": "547fb462-b1dc-4997-b3d0-7bc461bbd64b",
+      "timestamp": 1770049825931,
+      "target_name": "input_city",
+      "target_test_object_id": "14c94e34-8ff9-4e74-8d6b-b8d643308e2f"
+    },
+    {
+      "id": "ba7d6b8b-1289-4ad6-9188-a89697f6d969",
+      "name": "Enter input value in input city",
+      "sub_steps": [],
+      "action_id": "cf573c12-e18d-42ca-8048-7db6869c34a5",
+      "timestamp": 1770049826794,
+      "target_name": "input_city",
+      "target_test_object_id": "14c94e34-8ff9-4e74-8d6b-b8d643308e2f"
+    },
+    {
+      "id": "53e2c344-c557-49d6-8a35-0cd65a694e75",
+      "name": "Select option with input value from select state",
+      "sub_steps": [],
+      "action_id": "1cd0bf4b-28aa-4b6b-a02d-9c43fdf94665",
+      "timestamp": 1770049832148,
+      "target_name": "select_state",
+      "target_test_object_id": "303dbfe1-6676-4324-bdba-494aaf73c364"
+    },
+    {
+      "id": "c798f1da-9154-4c74-9bb9-188b8854de52",
+      "name": "Click on input zipCode",
+      "sub_steps": [],
+      "action_id": "8b55c13a-680a-421c-a7d9-560fa36baede",
+      "timestamp": 1770049832831,
+      "target_name": "input_zipCode",
+      "target_test_object_id": "ca752abf-b0d4-49a2-9abb-b34baf0d7d29"
+    },
+    {
+      "id": "c599026c-a395-4650-ac6e-8fc383dce712",
+      "name": "Enter input value in input zipCode",
+      "sub_steps": [],
+      "action_id": "548defe2-90ef-41b0-95b3-02adb585897c",
+      "timestamp": 1770049834273,
+      "target_name": "input_zipCode",
+      "target_test_object_id": "ca752abf-b0d4-49a2-9abb-b34baf0d7d29"
+    },
+    {
+      "id": "7aa620ba-e295-400f-bc04-36c417c836f3",
+      "name": "Click on button continue2",
+      "sub_steps": [],
+      "action_id": "c341ec0a-e33e-47cd-a1b6-206d8e007f95",
+      "timestamp": 1770049836200,
+      "target_name": "button_continue2",
+      "target_test_object_id": "9712f9a2-a082-48ca-9c95-554837abcb11"
+    },
+    {
+      "id": "5fd1a891-bd9a-4e04-9ea0-ef46e51f446e",
+      "name": "Click on button enterFacilityDashboard -> Navigate to page ''",
+      "sub_steps": [],
+      "action_id": "72aea75b-a539-4002-9924-953cb033092d",
+      "timestamp": 1770049840723,
+      "target_name": "button_enterFacilityDashboard",
+      "target_test_object_id": "67daaae3-c9db-4e18-b615-2bb7fc30194c"
+    },
+    {
+      "id": "e85a217c-5c23-4273-ae6b-2db588695e31",
+      "name": "Take full page screenshot as checkpoint",
+      "sub_steps": [],
+      "target_name": "",
+      "target_test_object_id": ""
+    }
+  ]
+}

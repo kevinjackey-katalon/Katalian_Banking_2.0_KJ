@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>9eba126f-e861-478d-903f-bd57648589e1</id>
+        </flow>
+    </customField>
+    <description>Confirm that clicking Freeze All Cards navigates the user to the Freezing page as expected.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "Manual Session", "assignee": "gia.esposito@katalon.com", "linkedTestCaseIds": [15727803]}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>Freeze All Cards from Dashboard</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>065b026b-1935-4a66-9622-392979347245</testCaseGuid>
+</TestCaseEntity>
