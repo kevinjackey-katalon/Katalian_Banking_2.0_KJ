@@ -16,7 +16,7 @@ jobs:
 
       - name: Run Katalon Runtime Engine
         run: |
-          '/Applications/Katalon Studio Engine.app/Contents/MacOS/katalonc' \
+          /Applications/Katalon Studio Engine.app/Contents/MacOS/katalonc \
           -noSplash \
           -runMode=console \
           -projectPath="/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ/TrueTestProject.prj" \
