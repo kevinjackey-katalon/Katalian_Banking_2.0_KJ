@@ -1,4 +1,4 @@
-ame: Run KRE Locally
+name: Run KRE Locally
 
 on:
   workflow_dispatch:
