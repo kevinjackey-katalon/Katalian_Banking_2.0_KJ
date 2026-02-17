@@ -23,5 +23,5 @@ jobs:
           -retry=0 \
           -testSuitePath="Test Suites/Demo/Demo Test Suite 1" \
           -executionProfile="default" \
-          -browserType="Chrome"
+          -browserType="Chrome" \
           -apiKey="${{ secrets.KATALON_API_KEY }}"
