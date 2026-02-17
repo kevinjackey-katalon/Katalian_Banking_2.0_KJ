@@ -1,0 +1,112 @@
+2026-02-13 15:12:46.654 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio Engine.app/Contents/Eclipse/configuration/org.eclipse.osgi/102/0/.cp/resources/logback/logback-execution.xml
+2026-02-13 15:12:46.657 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ/Include/config/log.properties
+2026-02-13 15:12:46.800 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Demo/Demo Test Suite 1
+2026-02-13 15:12:46.875 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Kevin Jackey
+2026-02-13 15:12:46.878 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TrueTestGen4Project
+2026-02-13 15:12:46.879 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = kevin.jackey - 192.168.1.222
+2026-02-13 15:12:46.880 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-02-13 15:12:46.880 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.222
+2026-02-13 15:12:46.881 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.0.0
+2026-02-13 15:12:47.371 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-13 15:12:47.373 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script
+2026-02-13 15:12:47.521 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) username = bankinguser123
+2026-02-13 15:12:47.538 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) password = notapassword@123
+2026-02-13 15:12:47.892 DEBUG testcase.Login - Working Script          - 1: openBrowser(application_domain)
+2026-02-13 15:12:48.182 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserName', 'chrome']
+2026-02-13 15:12:48.183 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserVersion', '144']
+2026-02-13 15:12:48.188 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['platformName', 'windows']
+2026-02-13 15:12:48.188 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['katalon:options', '{executionMode=queue, metadata={organizationId=2154967, accountId=1509469, channel=kre;v=11.0.0, projectId=3033951}, browserVersionType=, usingTunnel=false}']
+2026-02-13 15:12:48.227 INFO  c.k.k.core.webui.driver.DriverFactory    - Connecting to remote web server 'testcloud.katalon.com/wd/hub' with type 'Selenium'
+2026-02-13 15:12:48.445 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-02-13 15:13:20.360 ERROR .s.f.SeleniumCreateSessionResponseFilter - Exception while trying to back-fill sessionId
+com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2599)
+	at com.fasterxml.jackson.core.JsonParser._constructReadException(JsonParser.java:2625)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:778)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2508)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:673)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:5125)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:5028)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3954)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3922)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionResponseFilter.lambda$0(SeleniumCreateSessionResponseFilter.java:43)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionPayloadFilter.lambda$0(SeleniumCreateSessionPayloadFilter.java:73)
+	at com.kms.katalon.selenium.filter.SeleniumBasicAuthorizationFilter.lambda$0(SeleniumBasicAuthorizationFilter.java:58)
+	at com.kms.katalon.selenium.filter.SeleniumResponseContentEncodingDecompressionFilter.lambda$0(SeleniumResponseContentEncodingDecompressionFilter.java:44)
+	at com.kms.katalon.selenium.filter.SeleniumAcceptEncodingFilter.lambda$0(SeleniumAcceptEncodingFilter.java:25)
+	at com.kms.katalon.selenium.filter.SeleniumProxyBasicAuthorizationFilter.lambda$0(SeleniumProxyBasicAuthorizationFilter.java:49)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:388)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-02-13 15:13:20.394 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2026-02-13 15:13:20.397 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2026-02-13 15:13:20.398 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2026-02-13 15:13:20.703 INFO  c.k.k.core.webui.driver.DriverFactory    - browserVersionType = 
+2026-02-13 15:13:20.705 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteDriverUrl = testcloud.katalon.com/wd/hub
+2026-02-13 15:13:20.705 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteOS = Windows
+2026-02-13 15:13:20.711 INFO  c.k.k.core.webui.driver.DriverFactory    - desiredCapabilities = {
+  "networkConnectionEnabled": false,
+  "chrome": {
+    "chromedriverVersion": "144.0.7559.133 (7da823b1d594d1b49797911900e003ec96a8c0e7-refs/branch-heads/7559@{#4253})",
+    "userDataDir": "C:\\Windows\\SystemTemp\\scoped_dir7604_1649209707"
+  },
+  "timeouts": {
+    "implicit": 0,
+    "pageLoad": 300000,
+    "script": 30000
+  },
+  "goog:processID": 3544,
+  "pageLoadStrategy": "normal",
+  "unhandledPromptBehavior": "dismiss and notify",
+  "strictFileInteractability": false,
+  "proxy": {
+    "proxyType": "UNSPECIFIED",
+    "autodetect": false
+  },
+  "webauthn:extension:minPinLength": true,
+  "goog:chromeOptions": {
+    "debuggerAddress": "localhost:9225"
+  },
+  "webauthn:extension:credBlob": true,
+  "webauthn:extension:prf": true,
+  "acceptInsecureCerts": false,
+  "browserVersion": "144.0.7559.109",
+  "katalon:caps": {
+    "executionId": "39e7b4ce-b8ba-40d5-9f8d-ebe405211880",
+    "executionSessionId": "e6d9204a-e4e9-4c48-9f3f-8af3b60a5b35"
+  },
+  "fedcm:accounts": true,
+  "browserName": "chrome",
+  "platformName": "WINDOWS",
+  "setWindowRect": true,
+  "webauthn:extension:largeBlob": true,
+  "katalon:options": {
+    "executionId": "39e7b4ce-b8ba-40d5-9f8d-ebe405211880",
+    "executionSessionId": "e6d9204a-e4e9-4c48-9f3f-8af3b60a5b35",
+    "runFromTestCloud": true
+  },
+  "webauthn:virtualAuthenticators": true
+}
+2026-02-13 15:13:20.713 INFO  c.k.k.core.webui.driver.DriverFactory    - katalon:caps = {
+  "executionId": "39e7b4ce-b8ba-40d5-9f8d-ebe405211880",
+  "executionSessionId": "e6d9204a-e4e9-4c48-9f3f-8af3b60a5b35"
+}
+2026-02-13 15:13:20.714 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e6d9204a-e4e9-4c48-9f3f-8af3b60a5b35
+2026-02-13 15:13:20.716 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.109
+2026-02-13 15:13:20.716 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-02-13 15:13:20.716 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-02-13 15:13:20.721 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-02-13 15:13:20.870 DEBUG testcase.Login - Working Script          - 2: navigateToUrl("https://katalian-banking.vercel.app/login")
+2026-02-13 15:13:21.744 DEBUG testcase.Login - Working Script          - 3: setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username"), "bankinguser123")
+2026-02-13 15:13:24.735 DEBUG testcase.Login - Working Script          - 4: setEncryptedText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo")
+2026-02-13 15:13:26.173 DEBUG testcase.Login - Working Script          - 5: click(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access"))
+2026-02-13 15:13:27.342 DEBUG testcase.Login - Working Script          - 6: closeBrowser()
+2026-02-13 15:13:27.931 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script
+2026-02-13 15:13:27.965 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-02-13 15:13:27.965 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Demo/Demo Test Suite 1
+2026-02-13 15:13:27.965 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

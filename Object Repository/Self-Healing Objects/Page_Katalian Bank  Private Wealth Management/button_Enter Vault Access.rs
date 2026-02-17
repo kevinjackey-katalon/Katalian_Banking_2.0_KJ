@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Enter Vault Access</name>
+   <tag></tag>
+   <elementGuidId>0dcfa3e9-e370-4d11-bcb0-b70c2a2038ed</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = 'Enter Vault Access' or . = 'Enter Vault Access')]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type = 'submit' and (text() = 'Enter Vault Access' or . = 'Enter Vault Access')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Enter Vault Access&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a1963c09-f2bf-46c6-a67a-679149a80a79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative inline-flex items-center justify-center font-bold py-3 px-6 rounded-2xl transition-all duration-300 active:scale-[0.98] disabled:opacity-30 disabled:cursor-not-allowed text-sm overflow-hidden bg-emerald-500 hover:bg-emerald-400 text-slate-950 shadow-[0_10px_20px_rgba(16,185,129,0.2)] w-full py-4 text-base font-black tracking-tight</value>
+      <webElementGuid>eea7dc1e-1c44-4836-b3be-b902433fe365</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>807612c7-1223-4969-8047-30572ab96480</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Enter Vault Access</value>
+      <webElementGuid>0b96cde3-64dc-4bbb-bdf1-7622e34ef13b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-2587efdf3eafc7e397d4ed04a849a01e</value>
+      <webElementGuid>8cd60843-b99f-4962-b1a2-083ae13b7ae0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;min-h-screen bg-slate-950 text-white selection:bg-emerald-500/30 font-sans&quot;]/main[@class=&quot;px-6 py-12 md:py-20 max-w-7xl mx-auto&quot;]/div[@class=&quot;min-h-[60vh] flex items-center justify-center p-6&quot;]/div[@class=&quot;w-full max-w-md space-y-12&quot;]/div[@class=&quot;bg-slate-900/50 border border-white/5 p-8 md:p-10 rounded-[3rem] shadow-2xl&quot;]/form[@class=&quot;space-y-6&quot;]/button[@class=&quot;relative inline-flex items-center justify-center font-bold py-3 px-6 rounded-2xl transition-all duration-300 active:scale-[0.98] disabled:opacity-30 disabled:cursor-not-allowed text-sm overflow-hidden bg-emerald-500 hover:bg-emerald-400 text-slate-950 shadow-[0_10px_20px_rgba(16,185,129,0.2)] w-full py-4 text-base font-black tracking-tight&quot;]</value>
+      <webElementGuid>ffb7f11b-83db-46d0-8cd7-89eecd763a51</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Enter Vault Access' or . = 'Enter Vault Access')]</value>
+      <webElementGuid>71fd13f5-3874-4b15-b4a9-b90b0d95323c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>302e9ba4-2c06-4ca6-9cf8-4d2b211f14bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/div/div[2]/form/button</value>
+      <webElementGuid>018b379b-c584-4ee8-b07f-e346381e92a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Access Code'])[1]/following::button[1]</value>
+      <webElementGuid>8bc7e857-5a64-49fb-b54c-6f1988d9259e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Secure ID'])[1]/following::button[1]</value>
+      <webElementGuid>a116c24d-323a-4e87-a77b-399001a44148</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lost Access Credentials?'])[1]/preceding::button[1]</value>
+      <webElementGuid>e725f549-dc2e-4f4f-86d3-58eb079ce831</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Enter Vault Access']/parent::*</value>
+      <webElementGuid>04faac6a-3ff1-4f06-94d0-ecc4ae2fd902</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>016192ab-4449-4c30-a1d2-80545a7f44c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' tracking-tight ')]</value>
+      <webElementGuid>b1d544d2-23ed-4c42-b15e-09912bffb69c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

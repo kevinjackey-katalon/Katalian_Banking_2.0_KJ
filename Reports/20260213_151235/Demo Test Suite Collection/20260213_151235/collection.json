@@ -1,0 +1,14 @@
+{
+  "id": "Test Suites/Demo Test Suite Collection",
+  "name": "Demo Test Suite Collection",
+  "reportFolder": "/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ/Reports/20260213_151235/Demo Test Suite Collection/20260213_151235",
+  "startTime": 1771013562668,
+  "endTime": 1771013613511,
+  "totalPassedTestCases": "2",
+  "totalErrorTestCases": "0",
+  "totalFailedTestCases": "0",
+  "totalTestCases": "2",
+  "totalIncompleteTestCases": "0",
+  "totalSkippedTestCases": "0",
+  "description": ""
+}

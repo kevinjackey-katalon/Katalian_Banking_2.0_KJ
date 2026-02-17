@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Mobile Device Attempt</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b8a09e4d-7bfc-4eda-9ae0-375469bc1c29</testCaseGuid>
+</TestCaseEntity>

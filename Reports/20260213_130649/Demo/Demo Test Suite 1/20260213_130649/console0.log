@@ -1,0 +1,395 @@
+2026-02-13 13:06:57.761 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio Engine.app/Contents/Eclipse/configuration/org.eclipse.osgi/102/0/.cp/resources/logback/logback-execution.xml
+2026-02-13 13:06:57.765 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ/Include/config/log.properties
+2026-02-13 13:06:57.914 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Demo/Demo Test Suite 1
+2026-02-13 13:06:57.987 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Kevin Jackey
+2026-02-13 13:06:57.988 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TrueTestGen4Project
+2026-02-13 13:06:57.989 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = kevin.jackey - 192.168.1.222
+2026-02-13 13:06:57.990 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-02-13 13:06:57.991 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.222
+2026-02-13 13:06:57.991 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.0.0
+2026-02-13 13:06:58.490 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-13 13:06:58.492 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration
+2026-02-13 13:06:58.581 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = bankinguser123
+2026-02-13 13:06:58.625 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) password = notapassword@123
+2026-02-13 13:06:58.956 DEBUG  Self Healing_Data Binding Demonstration - 1: openBrowser(application_domain)
+2026-02-13 13:06:59.224 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserName', 'chrome']
+2026-02-13 13:06:59.226 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserVersion', '144']
+2026-02-13 13:06:59.230 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['platformName', 'windows']
+2026-02-13 13:06:59.230 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['katalon:options', '{executionMode=queue, metadata={organizationId=2154967, accountId=1509469, channel=kre;v=11.0.0, projectId=3033951}, browserVersionType=, usingTunnel=false}']
+2026-02-13 13:06:59.259 INFO  c.k.k.core.webui.driver.DriverFactory    - Connecting to remote web server 'testcloud.katalon.com/wd/hub' with type 'Selenium'
+2026-02-13 13:06:59.447 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-02-13 13:07:19.267 ERROR .s.f.SeleniumCreateSessionResponseFilter - Exception while trying to back-fill sessionId
+com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2599)
+	at com.fasterxml.jackson.core.JsonParser._constructReadException(JsonParser.java:2625)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:778)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2508)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:673)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:5125)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:5028)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3954)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3922)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionResponseFilter.lambda$0(SeleniumCreateSessionResponseFilter.java:43)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionPayloadFilter.lambda$0(SeleniumCreateSessionPayloadFilter.java:73)
+	at com.kms.katalon.selenium.filter.SeleniumBasicAuthorizationFilter.lambda$0(SeleniumBasicAuthorizationFilter.java:58)
+	at com.kms.katalon.selenium.filter.SeleniumResponseContentEncodingDecompressionFilter.lambda$0(SeleniumResponseContentEncodingDecompressionFilter.java:44)
+	at com.kms.katalon.selenium.filter.SeleniumAcceptEncodingFilter.lambda$0(SeleniumAcceptEncodingFilter.java:25)
+	at com.kms.katalon.selenium.filter.SeleniumProxyBasicAuthorizationFilter.lambda$0(SeleniumProxyBasicAuthorizationFilter.java:49)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:388)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-02-13 13:07:19.305 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2026-02-13 13:07:19.648 INFO  c.k.k.core.webui.driver.DriverFactory    - browserVersionType = 
+2026-02-13 13:07:19.650 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteDriverUrl = testcloud.katalon.com/wd/hub
+2026-02-13 13:07:19.650 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteOS = Windows
+2026-02-13 13:07:19.658 INFO  c.k.k.core.webui.driver.DriverFactory    - desiredCapabilities = {
+  "networkConnectionEnabled": false,
+  "chrome": {
+    "chromedriverVersion": "144.0.7559.133 (7da823b1d594d1b49797911900e003ec96a8c0e7-refs/branch-heads/7559@{#4253})",
+    "userDataDir": "C:\\Windows\\SystemTemp\\scoped_dir7920_324587096"
+  },
+  "timeouts": {
+    "implicit": 0,
+    "pageLoad": 300000,
+    "script": 30000
+  },
+  "goog:processID": 5044,
+  "pageLoadStrategy": "normal",
+  "unhandledPromptBehavior": "dismiss and notify",
+  "strictFileInteractability": false,
+  "proxy": {
+    "proxyType": "UNSPECIFIED",
+    "autodetect": false
+  },
+  "webauthn:extension:minPinLength": true,
+  "goog:chromeOptions": {
+    "debuggerAddress": "localhost:9225"
+  },
+  "webauthn:extension:credBlob": true,
+  "webauthn:extension:prf": true,
+  "acceptInsecureCerts": false,
+  "browserVersion": "144.0.7559.109",
+  "katalon:caps": {
+    "executionId": "02e16924-baed-422b-89aa-664cc7c9d876",
+    "executionSessionId": "2782c800-fb26-4335-adf3-b81a018811e6"
+  },
+  "fedcm:accounts": true,
+  "browserName": "chrome",
+  "platformName": "WINDOWS",
+  "setWindowRect": true,
+  "webauthn:extension:largeBlob": true,
+  "katalon:options": {
+    "executionId": "02e16924-baed-422b-89aa-664cc7c9d876",
+    "executionSessionId": "2782c800-fb26-4335-adf3-b81a018811e6",
+    "runFromTestCloud": true
+  },
+  "webauthn:virtualAuthenticators": true
+}
+2026-02-13 13:07:19.661 INFO  c.k.k.core.webui.driver.DriverFactory    - katalon:caps = {
+  "executionId": "02e16924-baed-422b-89aa-664cc7c9d876",
+  "executionSessionId": "2782c800-fb26-4335-adf3-b81a018811e6"
+}
+2026-02-13 13:07:19.661 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2782c800-fb26-4335-adf3-b81a018811e6
+2026-02-13 13:07:19.662 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.109
+2026-02-13 13:07:19.663 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-02-13 13:07:19.663 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-02-13 13:07:19.667 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-02-13 13:07:19.810 DEBUG  Self Healing_Data Binding Demonstration - 2: navigateToUrl("https://katalian-banking.vercel.app/login")
+2026-02-13 13:07:20.644 DEBUG  Self Healing_Data Binding Demonstration - 3: setText(findTestObject("Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken"), "bankinguser123")
+2026-02-13 13:07:33.256 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to set text 'bankinguser123' of object 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'bankinguser123' of object 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Login - Self Healing_Data Binding Demonstration.run(Login - Self Healing_Data Binding Demonstration:9)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0_0.run(S0_0.groovy:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken' located by 'By.xpath: //*[@id = 'broken___username']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:111)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy47.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Script1770731791507.run(Script1770731791507.groovy:9)
+	... 13 more
+)
+2026-02-13 13:07:33.266 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'bankinguser123' of object 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Login - Self Healing_Data Binding Demonstration.run(Login - Self Healing_Data Binding Demonstration:9)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0_0.run(S0_0.groovy:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken' located by 'By.xpath: //*[@id = 'broken___username']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:111)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy47.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+
+2026-02-13 13:07:33.279 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration
+2026-02-13 13:07:33.361 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-13 13:07:33.362 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration
+2026-02-13 13:07:33.385 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = lockedout25
+2026-02-13 13:07:33.387 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) password = notapassword@123
+2026-02-13 13:07:33.395 DEBUG  Self Healing_Data Binding Demonstration - 1: openBrowser(application_domain)
+2026-02-13 13:07:33.403 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-02-13 13:07:33.918 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserName', 'chrome']
+2026-02-13 13:07:33.925 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserVersion', '144']
+2026-02-13 13:07:33.926 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['platformName', 'windows']
+2026-02-13 13:07:33.926 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['katalon:options', '{executionMode=queue, metadata={organizationId=2154967, accountId=1509469, channel=kre;v=11.0.0, projectId=3033951}, browserVersionType=, usingTunnel=false}']
+2026-02-13 13:07:33.940 INFO  c.k.k.core.webui.driver.DriverFactory    - Connecting to remote web server 'testcloud.katalon.com/wd/hub' with type 'Selenium'
+2026-02-13 13:07:33.946 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-02-13 13:07:49.201 ERROR .s.f.SeleniumCreateSessionResponseFilter - Exception while trying to back-fill sessionId
+com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2599)
+	at com.fasterxml.jackson.core.JsonParser._constructReadException(JsonParser.java:2625)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:778)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2508)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:673)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:5125)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:5028)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3954)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3922)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionResponseFilter.lambda$0(SeleniumCreateSessionResponseFilter.java:43)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionPayloadFilter.lambda$0(SeleniumCreateSessionPayloadFilter.java:73)
+	at com.kms.katalon.selenium.filter.SeleniumBasicAuthorizationFilter.lambda$0(SeleniumBasicAuthorizationFilter.java:58)
+	at com.kms.katalon.selenium.filter.SeleniumResponseContentEncodingDecompressionFilter.lambda$0(SeleniumResponseContentEncodingDecompressionFilter.java:44)
+	at com.kms.katalon.selenium.filter.SeleniumAcceptEncodingFilter.lambda$0(SeleniumAcceptEncodingFilter.java:25)
+	at com.kms.katalon.selenium.filter.SeleniumProxyBasicAuthorizationFilter.lambda$0(SeleniumProxyBasicAuthorizationFilter.java:49)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:388)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-02-13 13:07:49.220 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2026-02-13 13:07:49.314 INFO  c.k.k.core.webui.driver.DriverFactory    - browserVersionType = 
+2026-02-13 13:07:49.315 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteDriverUrl = testcloud.katalon.com/wd/hub
+2026-02-13 13:07:49.315 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteOS = Windows
+2026-02-13 13:07:49.316 INFO  c.k.k.core.webui.driver.DriverFactory    - desiredCapabilities = {
+  "networkConnectionEnabled": false,
+  "chrome": {
+    "chromedriverVersion": "144.0.7559.133 (7da823b1d594d1b49797911900e003ec96a8c0e7-refs/branch-heads/7559@{#4253})",
+    "userDataDir": "C:\\Windows\\SystemTemp\\scoped_dir7272_1028680246"
+  },
+  "timeouts": {
+    "implicit": 0,
+    "pageLoad": 300000,
+    "script": 30000
+  },
+  "goog:processID": 6512,
+  "pageLoadStrategy": "normal",
+  "unhandledPromptBehavior": "dismiss and notify",
+  "strictFileInteractability": false,
+  "proxy": {
+    "proxyType": "UNSPECIFIED",
+    "autodetect": false
+  },
+  "webauthn:extension:minPinLength": true,
+  "goog:chromeOptions": {
+    "debuggerAddress": "localhost:9225"
+  },
+  "webauthn:extension:credBlob": true,
+  "webauthn:extension:prf": true,
+  "acceptInsecureCerts": false,
+  "browserVersion": "144.0.7559.109",
+  "katalon:caps": {
+    "executionId": "a4903ca0-65f5-47d8-9ded-7d83e70dfb4e",
+    "executionSessionId": "1293b3aa-d33d-4955-8548-5eeb18d8a0ef"
+  },
+  "fedcm:accounts": true,
+  "browserName": "chrome",
+  "platformName": "WINDOWS",
+  "setWindowRect": true,
+  "webauthn:extension:largeBlob": true,
+  "katalon:options": {
+    "executionId": "a4903ca0-65f5-47d8-9ded-7d83e70dfb4e",
+    "executionSessionId": "1293b3aa-d33d-4955-8548-5eeb18d8a0ef",
+    "runFromTestCloud": true
+  },
+  "webauthn:virtualAuthenticators": true
+}
+2026-02-13 13:07:49.317 INFO  c.k.k.core.webui.driver.DriverFactory    - katalon:caps = {
+  "executionId": "a4903ca0-65f5-47d8-9ded-7d83e70dfb4e",
+  "executionSessionId": "1293b3aa-d33d-4955-8548-5eeb18d8a0ef"
+}
+2026-02-13 13:07:49.318 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1293b3aa-d33d-4955-8548-5eeb18d8a0ef
+2026-02-13 13:07:49.318 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.109
+2026-02-13 13:07:49.318 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-02-13 13:07:49.319 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-02-13 13:07:49.320 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-02-13 13:07:49.423 DEBUG  Self Healing_Data Binding Demonstration - 2: navigateToUrl("https://katalian-banking.vercel.app/login")
+2026-02-13 13:07:50.218 DEBUG  Self Healing_Data Binding Demonstration - 3: setText(findTestObject("Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken"), "bankinguser123")
+2026-02-13 13:08:02.394 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to set text 'bankinguser123' of object 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'bankinguser123' of object 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Login - Self Healing_Data Binding Demonstration.run(Login - Self Healing_Data Binding Demonstration:9)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0_0.run(S0_0.groovy:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken' located by 'By.xpath: //*[@id = 'broken___username']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:111)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy47.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Script1770731791507.run(Script1770731791507.groovy:9)
+	... 13 more
+)
+2026-02-13 13:08:02.398 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'bankinguser123' of object 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Login - Self Healing_Data Binding Demonstration.run(Login - Self Healing_Data Binding Demonstration:9)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0_0.run(S0_0.groovy:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken' located by 'By.xpath: //*[@id = 'broken___username']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:111)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy47.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+
+2026-02-13 13:08:02.406 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration
+2026-02-13 13:08:02.970 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-02-13 13:08:02.972 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Demo/Demo Test Suite 1
+2026-02-13 13:08:02.972 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

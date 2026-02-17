@@ -22,9 +22,9 @@
       <variableId>72ca07ec-6416-4e5d-8f26-fe7bf4af9730</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>0716cf5f-dfbc-4672-a364-0bdd163d491d</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
       <variableId>a5a1ba81-328a-4079-bd4c-1ff54c245ebc</variableId>
    </variableLinks>
    <variable>

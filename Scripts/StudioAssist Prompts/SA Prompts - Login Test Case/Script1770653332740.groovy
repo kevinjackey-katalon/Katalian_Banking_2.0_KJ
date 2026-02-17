@@ -19,12 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 
 /* Login Test Case
-Open Browser – Launch a new browser instance.
-Navigate to URL – Go to https://katalian-banking.vercel.app/login.
-Input Username – In the username field (ID: txt-username), enter "bankinguser123".
-Input Password – In the password field (ID: txt-password), enter "ThisIsNotAPassword".
-Click Login Button – Click on the login button (ID: btn-login).
-Verify Successful Login .
+1. Launch a new browser instance.
+2. Go to https://katalian-banking.vercel.app/login.
+3. Enter "bankinguser123" in the username field .
+4. Enter "notapassword@123" in the password field 
+5. Click on the login button "Enter Vault Access"
+6. Verify Successful Login 
 */
 
 /* Generate Test Case

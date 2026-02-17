@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo Test Suite 1,TestCloud - Windows - Edge Chromium 144.0.3719.92,,,13-02-2026 13:08:06,13-02-2026 13:09:15,1m - 9.156s,FAILED
+,,,,,,,
+Test Cases/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration,TestCloud - Windows - Edge Chromium 144.0.3719.92,,,13-02-2026 13:08:07,13-02-2026 13:08:40,33.799s,FAILED
+"DATA BINDING - {""(Default) passw..."":""notapassword@123"",""username"":""bankinguser123""}",,,,,,,
+openBrowser(application_domain),TestCloud - Windows - Edge Chromium 144.0.3719.92,,,13-02-2026 13:08:07,13-02-2026 13:08:29,21.527s,PASSED
+"navigateToUrl(""https://katalian-banking.vercel.app/login"")",TestCloud - Windows - Edge Chromium 144.0.3719.92,,,13-02-2026 13:08:29,13-02-2026 13:08:29,0.851s,PASSED
+"setText(findTestObject(""Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken""), ""bankinguser123"")",TestCloud - Windows - Edge Chromium 144.0.3719.92,,,13-02-2026 13:08:29,13-02-2026 13:08:40,10.904s,FAILED
+,,,,,,,
+Test Cases/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration,TestCloud - Windows - Edge Chromium 144.0.3719.92,,,13-02-2026 13:08:40,13-02-2026 13:09:15,34.051s,FAILED
+"DATA BINDING - {""(Default) passw..."":""notapassword@123"",""username"":""lockedout25""}",,,,,,,
+openBrowser(application_domain),TestCloud - Windows - Edge Chromium 144.0.3719.92,,,13-02-2026 13:08:40,13-02-2026 13:09:03,22.512s,PASSED
+"navigateToUrl(""https://katalian-banking.vercel.app/login"")",TestCloud - Windows - Edge Chromium 144.0.3719.92,,,13-02-2026 13:09:03,13-02-2026 13:09:04,0.677s,PASSED
+"setText(findTestObject(""Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken""), ""bankinguser123"")",TestCloud - Windows - Edge Chromium 144.0.3719.92,,,13-02-2026 13:09:04,13-02-2026 13:09:14,10.796s,FAILED
