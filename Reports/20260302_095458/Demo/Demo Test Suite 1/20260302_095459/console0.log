@@ -1,0 +1,328 @@
+2026-03-02 09:55:00.711 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio 11.0.0.app/Contents/Eclipse/configuration/org.eclipse.osgi/148/0/.cp/resources/logback/logback-execution.xml
+2026-03-02 09:55:00.712 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ/Include/config/log.properties
+2026-03-02 09:55:00.747 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Demo/Demo Test Suite 1
+2026-03-02 09:55:00.775 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Kevin Jackey
+2026-03-02 09:55:00.775 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TrueTestGen4Project
+2026-03-02 09:55:00.775 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = kevin.jackey - 192.168.1.222
+2026-03-02 09:55:00.775 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-03-02 09:55:00.775 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.222
+2026-03-02 09:55:00.776 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.1.0
+2026-03-02 09:55:00.899 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-02 09:55:00.899 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script
+2026-03-02 09:55:00.915 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) username = bankinguser123
+2026-03-02 09:55:00.920 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) password = notapassword@123
+2026-03-02 09:55:00.994 DEBUG testcase.Login - Working Script          - 1: openBrowser(application_domain)
+2026-03-02 09:55:01.076 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-03-02 09:55:01.089 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 02, 2026 9:55:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-02 09:55:03.608 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f931141c8046579ed92089b92188379f
+2026-03-02 09:55:03.608 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7632.117
+2026-03-02 09:55:03.608 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-03-02 09:55:03.609 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-02 09:55:03.610 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-02 09:55:05.707 DEBUG testcase.Login - Working Script          - 2: navigateToUrl("https://katalian-banking.vercel.app/login")
+2026-03-02 09:55:05.899 DEBUG testcase.Login - Working Script          - 3: setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username"), "bankinguser123")
+2026-03-02 09:55:06.688 DEBUG testcase.Login - Working Script          - 4: setEncryptedText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo")
+2026-03-02 09:55:06.953 DEBUG testcase.Login - Working Script          - 5: click(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access"))
+2026-03-02 09:55:07.216 DEBUG testcase.Login - Working Script          - 6: click(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/this will make it break"))
+2026-03-02 09:55:07.217 WARN  c.k.k.core.testobject.ObjectRepository   - Test object with id 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/this will make it break' does not exist
+2026-03-02 09:55:07.221 WARN  c.k.k.core.testobject.ObjectRepository   - Test object with id 'Object Repository/' does not exist
+2026-03-02 09:55:07.283 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Login - Working Script.run(Login - Working Script:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1772463299312.run(TempTestSuite1772463299312.groovy:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.IllegalTestObjectException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy47.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1770731791507.run(Script1770731791507.groovy:17)
+	... 13 more
+)
+2026-03-02 09:55:07.285 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Login - Working Script.run(Login - Working Script:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1772463299312.run(TempTestSuite1772463299312.groovy:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.IllegalTestObjectException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy47.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+
+2026-03-02 09:55:07.286 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script
+2026-03-02 09:55:07.288 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-02 09:55:07.288 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script - Retry attempt 1
+2026-03-02 09:55:07.291 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) username = bankinguser123
+2026-03-02 09:55:07.291 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) password = notapassword@123
+2026-03-02 09:55:07.293 DEBUG testcase.Login - Working Script          - 1: openBrowser(application_domain)
+2026-03-02 09:55:07.294 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-03-02 09:55:07.384 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-03-02 09:55:07.385 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 02, 2026 9:55:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-02 09:55:08.472 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b2a5f511b350ff0a123049509b40b4a1
+2026-03-02 09:55:08.472 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7632.117
+2026-03-02 09:55:08.472 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-03-02 09:55:08.473 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-02 09:55:08.473 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-02 09:55:10.760 DEBUG testcase.Login - Working Script          - 2: navigateToUrl("https://katalian-banking.vercel.app/login")
+2026-03-02 09:55:10.870 DEBUG testcase.Login - Working Script          - 3: setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username"), "bankinguser123")
+2026-03-02 09:55:11.617 DEBUG testcase.Login - Working Script          - 4: setEncryptedText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo")
+2026-03-02 09:55:11.882 DEBUG testcase.Login - Working Script          - 5: click(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access"))
+2026-03-02 09:55:12.143 DEBUG testcase.Login - Working Script          - 6: click(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/this will make it break"))
+2026-03-02 09:55:12.143 WARN  c.k.k.core.testobject.ObjectRepository   - Test object with id 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/this will make it break' does not exist
+2026-03-02 09:55:12.144 WARN  c.k.k.core.testobject.ObjectRepository   - Test object with id 'Object Repository/' does not exist
+2026-03-02 09:55:12.213 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Login - Working Script.run(Login - Working Script:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:422)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1772463299312.run(TempTestSuite1772463299312.groovy:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.IllegalTestObjectException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy47.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1770731791507.run(Script1770731791507.groovy:17)
+	... 14 more
+)
+2026-03-02 09:55:12.214 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Login - Working Script.run(Login - Working Script:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:422)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1772463299312.run(TempTestSuite1772463299312.groovy:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.IllegalTestObjectException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy47.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+2026-03-02 09:55:12.215 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script
+2026-03-02 09:55:12.216 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-02 09:55:12.216 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script - Retry attempt 2
+2026-03-02 09:55:12.218 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) username = bankinguser123
+2026-03-02 09:55:12.218 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) password = notapassword@123
+2026-03-02 09:55:12.219 DEBUG testcase.Login - Working Script          - 1: openBrowser(application_domain)
+2026-03-02 09:55:12.220 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-03-02 09:55:12.303 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-03-02 09:55:12.305 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 02, 2026 9:55:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-02 09:55:13.286 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ddb3679022f08b11fdd6d9228cfc52e2
+2026-03-02 09:55:13.286 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7632.117
+2026-03-02 09:55:13.286 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-03-02 09:55:13.286 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-02 09:55:13.287 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-02 09:55:15.891 DEBUG testcase.Login - Working Script          - 2: navigateToUrl("https://katalian-banking.vercel.app/login")
+2026-03-02 09:55:16.068 DEBUG testcase.Login - Working Script          - 3: setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username"), "bankinguser123")
+2026-03-02 09:55:16.805 DEBUG testcase.Login - Working Script          - 4: setEncryptedText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo")
+2026-03-02 09:55:17.073 DEBUG testcase.Login - Working Script          - 5: click(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access"))
+2026-03-02 09:55:17.321 DEBUG testcase.Login - Working Script          - 6: click(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/this will make it break"))
+2026-03-02 09:55:17.322 WARN  c.k.k.core.testobject.ObjectRepository   - Test object with id 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/this will make it break' does not exist
+2026-03-02 09:55:17.322 WARN  c.k.k.core.testobject.ObjectRepository   - Test object with id 'Object Repository/' does not exist
+2026-03-02 09:55:17.396 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Login - Working Script.run(Login - Working Script:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:422)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:422)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1772463299312.run(TempTestSuite1772463299312.groovy:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.IllegalTestObjectException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy47.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1770731791507.run(Script1770731791507.groovy:17)
+	... 15 more
+)
+2026-03-02 09:55:17.397 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Login - Working Script.run(Login - Working Script:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:422)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:422)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1772463299312.run(TempTestSuite1772463299312.groovy:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.IllegalTestObjectException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy47.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2026-03-02 09:55:17.398 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script
+2026-03-02 09:55:17.399 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-02 09:55:17.399 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script - Retry attempt 3
+2026-03-02 09:55:17.401 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) username = bankinguser123
+2026-03-02 09:55:17.401 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) password = notapassword@123
+2026-03-02 09:55:17.402 DEBUG testcase.Login - Working Script          - 1: openBrowser(application_domain)
+2026-03-02 09:55:17.402 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-03-02 09:55:17.487 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-03-02 09:55:17.489 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 02, 2026 9:55:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-02 09:55:18.534 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c22b42b92a876d3366a326ce8ab64a12
+2026-03-02 09:55:18.534 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7632.117
+2026-03-02 09:55:18.535 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-03-02 09:55:18.535 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-02 09:55:18.535 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-02 09:55:19.790 DEBUG testcase.Login - Working Script          - 2: navigateToUrl("https://katalian-banking.vercel.app/login")
+2026-03-02 09:55:19.999 DEBUG testcase.Login - Working Script          - 3: setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username"), "bankinguser123")

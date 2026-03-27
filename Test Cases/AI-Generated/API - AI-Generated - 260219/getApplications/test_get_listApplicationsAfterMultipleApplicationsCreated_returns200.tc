@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_get_listApplicationsAfterMultipleApplicationsCreated_returns200</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c0bb3040-e818-4f9f-870a-ca52f41c120b</testCaseGuid>
+</TestCaseEntity>

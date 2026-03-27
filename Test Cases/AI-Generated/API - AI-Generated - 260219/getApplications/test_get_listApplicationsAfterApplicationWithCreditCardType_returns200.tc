@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_get_listApplicationsAfterApplicationWithCreditCardType_returns200</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1359228b-74f4-40c3-ab2c-ba7315a968e4</testCaseGuid>
+</TestCaseEntity>

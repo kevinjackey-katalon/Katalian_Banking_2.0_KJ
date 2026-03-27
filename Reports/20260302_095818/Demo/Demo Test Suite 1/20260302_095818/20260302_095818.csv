@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo Test Suite 1,,,,02-03-2026 09:58:19,02-03-2026 09:58:20,0.355s,FAILED
+,,,,,,,
+Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script,,,,02-03-2026 09:58:20,02-03-2026 09:58:20,0.013s,FAILED
+"DATA BINDING - {""(Default) usern..."":""bankinguser123"",""(Default) passw..."":""notapassword@123""}",,,,,,,
+openBrowser(application_domain),,,,02-03-2026 09:58:20,02-03-2026 09:58:20,0.005s,FAILED

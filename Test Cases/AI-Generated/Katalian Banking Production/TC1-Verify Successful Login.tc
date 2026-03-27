@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify successful login with valid credentials</description>
+   <name>TC1-Verify Successful Login</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;Manual Session&quot;, &quot;assignee&quot;: &quot;kevin.jackey@katalon.com&quot;, &quot;linkedTestCaseIds&quot;: [15790321]}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>TRUETEST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c5a1d50e-612a-467c-bdab-4fa2b0b833bb</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 7: Enter input value in input accessCode - (Input data variable)</description>
+      <id>6a2ffce6-ead4-4383-979e-d90bcca82cf8</id>
+      <masked>false</masked>
+      <name>input_accessCode</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 5: Enter input value in input secureId - (Input data variable)</description>
+      <id>37bd6497-68b0-414e-bb09-7040377d2041</id>
+      <masked>false</masked>
+      <name>input_secureId</name>
+   </variable>
+</TestCaseEntity>

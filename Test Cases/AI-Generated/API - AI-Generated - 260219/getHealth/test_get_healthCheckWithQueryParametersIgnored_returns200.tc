@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_get_healthCheckWithQueryParametersIgnored_returns200</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>038818df-51de-4792-a756-17a953efd7c5</testCaseGuid>
+</TestCaseEntity>

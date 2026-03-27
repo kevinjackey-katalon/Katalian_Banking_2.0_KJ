@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_get_getLoansAfterLoanWithMinimumRequiredFieldsCreated_returns200</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>39b6b02c-5c8c-4280-98b9-6f19e5b0ff50</testCaseGuid>
+</TestCaseEntity>

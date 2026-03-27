@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApiCollectionEntity>
+   <description>API collection folder</description>
+   <name>Katalian Bank API</name>
+   <tag></tag>
+   <folderType>WEBELEMENT</folderType>
+   <collectionType>OPENAPI_3_0</collectionType>
+   <openApiSpecFileName>katalian-bank-compliance-openapi.yaml</openApiSpecFileName>
+</ApiCollectionEntity>

@@ -1,0 +1,1332 @@
+openapi: 3.0.3
+info:
+  title: Katalian Bank API
+  description: |
+    Mock API for Katalian Bank testing purposes.
+    
+    ## Overview
+    This API provides endpoints for managing banking operations including:
+    - User management
+    - Fund transfers between accounts
+    - Deposits
+    - Account applications
+    - Loan applications
+    
+    ## Contract Testing
+    This specification is designed for **compliance/contract testing** and enforces:
+    - Strict schema validation (`additionalProperties: false`)
+    - Required field enforcement
+    - Data type and format validation
+    - Pattern matching for structured fields (ZIP, dates, IDs)
+    - Enum validation for categorical fields
+    
+    **Compatible Tools:** Dredd, Pact, Prism, Schemathesis, Postman Contract Tests, Katalon
+    
+    ## Required Headers
+    
+    **All POST requests MUST include:**
+    ```
+    Content-Type: application/json
+    ```
+    
+    | Header | Value | Required For |
+    |--------|-------|--------------|
+    | Content-Type | application/json | All POST requests |
+    | Accept | application/json | All requests (optional) |
+    
+    ## Date Formats
+    All date fields must use **ISO 8601** format:
+    - Date only: `YYYY-MM-DD` (e.g., `1990-05-14`)
+    - DateTime: `YYYY-MM-DDTHH:mm:ssZ` (e.g., `2026-02-19T10:30:00Z`)
+    
+    ## Authentication
+    This mock server does not require authentication. In a production environment,
+    appropriate authentication mechanisms would be implemented.
+    
+    ## Test Data
+    The server comes pre-loaded with test users and accounts for testing purposes.
+  version: 1.0.0
+  contact:
+    name: Katalian Bank Support
+    email: support@katalian.com
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+
+servers:
+  - url: http://localhost:3000/api
+    description: Local Mock Server
+
+tags:
+  - name: Users
+    description: User management operations
+  - name: Transfers
+    description: Fund transfer operations
+  - name: Deposits
+    description: Deposit operations
+  - name: Applications
+    description: Account application operations
+  - name: Loans
+    description: Loan application operations
+  - name: Health
+    description: Server health check
+
+paths:
+  /health:
+    get:
+      tags:
+        - Health
+      summary: Health check
+      description: Returns server health status
+      operationId: getHealth
+      responses:
+        '200':
+          description: Server is healthy
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthResponse'
+              example:
+                status: ok
+                timestamp: "2026-02-19T10:30:00.000Z"
+
+  /users:
+    get:
+      tags:
+        - Users
+      summary: Get all users
+      description: Retrieves a list of all users in the system
+      operationId: getUsers
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/User'
+              example:
+                - id: user1
+                  username: bankinguser123
+                  firstName: John
+                  lastName: Doe
+                  email: john.doe@example.com
+                  locked: false
+                  accounts:
+                    - id: acc1-1
+                      type: Checking
+                      balance: 5000.00
+                      accountNumber: "****1234"
+                    - id: acc1-2
+                      type: Savings
+                      balance: 15000.00
+                      accountNumber: "****5678"
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error: An unexpected error occurred
+                code: INTERNAL_ERROR
+
+  /users/{id}:
+    get:
+      tags:
+        - Users
+      summary: Get user by ID
+      description: Retrieves a single user by their unique identifier
+      operationId: getUserById
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: Unique user identifier
+          schema:
+            type: string
+          examples:
+            user1:
+              value: user1
+              summary: Active user with multiple accounts
+            user2:
+              value: user2
+              summary: Active user with single account
+            user4:
+              value: user4
+              summary: Locked user account
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+              example:
+                id: user1
+                username: bankinguser123
+                firstName: John
+                lastName: Doe
+                email: john.doe@example.com
+                locked: false
+                accounts:
+                  - id: acc1-1
+                    type: Checking
+                    balance: 5000.00
+                    accountNumber: "****1234"
+                  - id: acc1-2
+                    type: Savings
+                    balance: 15000.00
+                    accountNumber: "****5678"
+        '404':
+          description: User not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error: User not found
+                code: USER_NOT_FOUND
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error: An unexpected error occurred
+                code: INTERNAL_ERROR
+
+  /transfers:
+    get:
+      tags:
+        - Transfers
+      summary: List all transfers
+      description: Retrieves a list of all transfer transactions
+      operationId: getTransfers
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Transfer'
+    post:
+      tags:
+        - Transfers
+      summary: Execute fund transfer
+      description: |
+        Transfers funds between two accounts.
+        
+        **Required Header:** `Content-Type: application/json`
+        
+        **Business Rules:**
+        - Source account must have sufficient balance
+        - Cannot transfer to the same account
+        - Amount must be positive
+        - Both accounts must exist
+      operationId: createTransfer
+      parameters:
+        - name: Content-Type
+          in: header
+          required: true
+          schema:
+            type: string
+            default: application/json
+          description: Must be application/json
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TransferRequest'
+            examples:
+              validTransfer:
+                summary: Valid transfer between accounts
+                value:
+                  fromAccountId: acc1-1
+                  toAccountId: acc1-2
+                  amount: 100.00
+              minimumTransfer:
+                summary: Minimum transfer amount
+                value:
+                  fromAccountId: acc1-1
+                  toAccountId: acc1-2
+                  amount: 0.01
+      responses:
+        '200':
+          description: Transfer successful
+          headers:
+            X-Request-Id:
+              description: Unique request identifier for tracing
+              schema:
+                type: string
+                pattern: '^[a-f0-9-]{36}$'
+                example: 550e8400-e29b-41d4-a716-446655440000
+            X-Response-Time:
+              description: Response time in milliseconds
+              schema:
+                type: integer
+                minimum: 0
+                example: 45
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TransferResponse'
+              example:
+                success: true
+                transfer:
+                  id: txn-abc123
+                  fromAccountId: acc1-1
+                  toAccountId: acc1-2
+                  amount: 100.00
+                  timestamp: "2026-02-19T10:30:00.000Z"
+                message: Transfer completed successfully
+        '400':
+          description: Bad request - validation error or business rule violation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              examples:
+                insufficientFunds:
+                  summary: Insufficient funds
+                  value:
+                    error: Insufficient funds in source account
+                    code: INSUFFICIENT_FUNDS
+                sameAccount:
+                  summary: Same account transfer
+                  value:
+                    error: Cannot transfer to the same account
+                    code: SAME_ACCOUNT
+                invalidAmount:
+                  summary: Invalid amount
+                  value:
+                    error: Amount must be a positive number
+                    code: INVALID_AMOUNT
+                missingFields:
+                  summary: Missing required fields
+                  value:
+                    error: "Missing required fields: fromAccountId, toAccountId, amount"
+                    code: MISSING_FIELDS
+        '404':
+          description: Account not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error: Source account not found
+                code: ACCOUNT_NOT_FOUND
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error: An unexpected error occurred
+                code: INTERNAL_ERROR
+    post:
+      tags:
+        - Deposits
+      summary: Execute deposit
+      description: |
+        Deposits funds into an account.
+        
+        **Required Header:** `Content-Type: application/json`
+        
+        **Business Rules:**
+        - Amount must be positive
+        - Target account must exist
+      operationId: createDeposit
+      parameters:
+        - name: Content-Type
+          in: header
+          required: true
+          schema:
+            type: string
+            default: application/json
+          description: Must be application/json
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DepositRequest'
+            examples:
+              validDeposit:
+                summary: Valid deposit
+                value:
+                  toAccountId: acc1-1
+                  amount: 500.00
+              largeDeposit:
+                summary: Large deposit
+                value:
+                  toAccountId: acc1-2
+                  amount: 10000.00
+      responses:
+        '200':
+          description: Deposit successful
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DepositResponse'
+              example:
+                success: true
+                deposit:
+                  id: dep-xyz789
+                  toAccountId: acc1-1
+                  amount: 500.00
+                  newBalance: 5500.00
+                  timestamp: "2026-02-19T10:30:00.000Z"
+                message: Deposit completed successfully
+        '400':
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              examples:
+                invalidAmount:
+                  summary: Invalid amount
+                  value:
+                    error: Amount must be a positive number
+                missingFields:
+                  summary: Missing required fields
+                  value:
+                    error: "Missing required fields: toAccountId, amount"
+        '404':
+          description: Account not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error: Account not found
+                code: ACCOUNT_NOT_FOUND
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error: An unexpected error occurred
+                code: INTERNAL_ERROR
+
+  /applications:
+    get:
+      tags:
+        - Applications
+      summary: List all applications
+      description: Retrieves a list of all account applications
+      operationId: getApplications
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Application'
+    post:
+      tags:
+        - Applications
+      summary: Submit account application
+      description: |
+        Submits a new account application.
+        
+        **Required Header:** `Content-Type: application/json`
+        
+        **Account Types:**
+        - Checking
+        - Savings
+        - Credit Card
+        - Platinum Credit Card
+        
+        **Business Rules:**
+        - First name and last name are required
+        - Account type must be valid
+        - Credit cards are created with "Pending" status
+        - Date of birth must be in ISO format: `YYYY-MM-DD`
+      operationId: createApplication
+      parameters:
+        - name: Content-Type
+          in: header
+          required: true
+          schema:
+            type: string
+            default: application/json
+          description: Must be application/json
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ApplicationRequest'
+            examples:
+              checkingAccount:
+                summary: Checking account application
+                value:
+                  accountType: Checking
+                  applicationData:
+                    firstName: John
+                    lastName: Doe
+                    middleName: Michael
+                    dob: "1990-05-15"
+                    address: "123 Main St"
+                    city: "New York"
+                    state: "New York"
+                    zip: "10001"
+                    initialDeposit: 1000.00
+              savingsAccount:
+                summary: Savings account application
+                value:
+                  accountType: Savings
+                  applicationData:
+                    firstName: Jane
+                    lastName: Smith
+                    initialDeposit: 5000.00
+              creditCard:
+                summary: Credit card application
+                value:
+                  accountType: Credit Card
+                  applicationData:
+                    firstName: Bob
+                    lastName: Wilson
+                    dob: "1985-08-20"
+                    address: "456 Oak Ave"
+                    city: "Los Angeles"
+                    state: "California"
+                    zip: "90001"
+      responses:
+        '201':
+          description: Application submitted successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Application'
+              examples:
+                checkingApproved:
+                  summary: Checking account approved
+                  value:
+                    id: app-abc123
+                    accountType: Checking
+                    applicationData:
+                      firstName: John
+                      lastName: Doe
+                    status: Approved
+                    createdAt: "2026-02-19T10:30:00.000Z"
+                creditPending:
+                  summary: Credit card pending review
+                  value:
+                    id: app-def456
+                    accountType: Credit Card
+                    applicationData:
+                      firstName: Bob
+                      lastName: Wilson
+                    status: Pending
+                    createdAt: "2026-02-19T10:30:00.000Z"
+        '400':
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              examples:
+                invalidAccountType:
+                  summary: Invalid account type
+                  value:
+                    error: "Invalid accountType. Must be one of: Checking, Savings, Credit Card, Platinum Credit Card"
+                missingFields:
+                  summary: Missing required fields
+                  value:
+                    error: "Missing required fields: firstName, lastName"
+                    code: MISSING_FIELDS
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error: An unexpected error occurred
+                code: INTERNAL_ERROR
+
+  /loans:
+    get:
+      tags:
+        - Loans
+      summary: List all loans
+      description: Retrieves a list of all loan applications
+      operationId: getLoans
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Loan'
+    post:
+      tags:
+        - Loans
+      summary: Submit loan application
+      description: |
+        Submits a new loan application.
+        
+        **Required Header:** `Content-Type: application/json`
+        
+        **Loan Types & Interest Rates:**
+        - Personal: 5.99% APR
+        - Auto: 4.25% APR
+        - Mortgage: 6.45% APR
+        
+        **Loan Terms:**
+        - 12 months
+        - 24 months
+        - 36 months
+        
+        **Business Rules:**
+        - Loan amount must be positive
+        - Loan term must be valid (12, 24, or 36 months)
+        - All loans are created with "Pending" status
+        - Date of birth must be in ISO format: `YYYY-MM-DD`
+      operationId: createLoan
+      parameters:
+        - name: Content-Type
+          in: header
+          required: true
+          schema:
+            type: string
+            default: application/json
+          description: Must be application/json
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoanRequest'
+            examples:
+              personalLoan:
+                summary: Personal loan application
+                value:
+                  loanType: Personal
+                  loanData:
+                    firstName: John
+                    lastName: Doe
+                    dob: "1990-05-15"
+                    address: "123 Main St"
+                    city: "New York"
+                    state: "New York"
+                    zip: "10001"
+                    employer: "Tech Corp"
+                    jobTitle: "Software Engineer"
+                    annualIncome: 85000
+                    loanAmount: 10000
+                    loanTerm: 36
+                    purpose: "Home improvement"
+              autoLoan:
+                summary: Auto loan application
+                value:
+                  loanType: Auto
+                  loanData:
+                    firstName: Jane
+                    lastName: Smith
+                    employer: "Finance Inc"
+                    jobTitle: "Analyst"
+                    annualIncome: 75000
+                    loanAmount: 25000
+                    loanTerm: 24
+                    purpose: "New vehicle purchase"
+              mortgageLoan:
+                summary: Mortgage loan application
+                value:
+                  loanType: Mortgage
+                  loanData:
+                    firstName: Bob
+                    lastName: Wilson
+                    employer: "Healthcare LLC"
+                    jobTitle: "Doctor"
+                    annualIncome: 150000
+                    loanAmount: 350000
+                    loanTerm: 36
+                    purpose: "Primary residence"
+      responses:
+        '201':
+          description: Loan application submitted successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Loan'
+              example:
+                id: loan-abc123
+                loanType: Personal
+                loanData:
+                  firstName: John
+                  lastName: Doe
+                  loanAmount: 10000
+                  loanTerm: 36
+                status: Pending
+                interestRate: 5.99
+                createdAt: "2026-02-19T10:30:00.000Z"
+        '400':
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              examples:
+                invalidLoanType:
+                  summary: Invalid loan type
+                  value:
+                    error: "Invalid loanType. Must be one of: Personal, Auto, Mortgage"
+                missingFields:
+                  summary: Missing required fields
+                  value:
+                    error: "Missing required fields: loanAmount, loanTerm"
+                    code: MISSING_FIELDS
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error: An unexpected error occurred
+                code: INTERNAL_ERROR
+
+components:
+  schemas:
+    User:
+      type: object
+      additionalProperties: false
+      required:
+        - id
+        - username
+        - accounts
+        - locked
+      properties:
+        id:
+          type: string
+          description: Unique user identifier
+          minLength: 1
+          maxLength: 50
+          pattern: '^user[0-9]+$'
+          example: user1
+        username:
+          type: string
+          description: User's login username
+          minLength: 3
+          maxLength: 50
+          pattern: '^[a-zA-Z0-9_]+$'
+          example: bankinguser123
+        firstName:
+          type: string
+          description: User's first name
+          minLength: 1
+          maxLength: 100
+          nullable: true
+          example: John
+        lastName:
+          type: string
+          description: User's last name
+          minLength: 1
+          maxLength: 100
+          nullable: true
+          example: Doe
+        email:
+          type: string
+          format: email
+          description: User's email address
+          nullable: true
+          example: john.doe@example.com
+        locked:
+          type: boolean
+          description: Whether the account is locked
+          default: false
+          example: false
+        accounts:
+          type: array
+          description: List of user's bank accounts
+          items:
+            $ref: '#/components/schemas/Account'
+
+    Account:
+      type: object
+      additionalProperties: false
+      required:
+        - id
+        - type
+        - balance
+        - accountNumber
+      properties:
+        id:
+          type: string
+          description: Unique account identifier
+          minLength: 1
+          maxLength: 50
+          pattern: '^acc[0-9]+-[0-9]+$'
+          example: acc1-1
+        type:
+          type: string
+          enum:
+            - Checking
+            - Savings
+            - Credit Card
+            - Platinum Credit Card
+          description: Type of bank account
+          example: Checking
+        balance:
+          type: number
+          format: double
+          minimum: 0
+          description: Current account balance
+          example: 5000.00
+        accountNumber:
+          type: string
+          description: Masked account number
+          pattern: '^\*{4}[0-9]{4}$'
+          minLength: 8
+          maxLength: 8
+          example: "****1234"
+        status:
+          type: string
+          enum:
+            - Active
+            - Pending
+            - Frozen
+          description: Account status
+          nullable: true
+          example: Active
+
+    TransferRequest:
+      type: object
+      additionalProperties: false
+      required:
+        - fromAccountId
+        - toAccountId
+        - amount
+      properties:
+        fromAccountId:
+          type: string
+          description: Source account ID
+          minLength: 1
+          maxLength: 50
+          pattern: '^acc[0-9]+-[0-9]+$'
+          example: acc1-1
+        toAccountId:
+          type: string
+          description: Destination account ID
+          minLength: 1
+          maxLength: 50
+          pattern: '^acc[0-9]+-[0-9]+$'
+          example: acc1-2
+        amount:
+          type: number
+          format: double
+          minimum: 0.01
+          maximum: 1000000
+          description: Amount to transfer
+          example: 100.00
+
+    TransferResponse:
+      type: object
+      additionalProperties: false
+      required:
+        - success
+      properties:
+        success:
+          type: boolean
+          description: Whether the transfer was successful
+          example: true
+        transfer:
+          $ref: '#/components/schemas/Transfer'
+        message:
+          type: string
+          description: Response message
+          minLength: 1
+          maxLength: 500
+          example: Transfer completed successfully
+
+    Transfer:
+      type: object
+      additionalProperties: false
+      required:
+        - id
+        - fromAccountId
+        - toAccountId
+        - amount
+        - timestamp
+      properties:
+        id:
+          type: string
+          description: Unique transfer ID
+          minLength: 1
+          maxLength: 50
+          pattern: '^txn-[a-z0-9]+$'
+          example: txn-abc123
+        fromAccountId:
+          type: string
+          description: Source account ID
+          minLength: 1
+          maxLength: 50
+          example: acc1-1
+        toAccountId:
+          type: string
+          description: Destination account ID
+          minLength: 1
+          maxLength: 50
+          example: acc1-2
+        amount:
+          type: number
+          format: double
+          minimum: 0.01
+          description: Transfer amount
+          example: 100.00
+        timestamp:
+          type: string
+          format: date-time
+          description: When the transfer occurred
+          example: "2026-02-19T10:30:00.000Z"
+
+    DepositRequest:
+      type: object
+      additionalProperties: false
+      required:
+        - toAccountId
+        - amount
+      properties:
+        toAccountId:
+          type: string
+          description: Target account ID
+          minLength: 1
+          maxLength: 50
+          pattern: '^acc[0-9]+-[0-9]+$'
+          example: acc1-1
+        amount:
+          type: number
+          format: double
+          minimum: 0.01
+          maximum: 1000000
+          description: Amount to deposit
+          example: 500.00
+
+    DepositResponse:
+      type: object
+      additionalProperties: false
+      required:
+        - success
+      properties:
+        success:
+          type: boolean
+          description: Whether the deposit was successful
+          example: true
+        deposit:
+          type: object
+          additionalProperties: false
+          required:
+            - id
+            - toAccountId
+            - amount
+            - newBalance
+            - timestamp
+          properties:
+            id:
+              type: string
+              minLength: 1
+              maxLength: 50
+              pattern: '^dep-[a-z0-9]+$'
+              example: dep-xyz789
+            toAccountId:
+              type: string
+              minLength: 1
+              maxLength: 50
+              example: acc1-1
+            amount:
+              type: number
+              format: double
+              minimum: 0.01
+              example: 500.00
+            newBalance:
+              type: number
+              format: double
+              minimum: 0
+              example: 5500.00
+            timestamp:
+              type: string
+              format: date-time
+              example: "2026-02-19T10:30:00.000Z"
+        message:
+          type: string
+          minLength: 1
+          maxLength: 500
+          example: Deposit completed successfully
+
+    ApplicationRequest:
+      type: object
+      additionalProperties: false
+      required:
+        - accountType
+        - applicationData
+      properties:
+        accountType:
+          type: string
+          enum:
+            - Checking
+            - Savings
+            - Credit Card
+            - Platinum Credit Card
+          description: Type of account to apply for
+          example: Checking
+        applicationData:
+          $ref: '#/components/schemas/ApplicationData'
+
+    ApplicationData:
+      type: object
+      additionalProperties: false
+      required:
+        - firstName
+        - lastName
+      properties:
+        firstName:
+          type: string
+          description: Applicant's first name
+          minLength: 1
+          maxLength: 100
+          pattern: '^[a-zA-Z\s\-]+$'
+          example: John
+        middleName:
+          type: string
+          description: Applicant's middle name (optional)
+          minLength: 1
+          maxLength: 100
+          pattern: '^[a-zA-Z\s\-]+$'
+          nullable: true
+          example: Michael
+        lastName:
+          type: string
+          description: Applicant's last name
+          minLength: 1
+          maxLength: 100
+          pattern: '^[a-zA-Z\s\-]+$'
+          example: Doe
+        dob:
+          type: string
+          format: date
+          description: Date of birth (ISO format YYYY-MM-DD)
+          pattern: '^\d{4}-\d{2}-\d{2}$'
+          nullable: true
+          example: "1990-05-15"
+        address:
+          type: string
+          description: Street address
+          minLength: 1
+          maxLength: 200
+          nullable: true
+          example: "123 Main St"
+        city:
+          type: string
+          description: City
+          minLength: 1
+          maxLength: 100
+          nullable: true
+          example: New York
+        state:
+          type: string
+          description: US State
+          minLength: 2
+          maxLength: 50
+          nullable: true
+          example: New York
+        zip:
+          type: string
+          pattern: '^\d{5}$'
+          description: 5-digit ZIP code
+          nullable: true
+          example: "10001"
+        initialDeposit:
+          type: number
+          format: double
+          minimum: 0
+          maximum: 1000000
+          description: Initial deposit amount (for Checking/Savings)
+          nullable: true
+          example: 1000.00
+        depositFromAccountId:
+          type: string
+          description: Account ID to transfer initial deposit from (optional)
+          minLength: 1
+          maxLength: 50
+          nullable: true
+          example: acc1-1
+
+    Application:
+      type: object
+      additionalProperties: false
+      required:
+        - id
+        - accountType
+        - applicationData
+        - status
+        - createdAt
+      properties:
+        id:
+          type: string
+          description: Unique application ID
+          minLength: 1
+          maxLength: 50
+          pattern: '^app-[a-z0-9]+$'
+          example: app-abc123
+        accountType:
+          type: string
+          enum:
+            - Checking
+            - Savings
+            - Credit Card
+            - Platinum Credit Card
+          example: Checking
+        applicationData:
+          $ref: '#/components/schemas/ApplicationData'
+        status:
+          type: string
+          enum:
+            - Pending
+            - Approved
+            - Rejected
+          description: Application status
+          example: Approved
+        createdAt:
+          type: string
+          format: date-time
+          description: ISO 8601 timestamp
+          example: "2026-02-19T10:30:00.000Z"
+
+    LoanRequest:
+      type: object
+      additionalProperties: false
+      required:
+        - loanType
+        - loanData
+      properties:
+        loanType:
+          type: string
+          enum:
+            - Personal
+            - Auto
+            - Mortgage
+          description: Type of loan
+          example: Personal
+        loanData:
+          $ref: '#/components/schemas/LoanData'
+
+    LoanData:
+      type: object
+      additionalProperties: false
+      required:
+        - firstName
+        - lastName
+        - loanAmount
+        - loanTerm
+      properties:
+        firstName:
+          type: string
+          description: Applicant's first name
+          minLength: 1
+          maxLength: 100
+          pattern: '^[a-zA-Z\s\-]+$'
+          example: John
+        lastName:
+          type: string
+          description: Applicant's last name
+          minLength: 1
+          maxLength: 100
+          pattern: '^[a-zA-Z\s\-]+$'
+          example: Doe
+        dob:
+          type: string
+          format: date
+          description: Date of birth (ISO format YYYY-MM-DD)
+          pattern: '^\d{4}-\d{2}-\d{2}$'
+          nullable: true
+          example: "1990-05-15"
+        address:
+          type: string
+          description: Street address
+          minLength: 1
+          maxLength: 200
+          nullable: true
+          example: "123 Main St"
+        city:
+          type: string
+          description: City
+          minLength: 1
+          maxLength: 100
+          nullable: true
+          example: New York
+        state:
+          type: string
+          description: US State
+          minLength: 2
+          maxLength: 50
+          nullable: true
+          example: New York
+        zip:
+          type: string
+          pattern: '^\d{5}$'
+          description: 5-digit ZIP code
+          nullable: true
+          example: "10001"
+        employer:
+          type: string
+          description: Current employer name
+          minLength: 1
+          maxLength: 200
+          nullable: true
+          example: Tech Corp
+        jobTitle:
+          type: string
+          description: Current job title
+          minLength: 1
+          maxLength: 100
+          nullable: true
+          example: Software Engineer
+        annualIncome:
+          type: number
+          format: double
+          minimum: 0
+          maximum: 100000000
+          description: Annual income in USD
+          nullable: true
+          example: 85000
+        loanAmount:
+          type: number
+          format: double
+          minimum: 100
+          maximum: 10000000
+          description: Requested loan amount
+          example: 10000
+        loanTerm:
+          type: integer
+          enum:
+            - 12
+            - 24
+            - 36
+          description: Loan term in months
+          example: 36
+        purpose:
+          type: string
+          description: Purpose of the loan
+          minLength: 1
+          maxLength: 500
+          nullable: true
+          example: Home improvement
+
+    Loan:
+      type: object
+      additionalProperties: false
+      required:
+        - id
+        - loanType
+        - loanData
+        - status
+        - interestRate
+        - createdAt
+      properties:
+        id:
+          type: string
+          description: Unique loan ID
+          minLength: 1
+          maxLength: 50
+          pattern: '^loan-[a-z0-9]+$'
+          example: loan-abc123
+        loanType:
+          type: string
+          enum:
+            - Personal
+            - Auto
+            - Mortgage
+          example: Personal
+        loanData:
+          $ref: '#/components/schemas/LoanData'
+        status:
+          type: string
+          enum:
+            - Pending
+            - Approved
+            - Active
+            - Rejected
+          description: Loan status
+          example: Pending
+        interestRate:
+          type: number
+          format: double
+          minimum: 0
+          maximum: 100
+          description: Interest rate (APR)
+          example: 5.99
+        createdAt:
+          type: string
+          format: date-time
+          description: ISO 8601 timestamp
+          example: "2026-02-19T10:30:00.000Z"
+
+    HealthResponse:
+      type: object
+      additionalProperties: false
+      required:
+        - status
+        - timestamp
+      properties:
+        status:
+          type: string
+          enum:
+            - ok
+            - error
+          example: ok
+        timestamp:
+          type: string
+          format: date-time
+          example: "2026-02-19T10:30:00.000Z"
+
+    Error:
+      type: object
+      additionalProperties: false
+      required:
+        - error
+      properties:
+        error:
+          type: string
+          description: Error message
+          minLength: 1
+          maxLength: 1000
+          example: Something went wrong
+        code:
+          type: string
+          description: Error code for programmatic handling
+          minLength: 1
+          maxLength: 50
+          nullable: true
+          example: VALIDATION_ERROR
+        details:
+          type: array
+          description: Additional error details
+          nullable: true
+          items:
+            type: object
+            additionalProperties: false
+            properties:
+              field:
+                type: string
+                description: Field that caused the error
+                example: amount
+              message:
+                type: string
+                description: Detailed error message
+                example: Amount must be greater than 0

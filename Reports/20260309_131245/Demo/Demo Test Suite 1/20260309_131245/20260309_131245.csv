@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo Test Suite 1,Chrome 145.0.7632.160,,,09-03-2026 13:12:48,09-03-2026 13:12:54,6.683s,PASSED
+,,,,,,,
+Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script,Chrome 145.0.7632.160,,,09-03-2026 13:12:48,09-03-2026 13:12:51,3.703s,PASSED
+"DATA BINDING - {""password"":""notapassword@123"",""username"":""bankinguser123""}",,,,,,,
+openBrowser(application_domain),Chrome 145.0.7632.160,,,09-03-2026 13:12:48,09-03-2026 13:12:50,1.797s,PASSED
+"navigateToUrl(""https://katalian-banking.vercel.app/login"")",Chrome 145.0.7632.160,,,09-03-2026 13:12:50,09-03-2026 13:12:50,0.584s,PASSED
+"setText(findTestObject(""Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username""), ""bankinguser123"")",Chrome 145.0.7632.160,,,09-03-2026 13:12:50,09-03-2026 13:12:51,0.886s,PASSED
+"setEncryptedText(findTestObject(""Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password""), ""CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo"")",Chrome 145.0.7632.160,,,09-03-2026 13:12:51,09-03-2026 13:12:51,0.264s,PASSED
+"click(findTestObject(""Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access""))",Chrome 145.0.7632.160,,,09-03-2026 13:12:51,09-03-2026 13:12:51,0.051s,PASSED
+closeBrowser(),Chrome 145.0.7632.160,,,09-03-2026 13:12:51,09-03-2026 13:12:51,0.090s,PASSED
+Start listener action : closeAppOnTestCaseFailure,Chrome 145.0.7632.160,,,09-03-2026 13:12:51,09-03-2026 13:12:51,0.005s,PASSED
+,,,,,,,
+Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script,Chrome 145.0.7632.160,,,09-03-2026 13:12:51,09-03-2026 13:12:54,2.910s,PASSED
+"DATA BINDING - {""password"":""resetpassword@45"",""username"":""lockedout25""}",,,,,,,
+openBrowser(application_domain),Chrome 145.0.7632.160,,,09-03-2026 13:12:51,09-03-2026 13:12:53,1.094s,PASSED
+"navigateToUrl(""https://katalian-banking.vercel.app/login"")",Chrome 145.0.7632.160,,,09-03-2026 13:12:53,09-03-2026 13:12:53,0.464s,PASSED
+"setText(findTestObject(""Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username""), ""bankinguser123"")",Chrome 145.0.7632.160,,,09-03-2026 13:12:53,09-03-2026 13:12:54,0.946s,PASSED
+"setEncryptedText(findTestObject(""Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password""), ""CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo"")",Chrome 145.0.7632.160,,,09-03-2026 13:12:54,09-03-2026 13:12:54,0.260s,PASSED
+"click(findTestObject(""Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access""))",Chrome 145.0.7632.160,,,09-03-2026 13:12:54,09-03-2026 13:12:54,0.049s,PASSED
+closeBrowser(),Chrome 145.0.7632.160,,,09-03-2026 13:12:54,09-03-2026 13:12:54,0.087s,PASSED
+Start listener action : closeAppOnTestCaseFailure,Chrome 145.0.7632.160,,,09-03-2026 13:12:54,09-03-2026 13:12:54,0.001s,PASSED
+,,,,,,,
+Start listener action : closeAppOnTestSuiteFailure,Chrome 145.0.7632.160,,,09-03-2026 13:12:54,09-03-2026 13:12:54,0.009s,PASSED

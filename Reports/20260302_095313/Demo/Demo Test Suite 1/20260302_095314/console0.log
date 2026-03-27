@@ -1,0 +1,26 @@
+2026-03-02 09:53:15.715 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio 11.0.0.app/Contents/Eclipse/configuration/org.eclipse.osgi/148/0/.cp/resources/logback/logback-execution.xml
+2026-03-02 09:53:15.716 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ/Include/config/log.properties
+2026-03-02 09:53:15.750 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Demo/Demo Test Suite 1
+2026-03-02 09:53:15.774 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Kevin Jackey
+2026-03-02 09:53:15.774 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TrueTestGen4Project
+2026-03-02 09:53:15.774 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = kevin.jackey - 192.168.1.222
+2026-03-02 09:53:15.775 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-03-02 09:53:15.775 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.222
+2026-03-02 09:53:15.776 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.1.0
+2026-03-02 09:53:15.898 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-02 09:53:15.899 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script
+2026-03-02 09:53:15.916 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) username = bankinguser123
+2026-03-02 09:53:15.921 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) password = notapassword@123
+2026-03-02 09:53:15.995 DEBUG testcase.Login - Working Script          - 1: openBrowser(application_domain)
+2026-03-02 09:53:16.083 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-03-02 09:53:16.098 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 02, 2026 9:53:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-02 09:53:18.760 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = fa8f31a9ec35724c2905fed8b9b30e59
+2026-03-02 09:53:18.761 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7632.117
+2026-03-02 09:53:18.761 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-03-02 09:53:18.761 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-02 09:53:18.764 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-02 09:53:19.544 DEBUG testcase.Login - Working Script          - 2: navigateToUrl("https://katalian-banking.vercel.app/login")
+2026-03-02 09:53:19.703 DEBUG testcase.Login - Working Script          - 3: setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username"), "bankinguser123")
+2026-03-02 09:53:20.840 DEBUG testcase.Login - Working Script          - 4: setEncryptedText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo")

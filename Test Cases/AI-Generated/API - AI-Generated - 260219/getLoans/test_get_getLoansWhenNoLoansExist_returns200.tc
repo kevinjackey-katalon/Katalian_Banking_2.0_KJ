@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_get_getLoansWhenNoLoansExist_returns200</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d4a200b0-2b8a-4cd1-95b6-33b923cf7014</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,1023 @@
+openapi: 3.0.3
+info:
+  title: Katalian Bank API
+  description: |
+    Mock API for Katalian Bank testing purposes.
+    
+    ## Overview
+    This API provides endpoints for managing banking operations including:
+    - User management
+    - Fund transfers between accounts
+    - Deposits
+    - Account applications
+    - Loan applications
+    
+    ## Required Headers
+    
+    **All POST requests MUST include:**
+    ```
+    Content-Type: application/json
+    ```
+    
+    | Header | Value | Required For |
+    |--------|-------|--------------|
+    | Content-Type | application/json | All POST requests |
+    | Accept | application/json | All requests (optional) |
+    
+    ## Date Formats
+    All date fields must use **ISO 8601** format:
+    - Date only: `YYYY-MM-DD` (e.g., `1990-05-14`)
+    - DateTime: `YYYY-MM-DDTHH:mm:ssZ` (e.g., `2026-02-19T10:30:00Z`)
+    
+    ## Authentication
+    This mock server does not require authentication. In a production environment,
+    appropriate authentication mechanisms would be implemented.
+    
+    ## Test Data
+    The server comes pre-loaded with test users and accounts for testing purposes.
+  version: 1.0.0
+  contact:
+    name: Katalian Bank Support
+    email: support@katalian.com
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+
+servers:
+  - url: http://localhost:3000/api
+    description: Local Mock Server
+
+tags:
+  - name: Users
+    description: User management operations
+  - name: Transfers
+    description: Fund transfer operations
+  - name: Deposits
+    description: Deposit operations
+  - name: Applications
+    description: Account application operations
+  - name: Loans
+    description: Loan application operations
+  - name: Health
+    description: Server health check
+
+paths:
+  /health:
+    get:
+      tags:
+        - Health
+      summary: Health check
+      description: Returns server health status
+      operationId: getHealth
+      responses:
+        '200':
+          description: Server is healthy
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthResponse'
+              example:
+                status: ok
+                timestamp: "2026-02-19T10:30:00.000Z"
+
+  /users:
+    get:
+      tags:
+        - Users
+      summary: Get all users
+      description: Retrieves a list of all users in the system
+      operationId: getUsers
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/User'
+              example:
+                - id: user1
+                  username: bankinguser123
+                  firstName: John
+                  lastName: Doe
+                  email: john.doe@example.com
+                  locked: false
+                  accounts:
+                    - id: acc1-1
+                      type: Checking
+                      balance: 5000.00
+                      accountNumber: "****1234"
+                    - id: acc1-2
+                      type: Savings
+                      balance: 15000.00
+                      accountNumber: "****5678"
+
+  /users/{id}:
+    get:
+      tags:
+        - Users
+      summary: Get user by ID
+      description: Retrieves a single user by their unique identifier
+      operationId: getUserById
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: Unique user identifier
+          schema:
+            type: string
+          examples:
+            user1:
+              value: user1
+              summary: Active user with multiple accounts
+            user2:
+              value: user2
+              summary: Active user with single account
+            user4:
+              value: user4
+              summary: Locked user account
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+              example:
+                id: user1
+                username: bankinguser123
+                firstName: John
+                lastName: Doe
+                email: john.doe@example.com
+                locked: false
+                accounts:
+                  - id: acc1-1
+                    type: Checking
+                    balance: 5000.00
+                    accountNumber: "****1234"
+                  - id: acc1-2
+                    type: Savings
+                    balance: 15000.00
+                    accountNumber: "****5678"
+        '404':
+          description: User not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error: User not found
+
+  /transfers:
+    get:
+      tags:
+        - Transfers
+      summary: List all transfers
+      description: Retrieves a list of all transfer transactions
+      operationId: getTransfers
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Transfer'
+    post:
+      tags:
+        - Transfers
+      summary: Execute fund transfer
+      description: |
+        Transfers funds between two accounts.
+        
+        **Required Header:** `Content-Type: application/json`
+        
+        **Business Rules:**
+        - Source account must have sufficient balance
+        - Cannot transfer to the same account
+        - Amount must be positive
+        - Both accounts must exist
+      operationId: createTransfer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TransferRequest'
+            examples:
+              validTransfer:
+                summary: Valid transfer between accounts
+                value:
+                  fromAccountId: acc1-1
+                  toAccountId: acc1-2
+                  amount: 100.00
+              minimumTransfer:
+                summary: Minimum transfer amount
+                value:
+                  fromAccountId: acc1-1
+                  toAccountId: acc1-2
+                  amount: 0.01
+      responses:
+        '200':
+          description: Transfer successful
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TransferResponse'
+              example:
+                success: true
+                transfer:
+                  id: txn-abc123
+                  fromAccountId: acc1-1
+                  toAccountId: acc1-2
+                  amount: 100.00
+                  timestamp: "2026-02-19T10:30:00.000Z"
+                message: Transfer completed successfully
+        '400':
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              examples:
+                insufficientFunds:
+                  summary: Insufficient funds
+                  value:
+                    error: Insufficient funds in source account
+                sameAccount:
+                  summary: Same account transfer
+                  value:
+                    error: Cannot transfer to the same account
+                invalidAmount:
+                  summary: Invalid amount
+                  value:
+                    error: Amount must be a positive number
+                missingFields:
+                  summary: Missing required fields
+                  value:
+                    error: "Missing required fields: fromAccountId, toAccountId, amount"
+        '404':
+          description: Account not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error: Source account not found
+
+  /deposits:
+    post:
+      tags:
+        - Deposits
+      summary: Execute deposit
+      description: |
+        Deposits funds into an account.
+        
+        **Required Header:** `Content-Type: application/json`
+        
+        **Business Rules:**
+        - Amount must be positive
+        - Target account must exist
+      operationId: createDeposit
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DepositRequest'
+            examples:
+              validDeposit:
+                summary: Valid deposit
+                value:
+                  toAccountId: acc1-1
+                  amount: 500.00
+              largeDeposit:
+                summary: Large deposit
+                value:
+                  toAccountId: acc1-2
+                  amount: 10000.00
+      responses:
+        '200':
+          description: Deposit successful
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DepositResponse'
+              example:
+                success: true
+                deposit:
+                  id: dep-xyz789
+                  toAccountId: acc1-1
+                  amount: 500.00
+                  newBalance: 5500.00
+                  timestamp: "2026-02-19T10:30:00.000Z"
+                message: Deposit completed successfully
+        '400':
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              examples:
+                invalidAmount:
+                  summary: Invalid amount
+                  value:
+                    error: Amount must be a positive number
+                missingFields:
+                  summary: Missing required fields
+                  value:
+                    error: "Missing required fields: toAccountId, amount"
+        '404':
+          description: Account not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error: Account not found
+
+  /applications:
+    get:
+      tags:
+        - Applications
+      summary: List all applications
+      description: Retrieves a list of all account applications
+      operationId: getApplications
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Application'
+    post:
+      tags:
+        - Applications
+      summary: Submit account application
+      description: |
+        Submits a new account application.
+        
+        **Required Header:** `Content-Type: application/json`
+        
+        **Account Types:**
+        - Checking
+        - Savings
+        - Credit Card
+        - Platinum Credit Card
+        
+        **Business Rules:**
+        - First name and last name are required
+        - Account type must be valid
+        - Credit cards are created with "Pending" status
+        - Date of birth must be in ISO format: `YYYY-MM-DD`
+      operationId: createApplication
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ApplicationRequest'
+            examples:
+              checkingAccount:
+                summary: Checking account application
+                value:
+                  accountType: Checking
+                  applicationData:
+                    firstName: John
+                    lastName: Doe
+                    middleName: Michael
+                    dob: "1990-05-15"
+                    address: "123 Main St"
+                    city: "New York"
+                    state: "New York"
+                    zip: "10001"
+                    initialDeposit: 1000.00
+              savingsAccount:
+                summary: Savings account application
+                value:
+                  accountType: Savings
+                  applicationData:
+                    firstName: Jane
+                    lastName: Smith
+                    initialDeposit: 5000.00
+              creditCard:
+                summary: Credit card application
+                value:
+                  accountType: Credit Card
+                  applicationData:
+                    firstName: Bob
+                    lastName: Wilson
+                    dob: "1985-08-20"
+                    address: "456 Oak Ave"
+                    city: "Los Angeles"
+                    state: "California"
+                    zip: "90001"
+      responses:
+        '201':
+          description: Application submitted successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Application'
+              examples:
+                checkingApproved:
+                  summary: Checking account approved
+                  value:
+                    id: app-abc123
+                    accountType: Checking
+                    applicationData:
+                      firstName: John
+                      lastName: Doe
+                    status: Approved
+                    createdAt: "2026-02-19T10:30:00.000Z"
+                creditPending:
+                  summary: Credit card pending review
+                  value:
+                    id: app-def456
+                    accountType: Credit Card
+                    applicationData:
+                      firstName: Bob
+                      lastName: Wilson
+                    status: Pending
+                    createdAt: "2026-02-19T10:30:00.000Z"
+        '400':
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              examples:
+                invalidAccountType:
+                  summary: Invalid account type
+                  value:
+                    error: "Invalid accountType. Must be one of: Checking, Savings, Credit Card, Platinum Credit Card"
+                missingFields:
+                  summary: Missing required fields
+                  value:
+                    error: "Missing required fields: firstName, lastName"
+
+  /loans:
+    get:
+      tags:
+        - Loans
+      summary: List all loans
+      description: Retrieves a list of all loan applications
+      operationId: getLoans
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Loan'
+    post:
+      tags:
+        - Loans
+      summary: Submit loan application
+      description: |
+        Submits a new loan application.
+        
+        **Required Header:** `Content-Type: application/json`
+        
+        **Loan Types & Interest Rates:**
+        - Personal: 5.99% APR
+        - Auto: 4.25% APR
+        - Mortgage: 6.45% APR
+        
+        **Loan Terms:**
+        - 12 months
+        - 24 months
+        - 36 months
+        
+        **Business Rules:**
+        - Loan amount must be positive
+        - Loan term must be valid (12, 24, or 36 months)
+        - All loans are created with "Pending" status
+        - Date of birth must be in ISO format: `YYYY-MM-DD`
+      operationId: createLoan
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoanRequest'
+            examples:
+              personalLoan:
+                summary: Personal loan application
+                value:
+                  loanType: Personal
+                  loanData:
+                    firstName: John
+                    lastName: Doe
+                    dob: "1990-05-15"
+                    address: "123 Main St"
+                    city: "New York"
+                    state: "New York"
+                    zip: "10001"
+                    employer: "Tech Corp"
+                    jobTitle: "Software Engineer"
+                    annualIncome: 85000
+                    loanAmount: 10000
+                    loanTerm: 36
+                    purpose: "Home improvement"
+              autoLoan:
+                summary: Auto loan application
+                value:
+                  loanType: Auto
+                  loanData:
+                    firstName: Jane
+                    lastName: Smith
+                    employer: "Finance Inc"
+                    jobTitle: "Analyst"
+                    annualIncome: 75000
+                    loanAmount: 25000
+                    loanTerm: 24
+                    purpose: "New vehicle purchase"
+              mortgageLoan:
+                summary: Mortgage loan application
+                value:
+                  loanType: Mortgage
+                  loanData:
+                    firstName: Bob
+                    lastName: Wilson
+                    employer: "Healthcare LLC"
+                    jobTitle: "Doctor"
+                    annualIncome: 150000
+                    loanAmount: 350000
+                    loanTerm: 36
+                    purpose: "Primary residence"
+      responses:
+        '201':
+          description: Loan application submitted successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Loan'
+              example:
+                id: loan-abc123
+                loanType: Personal
+                loanData:
+                  firstName: John
+                  lastName: Doe
+                  loanAmount: 10000
+                  loanTerm: 36
+                status: Pending
+                interestRate: 5.99
+                createdAt: "2026-02-19T10:30:00.000Z"
+        '400':
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              examples:
+                invalidLoanType:
+                  summary: Invalid loan type
+                  value:
+                    error: "Invalid loanType. Must be one of: Personal, Auto, Mortgage"
+                missingFields:
+                  summary: Missing required fields
+                  value:
+                    error: "Missing required fields: loanAmount, loanTerm"
+
+components:
+  schemas:
+    User:
+      type: object
+      required:
+        - id
+        - username
+        - accounts
+      properties:
+        id:
+          type: string
+          description: Unique user identifier
+          example: user1
+        username:
+          type: string
+          description: User's login username
+          example: bankinguser123
+        firstName:
+          type: string
+          description: User's first name
+          example: John
+        lastName:
+          type: string
+          description: User's last name
+          example: Doe
+        email:
+          type: string
+          format: email
+          description: User's email address
+          example: john.doe@example.com
+        locked:
+          type: boolean
+          description: Whether the account is locked
+          default: false
+          example: false
+        accounts:
+          type: array
+          description: List of user's bank accounts
+          items:
+            $ref: '#/components/schemas/Account'
+
+    Account:
+      type: object
+      required:
+        - id
+        - type
+        - balance
+        - accountNumber
+      properties:
+        id:
+          type: string
+          description: Unique account identifier
+          example: acc1-1
+        type:
+          type: string
+          enum:
+            - Checking
+            - Savings
+            - Credit Card
+            - Platinum Credit Card
+          description: Type of bank account
+          example: Checking
+        balance:
+          type: number
+          format: double
+          description: Current account balance
+          example: 5000.00
+        accountNumber:
+          type: string
+          description: Masked account number
+          example: "****1234"
+        status:
+          type: string
+          enum:
+            - Active
+            - Pending
+            - Frozen
+          description: Account status
+          example: Active
+
+    TransferRequest:
+      type: object
+      required:
+        - fromAccountId
+        - toAccountId
+        - amount
+      properties:
+        fromAccountId:
+          type: string
+          description: Source account ID
+          example: acc1-1
+        toAccountId:
+          type: string
+          description: Destination account ID
+          example: acc1-2
+        amount:
+          type: number
+          format: double
+          minimum: 0.01
+          description: Amount to transfer
+          example: 100.00
+
+    TransferResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          description: Whether the transfer was successful
+          example: true
+        transfer:
+          $ref: '#/components/schemas/Transfer'
+        message:
+          type: string
+          description: Response message
+          example: Transfer completed successfully
+
+    Transfer:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique transfer ID
+          example: txn-abc123
+        fromAccountId:
+          type: string
+          description: Source account ID
+          example: acc1-1
+        toAccountId:
+          type: string
+          description: Destination account ID
+          example: acc1-2
+        amount:
+          type: number
+          format: double
+          description: Transfer amount
+          example: 100.00
+        timestamp:
+          type: string
+          format: date-time
+          description: When the transfer occurred
+          example: "2026-02-19T10:30:00.000Z"
+
+    DepositRequest:
+      type: object
+      required:
+        - toAccountId
+        - amount
+      properties:
+        toAccountId:
+          type: string
+          description: Target account ID
+          example: acc1-1
+        amount:
+          type: number
+          format: double
+          minimum: 0.01
+          description: Amount to deposit
+          example: 500.00
+
+    DepositResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          description: Whether the deposit was successful
+          example: true
+        deposit:
+          type: object
+          properties:
+            id:
+              type: string
+              example: dep-xyz789
+            toAccountId:
+              type: string
+              example: acc1-1
+            amount:
+              type: number
+              format: double
+              example: 500.00
+            newBalance:
+              type: number
+              format: double
+              example: 5500.00
+            timestamp:
+              type: string
+              format: date-time
+              example: "2026-02-19T10:30:00.000Z"
+        message:
+          type: string
+          example: Deposit completed successfully
+
+    ApplicationRequest:
+      type: object
+      required:
+        - accountType
+        - applicationData
+      properties:
+        accountType:
+          type: string
+          enum:
+            - Checking
+            - Savings
+            - Credit Card
+            - Platinum Credit Card
+          description: Type of account to apply for
+          example: Checking
+        applicationData:
+          $ref: '#/components/schemas/ApplicationData'
+
+    ApplicationData:
+      type: object
+      required:
+        - firstName
+        - lastName
+      properties:
+        firstName:
+          type: string
+          description: Applicant's first name
+          example: John
+        middleName:
+          type: string
+          description: Applicant's middle name (optional)
+          example: Michael
+        lastName:
+          type: string
+          description: Applicant's last name
+          example: Doe
+        dob:
+          type: string
+          format: date
+          description: Date of birth (ISO format)
+          example: "1990-05-15"
+        address:
+          type: string
+          description: Street address
+          example: "123 Main St"
+        city:
+          type: string
+          description: City
+          example: New York
+        state:
+          type: string
+          description: US State
+          example: New York
+        zip:
+          type: string
+          pattern: '^\d{5}$'
+          description: 5-digit ZIP code
+          example: "10001"
+        initialDeposit:
+          type: number
+          format: double
+          minimum: 0
+          description: Initial deposit amount (for Checking/Savings)
+          example: 1000.00
+        depositFromAccountId:
+          type: string
+          description: Account ID to transfer initial deposit from (optional)
+          example: acc1-1
+
+    Application:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique application ID
+          example: app-abc123
+        accountType:
+          type: string
+          enum:
+            - Checking
+            - Savings
+            - Credit Card
+            - Platinum Credit Card
+          example: Checking
+        applicationData:
+          $ref: '#/components/schemas/ApplicationData'
+        status:
+          type: string
+          enum:
+            - Pending
+            - Approved
+            - Rejected
+          description: Application status
+          example: Approved
+        createdAt:
+          type: string
+          format: date-time
+          example: "2026-02-19T10:30:00.000Z"
+
+    LoanRequest:
+      type: object
+      required:
+        - loanType
+        - loanData
+      properties:
+        loanType:
+          type: string
+          enum:
+            - Personal
+            - Auto
+            - Mortgage
+          description: Type of loan
+          example: Personal
+        loanData:
+          $ref: '#/components/schemas/LoanData'
+
+    LoanData:
+      type: object
+      required:
+        - firstName
+        - lastName
+        - loanAmount
+        - loanTerm
+      properties:
+        firstName:
+          type: string
+          description: Applicant's first name
+          example: John
+        lastName:
+          type: string
+          description: Applicant's last name
+          example: Doe
+        dob:
+          type: string
+          format: date
+          description: Date of birth
+          example: "1990-05-15"
+        address:
+          type: string
+          description: Street address
+          example: "123 Main St"
+        city:
+          type: string
+          description: City
+          example: New York
+        state:
+          type: string
+          description: US State
+          example: New York
+        zip:
+          type: string
+          pattern: '^\d{5}$'
+          description: 5-digit ZIP code
+          example: "10001"
+        employer:
+          type: string
+          description: Current employer name
+          example: Tech Corp
+        jobTitle:
+          type: string
+          description: Current job title
+          example: Software Engineer
+        annualIncome:
+          type: number
+          format: double
+          description: Annual income in USD
+          example: 85000
+        loanAmount:
+          type: number
+          format: double
+          minimum: 1
+          description: Requested loan amount
+          example: 10000
+        loanTerm:
+          type: integer
+          enum:
+            - 12
+            - 24
+            - 36
+          description: Loan term in months
+          example: 36
+        purpose:
+          type: string
+          description: Purpose of the loan
+          example: Home improvement
+
+    Loan:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique loan ID
+          example: loan-abc123
+        loanType:
+          type: string
+          enum:
+            - Personal
+            - Auto
+            - Mortgage
+          example: Personal
+        loanData:
+          $ref: '#/components/schemas/LoanData'
+        status:
+          type: string
+          enum:
+            - Pending
+            - Approved
+            - Active
+            - Rejected
+          description: Loan status
+          example: Pending
+        interestRate:
+          type: number
+          format: double
+          description: Interest rate (APR)
+          example: 5.99
+        createdAt:
+          type: string
+          format: date-time
+          example: "2026-02-19T10:30:00.000Z"
+
+    HealthResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          enum:
+            - ok
+            - error
+          example: ok
+        timestamp:
+          type: string
+          format: date-time
+          example: "2026-02-19T10:30:00.000Z"
+
+    Error:
+      type: object
+      required:
+        - error
+      properties:
+        error:
+          type: string
+          description: Error message
+          example: Something went wrong

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_get_getLoansAfterSinglePersonalLoanCreated_returns200</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1ea84f20-bb8f-4823-b921-52c9a3c21739</testCaseGuid>
+</TestCaseEntity>

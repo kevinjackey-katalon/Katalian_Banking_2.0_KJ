@@ -1,0 +1,59 @@
+2026-03-09 13:10:47.006 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio 11.0.0.app/Contents/Eclipse/configuration/org.eclipse.osgi/148/0/.cp/resources/logback/logback-execution.xml
+2026-03-09 13:10:47.007 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ/Include/config/log.properties
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ/Test Listeners/default_listener.groovy: 59: Unexpected input: '}' @ line 59, column 1.
+   }
+   ^
+
+1 error
+
+2026-03-09 13:10:47.260 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Demo/Demo Test Suite 1
+2026-03-09 13:10:47.282 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Kevin Jackey
+2026-03-09 13:10:47.282 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TrueTestGen4Project
+2026-03-09 13:10:47.282 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = kevin.jackey - 192.168.1.222
+2026-03-09 13:10:47.282 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-03-09 13:10:47.283 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.222
+2026-03-09 13:10:47.283 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.1.0
+2026-03-09 13:10:47.319 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-09 13:10:47.319 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script
+2026-03-09 13:10:47.328 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = bankinguser123
+2026-03-09 13:10:47.328 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = notapassword@123
+2026-03-09 13:10:47.364 DEBUG testcase.Login - Working Script          - 1: openBrowser(application_domain)
+2026-03-09 13:10:47.437 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-03-09 13:10:47.448 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 09, 2026 1:10:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-09 13:10:49.547 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b7101403ee427f20daf58ecc7e9dfe8b
+2026-03-09 13:10:49.548 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7632.160
+2026-03-09 13:10:49.548 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-03-09 13:10:49.548 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-09 13:10:49.549 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-09 13:10:49.560 DEBUG testcase.Login - Working Script          - 2: navigateToUrl("https://katalian-banking.vercel.app/login")
+2026-03-09 13:10:50.215 DEBUG testcase.Login - Working Script          - 3: setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username"), "bankinguser123")
+2026-03-09 13:10:51.113 DEBUG testcase.Login - Working Script          - 4: setEncryptedText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo")
+2026-03-09 13:10:51.378 DEBUG testcase.Login - Working Script          - 5: click(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access"))
+2026-03-09 13:10:51.434 DEBUG testcase.Login - Working Script          - 6: closeBrowser()
+2026-03-09 13:10:51.524 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script
+2026-03-09 13:10:51.533 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-09 13:10:51.533 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script
+2026-03-09 13:10:51.538 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = lockedout25
+2026-03-09 13:10:51.538 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = resetpassword@45
+2026-03-09 13:10:51.540 DEBUG testcase.Login - Working Script          - 1: openBrowser(application_domain)
+2026-03-09 13:10:51.541 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-03-09 13:10:51.543 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 09, 2026 1:10:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-09 13:10:52.693 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9717b78332e6712e19d7af1b795aeac7
+2026-03-09 13:10:52.693 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7632.160
+2026-03-09 13:10:52.693 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-03-09 13:10:52.693 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-09 13:10:52.693 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-09 13:10:52.699 DEBUG testcase.Login - Working Script          - 2: navigateToUrl("https://katalian-banking.vercel.app/login")
+2026-03-09 13:10:53.242 DEBUG testcase.Login - Working Script          - 3: setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username"), "bankinguser123")
+2026-03-09 13:10:54.109 DEBUG testcase.Login - Working Script          - 4: setEncryptedText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo")
+2026-03-09 13:10:54.370 DEBUG testcase.Login - Working Script          - 5: click(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access"))
+2026-03-09 13:10:54.418 DEBUG testcase.Login - Working Script          - 6: closeBrowser()
+2026-03-09 13:10:54.501 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script
+2026-03-09 13:10:54.510 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-03-09 13:10:54.510 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Demo/Demo Test Suite 1
+2026-03-09 13:10:54.510 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

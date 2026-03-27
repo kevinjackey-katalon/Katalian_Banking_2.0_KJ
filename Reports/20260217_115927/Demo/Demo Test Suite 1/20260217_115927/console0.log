@@ -1,0 +1,32 @@
+2026-02-17 11:59:32.320 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio Engine.app/Contents/Eclipse/configuration/org.eclipse.osgi/102/0/.cp/resources/logback/logback-execution.xml
+2026-02-17 11:59:32.323 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ/Include/config/log.properties
+2026-02-17 11:59:32.465 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Demo/Demo Test Suite 1
+2026-02-17 11:59:32.540 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Kevin Jackey
+2026-02-17 11:59:32.542 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TrueTestGen4Project
+2026-02-17 11:59:32.542 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = kevin.jackey - 192.168.1.222
+2026-02-17 11:59:32.544 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-02-17 11:59:32.545 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.222
+2026-02-17 11:59:32.545 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.0.0
+2026-02-17 11:59:33.013 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-17 11:59:33.015 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script
+2026-02-17 11:59:33.151 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) username = bankinguser123
+2026-02-17 11:59:33.167 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) password = notapassword@123
+2026-02-17 11:59:33.520 DEBUG testcase.Login - Working Script          - 1: openBrowser(application_domain)
+2026-02-17 11:59:33.766 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-02-17 11:59:33.806 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Feb 17, 2026 11:59:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-02-17 11:59:43.279 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b0f0b2a4d40c299706201fd3716e577e
+2026-02-17 11:59:43.281 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7632.76
+2026-02-17 11:59:43.282 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-02-17 11:59:43.282 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-02-17 11:59:43.293 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-02-17 11:59:43.352 DEBUG testcase.Login - Working Script          - 2: navigateToUrl("https://katalian-banking.vercel.app/login")
+2026-02-17 11:59:50.695 DEBUG testcase.Login - Working Script          - 3: setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username"), "bankinguser123")
+2026-02-17 11:59:55.393 DEBUG testcase.Login - Working Script          - 4: setEncryptedText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo")
+2026-02-17 11:59:56.597 DEBUG testcase.Login - Working Script          - 5: click(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access"))
+2026-02-17 11:59:59.713 DEBUG testcase.Login - Working Script          - 6: closeBrowser()
+2026-02-17 11:59:59.860 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script
+2026-02-17 11:59:59.888 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-02-17 11:59:59.888 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Demo/Demo Test Suite 1
+2026-02-17 11:59:59.888 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

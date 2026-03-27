@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_get_listApplicationsAfterApplicationWithMinimalRequiredFields_returns200</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3e2258b6-c7d4-4220-ace7-f280e902a453</testCaseGuid>
+</TestCaseEntity>

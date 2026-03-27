@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_get_transfersWithDifferentAmounts_returns200</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>baa52e09-aacf-4b70-a6d4-0ff6180283da</testCaseGuid>
+</TestCaseEntity>

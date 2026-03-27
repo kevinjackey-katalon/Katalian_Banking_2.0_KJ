@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_get_healthCheckWithCustomHeader_returns200</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f8d0abb8-cd90-4b58-bae2-3516d2c1e415</testCaseGuid>
+</TestCaseEntity>

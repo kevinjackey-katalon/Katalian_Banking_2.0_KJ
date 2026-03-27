@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_post_validPersonalLoanApplication_returns201</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fa049e3d-828a-4606-9238-f8cea16efe58</testCaseGuid>
+</TestCaseEntity>
