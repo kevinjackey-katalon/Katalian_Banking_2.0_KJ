@@ -1,0 +1,27 @@
+name: Run KRE Locally
+
+on:
+  workflow_dispatch:
+  # push:
+  # branches:
+  #    - main
+
+jobs:
+  run-kre:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Run Katalon Runtime Engine
+        run: |
+          "/Applications/Katalon Studio Engine.app/Contents/MacOS/katalonc" \
+          -noSplash \
+          -runMode=console \
+          -projectPath="/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ/TrueTestProject.prj" \
+          -retry=0 \
+          -testSuitePath="Test Suites/Demo/Demo Test Suite 1" \
+          -executionProfile="default" \
+          -browserType="Chrome" \
+          -apiKey="${{ secrets.KATALON_API_KEY }}"

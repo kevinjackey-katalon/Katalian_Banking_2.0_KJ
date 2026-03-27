@@ -1,0 +1,52 @@
+name: KRE Execution Pipeline
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  katalon-run:
+    runs-on: self-hosted   # your local Mac runner
+
+    env:
+      KATALON_ENGINE: "/Applications/Katalon Studio Engine.app/Contents/MacOS/katalonc"
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Verify KRE Installation
+        run: |
+          echo "Checking KRE path..."
+          ls "$KATALON_ENGINE"
+
+      - name: Execute KRE Test Suite
+        run: |
+          "$KATALON_ENGINE" \
+          -noSplash \
+          -runMode=console \
+          -projectPath="${{ github.workspace }}/TrueTestProject.prj" \
+          -testSuitePath="Test Suites/Demo/Demo Test Suite 1" \
+          -executionProfile="default" \
+          -browserType="Chrome" \
+          -apiKey="${{ secrets.KATALON_API_KEY }}" \
+          -retry=0
+
+
+        # Add the below as desired
+        # -testOps.projectId=123456 \
+        # -testOps.releaseId=654321 \
+        # -testOps.testRunName="GitHub_${{ github.run_number }}"
+
+        # For parallel runs use collection
+        # -testSuiteCollectionPath="Test Suites/Demo/Demo Collection"
+
+        # To upload Results (Reports)
+        #- name: Upload Reports
+        # uses: actions/upload-artifact@v4
+        # with:
+          # name: katalon-report
+          # path: Reports/
+
