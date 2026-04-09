@@ -8,7 +8,7 @@
       <description></description>
       <initValue>''</initValue>
       <name>ProtectedVariable</name>
-      <protected>true</protected>
+      <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

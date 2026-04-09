@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated login flow for Katalian Banking demo app (TC-17063027). Creates required objects under Object Repository/AI Demo/Req/Login. Uses built-in WebUI keywords only. Password is entered as plain text (not encrypted).</description>
+   <name>TC-17063027 - Login</name>
+   <tag>GenAI,webui,TC-17063027,login</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3236c6a8-3fce-430c-b860-808e631d0968</testCaseGuid>
+</TestCaseEntity>

@@ -10,12 +10,24 @@
 6. Verify Successful Login 
 */
 
-/* Generate Test Case
+/*Generate Test case from TestOps foundation
+ Automate the flow: TC-17063027
+
+1. Save the test case to folder "/AI Demo/Req/Login/" in Katalon Studio
+2. Open a browser instance, take the page source for each test step page
+3. Build all objects required for the test script into Object Repository folder  /AI Demo/Req/Login/"
+4. Build the test case using the above objects in the folder specified in step 1
+5. Use built-in WebUI keywords only and add all relevant includes
+6. Store screenshots automatically in the default Katalon Reports folder
+7. Do NOT encrypt the entered password
+ */
+
+/* Generate Test Case - Prompt based instructions
 Objective:
 Generate and save a runnable Katalon Studio WebUI test case to validate successful and unsuccessful login for the Katalian Banking demo application.
 
 Project Structure Requirements
-1. Test Case Name: Login-01 – Verify Successful and Failed Login
+1. Test Case Name: Login-01 – Verify Login
 2. Test Case Location: Test Cases/AI Demo/NoReq/Login/Login-01
 3. Use built-in WebUI keywords only and add all relevant includes
 4. Store screenshots automatically in the default Katalon Reports folder
@@ -23,8 +35,9 @@ Project Structure Requirements
 
 Application Details
 1. Open a new session window for https://katalian-banking.vercel.app/login
-2. Capture all page objects for this test and place them into the Object Repository/AI Demo/NoReq/Login/Login-01 folder
-3. Close page object capture session window after test script has been created
+2. Capture all page objects for this test and place them into the Object Repository/AI Demo/NoReq/Login/ folder
+3. If project folder is not present then create it
+4. Close page object capture session window after test script has been created
 
 Test Steps (Execution Flow)
 1. Open a new browser instance.

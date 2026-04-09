@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validates successful and unsuccessful login for Katalian Banking demo app.
+- Uses built-in WebUI keywords only
+- Captures required objects under Object Repository/AI Demo/NoReq/Login
+- Takes screenshots to default Reports folder
+- Password is entered as plain text (NOT encrypted)
+
+Note: The app currently redirects to /dashboard after login. The script attempts the requested '#appointment' + h2 'Make Appointment' assertions, and falls back to verifying /dashboard if those are not present.</description>
+   <name>Login-01 - Verify Login</name>
+   <tag>GenAI,negative,webui,positive,login</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eb07d1dc-c1f7-43f6-a995-66827c5feee1</testCaseGuid>
+</TestCaseEntity>
