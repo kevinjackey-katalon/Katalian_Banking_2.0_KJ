@@ -15,7 +15,7 @@
       <guid>a4d250ee-45d6-46b8-9e52-3e0f8b679bbd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Self Healing_Data Binding Demonstration/Login - Working Script</testCaseId>
+      <testCaseId>Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e1ec6f48-e68b-4387-a705-32f1722d04ab</id>

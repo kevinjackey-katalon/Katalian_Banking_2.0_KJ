@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description>The domain of the application under test</description>
-      <initValue>'https://katalian-banking-qa.vercel.app/login'</initValue>
+      <initValue>'https://katalian-banking-qa.vercel.app/'</initValue>
       <name>application_domain</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

@@ -22,7 +22,7 @@ public class TrueTestScripts {
             // import com.kms.katalon.core.model.FailureHandling
             // import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
             // import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-            WebUI.callTestCase(findTestCase('Test Cases/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+            WebUI.callTestCase(findTestCase('Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration'), [:], FailureHandling.CONTINUE_ON_FAILURE)
             // Trigger a custom Login method
             // import your.package
             // import authentication.Login

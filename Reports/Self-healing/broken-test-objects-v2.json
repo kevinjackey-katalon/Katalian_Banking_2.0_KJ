@@ -2,6 +2,16 @@
   "brokenTestObjects": [
     {
       "approved": true,
+      "testObjectId": "Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username",
+      "brokenLocator": "//*[@id \u003d \u0027username\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "internal:attr\u003d[placeholder\u003d\"USER_0000\"i]",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_SMART_LOCATOR.png"
+    },
+    {
+      "approved": true,
       "testObjectId": "Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken",
       "brokenLocator": "//*[@id \u003d \u0027broken___username\u0027]",
       "brokenLocatorMethod": "XPATH",
@@ -9,16 +19,6 @@
       "proposedLocatorMethod": "SMART_LOCATOR",
       "recoveryMethod": "SMART_LOCATOR",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken_SMART_LOCATOR.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken",
-      "brokenLocator": "//*[@id \u003d \u0027broken___username\u0027]",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "#username",
-      "proposedLocatorMethod": "CSS",
-      "recoveryMethod": "CSS",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken_CSS.png"
     }
   ]
 }

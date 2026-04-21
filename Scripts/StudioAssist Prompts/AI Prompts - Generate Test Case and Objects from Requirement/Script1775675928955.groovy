@@ -13,3 +13,8 @@ Application Details
 
 */
 
+
+/*
+ * Get the Katalian Banking 2.0 project and access the manual tests in the Katalon Cloud/Agentic Agent Examples/Jira Source/REQ-006 folder
+ * 
+ */
