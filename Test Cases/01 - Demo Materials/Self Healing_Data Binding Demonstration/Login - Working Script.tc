@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login - Working Script</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>810053c3-d103-4c29-bc90-983e10a6833e</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>4c90718e-7730-4680-9716-10f9785424b0</id>
+      <iterationEntity>
+         <iterationType>RANGE</iterationType>
+         <value>1-1</value>
+      </iterationEntity>
+      <testDataId>Data Files/Demo/Demo Data File 1</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>4c90718e-7730-4680-9716-10f9785424b0</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>d7ff2373-b220-4624-aff2-c0fa72e1d312</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>4c90718e-7730-4680-9716-10f9785424b0</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>2f7da3a3-2ea1-4c13-a2c0-029f184c2c24</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'bankinguser123'</defaultValue>
+      <description></description>
+      <id>d7ff2373-b220-4624-aff2-c0fa72e1d312</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'notapassword@123'</defaultValue>
+      <description></description>
+      <id>2f7da3a3-2ea1-4c13-a2c0-029f184c2c24</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

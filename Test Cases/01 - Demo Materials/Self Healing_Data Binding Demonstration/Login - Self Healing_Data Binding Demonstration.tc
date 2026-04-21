@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login - Self Healing_Data Binding Demonstration</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e40a3be9-e729-4c43-a71a-55bdc97fd8a8</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>c570e73b-47a0-41bf-b0eb-337113856684</id>
+      <iterationEntity>
+         <iterationType>RANGE</iterationType>
+         <value>1-1</value>
+      </iterationEntity>
+      <testDataId>Data Files/Demo/Demo Data File 1</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>c570e73b-47a0-41bf-b0eb-337113856684</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>72ca07ec-6416-4e5d-8f26-fe7bf4af9730</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'bankinguser123'</defaultValue>
+      <description></description>
+      <id>72ca07ec-6416-4e5d-8f26-fe7bf4af9730</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>
