@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 
 // [1] Execution traceability: Log where this run’s report artifacts are stored
-KeywordUtil.logInfo('Report Results Log: ' + RunConfiguration.getReportFolder())  
+KeywordUtil.logInfo('Report Results Log: ' + RunConfiguration.getReportFolder())
 
 /*
 // [2] Session setup: Start browser using environment-based application domain
