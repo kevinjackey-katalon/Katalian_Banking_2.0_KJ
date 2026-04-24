@@ -41,6 +41,7 @@ class Example_Listener {
 	def sampleAfterTestCase(TestCaseContext testCaseContext) {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseStatus()
+		//WebUI.closeBrowser()
 	}
 
 	/**
@@ -59,5 +60,6 @@ class Example_Listener {
 	@AfterTestSuite
 	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
 		println testSuiteContext.getTestSuiteId()
+		//WebUI.closeBrowser()
 	}
 }

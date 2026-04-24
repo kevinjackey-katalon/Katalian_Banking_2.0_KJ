@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>Login - Self Healing_Data Binding Demonstration</name>
-   <tag></tag>
+   <tag>GenAI</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>e40a3be9-e729-4c43-a71a-55bdc97fd8a8</testCaseGuid>
@@ -21,11 +21,24 @@
       <value>username</value>
       <variableId>72ca07ec-6416-4e5d-8f26-fe7bf4af9730</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>64aa9ec6-813f-477e-909b-8bf3bc6fec39</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'bankinguser123'</defaultValue>
       <description></description>
       <id>72ca07ec-6416-4e5d-8f26-fe7bf4af9730</id>
       <masked>false</masked>
       <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>64aa9ec6-813f-477e-909b-8bf3bc6fec39</id>
+      <masked>false</masked>
+      <name>ssn</name>
    </variable>
 </TestCaseEntity>
