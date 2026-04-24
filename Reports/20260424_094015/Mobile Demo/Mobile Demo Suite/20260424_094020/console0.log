@@ -1,0 +1,37 @@
+2026-04-24 09:40:22.795 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio 11.2.1 - Copilot.app/Contents/Eclipse/configuration/org.eclipse.osgi/150/0/.cp/resources/logback/logback-execution.xml
+2026-04-24 09:40:22.796 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_New/Include/config/log.properties
+2026-04-24 09:40:23.129 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Mobile Demo/Mobile Demo Suite
+2026-04-24 09:40:23.153 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Kevin Jackey
+2026-04-24 09:40:23.153 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TrueTestGen4Project
+2026-04-24 09:40:23.154 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = kevin.jackey - 192.168.1.222
+2026-04-24 09:40:23.154 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-04-24 09:40:23.154 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.222
+2026-04-24 09:40:23.154 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.2.0
+Test Suites/Mobile Demo/Mobile Demo Suite
+2026-04-24 09:40:23.192 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-24 09:40:23.192 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/01 - Demo Materials/Mobile Demo/Mobile Demo
+Test Cases/01 - Demo Materials/Mobile Demo/Mobile Demo
+[:]
+2026-04-24 09:40:23.225 DEBUG testcase.Mobile Demo                     - 1: startApplication("207ca014-66dd-4231-a989-aad15dd5866c", true)
+2026-04-24 09:40:23.279 INFO  c.k.k.c.m.k.b.StartApplicationKeyword    - Overriding application: '207ca014-66dd-4231-a989-aad15dd5866c' by '207ca014-66dd-4231-a989-aad15dd5866c'
+2026-04-24 09:40:23.279 INFO  c.k.k.c.m.k.b.StartApplicationKeyword    - Override application info: '{"id":"207ca014-66dd-4231-a989-aad15dd5866c","organizationId":"2154967","name":"Coffee Timer","platform":"IOS","status":"READY","size":110930,"storagePath":"75dc3ed9-f497-4176-9f43-e92e1cee9ce4","uploadedDate":"2026-01-13T21:48:57.865663","createdDate":"2026-01-13T21:48:57.865663","updatedDate":"2026-01-13T21:49:02.223604","fileName":"Coffee Timer.ipa","metadata":{"identifier":"com.ashfurrow.Coffee-Timer","name":"Coffee Timer","version":"1.0","versionCode":"1.0"}}'
+2026-04-24 09:40:23.279 INFO  c.k.k.c.m.k.b.StartApplicationKeyword    - Starting application: '207ca014-66dd-4231-a989-aad15dd5866c'
+2026-04-24 09:40:23.296 INFO  c.k.k.core.appium.util.AppiumDriverUtil  - There are uncompatible capabilities keys which will be replaced: app=appium:app
+2026-04-24 09:40:45.965 WARN  c.k.k.c.a.driver.AppiumRequestService    - Unable to get appium status. Root cause (Cannot invoke "org.osgi.framework.Bundle.getBundleContext()" because the return value of "org.osgi.framework.FrameworkUtil.getBundle(java.lang.Class)" is null)
+2026-04-24 09:40:46.515 INFO  c.k.k.c.a.driver.AppiumDriverManager     - remoteDriverUrl = https://token:eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpZTlDMnN4ZjZ4czczSHJxY0QyejRxcVVzNEFpOWVzNXR5SVVKYmRTYW04In0.eyJleHAiOjE3NzcyMDcyNjksImlhdCI6MTc3NzAzNDQ2OSwianRpIjoib25ydHJvOjE2MDU2NzI4LWY1OTAtNWFjZS00YzBlLWU1MWE0NWNlYmQxNCIsImlzcyI6Imh0dHBzOi8vbG9naW4ua2F0YWxvbi5jb20vcmVhbG1zL2thdGFsb24iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiOTc5YzBmNDQtMTBhOC00MjQwLTg3NzgtYWQzODljOThmZTRjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoia2F0YWxvbi1hZG1pbiIsInNpZCI6IjY0OGQzNTNlLThjNDYtNDczNi00NjQ0LWE0MjhiZTNiNGNiZCIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cHM6Ly9teS5rYXRhbG9uLmNvbSIsImh0dHBzOi8vYWRtaW4ua2F0YWxvbi5jb20iXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbInVtYV9hdXRob3JpemF0aW9uIiwiZGVmYXVsdC1yb2xlcy1rYXRhbG9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwidXBkYXRlZF90aW1lc3RhbXAiOjE3NTg4OTUxNTcxNzAsImxhc3RfbG9naW4iOjE3NzcwMzQyMDQzNjIsIm5hbWUiOiJLZXZpbiBKYWNrZXkiLCJjcmVhdGVkX3RpbWVzdGFtcCI6MTc1ODY0MzY1MjkwNSwicHJlZmVycmVkX3VzZXJuYW1lIjoia2V2aW4uamFja2V5QGthdGFsb24uY29tIiwiZ2l2ZW5fbmFtZSI6IktldmluIiwiZmFtaWx5X25hbWUiOiJKYWNrZXkiLCJlbWFpbCI6ImtldmluLmphY2tleUBrYXRhbG9uLmNvbSJ9.V3PiEXcL9aDaanmgOpEG2uf5FMpW4hPmbqpRgouAVkxCBc2QFXXKZlEJ0G9UXH01gQcrCbdRaoNv4jYt07WOPRhdgib5GGVkkwLEcdXALk6fzxMUVBmEX5tS8j5lVe-mPOt8SmDpU6zX9xoOTtw2lEC25ZTnUv4eSnekH7RA5pzofJfYbQ_JCCp9xrToXidbk57HT3ROMadX7FEzvcNQPXWwl9mPAyGEm8wMmlwne8EuKeE6y5R2Il6pYFOIPtFS5qsw0n8PtRAn0_Q-NDemQCW3-aBqa0VT0VMuF9ehUGWIVZGBuWTuSQMrYvvZbSr-yI2RSIC-iLSZem5KjH2Wcg@testcloud.katalon.com/wd/hub
+2026-04-24 09:40:46.519 INFO  c.k.k.c.a.driver.AppiumDriverManager     - desiredCapabilities = {\n  "app": "207ca014-66dd-4231-a989-aad15dd5866c",\n  "webSocketURL": false,\n  "appium:deviceName": "Any iPhone",\n  "platformName": "IOS",\n  "appium:platformVersion": "26",\n  "katalon:options": {\n    "executionMode": "queue",\n    "metadata": {\n      "organizationId": "2154967",\n      "accountId": "1509469",\n      "channel": "kse;v\u003d11.1.2",\n      "testOpsExecutionId": "6d75985f-ce7e-4f17-bb18-cd2fd8ec38c0",\n      "projectId": "3033951"\n    },\n    "appiumClientVersion": "10.0.0",\n    "usingTunnel": false,\n    "testOps": {\n      "sessionName": "Test Cases/01 - Demo Materials/Mobile Demo/Mobile Demo"\n    }\n  }\n}
+2026-04-24 09:40:46.523 INFO  c.k.k.c.a.driver.AppiumDriverManager     - katalon:caps = {\n  "deviceName": "Apple iPhone Air",\n  "executionId": "6d75985f-ce7e-4f17-bb18-cd2fd8ec38c0",\n  "executionSessionId": "b59e4e24-e7bc-48ee-8a6f-bbe5e8e983b1"\n}
+2026-04-24 09:40:46.524 INFO  c.k.k.c.a.driver.AppiumDriverManager     - deviceName = Apple iPhone Air
+2026-04-24 09:40:47.389 DEBUG testcase.Mobile Demo                     - 2: verifyElementExist(findTestObject("Mobile Demo/XCUIElementTypeStaticText - Mexican"), 30)
+2026-04-24 09:40:48.802 DEBUG testcase.Mobile Demo                     - 3: tap(findTestObject("Mobile Demo/XCUIElementTypeStaticText - Mexican"), 10)
+2026-04-24 09:40:50.991 DEBUG testcase.Mobile Demo                     - 4: tap(findTestObject("Mobile Demo/XCUIElementTypeButton - Start"), 20)
+2026-04-24 09:40:52.957 DEBUG testcase.Mobile Demo                     - 5: tap(findTestObject("Mobile Demo/XCUIElementTypeButton - Stop"), 20)
+2026-04-24 09:40:54.898 DEBUG testcase.Mobile Demo                     - 6: tap(findTestObject("Mobile Demo/XCUIElementTypeButton - Back"), 10)
+2026-04-24 09:40:56.967 DEBUG testcase.Mobile Demo                     - 7: closeApplication()
+Test Cases/01 - Demo Materials/Mobile Demo/Mobile Demo
+PASSED
+2026-04-24 09:41:00.129 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/01 - Demo Materials/Mobile Demo/Mobile Demo
+Test Suites/Mobile Demo/Mobile Demo Suite
+2026-04-24 09:41:00.137 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-04-24 09:41:00.137 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Mobile Demo/Mobile Demo Suite
+2026-04-24 09:41:00.137 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

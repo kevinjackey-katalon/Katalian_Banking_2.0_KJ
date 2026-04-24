@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteCollectionEntity>
    <description></description>
-   <name>Demo Test Suite Collection</name>
+   <name>Web Demo Test Suite Collection</name>
    <tag></tag>
    <delayBetweenInstances>5</delayBetweenInstances>
    <executionMode>PARALLEL</executionMode>
@@ -37,7 +37,7 @@
             <runConfigurationId>TestCloud</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Demo/Demo Test Suite 1</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Web Demo/Web Demo Test Suite 1</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -69,7 +69,7 @@
             <runConfigurationId>TestCloud</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Demo/Demo Test Suite 1</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Web Demo/Web Demo Test Suite 1</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
