@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>test_post_transferToSameAccount_returns400</name>
-   <tag>API_Test_Generation</tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>635b90a5-6b8e-4d7e-96e5-6cf7fee1c51d</testCaseGuid>
-</TestCaseEntity>

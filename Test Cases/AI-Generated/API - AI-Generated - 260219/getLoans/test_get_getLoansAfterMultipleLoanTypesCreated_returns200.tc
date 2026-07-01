@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>test_get_getLoansAfterMultipleLoanTypesCreated_returns200</name>
-   <tag>API_Test_Generation</tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>b89b6d05-c70a-4053-83db-6666eba934d8</testCaseGuid>
-</TestCaseEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>test_post_missingToAccountId_returns400</name>
-   <tag>API_Test_Generation</tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>050f88c5-fce6-4e48-ac14-3f48e3a83a9d</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+VC Example - TS,Chrome 149.0.7827.103,Test suite for requirement REQ-004 Subtask 1 - Validate Page Display Items - Net Liquidity (Jira KB-32). Contains the VC Example - TC dashboard validation test case.,,10-06-2026 17:00:04,10-06-2026 17:00:14,9.224s,PASSED
+,,,,,,,
+Start listener action : sampleBeforeTestSuite,Chrome 149.0.7827.103,,,10-06-2026 17:00:04,10-06-2026 17:00:04,0.007s,PASSED
+,,,,,,,
+Test Cases/VC Example - TC/VC Example - TC,Chrome 149.0.7827.103,Validates the Dashboard Net Liquidity section per requirement REQ-004 Subtask 1 - Validate Page Display Items - Net Liquidity (Jira KB-32). Covers FR-001 and NL-001 through NL-007.,"GenAI,REQ-004,Net Liquidity,Dashboard,KB-32",10-06-2026 17:00:05,10-06-2026 17:00:14,9.137s,PASSED
+"DATA BINDING - {""password"":""********"",""targetUrl"":""https://katalian-banking.vercel.app/login"",""userId"":""bankinguser123""}",,,,,,,
+Start listener action : sampleBeforeTestCase,Chrome 149.0.7827.103,,,10-06-2026 17:00:05,10-06-2026 17:00:05,0.007s,PASSED
+"openBrowser("""")",Chrome 149.0.7827.103,Step 1 - Open browser and navigate to the Login page,,10-06-2026 17:00:05,10-06-2026 17:00:06,1.816s,PASSED
+maximizeWindow(),Chrome 149.0.7827.103,,,10-06-2026 17:00:06,10-06-2026 17:00:07,0.368s,PASSED
+navigateToUrl(targetUrl),Chrome 149.0.7827.103,,,10-06-2026 17:00:07,10-06-2026 17:00:08,1.116s,PASSED
+"setText(findTestObject(""Object Repository/VC Example - TC/input_secureId_username""), userId)",Chrome 149.0.7827.103,Step 2 - Authenticate with Secure ID and Access Code,,10-06-2026 17:00:08,10-06-2026 17:00:09,0.710s,PASSED
+"setMaskedText(findTestObject(""Object Repository/VC Example - TC/input_accessCode_password""),*********)",Chrome 149.0.7827.103,,,10-06-2026 17:00:09,10-06-2026 17:00:09,0.488s,PASSED
+"click(findTestObject(""Object Repository/VC Example - TC/button_enterVaultAccess""))",Chrome 149.0.7827.103,,,10-06-2026 17:00:09,10-06-2026 17:00:09,0.305s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/VC Example - TC/label_netLiquidity""), 15)",Chrome 149.0.7827.103,Step 3 - Verify the Dashboard loads,,10-06-2026 17:00:09,10-06-2026 17:00:11,1.453s,PASSED
+"verifyMatch(getUrl(), "".*/dashboard.*"", true)",Chrome 149.0.7827.103,,,10-06-2026 17:00:11,10-06-2026 17:00:11,0.013s,PASSED
+"netLiquidityLabel = getText(findTestObject(""Object Repository/VC Example - TC/label_netLiquidity"")).trim()",Chrome 149.0.7827.103,"NL-001 - Section shall display the ""Net Liquidity"" label",,10-06-2026 17:00:11,10-06-2026 17:00:11,0.225s,PASSED
+"comment(""Net Liquidity label rendered as: "" + netLiquidityLabel)",Chrome 149.0.7827.103,,,10-06-2026 17:00:11,10-06-2026 17:00:11,0.004s,PASSED
+"assert netLiquidityLabel.equalsIgnoreCase(""Net Liquidity"")",Chrome 149.0.7827.103,,,10-06-2026 17:00:11,10-06-2026 17:00:11,0.003s,PASSED
+"displayedTotalRaw = getText(findTestObject(""Object Repository/VC Example - TC/text_totalBalance""))",Chrome 149.0.7827.103,"NL-003 / FR-001 - Balance shall be formatted as currency: dollar sign, thousands separator, 2 decimal places",,10-06-2026 17:00:11,10-06-2026 17:00:11,0.220s,PASSED
+"displayedTotal = displayedTotalRaw.replaceAll(""\s+"", """")",Chrome 149.0.7827.103,,,10-06-2026 17:00:11,10-06-2026 17:00:11,0.001s,PASSED
+"comment(""Displayed Net Liquidity: "" + displayedTotal)",Chrome 149.0.7827.103,,,10-06-2026 17:00:11,10-06-2026 17:00:11,0.002s,PASSED
+"assert displayedTotal ==~ ""^\$\d{1,3}(,\d{3})*\.\d{2}$""",Chrome 149.0.7827.103,,,10-06-2026 17:00:11,10-06-2026 17:00:11,0.000s,PASSED
+"accountBalances = findWebElements(findTestObject(""Object Repository/VC Example - TC/text_accountBalances""), 10)",Chrome 149.0.7827.103,NL-002 / FR-001 - Total balance shall be calculated as the sum of all account balances,,10-06-2026 17:00:11,10-06-2026 17:00:12,0.219s,PASSED
+"assert accountBalances.size() > 0 : ""NL-002 FAILED: No account balance elements found on the Dashboard""",Chrome 149.0.7827.103,,,10-06-2026 17:00:12,10-06-2026 17:00:12,0.001s,PASSED
+expectedTotal = 0.0,Chrome 149.0.7827.103,,,10-06-2026 17:00:12,10-06-2026 17:00:12,0.001s,PASSED
+for (org.openqa.selenium.WebElement balanceElement : accountBalances),Chrome 149.0.7827.103,,,10-06-2026 17:00:12,10-06-2026 17:00:12,0.029s,PASSED
+"actualTotal = new java.math.BigDecimal(displayedTotal.replaceAll([\$,], ))",Chrome 149.0.7827.103,,,10-06-2026 17:00:12,10-06-2026 17:00:12,0.000s,PASSED
+"comment(""Sum of account balances: "" + expectedTotal + "" | Displayed Net Liquidity: "" + actualTotal)",Chrome 149.0.7827.103,,,10-06-2026 17:00:12,10-06-2026 17:00:12,0.002s,PASSED
+assert actualTotal.compareTo(expectedTotal) == 0,Chrome 149.0.7827.103,,,10-06-2026 17:00:12,10-06-2026 17:00:12,0.001s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/VC Example - TC/badge_activeAssets""))",Chrome 149.0.7827.103,"NL-004 - Section shall display the ""Active Assets"" status badge",,10-06-2026 17:00:12,10-06-2026 17:00:12,0.221s,PASSED
+"activeAssetsBadge = getText(findTestObject(""Object Repository/VC Example - TC/badge_activeAssets"")).trim()",Chrome 149.0.7827.103,,,10-06-2026 17:00:12,10-06-2026 17:00:12,0.216s,PASSED
+"assert activeAssetsBadge.equalsIgnoreCase(""Active Assets"")",Chrome 149.0.7827.103,,,10-06-2026 17:00:12,10-06-2026 17:00:12,0.001s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/VC Example - TC/badge_memberSince2021""))",Chrome 149.0.7827.103,"NL-005 - Section shall display the ""Member since 2021"" badge",,10-06-2026 17:00:12,10-06-2026 17:00:12,0.218s,PASSED
+"memberBadge = getText(findTestObject(""Object Repository/VC Example - TC/badge_memberSince2021"")).trim()",Chrome 149.0.7827.103,,,10-06-2026 17:00:12,10-06-2026 17:00:12,0.217s,PASSED
+"assert memberBadge.equalsIgnoreCase(""Member since 2021"")",Chrome 149.0.7827.103,,,10-06-2026 17:00:12,10-06-2026 17:00:12,0.001s,PASSED
+"click(findTestObject(""Object Repository/VC Example - TC/button_moveFunds""))",Chrome 149.0.7827.103,"NL-006 - ""Move Funds"" button shall navigate to /transfer",,10-06-2026 17:00:12,10-06-2026 17:00:13,0.275s,PASSED
+"verifyMatch(getUrl(), "".*/transfer.*"", true)",Chrome 149.0.7827.103,,,10-06-2026 17:00:13,10-06-2026 17:00:13,0.009s,PASSED
+back(),Chrome 149.0.7827.103,,,10-06-2026 17:00:13,10-06-2026 17:00:13,0.020s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/VC Example - TC/label_netLiquidity""), 15)",Chrome 149.0.7827.103,,,10-06-2026 17:00:13,10-06-2026 17:00:13,0.429s,PASSED
+"click(findTestObject(""Object Repository/VC Example - TC/button_deposit""))",Chrome 149.0.7827.103,"NL-007 - ""Deposit"" button shall navigate to /deposit",,10-06-2026 17:00:13,10-06-2026 17:00:13,0.271s,PASSED
+"verifyMatch(getUrl(), "".*/deposit.*"", true)",Chrome 149.0.7827.103,,,10-06-2026 17:00:13,10-06-2026 17:00:13,0.011s,PASSED
+closeBrowser(),Chrome 149.0.7827.103,Cleanup - close the browser,,10-06-2026 17:00:13,10-06-2026 17:00:14,0.126s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 149.0.7827.103,,,10-06-2026 17:00:14,10-06-2026 17:00:14,0.002s,PASSED
+Video,Chrome 149.0.7827.103,,,10-06-2026 17:00:14,10-06-2026 17:00:14,0.001s,PASSED
+,,,,,,,
+Start listener action : sampleAfterTestSuite,Chrome 149.0.7827.103,,,10-06-2026 17:00:14,10-06-2026 17:00:14,0.001s,PASSED

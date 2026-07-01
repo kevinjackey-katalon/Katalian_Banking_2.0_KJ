@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>test_post_nonExistentSourceAccount_returns404</name>
-   <tag>API_Test_Generation</tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>67ae3612-1a64-4f1a-80c6-9f7e39a485ee</testCaseGuid>
-</TestCaseEntity>

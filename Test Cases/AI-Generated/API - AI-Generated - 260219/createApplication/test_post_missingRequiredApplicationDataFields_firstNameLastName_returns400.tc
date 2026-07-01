@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>test_post_missingRequiredApplicationDataFields_firstNameLastName_returns400</name>
-   <tag>API_Test_Generation</tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>e21309ab-ec71-4d8d-9428-e25ee13c3d56</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Mobile Demo Suite,,,,28-04-2026 09:43:54,28-04-2026 09:43:55,1.131s,FAILED
+,,,,,,,
+Start listener action : sampleBeforeTestSuite,,,,28-04-2026 09:43:54,28-04-2026 09:43:54,0.027s,PASSED
+,,,,,,,
+Test Cases/01 - Demo Materials/Mobile Demo/Mobile Demo,,,,28-04-2026 09:43:54,28-04-2026 09:43:55,0.894s,FAILED
+Start listener action : sampleBeforeTestCase,,,,28-04-2026 09:43:54,28-04-2026 09:43:54,0.012s,PASSED
+"startApplication(""207ca014-66dd-4231-a989-aad15dd5866c"", true)",,,,28-04-2026 09:43:55,28-04-2026 09:43:55,0.726s,FAILED
+Start listener action : sampleAfterTestCase,,,,28-04-2026 09:43:55,28-04-2026 09:43:55,0.009s,PASSED
+,,,,,,,
+Start listener action : sampleAfterTestSuite,,,,28-04-2026 09:43:55,28-04-2026 09:43:55,0.007s,PASSED

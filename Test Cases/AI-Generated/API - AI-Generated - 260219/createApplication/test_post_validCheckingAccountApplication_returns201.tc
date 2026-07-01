@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>test_post_validCheckingAccountApplication_returns201</name>
-   <tag>API_Test_Generation</tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>1ea52468-2115-4deb-9433-bd9564e62b87</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,184 @@
+1
+00:00:00,000 --> 00:00:00,000
+3. Step 1 - Open browser and navigate to the Login page
+
+2
+00:00:00,000 --> 00:00:00,000
+7. maximizeWindow()
+
+3
+00:00:00,000 --> 00:00:00,000
+11. navigateToUrl(targetUrl)
+
+4
+00:00:00,000 --> 00:00:00,651
+17. Step 2 - Authenticate with Secure ID and Access Code
+
+5
+00:00:00,651 --> 00:00:01,141
+21. setMaskedText(findTestObject("Object Repository/VC Example - TC/input_accessCode_password"), password)
+
+6
+00:00:01,141 --> 00:00:01,445
+25. click(findTestObject("Object Repository/VC Example - TC/button_enterVaultAccess"))
+
+7
+00:00:01,445 --> 00:00:02,899
+31. Step 3 - Verify the Dashboard loads
+
+8
+00:00:02,900 --> 00:00:02,912
+35. verifyMatch(getUrl(), ".*/dashboard.*", true)
+
+9
+00:00:02,913 --> 00:00:03,138
+41. NL-001 - Section shall display the "Net Liquidity" label
+
+10
+00:00:03,138 --> 00:00:03,142
+45. comment("Net Liquidity label rendered as: " + netLiquidityLabel)
+
+11
+00:00:03,142 --> 00:00:03,145
+49. assert netLiquidityLabel.equalsIgnoreCase("Net Liquidity")
+
+12
+00:00:03,145 --> 00:00:03,364
+55. NL-003 / FR-001 - Balance shall be formatted as currency: dollar sign, thousands separator, 2 decimal places
+
+13
+00:00:03,364 --> 00:00:03,366
+59. displayedTotal = displayedTotalRaw.replaceAll("\s+", "")
+
+14
+00:00:03,366 --> 00:00:03,367
+63. comment("Displayed Net Liquidity: " + displayedTotal)
+
+15
+00:00:03,367 --> 00:00:03,368
+67. assert displayedTotal ==~ "^\$\d{1,3}(,\d{3})*\.\d{2}$"
+
+16
+00:00:03,368 --> 00:00:03,587
+73. NL-002 / FR-001 - Total balance shall be calculated as the sum of all account balances
+
+17
+00:00:03,587 --> 00:00:03,588
+77. assert accountBalances.size() > 0 : "NL-002 FAILED: No account balance elements found on the Dashboard"
+
+18
+00:00:03,588 --> 00:00:03,589
+81. expectedTotal = 0.0
+
+19
+00:00:03,589 --> 00:00:03,589
+85. for (org.openqa.selenium.WebElement balanceElement : accountBalances)
+
+20
+00:00:03,589 --> 00:00:03,595
+1. balanceText = getText().replaceAll("[\$,\s]", "")
+
+21
+00:00:03,595 --> 00:00:03,600
+5. comment("Account balance found: " + balanceElement.getText())
+
+22
+00:00:03,600 --> 00:00:03,602
+9. expectedTotal = expectedTotal.add(new java.math.BigDecimal(balanceText))
+
+23
+00:00:03,602 --> 00:00:03,605
+1. balanceText = getText().replaceAll("[\$,\s]", "")
+
+24
+00:00:03,606 --> 00:00:03,609
+5. comment("Account balance found: " + balanceElement.getText())
+
+25
+00:00:03,610 --> 00:00:03,610
+9. expectedTotal = expectedTotal.add(new java.math.BigDecimal(balanceText))
+
+26
+00:00:03,610 --> 00:00:03,613
+1. balanceText = getText().replaceAll("[\$,\s]", "")
+
+27
+00:00:03,614 --> 00:00:03,618
+5. comment("Account balance found: " + balanceElement.getText())
+
+28
+00:00:03,618 --> 00:00:03,618
+9. expectedTotal = expectedTotal.add(new java.math.BigDecimal(balanceText))
+
+29
+00:00:03,618 --> 00:00:03,619
+89. actualTotal = new java.math.BigDecimal(displayedTotal.replaceAll([\$,], ))
+
+30
+00:00:03,619 --> 00:00:03,620
+93. comment("Sum of account balances: " + expectedTotal + " | Displayed Net Liquidity: " + actualTotal)
+
+31
+00:00:03,621 --> 00:00:03,622
+97. assert actualTotal.compareTo(expectedTotal) == 0
+
+32
+00:00:03,622 --> 00:00:03,843
+103. NL-004 - Section shall display the "Active Assets" status badge
+
+33
+00:00:03,843 --> 00:00:04,059
+107. activeAssetsBadge = getText(findTestObject("Object Repository/VC Example - TC/badge_activeAssets")).trim()
+
+34
+00:00:04,059 --> 00:00:04,059
+111. assert activeAssetsBadge.equalsIgnoreCase("Active Assets")
+
+35
+00:00:04,059 --> 00:00:04,278
+117. NL-005 - Section shall display the "Member since 2021" badge
+
+36
+00:00:04,278 --> 00:00:04,494
+121. memberBadge = getText(findTestObject("Object Repository/VC Example - TC/badge_memberSince2021")).trim()
+
+37
+00:00:04,495 --> 00:00:04,495
+125. assert memberBadge.equalsIgnoreCase("Member since 2021")
+
+38
+00:00:04,495 --> 00:00:04,770
+131. NL-006 - "Move Funds" button shall navigate to /transfer
+
+39
+00:00:04,770 --> 00:00:04,778
+135. verifyMatch(getUrl(), ".*/transfer.*", true)
+
+40
+00:00:04,779 --> 00:00:04,799
+139. back()
+
+41
+00:00:04,799 --> 00:00:05,229
+143. waitForElementVisible(findTestObject("Object Repository/VC Example - TC/label_netLiquidity"), 15)
+
+42
+00:00:05,229 --> 00:00:05,500
+149. NL-007 - "Deposit" button shall navigate to /deposit
+
+43
+00:00:05,500 --> 00:00:05,511
+153. verifyMatch(getUrl(), ".*/deposit.*", true)
+
+44
+00:00:05,511 --> 00:00:05,638
+159. Cleanup - close the browser
+
+45
+00:00:05,639 --> 00:00:05,639
+1. println(testCaseContext.getTestCaseId())
+
+46
+00:00:05,639 --> 00:00:05,640
+5. println(testCaseContext.getTestCaseStatus())
+

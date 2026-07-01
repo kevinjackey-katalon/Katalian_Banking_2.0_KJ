@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>test_post_validCreditCardApplication_returns201</name>
-   <tag>API_Test_Generation</tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>024cae26-eefa-4600-953f-8cfc9222ad0b</testCaseGuid>
-</TestCaseEntity>

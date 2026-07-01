@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>test_get_listApplicationsAfterApplicationWithInitialDepositFromAccountId_returns200</name>
-   <tag>API_Test_Generation</tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>40950b33-9218-422d-a0ab-7e6afe6dface</testCaseGuid>
-</TestCaseEntity>

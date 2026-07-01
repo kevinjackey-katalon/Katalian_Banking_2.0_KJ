@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>test_post_invalidLoanTermValue_returns400</name>
-   <tag>API_Test_Generation</tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>772b33c1-bbb0-4523-a7dd-da923e3b0576</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,36 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. openBrowser(application_domain)
+
+2
+00:00:00,000 --> 00:00:04,446
+5. navigateToUrl("https://katalian-banking.vercel.app/login")
+
+3
+00:00:04,447 --> 00:00:07,527
+9. setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username"), username)
+
+4
+00:00:07,527 --> 00:00:08,936
+13. setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password"), password)
+
+5
+00:00:08,937 --> 00:00:10,792
+17. click(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access"))
+
+6
+00:00:10,793 --> 00:00:11,263
+21. closeBrowser()
+
+7
+00:00:11,264 --> 00:00:11,267
+1. println(testCaseContext.getTestCaseId())
+
+8
+00:00:11,268 --> 00:00:11,270
+5. println(testCaseContext.getTestCaseStatus())
+
+9
+00:00:11,507 --> 00:00:11,508
+1. println(testCaseContext.getTestCaseId())
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mobile Demo Suite" time="44.605" tests="1" passed="1" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Mobile Demo Suite" tests="1" passed="1" failures="0" errors="0" incompleted="0" skipped="0" time="44.605" timestamp="2026-04-28T13:45:59.519Z" hostname="kevin.jackey - 192.168.1.222" id="Test Suites/Mobile Demo/Mobile Demo Suite" status="PASSED">
+      <properties>
+         <property name="deviceName" value="Apple iPhone 17"/>
+         <property name="devicePlatform" value="IOS"/>
+         <property name="logFolder" value="/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_New/Reports/20260428_094552/Mobile Demo/Mobile Demo Suite/20260428_094556"/>
+         <property name="logFiles" value="/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_New/Reports/20260428_094552/Mobile Demo/Mobile Demo Suite/20260428_094556/execution0.log, /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_New/Reports/20260428_094552/Mobile Demo/Mobile Demo Suite/20260428_094556/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="kevin.jackey - 192.168.1.222"/>
+         <property name="remoteDriverUrl" value="https://token:eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpZTlDMnN4ZjZ4czczSHJxY0QyejRxcVVzNEFpOWVzNXR5SVVKYmRTYW04In0.eyJleHAiOjE3Nzc1NTYwNDcsImlhdCI6MTc3NzM4MzI0NywianRpIjoib25ydHJvOjAxZWU4YmVkLTdiOGEtMjc3OC02MThmLTMxZTc1MDc0NWVjNiIsImlzcyI6Imh0dHBzOi8vbG9naW4ua2F0YWxvbi5jb20vcmVhbG1zL2thdGFsb24iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiOTc5YzBmNDQtMTBhOC00MjQwLTg3NzgtYWQzODljOThmZTRjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoia2F0YWxvbi1hZG1pbiIsInNpZCI6ImZlNjUzODE5LWRjZGMtYzhiMC05OTUxLTBkN2RhZTU1ZDgwZCIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cHM6Ly9teS5rYXRhbG9uLmNvbSIsImh0dHBzOi8vYWRtaW4ua2F0YWxvbi5jb20iXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbInVtYV9hdXRob3JpemF0aW9uIiwiZGVmYXVsdC1yb2xlcy1rYXRhbG9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwidXBkYXRlZF90aW1lc3RhbXAiOjE3NTg4OTUxNTcxNzAsImxhc3RfbG9naW4iOjE3NzczODMyMzk2MjIsIm5hbWUiOiJLZXZpbiBKYWNrZXkiLCJjcmVhdGVkX3RpbWVzdGFtcCI6MTc1ODY0MzY1MjkwNSwicHJlZmVycmVkX3VzZXJuYW1lIjoia2V2aW4uamFja2V5QGthdGFsb24uY29tIiwiZ2l2ZW5fbmFtZSI6IktldmluIiwiZmFtaWx5X25hbWUiOiJKYWNrZXkiLCJlbWFpbCI6ImtldmluLmphY2tleUBrYXRhbG9uLmNvbSJ9.BEJl2Ba6NMZq51OOr7_sormq7UtF4AygBMDF4vHNYNGCpmA1lT6eDEpQJ9nS-FKs1x6Qq-qJmMYbYZikeJeQjlrG80T-T68dNSdAAeRvkDQOeO1-MP3lW8MdOLaC27wm_GgOB4X3waMaE-e4cVk_jyYq0HIJkQITtersrJgQQ3t7LeftknjA4enGgoX4hy6RaUQKPtQiNMTLYX-k8ccIcVABHS7sTYT2crSvQAJDhf_2bmNnYxaVZUuIdQ_hRpm_yHKS8z8Eaz27GoQjPw-KS6aC5YK6s19YJAg_NEaq_ElKCdNYWlMbwsag-XUZEG_ZabFtEOY-MxKfSD7NPyxHhQ@testcloud.katalon.com/wd/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;app&quot;: &quot;207ca014-66dd-4231-a989-aad15dd5866c&quot;,&#xa;  &quot;webSocketURL&quot;: false,&#xa;  &quot;appium:deviceName&quot;: &quot;Any iPhone&quot;,&#xa;  &quot;platformName&quot;: &quot;IOS&quot;,&#xa;  &quot;appium:platformVersion&quot;: &quot;26&quot;,&#xa;  &quot;katalon:options&quot;: {&#xa;    &quot;executionMode&quot;: &quot;queue&quot;,&#xa;    &quot;metadata&quot;: {&#xa;      &quot;organizationId&quot;: &quot;2154967&quot;,&#xa;      &quot;accountId&quot;: &quot;1509469&quot;,&#xa;      &quot;channel&quot;: &quot;kse;v\u003d11.1.2&quot;,&#xa;      &quot;testOpsExecutionId&quot;: &quot;49c85577-4417-4992-962d-a347e6801048&quot;,&#xa;      &quot;projectId&quot;: &quot;3033951&quot;&#xa;    },&#xa;    &quot;appiumClientVersion&quot;: &quot;10.0.0&quot;,&#xa;    &quot;tunnelId&quot;: &quot;&quot;,&#xa;    &quot;usingTunnel&quot;: true,&#xa;    &quot;testOps&quot;: {&#xa;      &quot;sessionName&quot;: &quot;Test Cases/01 - Demo Materials/Mobile Demo/Mobile Demo&quot;&#xa;    }&#xa;  }&#xa;}"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="11.1.2.0"/>
+         <property name="katalon:caps" value="{&#xa;  &quot;deviceName&quot;: &quot;Apple iPhone 17&quot;,&#xa;  &quot;executionId&quot;: &quot;49c85577-4417-4992-962d-a347e6801048&quot;,&#xa;  &quot;executionSessionId&quot;: &quot;0d809fca-7083-4f18-8084-96ee97142fda&quot;&#xa;}"/>
+         <property name="userFullName" value="Kevin Jackey"/>
+         <property name="hostAddress" value="192.168.1.222"/>
+         <property name="projectName" value="TrueTestGen4Project"/>
+         <property name="deviceName" value="Apple iPhone 17"/>
+      </properties>
+      <testcase name="Test Cases/01 - Demo Materials/Mobile Demo/Mobile Demo" time="44.555" classname="Test Cases/01 - Demo Materials/Mobile Demo/Mobile Demo" status="PASSED">
+         <system-out><![CDATA[28-04-2026T09:45:59 - [TEST_CASE][PASSED] - Test Cases/01 - Demo Materials/Mobile Demo/Mobile Demo: Test Cases/01 - Demo Materials/Mobile Demo/Mobile Demo
+
+28-04-2026T09:45:59 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+28-04-2026T09:45:59 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+28-04-2026T09:45:59 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+28-04-2026T09:45:59 - [TEST_STEP][PASSED] - startApplication("207ca014-66dd-4231-a989-aad15dd5866c", true): Started application: '207ca014-66dd-4231-a989-aad15dd5866c'
+
+28-04-2026T09:45:59 - [MESSAGE][INFO] - Overriding application: '207ca014-66dd-4231-a989-aad15dd5866c' by '207ca014-66dd-4231-a989-aad15dd5866c'
+
+28-04-2026T09:45:59 - [MESSAGE][INFO] - Override application info: '{"id":"207ca014-66dd-4231-a989-aad15dd5866c","organizationId":"2154967","name":"Coffee Timer","platform":"IOS","status":"READY","size":110930,"storagePath":"75dc3ed9-f497-4176-9f43-e92e1cee9ce4","uploadedDate":"2026-01-13T21:48:57.865663","createdDate":"2026-01-13T21:48:57.865663","updatedDate":"2026-01-13T21:49:02.223604","fileName":"Coffee Timer.ipa","metadata":{"identifier":"com.ashfurrow.Coffee-Timer","name":"Coffee Timer","version":"1.0","versionCode":"1.0"}}'
+
+28-04-2026T09:45:59 - [MESSAGE][INFO] - Starting application: '207ca014-66dd-4231-a989-aad15dd5866c'
+
+28-04-2026T09:46:31 - [MESSAGE][WARNING] - Unable to get appium status. Root cause (Cannot invoke "org.osgi.framework.Bundle.getBundleContext()" because the return value of "org.osgi.framework.FrameworkUtil.getBundle(java.lang.Class)" is null)
+
+28-04-2026T09:46:33 - [MESSAGE][PASSED] - Started application: '207ca014-66dd-4231-a989-aad15dd5866c'
+
+28-04-2026T09:46:33 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Mobile Demo/XCUIElementTypeStaticText - Mexican"), 30): Element 'Object Repository/Mobile Demo/XCUIElementTypeStaticText - Mexican' is exist
+
+28-04-2026T09:46:34 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Demo/XCUIElementTypeStaticText - Mexican' is exist
+
+28-04-2026T09:46:34 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile Demo/XCUIElementTypeStaticText - Mexican"), 10): Tapped on element 'Object Repository/Mobile Demo/XCUIElementTypeStaticText - Mexican'
+
+28-04-2026T09:46:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Demo/XCUIElementTypeStaticText - Mexican'
+
+28-04-2026T09:46:36 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile Demo/XCUIElementTypeButton - Start"), 20): Tapped on element 'Object Repository/Mobile Demo/XCUIElementTypeButton - Start'
+
+28-04-2026T09:46:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Demo/XCUIElementTypeButton - Start'
+
+28-04-2026T09:46:38 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile Demo/XCUIElementTypeButton - Stop"), 20): Tapped on element 'Object Repository/Mobile Demo/XCUIElementTypeButton - Stop'
+
+28-04-2026T09:46:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Demo/XCUIElementTypeButton - Stop'
+
+28-04-2026T09:46:40 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile Demo/XCUIElementTypeButton - Back"), 10): Tapped on element 'Object Repository/Mobile Demo/XCUIElementTypeButton - Back'
+
+28-04-2026T09:46:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Demo/XCUIElementTypeButton - Back'
+
+28-04-2026T09:46:42 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+28-04-2026T09:46:44 - [MESSAGE][PASSED] - Close app successfully
+
+28-04-2026T09:46:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+28-04-2026T09:46:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+28-04-2026T09:46:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-04-2026T09:45:59 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestSuite: null
+
+28-04-2026T09:45:59 - [TEST_STEP][PASSED] - println(testSuiteContext.getTestSuiteId()): null
+
+28-04-2026T09:45:59 - [TEST_SUITE][PASSED] - Mobile Demo Suite: null
+
+28-04-2026T09:46:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestSuite: null
+
+28-04-2026T09:46:44 - [TEST_STEP][PASSED] - println(testSuiteContext.getTestSuiteId()): null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

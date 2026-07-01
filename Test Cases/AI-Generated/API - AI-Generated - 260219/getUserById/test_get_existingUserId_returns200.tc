@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>test_get_existingUserId_returns200</name>
-   <tag>API_Test_Generation</tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>acb7a824-56a1-45c0-811a-1170a9a27231</testCaseGuid>
-</TestCaseEntity>

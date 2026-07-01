@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>P-01: Verify that the Net Liquidity label is visible in the Net Liquidity section of the dashboard for an authenticated user. Precondition: Navigate to https://katalian-banking.vercel.app/login, Enter username: bankinguser123, Enter password: notapassword@123, Click Login to authenticate.</description>
+   <name>P-01 Net Liquidity label is displayed on dashboard</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>647e12a2-39ed-4c2f-819b-7fff6ea9ce81</testCaseGuid>
+</TestCaseEntity>

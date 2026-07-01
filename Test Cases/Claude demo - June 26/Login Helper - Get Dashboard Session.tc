@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Helper script to authenticate and navigate to dashboard for object capture</description>
+   <name>Login Helper - Get Dashboard Session</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>66e9cdf0-d72d-4808-acd5-c1031bfb72aa</testCaseGuid>
+</TestCaseEntity>

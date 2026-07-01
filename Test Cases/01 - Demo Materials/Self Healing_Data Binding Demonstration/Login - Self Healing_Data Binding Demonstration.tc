@@ -8,24 +8,18 @@
    <testCaseGuid>e40a3be9-e729-4c43-a71a-55bdc97fd8a8</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>c570e73b-47a0-41bf-b0eb-337113856684</id>
+      <id>65e34639-eaa6-4023-ae36-73886c5005dd</id>
       <iterationEntity>
-         <iterationType>RANGE</iterationType>
-         <value>1-1</value>
+         <iterationType>ALL</iterationType>
+         <value></value>
       </iterationEntity>
       <testDataId>Data Files/Demo/Demo Data File 1</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>c570e73b-47a0-41bf-b0eb-337113856684</testDataLinkId>
+      <testDataLinkId>65e34639-eaa6-4023-ae36-73886c5005dd</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>username</value>
       <variableId>72ca07ec-6416-4e5d-8f26-fe7bf4af9730</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>64aa9ec6-813f-477e-909b-8bf3bc6fec39</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'bankinguser123'</defaultValue>
@@ -33,12 +27,5 @@
       <id>72ca07ec-6416-4e5d-8f26-fe7bf4af9730</id>
       <masked>false</masked>
       <name>username</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>64aa9ec6-813f-477e-909b-8bf3bc6fec39</id>
-      <masked>false</masked>
-      <name>ssn</name>
    </variable>
 </TestCaseEntity>

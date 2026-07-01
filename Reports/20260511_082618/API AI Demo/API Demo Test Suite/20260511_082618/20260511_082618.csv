@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+API Demo Test Suite,,API AI Demo suite: GET /api/users and validate usernames.,,11-05-2026 08:26:21,11-05-2026 08:26:21,0.301s,PASSED
+,,,,,,,
+Start listener action : sampleBeforeTestSuite,,,,11-05-2026 08:26:21,11-05-2026 08:26:21,0.006s,PASSED
+,,,,,,,
+Test Cases/API AI Demo/TC01 - Get Users and Validate Username,,"GET /api/users, validate 200, list usernames, verify bankinguser123 exists.",GenAI,11-05-2026 08:26:21,11-05-2026 08:26:21,0.245s,PASSED
+Start listener action : sampleBeforeTestCase,,,,11-05-2026 08:26:21,11-05-2026 08:26:21,0.003s,PASSED
+"request = findTestObject(""Object Repository/API AI Demo/Users/GET - Get all users"")",,,,11-05-2026 08:26:21,11-05-2026 08:26:21,0.018s,PASSED
+logInfo(Sending GET request to: $request.getRestUrl()),,,,11-05-2026 08:26:21,11-05-2026 08:26:21,0.014s,PASSED
+response = sendRequest(request),,,,11-05-2026 08:26:21,11-05-2026 08:26:21,0.104s,PASSED
+statusCode = response.getStatusCode(),,,,11-05-2026 08:26:21,11-05-2026 08:26:21,0.002s,PASSED
+logInfo(Response status code: $statusCode),,,,11-05-2026 08:26:21,11-05-2026 08:26:21,0.001s,PASSED
+if (statusCode != 200),,,,11-05-2026 08:26:21,11-05-2026 08:26:21,0.000s,PASSED
+responseBody = response.getResponseBodyContent(),,,,11-05-2026 08:26:21,11-05-2026 08:26:21,0.000s,PASSED
+logInfo(Response body (raw): $responseBody),,,,11-05-2026 08:26:21,11-05-2026 08:26:21,0.001s,PASSED
+parsed = JsonSlurper().parseText(responseBody),,,,11-05-2026 08:26:21,11-05-2026 08:26:21,0.006s,PASSED
+usernames = [],,,,11-05-2026 08:26:21,11-05-2026 08:26:21,0.001s,PASSED
+if (parsed instanceof java.util.List),,,,11-05-2026 08:26:21,11-05-2026 08:26:21,0.004s,PASSED
+logInfo(Extracted usernames ($usernames.size()): $usernames),,,,11-05-2026 08:26:21,11-05-2026 08:26:21,0.001s,PASSED
+"expectedUsername = ""bankinguser123""",,,,11-05-2026 08:26:21,11-05-2026 08:26:21,0.001s,PASSED
+exists = usernames.contains(expectedUsername),,,,11-05-2026 08:26:21,11-05-2026 08:26:21,0.001s,PASSED
+logInfo(Username '$expectedUsername' present: $exists),,,,11-05-2026 08:26:21,11-05-2026 08:26:21,0.001s,PASSED
+if (!(exists)),,,,11-05-2026 08:26:21,11-05-2026 08:26:21,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,11-05-2026 08:26:21,11-05-2026 08:26:21,0.003s,PASSED
+,,,,,,,
+Start listener action : sampleAfterTestSuite,,,,11-05-2026 08:26:21,11-05-2026 08:26:21,0.001s,PASSED

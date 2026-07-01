@@ -1,0 +1,124 @@
+2026-06-10 16:58:17.719 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio Copilot - 11.2.0.app/Contents/Eclipse/configuration/org.eclipse.osgi/151/0/.cp/resources/logback/logback-execution.xml
+2026-06-10 16:58:17.720 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_New/Include/config/log.properties
+2026-06-10 16:58:18.095 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/VC Example - TS/VC Example - TS
+2026-06-10 16:58:18.124 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Kevin Jackey
+2026-06-10 16:58:18.124 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TrueTestGen4Project
+2026-06-10 16:58:18.124 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = kevin.jackey - 192.168.12.126
+2026-06-10 16:58:18.124 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-06-10 16:58:18.124 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.12.126
+2026-06-10 16:58:18.125 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.2.0.0
+Test Suites/VC Example - TS/VC Example - TS
+2026-06-10 16:58:18.180 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-10 16:58:18.181 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/VC Example - TC/VC Example - TC
+2026-06-10 16:58:18.221 INFO  c.k.katalon.core.main.TestCaseExecutor   - targetUrl = https://katalian-banking.vercel.app/login
+2026-06-10 16:58:18.222 INFO  c.k.katalon.core.main.TestCaseExecutor   - userId = bankinguser123
+2026-06-10 16:58:18.222 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = ••••••••
+Test Cases/VC Example - TC/VC Example - TC
+[targetUrl:https://katalian-banking.vercel.app/login, userId:bankinguser123, password:••••••••]
+2026-06-10 16:58:18.230 WARN  c.k.k.c.h.s.CDTVideoRecorder             - No alive Web Driver found!
+2026-06-10 16:58:18.269 DEBUG testcase.VC Example - TC                 - 1: openBrowser("")
+2026-06-10 16:58:18.346 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-10 16:58:18.360 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-10 16:58:20.123 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b1aff96b9385a27324c8d52318c432ca
+2026-06-10 16:58:20.123 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.103
+2026-06-10 16:58:20.123 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-06-10 16:58:20.123 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-10 16:58:20.130 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-10 16:58:20.157 DEBUG testcase.VC Example - TC                 - 2: maximizeWindow()
+2026-06-10 16:58:20.525 DEBUG testcase.VC Example - TC                 - 3: navigateToUrl(targetUrl)
+2026-06-10 16:58:21.571 DEBUG testcase.VC Example - TC                 - 4: setText(findTestObject("Object Repository/VC Example - TC/input_secureId_username"), userId)
+2026-06-10 16:58:22.262 DEBUG testcase.VC Example - TC                 - 5: setMaskedText(findTestObject("Object Repository/VC Example - TC/input_accessCode_password"),*********)
+2026-06-10 16:58:22.766 DEBUG testcase.VC Example - TC                 - 6: click(findTestObject("Object Repository/VC Example - TC/button_enterVaultAccess"))
+2026-06-10 16:58:23.083 DEBUG testcase.VC Example - TC                 - 7: waitForElementVisible(findTestObject("Object Repository/VC Example - TC/label_netLiquidity"), 15)
+2026-06-10 16:58:24.544 DEBUG testcase.VC Example - TC                 - 8: verifyMatch(getUrl(), ".*/dashboard.*", true)
+2026-06-10 16:58:24.558 DEBUG testcase.VC Example - TC                 - 9: verifyElementText(findTestObject("Object Repository/VC Example - TC/label_netLiquidity"), "Net Liquidity")
+2026-06-10 16:58:24.898 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Actual text 'NET LIQUIDITY' and expected text 'Net Liquidity' of test object 'Object Repository/VC Example - TC/label_netLiquidity' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'NET LIQUIDITY' and expected text 'Net Liquidity' of test object 'Object Repository/VC Example - TC/label_netLiquidity' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5158)
+	at VC Example - TC.run(VC Example - TC:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0610_2.run(S0610_2.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-06-10 16:58:25.010 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Verify element text of test object 'Object Repository/VC Example - TC/label_netLiquidity' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/VC Example - TC/label_netLiquidity' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5158)
+	at VC Example - TC.run(VC Example - TC:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0610_2.run(S0610_2.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'NET LIQUIDITY' and expected text 'Net Liquidity' of test object 'Object Repository/VC Example - TC/label_netLiquidity' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+)
+2026-06-10 16:58:25.011 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/VC Example - TC/VC Example - TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/VC Example - TC/label_netLiquidity' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5158)
+	at VC Example - TC.run(VC Example - TC:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0610_2.run(S0610_2.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'NET LIQUIDITY' and expected text 'Net Liquidity' of test object 'Object Repository/VC Example - TC/label_netLiquidity' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+
+Test Cases/VC Example - TC/VC Example - TC
+FAILED
+2026-06-10 16:58:25.050 INFO  c.k.k.c.c.internal.VideoRecorderService  - Video recording for test case 'Test Cases/VC Example - TC/VC Example - TC' .
+2026-06-10 16:58:25.051 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/VC Example - TC/VC Example - TC
+Test Suites/VC Example - TS/VC Example - TS
+2026-06-10 16:58:25.183 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-06-10 16:58:25.184 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/VC Example - TS/VC Example - TS
+2026-06-10 16:58:25.184 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

@@ -13,12 +13,11 @@ import internal.GlobalVariable as GlobalVariable
 // - Demonstrate use of data-bound variables (e.g., username/password)
 // =====================================================================
 
-
+/*
 // [1] Execution traceability: Log where this run’s report artifacts are stored
 KeywordUtil.logInfo('Report Results Log: ' + RunConfiguration.getReportFolder())
 
 
-/*
 // [2] Session setup: Start browser using environment-based application domain
 WebUI.openBrowser(GlobalVariable.application_domain + '/login')
 

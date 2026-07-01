@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>test_post_missingRequiredFields_returns400</name>
-   <tag>API_Test_Generation</tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>434440ed-7b83-4d87-9629-06066ecb8944</testCaseGuid>
-</TestCaseEntity>

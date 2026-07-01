@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>test_get_singleUserExists_returns200</name>
-   <tag>API_Test_Generation</tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>034cc14a-625d-4c9d-a388-be67caaff247</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="API Demo Test Suite" time="0.357" tests="1" passed="1" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="API Demo Test Suite" tests="1" passed="1" failures="0" errors="0" incompleted="0" skipped="0" time="0.357" timestamp="2026-05-11T12:16:43.544Z" hostname="kevin.jackey - 192.168.1.222" id="Test Suites/API AI Demo/API Demo Test Suite" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_New/Reports/20260511_081640/API AI Demo/API Demo Test Suite/20260511_081640"/>
+         <property name="logFiles" value="/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_New/Reports/20260511_081640/API AI Demo/API Demo Test Suite/20260511_081640/execution0.log, /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_New/Reports/20260511_081640/API AI Demo/API Demo Test Suite/20260511_081640/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="kevin.jackey - 192.168.1.222"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="11.1.3.0"/>
+         <property name="userFullName" value="Kevin Jackey"/>
+         <property name="hostAddress" value="192.168.1.222"/>
+         <property name="projectName" value="TrueTestGen4Project"/>
+      </properties>
+      <testcase name="Test Cases/API AI Demo/TC_API_Get_Users_Validate_Usernames" time="0.314" classname="Test Cases/API AI Demo/TC_API_Get_Users_Validate_Usernames" status="PASSED">
+         <system-out><![CDATA[11-05-2026T08:16:43 - [TEST_CASE][PASSED] - Test Cases/API AI Demo/TC_API_Get_Users_Validate_Usernames: Test Cases/API AI Demo/TC_API_Get_Users_Validate_Usernames
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - logInfo("Step 0: Resolve RequestObject from Object Repository"): Step 0: Resolve RequestObject from Object Repository
+
+11-05-2026T08:16:43 - [MESSAGE][INFO] - Step 0: Resolve RequestObject from Object Repository
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - request = findTestObject("Object Repository/API AI Demo/Users/GET Users"): null
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - assert request != null : "Request object not found: Object Repository/API AI Demo/Users/GET Users": null
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - logInfo("Step 0.1: Ensure Content-Type=application/json header exists on the request object"): Step 0.1: Ensure Content-Type=application/json header exists on the request object
+
+11-05-2026T08:16:43 - [MESSAGE][INFO] - Step 0.1: Ensure Content-Type=application/json header exists on the request object
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - headers = (request.getHttpHeaderProperties()) ? request.getHttpHeaderProperties() : []: null
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - hasContentType = headers.any({ -> ... }): null
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - if (!(hasContentType)): Added Content-Type: application/json header to request object at runtime
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - request.setHttpHeaderProperties(headers + [new com.kms.katalon.core.testobject.TestObjectProperty(Content-Type, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)]): null
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - logInfo("Added Content-Type: application/json header to request object at runtime"): Added Content-Type: application/json header to request object at runtime
+
+11-05-2026T08:16:43 - [MESSAGE][INFO] - Added Content-Type: application/json header to request object at runtime
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - logInfo("Step 1: Open endpoint http://localhost:3000/api/users (via GET request)"): Step 1: Open endpoint http://localhost:3000/api/users (via GET request)
+
+11-05-2026T08:16:43 - [MESSAGE][INFO] - Step 1: Open endpoint http://localhost:3000/api/users (via GET request)
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - logInfo("Step 2: Perform GET request to retrieve user details"): Step 2: Perform GET request to retrieve user details
+
+11-05-2026T08:16:43 - [MESSAGE][INFO] - Step 2: Perform GET request to retrieve user details
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - response = sendRequest(request): Send request successfully
+
+11-05-2026T08:16:43 - [MESSAGE][INFO] - HAR: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_New/Reports/20260511_081640/API AI Demo/API Demo Test Suite/20260511_081640/requests/main/GET-Users_0.har
+
+11-05-2026T08:16:43 - [MESSAGE][INFO] - cURL Command:
+curl \
+  --location \
+  --header 'Content-Type: application/json' \
+  'http://localhost:3000/api/users'
+
+11-05-2026T08:16:43 - [MESSAGE][PASSED] - Send request successfully
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - logInfo("Step 3: Validate HTTP 200 response code"): Step 3: Validate HTTP 200 response code
+
+11-05-2026T08:16:43 - [MESSAGE][INFO] - Step 3: Validate HTTP 200 response code
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+11-05-2026T08:16:43 - [MESSAGE][PASSED] - Verify response status code successfully
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - logInfo("Step 4: Parse response body and extract usernames"): Step 4: Parse response body and extract usernames
+
+11-05-2026T08:16:43 - [MESSAGE][INFO] - Step 4: Parse response body and extract usernames
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - responseBody = response.getResponseBodyContent(): null
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - logInfo(Response body: $responseBody): Response body: [{"id":"user1","username":"bankinguser123","firstName":"John","lastName":"Doe","email":"john.doe@example.com","accounts":[{"id":"acc1-1","type":"Checking","balance":5000,"accountNumber":"****1234"},{"id":"acc1-2","type":"Savings","balance":15000,"accountNumber":"****5678"}]},{"id":"user2","username":"janesmith","firstName":"Jane","lastName":"Smith","email":"jane.smith@example.com","accounts":[{"id":"acc2-1","type":"Checking","balance":3500,"accountNumber":"****2345"}]},{"id":"user3","username":"bobwilson","firstName":"Bob","lastName":"Wilson","email":"bob.wilson@example.com","accounts":[{"id":"acc3-1","type":"Checking","balance":8000,"accountNumber":"****3456"},{"id":"acc3-2","type":"Savings","balance":25000,"accountNumber":"****7890"}]},{"id":"user4","username":"lockeduser","firstName":"Locked","lastName":"User","email":"locked@example.com","isLocked":true,"accounts":[]}]
+
+11-05-2026T08:16:43 - [MESSAGE][INFO] - Response body: [{"id":"user1","username":"bankinguser123","firstName":"John","lastName":"Doe","email":"john.doe@example.com","accounts":[{"id":"acc1-1","type":"Checking","balance":5000,"accountNumber":"****1234"},{"id":"acc1-2","type":"Savings","balance":15000,"accountNumber":"****5678"}]},{"id":"user2","username":"janesmith","firstName":"Jane","lastName":"Smith","email":"jane.smith@example.com","accounts":[{"id":"acc2-1","type":"Checking","balance":3500,"accountNumber":"****2345"}]},{"id":"user3","username":"bobwilson","firstName":"Bob","lastName":"Wilson","email":"bob.wilson@example.com","accounts":[{"id":"acc3-1","type":"Checking","balance":8000,"accountNumber":"****3456"},{"id":"acc3-2","type":"Savings","balance":25000,"accountNumber":"****7890"}]},{"id":"user4","username":"lockeduser","firstName":"Locked","lastName":"User","email":"locked@example.com","isLocked":true,"accounts":[]}]
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - json = JsonSlurper().parseText(responseBody): null
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - usersCollection = null: null
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - if (json instanceof java.util.Collection): null
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - usersCollection = json: null
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - assert usersCollection != null : "Could not determine users collection from response JSON. Expected array or {users:[...]} or {data:[...]}.": null
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - usernames = usersCollection.collect({ java.lang.Object u -> ... }): null
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - logInfo("Usernames found:"): Usernames found:
+
+11-05-2026T08:16:43 - [MESSAGE][INFO] - Usernames found:
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - usernames.each({ -> ... }):  - lockeduser
+
+11-05-2026T08:16:43 - [MESSAGE][INFO] -  - bankinguser123
+
+11-05-2026T08:16:43 - [MESSAGE][INFO] -  - janesmith
+
+11-05-2026T08:16:43 - [MESSAGE][INFO] -  - bobwilson
+
+11-05-2026T08:16:43 - [MESSAGE][INFO] -  - lockeduser
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - logInfo("Step 5: Validate 'bankinguser123' is included"): Step 5: Validate 'bankinguser123' is included
+
+11-05-2026T08:16:43 - [MESSAGE][INFO] - Step 5: Validate 'bankinguser123' is included
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - assert usernames.contains("bankinguser123"): null
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-05-2026T08:16:43 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestSuite: null
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - println(testSuiteContext.getTestSuiteId()): null
+
+11-05-2026T08:16:43 - [TEST_SUITE][PASSED] - API Demo Test Suite: null
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestSuite: null
+
+11-05-2026T08:16:43 - [TEST_STEP][PASSED] - println(testSuiteContext.getTestSuiteId()): null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

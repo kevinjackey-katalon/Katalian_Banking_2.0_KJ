@@ -1,0 +1,116 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. logInfo("Step 0: Resolve RequestObject from Object Repository")
+
+2
+00:00:00,000 --> 00:00:00,000
+5. request = findTestObject("Object Repository/API AI Demo/Users/GET Users")
+
+3
+00:00:00,000 --> 00:00:00,000
+9. assert request != null : "Request object not found: Object Repository/API AI Demo/Users/GET Users"
+
+4
+00:00:00,000 --> 00:00:00,000
+13. logInfo("Step 0.1: Ensure Content-Type=application/json header exists on the request object")
+
+5
+00:00:00,000 --> 00:00:00,000
+17. headers = (request.getHttpHeaderProperties()) ? request.getHttpHeaderProperties() : []
+
+6
+00:00:00,000 --> 00:00:00,000
+21. hasContentType = headers.any({ -> ... })
+
+7
+00:00:00,000 --> 00:00:00,000
+25. if (!(hasContentType))
+
+8
+00:00:00,000 --> 00:00:00,000
+1. request.setHttpHeaderProperties(headers + [new com.kms.katalon.core.testobject.TestObjectProperty(Content-Type, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)])
+
+9
+00:00:00,000 --> 00:00:00,000
+5. logInfo("Added Content-Type: application/json header to request object at runtime")
+
+10
+00:00:00,000 --> 00:00:00,000
+29. logInfo("Step 1: Open endpoint http://localhost:3000/api/users (via GET request)")
+
+11
+00:00:00,000 --> 00:00:00,000
+33. logInfo("Step 2: Perform GET request to retrieve user details")
+
+12
+00:00:00,000 --> 00:00:00,000
+37. response = sendRequest(request)
+
+13
+00:00:00,000 --> 00:00:00,000
+41. logInfo("Step 3: Validate HTTP 200 response code")
+
+14
+00:00:00,000 --> 00:00:00,000
+45. verifyResponseStatusCode(response, 200)
+
+15
+00:00:00,000 --> 00:00:00,000
+49. logInfo("Step 4: Parse response body and extract usernames")
+
+16
+00:00:00,000 --> 00:00:00,000
+53. responseBody = response.getResponseBodyContent()
+
+17
+00:00:00,000 --> 00:00:00,000
+57. logInfo(Response body: $responseBody)
+
+18
+00:00:00,000 --> 00:00:00,000
+61. json = JsonSlurper().parseText(responseBody)
+
+19
+00:00:00,000 --> 00:00:00,000
+65. usersCollection = null
+
+20
+00:00:00,000 --> 00:00:00,000
+69. if (json instanceof java.util.Collection)
+
+21
+00:00:00,000 --> 00:00:00,000
+1. usersCollection = json
+
+22
+00:00:00,000 --> 00:00:00,000
+73. assert usersCollection != null : "Could not determine users collection from response JSON. Expected array or {users:[...]} or {data:[...]}."
+
+23
+00:00:00,000 --> 00:00:00,000
+77. usernames = usersCollection.collect({ java.lang.Object u -> ... })
+
+24
+00:00:00,000 --> 00:00:00,000
+81. logInfo("Usernames found:")
+
+25
+00:00:00,000 --> 00:00:00,000
+85. usernames.each({ -> ... })
+
+26
+00:00:00,000 --> 00:00:00,000
+89. logInfo("Step 5: Validate 'bankinguser123' is included")
+
+27
+00:00:00,000 --> 00:00:00,000
+93. assert usernames.contains("bankinguser123")
+
+28
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+29
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+

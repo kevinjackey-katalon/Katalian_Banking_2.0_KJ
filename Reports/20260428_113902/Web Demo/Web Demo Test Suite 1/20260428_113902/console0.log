@@ -1,0 +1,101 @@
+2026-04-28 11:39:09.078 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon_Studio_Engine_MacOS-11.1.2/Katalon Studio Engine.app/Contents/Eclipse/configuration/org.eclipse.osgi/107/0/.cp/resources/logback/logback-execution.xml
+2026-04-28 11:39:09.082 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_New/Include/config/log.properties
+2026-04-28 11:39:10.357 WARN  c.k.execution.application.ExecutionMain  - No AI service configuration provided, skipping AI service initialization
+2026-04-28 11:39:10.432 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Web Demo/Web Demo Test Suite 1
+2026-04-28 11:39:10.519 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Kevin Jackey
+2026-04-28 11:39:10.521 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TrueTestGen4Project
+2026-04-28 11:39:10.521 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = kevin.jackey - 192.168.1.222
+2026-04-28 11:39:10.521 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-04-28 11:39:10.522 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.222
+2026-04-28 11:39:10.522 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.2.0
+Test Suites/Web Demo/Web Demo Test Suite 1
+2026-04-28 11:39:10.775 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-28 11:39:10.775 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script
+2026-04-28 11:39:10.821 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = bankinguser123
+2026-04-28 11:39:10.822 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = notapassword@123
+Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script
+[password:notapassword@123, username:bankinguser123]
+2026-04-28 11:39:10.847 WARN  c.k.k.c.h.s.CDTVideoRecorder             - No alive Web Driver found!
+2026-04-28 11:39:10.931 DEBUG testcase.Login - Working Script          - 1: openBrowser(application_domain)
+2026-04-28 11:39:11.222 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-28 11:39:11.256 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-28 11:39:20.824 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b3a1781f9fc4fc1d2588b1518331e948
+2026-04-28 11:39:20.833 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.102
+2026-04-28 11:39:20.834 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-04-28 11:39:20.834 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-28 11:39:20.850 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-28 11:39:32.780 DEBUG testcase.Login - Working Script          - 2: navigateToUrl("https://katalian-banking.vercel.app/login")
+2026-04-28 11:39:40.140 DEBUG testcase.Login - Working Script          - 3: setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username"), username)
+2026-04-28 11:39:44.089 DEBUG testcase.Login - Working Script          - 4: setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password"), password)
+2026-04-28 11:39:45.641 DEBUG testcase.Login - Working Script          - 5: click(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access"))
+2026-04-28 11:39:48.306 DEBUG testcase.Login - Working Script          - 6: closeBrowser()
+Exception in thread "CDP Connection" org.openqa.selenium.devtools.DevToolsException: {"id":52,"error":{"code":-32601,"message":"'Page.screencastFrameAck' wasn't found"}}
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.3.1', java.version: '21.0.9'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:242)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.devtools.DevToolsException: {"id":52,"error":{"code":-32601,"message":"'Page.screencastFrameAck' wasn't found"}}
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.3.1', java.version: '21.0.9'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.devtools.Connection.sendAndWait(Connection.java:195)
+	at org.openqa.selenium.devtools.DevTools.send(DevTools.java:100)
+	at org.openqa.selenium.devtools.DevTools.send(DevTools.java:95)
+	at com.kms.katalon.core.helper.screenrecorder.CDTVideoRecorder.handleScreencastFrame(CDTVideoRecorder.java:159)
+	at com.kms.katalon.core.helper.screenrecorder.CDTVideoRecorder.lambda$0(CDTVideoRecorder.java:151)
+	at org.openqa.selenium.devtools.DevTools.lambda$addListener$0(DevTools.java:114)
+	at org.openqa.selenium.devtools.Connection.lambda$handle$5(Connection.java:348)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1858)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:311)
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:239)
+	... 3 more
+Caused by: org.openqa.selenium.WebDriverException: {"id":52,"error":{"code":-32601,"message":"'Page.screencastFrameAck' wasn't found"}}
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.3.1', java.version: '21.0.9'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:275)
+	... 4 more
+Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script
+PASSED
+2026-04-28 11:39:48.897 INFO  c.k.k.c.c.internal.VideoRecorderService  - Video recording for test case 'Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script' .
+2026-04-28 11:39:48.903 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script
+2026-04-28 11:39:49.018 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-28 11:39:49.018 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script
+2026-04-28 11:39:49.043 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = lockedout25
+2026-04-28 11:39:49.044 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = resetpassword@45
+Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script
+[password:resetpassword@45, username:lockedout25]
+2026-04-28 11:39:49.062 WARN  c.k.k.c.h.s.CDTVideoRecorder             - No alive Web Driver found!
+2026-04-28 11:39:49.065 DEBUG testcase.Login - Working Script          - 1: openBrowser(application_domain)
+2026-04-28 11:39:49.070 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-28 11:39:49.078 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-28 11:39:56.562 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1b22faa08614cbfcbfcf00bdf3885ef7
+2026-04-28 11:39:56.565 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.102
+2026-04-28 11:39:56.565 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-04-28 11:39:56.566 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-28 11:39:56.567 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-28 11:40:06.286 DEBUG testcase.Login - Working Script          - 2: navigateToUrl("https://katalian-banking.vercel.app/login")
+2026-04-28 11:40:11.860 DEBUG testcase.Login - Working Script          - 3: setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username"), username)
+2026-04-28 11:40:15.526 DEBUG testcase.Login - Working Script          - 4: setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password"), password)
+2026-04-28 11:40:17.451 DEBUG testcase.Login - Working Script          - 5: click(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access"))
+2026-04-28 11:40:19.935 DEBUG testcase.Login - Working Script          - 6: closeBrowser()
+Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script
+PASSED
+2026-04-28 11:40:20.435 INFO  c.k.k.c.c.internal.VideoRecorderService  - Video recording for test case 'Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script' .
+2026-04-28 11:40:20.439 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script
+Test Suites/Web Demo/Web Demo Test Suite 1
+2026-04-28 11:40:20.558 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-04-28 11:40:20.559 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Web Demo/Web Demo Test Suite 1
+2026-04-28 11:40:20.560 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

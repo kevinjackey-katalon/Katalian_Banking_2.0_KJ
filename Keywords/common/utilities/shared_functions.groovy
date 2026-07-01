@@ -1,6 +1,7 @@
 package common.utilities
 
 import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -44,7 +45,7 @@ class shared_functions {
 		while (attempt < retries) {
 			try {
 				KeywordUtil.logInfo("[Step] Wait for element present (timeout=${timeout}s), then click. Attempt ${attempt + 1}/${retries}")
-				WebUI.waitForElementPresent(to, timeout)
+				WebUI.waitForElementPresent(to, timeout,FailureHandling.OPTIONAL)
 				WebUI.click(to, timeout)
 				return
 			} catch (Exception e) {

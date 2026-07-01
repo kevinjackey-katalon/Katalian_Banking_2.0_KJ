@@ -4,21 +4,23 @@
    <name>input_username_broken</name>
    <tag></tag>
    <elementGuidId>13e071fb-ee4c-4f74-9d68-3414a1f6d513</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#username</value>
+         <key>XPATH</key>
+         <value>//*[@id = 'broken___username']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@id = 'username' and @placeholder = 'USER_0000']</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
+         <key>CSS</key>
+         <value>#username</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id = 'broken___username']</value>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -36,7 +38,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b0631743-a798-41d3-9551-e91886d877ef</webElementGuid>
+      <webElementGuid>9158674a-35e8-408d-aff8-08af335fffc7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>username</value>
-      <webElementGuid>53e515f7-66cc-475b-a74b-c7a78dc9da01</webElementGuid>
+      <webElementGuid>772a08ca-5cb2-4ea6-95f6-9eecf9858c9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>block w-full px-4 py-4 bg-slate-950 border border-white/5 rounded-2xl shadow-inner placeholder-slate-800 focus:outline-none focus:border-emerald-500/50 focus:ring-4 focus:ring-emerald-500/5 transition-all duration-300 text-sm text-white font-medium </value>
-      <webElementGuid>2fa7ecac-b40d-46b8-9abe-8601981291c9</webElementGuid>
+      <webElementGuid>87525754-9d34-423d-bf5d-a69acbc4775d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,7 +62,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>USER_0000</value>
-      <webElementGuid>8b65aeef-702c-45c6-bed4-1885b7f044ef</webElementGuid>
+      <webElementGuid>2b315819-48f5-4aae-8810-9cdeebd7d7ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +70,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-3d2c3dd43d9fa890160f2bddb48eef38</value>
-      <webElementGuid>ee8c4015-7088-46a3-a9cf-86491b6d831d</webElementGuid>
+      <webElementGuid>2c22c908-d99b-4282-943e-246cd920ba5d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,6 +78,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'username']</value>
-      <webElementGuid>03e3d0d6-f302-428b-a826-9d79c202ebda</webElementGuid>
+      <webElementGuid>2356ec97-3ff1-44dc-b6f1-eddc509f9f6b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,259 @@
+2026-04-28 10:10:19.586 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon_Studio_Engine_MacOS-11.1.2/Katalon Studio Engine.app/Contents/Eclipse/configuration/org.eclipse.osgi/107/0/.cp/resources/logback/logback-execution.xml
+2026-04-28 10:10:19.588 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_New/Include/config/log.properties
+2026-04-28 10:10:20.674 WARN  c.k.execution.application.ExecutionMain  - No AI service configuration provided, skipping AI service initialization
+2026-04-28 10:10:20.745 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Web Demo/Web Demo Test Suite 1
+2026-04-28 10:10:20.816 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Kevin Jackey
+2026-04-28 10:10:20.817 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TrueTestGen4Project
+2026-04-28 10:10:20.818 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = kevin.jackey - 192.168.1.222
+2026-04-28 10:10:20.818 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-04-28 10:10:20.819 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.222
+2026-04-28 10:10:20.819 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.2.0
+Test Suites/Web Demo/Web Demo Test Suite 1
+2026-04-28 10:10:21.066 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-28 10:10:21.067 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script
+2026-04-28 10:10:21.126 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = bankinguser123
+2026-04-28 10:10:21.128 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = notapassword@123
+Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script
+[password:notapassword@123, username:bankinguser123]
+2026-04-28 10:10:21.152 WARN  c.k.k.c.h.s.CDTVideoRecorder             - No alive Web Driver found!
+2026-04-28 10:10:21.285 DEBUG testcase.Login - Working Script          - 1: openBrowser(application_domain)
+2026-04-28 10:10:21.739 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-28 10:10:21.784 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-28 10:10:29.905 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1177f020908ac8d2f2330ed2cf6fe31f
+2026-04-28 10:10:29.913 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.102
+2026-04-28 10:10:29.914 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-04-28 10:10:29.915 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-28 10:10:29.926 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-28 10:10:38.561 DEBUG testcase.Login - Working Script          - 2: navigateToUrl("https://katalian-banking.vercel.app/login")
+2026-04-28 10:10:43.075 DEBUG testcase.Login - Working Script          - 3: setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username"), username)
+2026-04-28 10:10:46.154 DEBUG testcase.Login - Working Script          - 4: setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password"), password)
+2026-04-28 10:10:47.564 DEBUG testcase.Login - Working Script          - 5: click(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access"))
+2026-04-28 10:10:49.419 DEBUG testcase.Login - Working Script          - 6: closeBrowser()
+Exception in thread "CDP Connection" org.openqa.selenium.devtools.DevToolsException: {"id":43,"error":{"code":-32601,"message":"'Page.screencastFrameAck' wasn't found"}}
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.3.1', java.version: '21.0.9'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:242)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.devtools.DevToolsException: {"id":43,"error":{"code":-32601,"message":"'Page.screencastFrameAck' wasn't found"}}
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.3.1', java.version: '21.0.9'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.devtools.Connection.sendAndWait(Connection.java:195)
+	at org.openqa.selenium.devtools.DevTools.send(DevTools.java:100)
+	at org.openqa.selenium.devtools.DevTools.send(DevTools.java:95)
+	at com.kms.katalon.core.helper.screenrecorder.CDTVideoRecorder.handleScreencastFrame(CDTVideoRecorder.java:159)
+	at com.kms.katalon.core.helper.screenrecorder.CDTVideoRecorder.lambda$0(CDTVideoRecorder.java:151)
+	at org.openqa.selenium.devtools.DevTools.lambda$addListener$0(DevTools.java:114)
+	at org.openqa.selenium.devtools.Connection.lambda$handle$5(Connection.java:348)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1858)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:311)
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:239)
+	... 3 more
+Caused by: org.openqa.selenium.WebDriverException: {"id":43,"error":{"code":-32601,"message":"'Page.screencastFrameAck' wasn't found"}}
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.3.1', java.version: '21.0.9'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:275)
+	... 4 more
+Exception in thread "CDP Connection" org.openqa.selenium.devtools.DevToolsException: java.io.IOException: Output closed
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.3.1', java.version: '21.0.9'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:242)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.WebDriverException: java.io.IOException: Output closed
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.3.1', java.version: '21.0.9'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:326)
+	at org.openqa.selenium.remote.http.WebSocket.sendText(WebSocket.java:32)
+	at org.openqa.selenium.devtools.Connection.send(Connection.java:174)
+	at org.openqa.selenium.devtools.Connection.sendAndWait(Connection.java:185)
+	at org.openqa.selenium.devtools.DevTools.send(DevTools.java:100)
+	at org.openqa.selenium.devtools.DevTools.send(DevTools.java:95)
+	at com.kms.katalon.core.helper.screenrecorder.CDTVideoRecorder.handleScreencastFrame(CDTVideoRecorder.java:159)
+	at com.kms.katalon.core.helper.screenrecorder.CDTVideoRecorder.lambda$0(CDTVideoRecorder.java:151)
+	at org.openqa.selenium.devtools.DevTools.lambda$addListener$0(DevTools.java:114)
+	at org.openqa.selenium.devtools.Connection.lambda$handle$5(Connection.java:348)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1858)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:311)
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:239)
+	... 3 more
+Caused by: java.io.IOException: Output closed
+	at java.net.http/jdk.internal.net.http.websocket.MessageEncoder.encodeText(MessageEncoder.java:145)
+	at java.net.http/jdk.internal.net.http.websocket.TransportImpl$SendTask$1.onText(TransportImpl.java:376)
+	at java.net.http/jdk.internal.net.http.websocket.TransportImpl$SendTask$1.onText(TransportImpl.java:367)
+	at java.net.http/jdk.internal.net.http.websocket.MessageQueue.peek(MessageQueue.java:223)
+	at java.net.http/jdk.internal.net.http.websocket.TransportImpl$SendTask.run(TransportImpl.java:555)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.websocket.TransportImpl.sendText(TransportImpl.java:149)
+	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl.sendText(WebSocketImpl.java:192)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.lambda$send$1(JdkHttpClient.java:277)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:316)
+	... 24 more
+Exception in thread "CDP Connection" org.openqa.selenium.devtools.DevToolsException: java.io.IOException: Output closed
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.3.1', java.version: '21.0.9'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:242)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.WebDriverException: java.io.IOException: Output closed
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.3.1', java.version: '21.0.9'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:326)
+	at org.openqa.selenium.remote.http.WebSocket.sendText(WebSocket.java:32)
+	at org.openqa.selenium.devtools.Connection.send(Connection.java:174)
+	at org.openqa.selenium.devtools.Connection.sendAndWait(Connection.java:185)
+	at org.openqa.selenium.devtools.DevTools.send(DevTools.java:100)
+	at org.openqa.selenium.devtools.DevTools.send(DevTools.java:95)
+	at com.kms.katalon.core.helper.screenrecorder.CDTVideoRecorder.handleScreencastFrame(CDTVideoRecorder.java:159)
+	at com.kms.katalon.core.helper.screenrecorder.CDTVideoRecorder.lambda$0(CDTVideoRecorder.java:151)
+	at org.openqa.selenium.devtools.DevTools.lambda$addListener$0(DevTools.java:114)
+	at org.openqa.selenium.devtools.Connection.lambda$handle$5(Connection.java:348)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1858)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:311)
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:239)
+	... 3 more
+Caused by: java.io.IOException: Output closed
+	at java.net.http/jdk.internal.net.http.websocket.MessageEncoder.encodeText(MessageEncoder.java:145)
+	at java.net.http/jdk.internal.net.http.websocket.TransportImpl$SendTask$1.onText(TransportImpl.java:376)
+	at java.net.http/jdk.internal.net.http.websocket.TransportImpl$SendTask$1.onText(TransportImpl.java:367)
+	at java.net.http/jdk.internal.net.http.websocket.MessageQueue.peek(MessageQueue.java:223)
+	at java.net.http/jdk.internal.net.http.websocket.TransportImpl$SendTask.run(TransportImpl.java:555)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.websocket.TransportImpl.sendText(TransportImpl.java:149)
+	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl.sendText(WebSocketImpl.java:192)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.lambda$send$1(JdkHttpClient.java:277)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:316)
+	... 24 more
+Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script
+PASSED
+2026-04-28 10:10:49.961 INFO  c.k.k.c.c.internal.VideoRecorderService  - Video recording for test case 'Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script' .
+2026-04-28 10:10:49.974 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script
+2026-04-28 10:10:50.103 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-28 10:10:50.103 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script
+2026-04-28 10:10:50.126 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = lockedout25
+2026-04-28 10:10:50.126 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = resetpassword@45
+Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script
+[password:resetpassword@45, username:lockedout25]
+2026-04-28 10:10:50.139 WARN  c.k.k.c.h.s.CDTVideoRecorder             - No alive Web Driver found!
+2026-04-28 10:10:50.141 DEBUG testcase.Login - Working Script          - 1: openBrowser(application_domain)
+2026-04-28 10:10:50.148 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-28 10:10:50.153 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-28 10:10:56.477 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 330bd664fbc98a7fec107df4f9c9bcbb
+2026-04-28 10:10:56.478 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.102
+2026-04-28 10:10:56.479 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-04-28 10:10:56.479 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-28 10:10:56.480 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-28 10:11:04.149 DEBUG testcase.Login - Working Script          - 2: navigateToUrl("https://katalian-banking.vercel.app/login")
+2026-04-28 10:11:09.522 DEBUG testcase.Login - Working Script          - 3: setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username"), username)
+2026-04-28 10:11:12.421 DEBUG testcase.Login - Working Script          - 4: setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password"), password)
+2026-04-28 10:11:13.675 DEBUG testcase.Login - Working Script          - 5: click(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access"))
+2026-04-28 10:11:15.434 DEBUG testcase.Login - Working Script          - 6: closeBrowser()
+Exception in thread "CDP Connection" org.openqa.selenium.devtools.DevToolsException: java.io.IOException: Output closed
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.3.1', java.version: '21.0.9'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:242)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.WebDriverException: java.io.IOException: Output closed
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.3.1', java.version: '21.0.9'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:326)
+	at org.openqa.selenium.remote.http.WebSocket.sendText(WebSocket.java:32)
+	at org.openqa.selenium.devtools.Connection.send(Connection.java:174)
+	at org.openqa.selenium.devtools.Connection.sendAndWait(Connection.java:185)
+	at org.openqa.selenium.devtools.DevTools.send(DevTools.java:100)
+	at org.openqa.selenium.devtools.DevTools.send(DevTools.java:95)
+	at com.kms.katalon.core.helper.screenrecorder.CDTVideoRecorder.handleScreencastFrame(CDTVideoRecorder.java:159)
+	at com.kms.katalon.core.helper.screenrecorder.CDTVideoRecorder.lambda$0(CDTVideoRecorder.java:151)
+	at org.openqa.selenium.devtools.DevTools.lambda$addListener$0(DevTools.java:114)
+	at org.openqa.selenium.devtools.Connection.lambda$handle$5(Connection.java:348)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1858)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:311)
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:239)
+	... 3 more
+Caused by: java.io.IOException: Output closed
+	at java.net.http/jdk.internal.net.http.websocket.MessageEncoder.encodeText(MessageEncoder.java:145)
+	at java.net.http/jdk.internal.net.http.websocket.TransportImpl$SendTask$1.onText(TransportImpl.java:376)
+	at java.net.http/jdk.internal.net.http.websocket.TransportImpl$SendTask$1.onText(TransportImpl.java:367)
+	at java.net.http/jdk.internal.net.http.websocket.MessageQueue.peek(MessageQueue.java:223)
+	at java.net.http/jdk.internal.net.http.websocket.TransportImpl$SendTask.run(TransportImpl.java:555)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.websocket.TransportImpl.sendClose(TransportImpl.java:271)
+	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl.sendClose0(WebSocketImpl.java:345)
+	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl.sendCloseSilently(WebSocketImpl.java:660)
+	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl$ReceiveTask.lambda$processClose$0(WebSocketImpl.java:549)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenCompleteStage(CompletableFuture.java:887)
+	at java.base/java.util.concurrent.CompletableFuture.whenComplete(CompletableFuture.java:2357)
+	at java.base/java.util.concurrent.CompletableFuture.whenComplete(CompletableFuture.java:144)
+	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl$ReceiveTask.processClose(WebSocketImpl.java:544)
+	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl$ReceiveTask.run(WebSocketImpl.java:459)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	... 3 more
+Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script
+PASSED
+2026-04-28 10:11:15.664 INFO  c.k.k.c.c.internal.VideoRecorderService  - Video recording for test case 'Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script' .
+2026-04-28 10:11:15.666 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script
+Test Suites/Web Demo/Web Demo Test Suite 1
+2026-04-28 10:11:15.698 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-04-28 10:11:15.698 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Web Demo/Web Demo Test Suite 1
+2026-04-28 10:11:15.698 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

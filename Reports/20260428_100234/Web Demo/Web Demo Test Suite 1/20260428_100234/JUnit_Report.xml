@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Web Demo Test Suite 1" time="54.68" tests="2" passed="2" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Web Demo Test Suite 1" tests="2" passed="2" failures="0" errors="0" incompleted="0" skipped="0" time="54.68" timestamp="2026-04-28T14:02:42.672Z" hostname="kevin.jackey - 192.168.1.222" id="Test Suites/Web Demo/Web Demo Test Suite 1" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_New/Reports/20260428_100234/Web Demo/Web Demo Test Suite 1/20260428_100234"/>
+         <property name="logFiles" value="/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_New/Reports/20260428_100234/Web Demo/Web Demo Test Suite 1/20260428_100234/execution0.log, /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_New/Reports/20260428_100234/Web Demo/Web Demo Test Suite 1/20260428_100234/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[&#xa;  {&#xa;    &quot;value&quot;: &quot;lockedout25&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;username&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;resetpassword@45&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;password&quot;,&#xa;    &quot;masked&quot;: false&#xa;  }&#xa;]"/>
+         <property name="hostName" value="kevin.jackey - 192.168.1.222"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="11.1.2.0"/>
+         <property name="browser" value="Chrome 147.0.7727.102"/>
+         <property name="userFullName" value="Kevin Jackey"/>
+         <property name="hostAddress" value="192.168.1.222"/>
+         <property name="sessionId" value="d403e5adbc78294672e82b5a6b7b3596"/>
+         <property name="projectName" value="TrueTestGen4Project"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script" time="29.774" classname="Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"notapassword@123","username":"bankinguser123"}]]></property>
+         </properties>
+         <system-out><![CDATA[28-04-2026T10:02:42 - [TEST_CASE][PASSED] - Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script: Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script
+
+28-04-2026T10:02:42 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+28-04-2026T10:02:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+28-04-2026T10:02:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+28-04-2026T10:02:43 - [TEST_STEP][PASSED] - openBrowser(application_domain): Browser is opened with url: 'https://katalian-banking.vercel.app/'
+
+28-04-2026T10:02:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-04-2026T10:02:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-04-2026T10:02:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalian-banking.vercel.app/'
+
+28-04-2026T10:02:58 - [TEST_STEP][PASSED] - navigateToUrl("https://katalian-banking.vercel.app/login"): Navigate to 'https://katalian-banking.vercel.app/login' successfully
+
+28-04-2026T10:03:06 - [MESSAGE][PASSED] - Navigate to 'https://katalian-banking.vercel.app/login' successfully
+
+28-04-2026T10:03:06 - [TEST_STEP][PASSED] - setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username"), username): Text 'bankinguser123' is set on object 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username'
+
+28-04-2026T10:03:09 - [MESSAGE][PASSED] - Text 'bankinguser123' is set on object 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username'
+
+28-04-2026T10:03:09 - [TEST_STEP][PASSED] - setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password"), password): Text 'notapassword@123' is set on object 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password'
+
+28-04-2026T10:03:10 - [MESSAGE][PASSED] - Text 'notapassword@123' is set on object 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password'
+
+28-04-2026T10:03:10 - [TEST_STEP][PASSED] - click(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access")): Object: 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access' is clicked on
+
+28-04-2026T10:03:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access' is clicked on
+
+28-04-2026T10:03:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-04-2026T10:03:12 - [MESSAGE][PASSED] - Browser is closed
+
+28-04-2026T10:03:12 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+28-04-2026T10:03:12 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+28-04-2026T10:03:12 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script" time="24.597" classname="Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"resetpassword@45","username":"lockedout25"}]]></property>
+         </properties>
+         <system-out><![CDATA[28-04-2026T10:03:12 - [TEST_CASE][PASSED] - Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script: Test Cases/01 - Demo Materials/Self Healing_Data Binding Demonstration/Login - Working Script
+
+28-04-2026T10:03:12 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+28-04-2026T10:03:12 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+28-04-2026T10:03:12 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+28-04-2026T10:03:12 - [TEST_STEP][PASSED] - openBrowser(application_domain): Browser is opened with url: 'https://katalian-banking.vercel.app/'
+
+28-04-2026T10:03:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-04-2026T10:03:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-04-2026T10:03:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalian-banking.vercel.app/'
+
+28-04-2026T10:03:24 - [TEST_STEP][PASSED] - navigateToUrl("https://katalian-banking.vercel.app/login"): Navigate to 'https://katalian-banking.vercel.app/login' successfully
+
+28-04-2026T10:03:30 - [MESSAGE][PASSED] - Navigate to 'https://katalian-banking.vercel.app/login' successfully
+
+28-04-2026T10:03:30 - [TEST_STEP][PASSED] - setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username"), username): Text 'lockedout25' is set on object 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username'
+
+28-04-2026T10:03:33 - [MESSAGE][PASSED] - Text 'lockedout25' is set on object 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username'
+
+28-04-2026T10:03:33 - [TEST_STEP][PASSED] - setText(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password"), password): Text 'resetpassword@45' is set on object 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password'
+
+28-04-2026T10:03:35 - [MESSAGE][PASSED] - Text 'resetpassword@45' is set on object 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password'
+
+28-04-2026T10:03:35 - [TEST_STEP][PASSED] - click(findTestObject("Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access")): Object: 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access' is clicked on
+
+28-04-2026T10:03:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access' is clicked on
+
+28-04-2026T10:03:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-04-2026T10:03:37 - [MESSAGE][PASSED] - Browser is closed
+
+28-04-2026T10:03:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+28-04-2026T10:03:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+28-04-2026T10:03:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-04-2026T10:02:42 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestSuite: null
+
+28-04-2026T10:02:42 - [TEST_STEP][PASSED] - println(testSuiteContext.getTestSuiteId()): null
+
+28-04-2026T10:02:42 - [TEST_SUITE][PASSED] - Web Demo Test Suite 1: null
+
+28-04-2026T10:03:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestSuite: null
+
+28-04-2026T10:03:37 - [TEST_STEP][PASSED] - println(testSuiteContext.getTestSuiteId()): null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>GET /api/users, validate 200, list usernames, verify bankinguser123 exists.</description>
+   <name>TC01 - Get Users and Validate Username</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8693c299-cf9a-45fc-9a0c-94f562fdd444</testCaseGuid>
+</TestCaseEntity>

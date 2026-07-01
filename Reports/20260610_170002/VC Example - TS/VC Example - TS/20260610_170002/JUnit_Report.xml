@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VC Example - TS" time="9.211" tests="1" passed="1" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="VC Example - TS" tests="1" passed="1" failures="0" errors="0" incompleted="0" skipped="0" time="9.211" timestamp="2026-06-10T21:00:04.949Z" hostname="kevin.jackey - 192.168.12.126" id="Test Suites/VC Example - TS/VC Example - TS" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_New/Reports/20260610_170002/VC Example - TS/VC Example - TS/20260610_170002"/>
+         <property name="logFiles" value="/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_New/Reports/20260610_170002/VC Example - TS/VC Example - TS/20260610_170002/execution0.log, /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_New/Reports/20260610_170002/VC Example - TS/VC Example - TS/20260610_170002/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[&#xa;  {&#xa;    &quot;value&quot;: &quot;https://katalian-banking.vercel.app/login&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;targetUrl&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;bankinguser123&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;userId&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;••••••••&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;password&quot;,&#xa;    &quot;masked&quot;: true&#xa;  }&#xa;]"/>
+         <property name="hostName" value="kevin.jackey - 192.168.12.126"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="11.2.0.0"/>
+         <property name="browser" value="Chrome 149.0.7827.103"/>
+         <property name="userFullName" value="Kevin Jackey"/>
+         <property name="hostAddress" value="192.168.12.126"/>
+         <property name="sessionId" value="434cef03084643e5a74ba71b00f045cd"/>
+         <property name="projectName" value="TrueTestGen4Project"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/VC Example - TC/VC Example - TC" time="9.137" classname="Test Cases/VC Example - TC/VC Example - TC" status="PASSED" tag="GenAI,REQ-004,Net Liquidity,Dashboard,KB-32">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"********","targetUrl":"https://katalian-banking.vercel.app/login","userId":"bankinguser123"}]]></property>
+         </properties>
+         <system-out><![CDATA[10-06-2026T17:00:05 - [TEST_CASE][PASSED] - Test Cases/VC Example - TC/VC Example - TC: Test Cases/VC Example - TC/VC Example - TC
+
+10-06-2026T17:00:05 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+10-06-2026T17:00:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+10-06-2026T17:00:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+10-06-2026T17:00:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-06-2026T17:00:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-06-2026T17:00:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-06-2026T17:00:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-06-2026T17:00:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+10-06-2026T17:00:07 - [MESSAGE][PASSED] - Current window maximized
+
+10-06-2026T17:00:07 - [TEST_STEP][PASSED] - navigateToUrl(targetUrl): Navigate to 'https://katalian-banking.vercel.app/login' successfully
+
+10-06-2026T17:00:08 - [MESSAGE][PASSED] - Navigate to 'https://katalian-banking.vercel.app/login' successfully
+
+10-06-2026T17:00:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/VC Example - TC/input_secureId_username"), userId): Text 'bankinguser123' is set on object 'Object Repository/VC Example - TC/input_secureId_username'
+
+10-06-2026T17:00:09 - [MESSAGE][PASSED] - Text 'bankinguser123' is set on object 'Object Repository/VC Example - TC/input_secureId_username'
+
+10-06-2026T17:00:09 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("Object Repository/VC Example - TC/input_accessCode_password"),*********): Text '****************' is set on object 'Object Repository/VC Example - TC/input_accessCode_password'
+
+10-06-2026T17:00:09 - [MESSAGE][PASSED] - Text '****************' is set on object 'Object Repository/VC Example - TC/input_accessCode_password'
+
+10-06-2026T17:00:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/VC Example - TC/button_enterVaultAccess")): Object: 'Object Repository/VC Example - TC/button_enterVaultAccess' is clicked on
+
+10-06-2026T17:00:09 - [MESSAGE][PASSED] - Object: 'Object Repository/VC Example - TC/button_enterVaultAccess' is clicked on
+
+10-06-2026T17:00:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/VC Example - TC/label_netLiquidity"), 15): Object 'Object Repository/VC Example - TC/label_netLiquidity' is visible
+
+10-06-2026T17:00:11 - [MESSAGE][PASSED] - Object 'Object Repository/VC Example - TC/label_netLiquidity' is visible
+
+10-06-2026T17:00:11 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), ".*/dashboard.*", true): Actual text 'https://katalian-banking.vercel.app/dashboard' and expected text '.*/dashboard.*' are matched  using regular expression
+
+10-06-2026T17:00:11 - [MESSAGE][PASSED] - Current window's url is: 'https://katalian-banking.vercel.app/dashboard'
+
+10-06-2026T17:00:11 - [MESSAGE][PASSED] - Actual text 'https://katalian-banking.vercel.app/dashboard' and expected text '.*/dashboard.*' are matched  using regular expression
+
+10-06-2026T17:00:11 - [TEST_STEP][PASSED] - netLiquidityLabel = getText(findTestObject("Object Repository/VC Example - TC/label_netLiquidity")).trim(): Text of object 'Object Repository/VC Example - TC/label_netLiquidity' is: 'NET LIQUIDITY'
+
+10-06-2026T17:00:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/VC Example - TC/label_netLiquidity' is: 'NET LIQUIDITY'
+
+10-06-2026T17:00:11 - [TEST_STEP][PASSED] - comment("Net Liquidity label rendered as: " + netLiquidityLabel): Net Liquidity label rendered as: NET LIQUIDITY
+
+10-06-2026T17:00:11 - [MESSAGE][INFO] - Net Liquidity label rendered as: NET LIQUIDITY
+
+10-06-2026T17:00:11 - [TEST_STEP][PASSED] - assert netLiquidityLabel.equalsIgnoreCase("Net Liquidity"): null
+
+10-06-2026T17:00:11 - [TEST_STEP][PASSED] - displayedTotalRaw = getText(findTestObject("Object Repository/VC Example - TC/text_totalBalance")): Text of object 'Object Repository/VC Example - TC/text_totalBalance' is: '$
+111,052.21'
+
+10-06-2026T17:00:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/VC Example - TC/text_totalBalance' is: '$
+111,052.21'
+
+10-06-2026T17:00:11 - [TEST_STEP][PASSED] - displayedTotal = displayedTotalRaw.replaceAll("\s+", ""): null
+
+10-06-2026T17:00:11 - [TEST_STEP][PASSED] - comment("Displayed Net Liquidity: " + displayedTotal): Displayed Net Liquidity: $111,052.21
+
+10-06-2026T17:00:11 - [MESSAGE][INFO] - Displayed Net Liquidity: $111,052.21
+
+10-06-2026T17:00:11 - [TEST_STEP][PASSED] - assert displayedTotal ==~ "^\$\d{1,3}(,\d{3})*\.\d{2}$": null
+
+10-06-2026T17:00:11 - [TEST_STEP][PASSED] - accountBalances = findWebElements(findTestObject("Object Repository/VC Example - TC/text_accountBalances"), 10): Found web elements by test object Object Repository/VC Example - TC/text_accountBalances
+
+10-06-2026T17:00:12 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/VC Example - TC/text_accountBalances
+
+10-06-2026T17:00:12 - [TEST_STEP][PASSED] - assert accountBalances.size() > 0 : "NL-002 FAILED: No account balance elements found on the Dashboard": null
+
+10-06-2026T17:00:12 - [TEST_STEP][PASSED] - expectedTotal = 0.0: null
+
+10-06-2026T17:00:12 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement balanceElement : accountBalances): null
+
+10-06-2026T17:00:12 - [TEST_STEP][PASSED] - balanceText = getText().replaceAll("[\$,\s]", ""): null
+
+10-06-2026T17:00:12 - [TEST_STEP][PASSED] - comment("Account balance found: " + balanceElement.getText()): Account balance found: $5,345.54
+
+10-06-2026T17:00:12 - [MESSAGE][INFO] - Account balance found: $5,345.54
+
+10-06-2026T17:00:12 - [TEST_STEP][PASSED] - expectedTotal = expectedTotal.add(new java.math.BigDecimal(balanceText)): null
+
+10-06-2026T17:00:12 - [TEST_STEP][PASSED] - balanceText = getText().replaceAll("[\$,\s]", ""): null
+
+10-06-2026T17:00:12 - [TEST_STEP][PASSED] - comment("Account balance found: " + balanceElement.getText()): Account balance found: $104,456.67
+
+10-06-2026T17:00:12 - [MESSAGE][INFO] - Account balance found: $104,456.67
+
+10-06-2026T17:00:12 - [TEST_STEP][PASSED] - expectedTotal = expectedTotal.add(new java.math.BigDecimal(balanceText)): null
+
+10-06-2026T17:00:12 - [TEST_STEP][PASSED] - balanceText = getText().replaceAll("[\$,\s]", ""): null
+
+10-06-2026T17:00:12 - [TEST_STEP][PASSED] - comment("Account balance found: " + balanceElement.getText()): Account balance found: $1,250.00
+
+10-06-2026T17:00:12 - [MESSAGE][INFO] - Account balance found: $1,250.00
+
+10-06-2026T17:00:12 - [TEST_STEP][PASSED] - expectedTotal = expectedTotal.add(new java.math.BigDecimal(balanceText)): null
+
+10-06-2026T17:00:12 - [TEST_STEP][PASSED] - actualTotal = new java.math.BigDecimal(displayedTotal.replaceAll([\$,], )): null
+
+10-06-2026T17:00:12 - [TEST_STEP][PASSED] - comment("Sum of account balances: " + expectedTotal + " | Displayed Net Liquidity: " + actualTotal): Sum of account balances: 111052.21 | Displayed Net Liquidity: 111052.21
+
+10-06-2026T17:00:12 - [MESSAGE][INFO] - Sum of account balances: 111052.21 | Displayed Net Liquidity: 111052.21
+
+10-06-2026T17:00:12 - [TEST_STEP][PASSED] - assert actualTotal.compareTo(expectedTotal) == 0: null
+
+10-06-2026T17:00:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/VC Example - TC/badge_activeAssets")): Object 'Object Repository/VC Example - TC/badge_activeAssets' is visible
+
+10-06-2026T17:00:12 - [MESSAGE][PASSED] - Object 'Object Repository/VC Example - TC/badge_activeAssets' is visible
+
+10-06-2026T17:00:12 - [TEST_STEP][PASSED] - activeAssetsBadge = getText(findTestObject("Object Repository/VC Example - TC/badge_activeAssets")).trim(): Text of object 'Object Repository/VC Example - TC/badge_activeAssets' is: 'ACTIVE ASSETS'
+
+10-06-2026T17:00:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/VC Example - TC/badge_activeAssets' is: 'ACTIVE ASSETS'
+
+10-06-2026T17:00:12 - [TEST_STEP][PASSED] - assert activeAssetsBadge.equalsIgnoreCase("Active Assets"): null
+
+10-06-2026T17:00:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/VC Example - TC/badge_memberSince2021")): Object 'Object Repository/VC Example - TC/badge_memberSince2021' is visible
+
+10-06-2026T17:00:12 - [MESSAGE][PASSED] - Object 'Object Repository/VC Example - TC/badge_memberSince2021' is visible
+
+10-06-2026T17:00:12 - [TEST_STEP][PASSED] - memberBadge = getText(findTestObject("Object Repository/VC Example - TC/badge_memberSince2021")).trim(): Text of object 'Object Repository/VC Example - TC/badge_memberSince2021' is: 'MEMBER SINCE 2021'
+
+10-06-2026T17:00:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/VC Example - TC/badge_memberSince2021' is: 'MEMBER SINCE 2021'
+
+10-06-2026T17:00:12 - [TEST_STEP][PASSED] - assert memberBadge.equalsIgnoreCase("Member since 2021"): null
+
+10-06-2026T17:00:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/VC Example - TC/button_moveFunds")): Object: 'Object Repository/VC Example - TC/button_moveFunds' is clicked on
+
+10-06-2026T17:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/VC Example - TC/button_moveFunds' is clicked on
+
+10-06-2026T17:00:13 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), ".*/transfer.*", true): Actual text 'https://katalian-banking.vercel.app/transfer' and expected text '.*/transfer.*' are matched  using regular expression
+
+10-06-2026T17:00:13 - [MESSAGE][PASSED] - Current window's url is: 'https://katalian-banking.vercel.app/transfer'
+
+10-06-2026T17:00:13 - [MESSAGE][PASSED] - Actual text 'https://katalian-banking.vercel.app/transfer' and expected text '.*/transfer.*' are matched  using regular expression
+
+10-06-2026T17:00:13 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+10-06-2026T17:00:13 - [MESSAGE][PASSED] - Navigate back successfully
+
+10-06-2026T17:00:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/VC Example - TC/label_netLiquidity"), 15): Object 'Object Repository/VC Example - TC/label_netLiquidity' is visible
+
+10-06-2026T17:00:13 - [MESSAGE][PASSED] - Object 'Object Repository/VC Example - TC/label_netLiquidity' is visible
+
+10-06-2026T17:00:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/VC Example - TC/button_deposit")): Object: 'Object Repository/VC Example - TC/button_deposit' is clicked on
+
+10-06-2026T17:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/VC Example - TC/button_deposit' is clicked on
+
+10-06-2026T17:00:13 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), ".*/deposit.*", true): Actual text 'https://katalian-banking.vercel.app/deposit' and expected text '.*/deposit.*' are matched  using regular expression
+
+10-06-2026T17:00:13 - [MESSAGE][PASSED] - Current window's url is: 'https://katalian-banking.vercel.app/deposit'
+
+10-06-2026T17:00:13 - [MESSAGE][PASSED] - Actual text 'https://katalian-banking.vercel.app/deposit' and expected text '.*/deposit.*' are matched  using regular expression
+
+10-06-2026T17:00:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-06-2026T17:00:14 - [MESSAGE][PASSED] - Browser is closed
+
+10-06-2026T17:00:14 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+10-06-2026T17:00:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+10-06-2026T17:00:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+10-06-2026T17:00:14 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/VC Example - TC/VC Example - TC' .
+
+10-06-2026T17:00:14 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/VC Example - TC/VC Example - TC' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-06-2026T17:00:04 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestSuite: null
+
+10-06-2026T17:00:04 - [TEST_STEP][PASSED] - println(testSuiteContext.getTestSuiteId()): null
+
+10-06-2026T17:00:04 - [TEST_SUITE][PASSED] - VC Example - TS: null
+
+10-06-2026T17:00:14 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestSuite: null
+
+10-06-2026T17:00:14 - [TEST_STEP][PASSED] - println(testSuiteContext.getTestSuiteId()): null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

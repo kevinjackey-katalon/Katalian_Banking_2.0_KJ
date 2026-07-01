@@ -1,0 +1,65 @@
+2026-05-11 08:16:43.246 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio 11.2.1 - Copilot.app/Contents/Eclipse/configuration/org.eclipse.osgi/150/0/.cp/resources/logback/logback-execution.xml
+2026-05-11 08:16:43.247 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_New/Include/config/log.properties
+2026-05-11 08:16:43.525 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/API AI Demo/API Demo Test Suite
+2026-05-11 08:16:43.549 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Kevin Jackey
+2026-05-11 08:16:43.549 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TrueTestGen4Project
+2026-05-11 08:16:43.549 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = kevin.jackey - 192.168.1.222
+2026-05-11 08:16:43.549 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-05-11 08:16:43.549 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.222
+2026-05-11 08:16:43.550 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.3.0
+Test Suites/API AI Demo/API Demo Test Suite
+2026-05-11 08:16:43.587 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-11 08:16:43.587 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/API AI Demo/TC_API_Get_Users_Validate_Usernames
+Test Cases/API AI Demo/TC_API_Get_Users_Validate_Usernames
+[:]
+2026-05-11 08:16:43.646 WARN  c.k.k.c.h.s.CDTVideoRecorder             - No alive Web Driver found!
+2026-05-11 08:16:43.702 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 1: logInfo("Step 0: Resolve RequestObject from Object Repository")
+2026-05-11 08:16:43.704 INFO  com.kms.katalon.core.util.KeywordUtil    - Step 0: Resolve RequestObject from Object Repository
+2026-05-11 08:16:43.708 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 2: request = findTestObject("Object Repository/API AI Demo/Users/GET Users")
+2026-05-11 08:16:43.719 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 3: assert request != null : "Request object not found: Object Repository/API AI Demo/Users/GET Users"
+2026-05-11 08:16:43.720 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 4: logInfo("Step 0.1: Ensure Content-Type=application/json header exists on the request object")
+2026-05-11 08:16:43.721 INFO  com.kms.katalon.core.util.KeywordUtil    - Step 0.1: Ensure Content-Type=application/json header exists on the request object
+2026-05-11 08:16:43.722 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 5: headers = (request.getHttpHeaderProperties()) ? request.getHttpHeaderProperties() : []
+2026-05-11 08:16:43.727 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 6: hasContentType = headers.any({ -> ... })
+2026-05-11 08:16:43.731 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 7: if (!(hasContentType))
+2026-05-11 08:16:43.731 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 1: request.setHttpHeaderProperties(headers + [new com.kms.katalon.core.testobject.TestObjectProperty(Content-Type, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)])
+2026-05-11 08:16:43.736 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 2: logInfo("Added Content-Type: application/json header to request object at runtime")
+2026-05-11 08:16:43.736 INFO  com.kms.katalon.core.util.KeywordUtil    - Added Content-Type: application/json header to request object at runtime
+2026-05-11 08:16:43.737 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 9: logInfo("Step 1: Open endpoint http://localhost:3000/api/users (via GET request)")
+2026-05-11 08:16:43.738 INFO  com.kms.katalon.core.util.KeywordUtil    - Step 1: Open endpoint http://localhost:3000/api/users (via GET request)
+2026-05-11 08:16:43.739 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 10: logInfo("Step 2: Perform GET request to retrieve user details")
+2026-05-11 08:16:43.739 INFO  com.kms.katalon.core.util.KeywordUtil    - Step 2: Perform GET request to retrieve user details
+2026-05-11 08:16:43.739 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 11: response = sendRequest(request)
+2026-05-11 08:16:43.841 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_New/Reports/20260511_081640/API AI Demo/API Demo Test Suite/20260511_081640/requests/main/GET-Users_0.har
+2026-05-11 08:16:43.842 INFO  c.k.k.core.webservice.common.HarLogger   - cURL Command:\ncurl \\n  --location \\n  --header 'Content-Type: application/json' \\n  'http://localhost:3000/api/users'
+2026-05-11 08:16:43.860 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 12: logInfo("Step 3: Validate HTTP 200 response code")
+2026-05-11 08:16:43.861 INFO  com.kms.katalon.core.util.KeywordUtil    - Step 3: Validate HTTP 200 response code
+2026-05-11 08:16:43.862 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 13: verifyResponseStatusCode(response, 200)
+2026-05-11 08:16:43.869 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 14: logInfo("Step 4: Parse response body and extract usernames")
+2026-05-11 08:16:43.871 INFO  com.kms.katalon.core.util.KeywordUtil    - Step 4: Parse response body and extract usernames
+2026-05-11 08:16:43.872 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 15: responseBody = response.getResponseBodyContent()
+2026-05-11 08:16:43.876 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 16: logInfo(Response body: $responseBody)
+2026-05-11 08:16:43.882 INFO  com.kms.katalon.core.util.KeywordUtil    - Response body: [{"id":"user1","username":"bankinguser123","firstName":"John","lastName":"Doe","email":"john.doe@example.com","accounts":[{"id":"acc1-1","type":"Checking","balance":5000,"accountNumber":"****1234"},{"id":"acc1-2","type":"Savings","balance":15000,"accountNumber":"****5678"}]},{"id":"user2","username":"janesmith","firstName":"Jane","lastName":"Smith","email":"jane.smith@example.com","accounts":[{"id":"acc2-1","type":"Checking","balance":3500,"accountNumber":"****2345"}]},{"id":"user3","username":"bobwilson","firstName":"Bob","lastName":"Wilson","email":"bob.wilson@example.com","accounts":[{"id":"acc3-1","type":"Checking","balance":8000,"accountNumber":"****3456"},{"id":"acc3-2","type":"Savings","balance":25000,"accountNumber":"****7890"}]},{"id":"user4","username":"lockeduser","firstName":"Locked","lastName":"User","email":"locked@example.com","isLocked":true,"accounts":[]}]
+2026-05-11 08:16:43.883 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 17: json = JsonSlurper().parseText(responseBody)
+2026-05-11 08:16:43.888 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 18: usersCollection = null
+2026-05-11 08:16:43.889 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 19: if (json instanceof java.util.Collection)
+2026-05-11 08:16:43.890 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 1: usersCollection = json
+2026-05-11 08:16:43.890 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 21: assert usersCollection != null : "Could not determine users collection from response JSON. Expected array or {users:[...]} or {data:[...]}."
+2026-05-11 08:16:43.891 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 22: usernames = usersCollection.collect({ java.lang.Object u -> ... })
+2026-05-11 08:16:43.894 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 23: logInfo("Usernames found:")
+2026-05-11 08:16:43.895 INFO  com.kms.katalon.core.util.KeywordUtil    - Usernames found:
+2026-05-11 08:16:43.895 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 24: usernames.each({ -> ... })
+2026-05-11 08:16:43.896 INFO  com.kms.katalon.core.util.KeywordUtil    -  - bankinguser123
+2026-05-11 08:16:43.896 INFO  com.kms.katalon.core.util.KeywordUtil    -  - janesmith
+2026-05-11 08:16:43.896 INFO  com.kms.katalon.core.util.KeywordUtil    -  - bobwilson
+2026-05-11 08:16:43.897 INFO  com.kms.katalon.core.util.KeywordUtil    -  - lockeduser
+2026-05-11 08:16:43.897 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 25: logInfo("Step 5: Validate 'bankinguser123' is included")
+2026-05-11 08:16:43.898 INFO  com.kms.katalon.core.util.KeywordUtil    - Step 5: Validate 'bankinguser123' is included
+2026-05-11 08:16:43.898 DEBUG t.TC_API_Get_Users_Validate_Usernames    - 26: assert usernames.contains("bankinguser123")
+Test Cases/API AI Demo/TC_API_Get_Users_Validate_Usernames
+PASSED
+2026-05-11 08:16:43.901 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/API AI Demo/TC_API_Get_Users_Validate_Usernames
+Test Suites/API AI Demo/API Demo Test Suite
+2026-05-11 08:16:43.914 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-05-11 08:16:43.914 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/API AI Demo/API Demo Test Suite
+2026-05-11 08:16:43.914 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

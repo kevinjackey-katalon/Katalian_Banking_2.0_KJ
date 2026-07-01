@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+VC Example - TS,Chrome 149.0.7827.103,Test suite for requirement REQ-004 Subtask 1 - Validate Page Display Items - Net Liquidity (Jira KB-32). Contains the VC Example - TC dashboard validation test case.,,10-06-2026 16:58:18,10-06-2026 16:58:25,7.067s,FAILED
+,,,,,,,
+Start listener action : sampleBeforeTestSuite,Chrome 149.0.7827.103,,,10-06-2026 16:58:18,10-06-2026 16:58:18,0.009s,PASSED
+,,,,,,,
+Test Cases/VC Example - TC/VC Example - TC,Chrome 149.0.7827.103,Validates the Dashboard Net Liquidity section per requirement REQ-004 Subtask 1 - Validate Page Display Items - Net Liquidity (Jira KB-32). Covers FR-001 and NL-001 through NL-007.,"GenAI,REQ-004,Net Liquidity,Dashboard,KB-32",10-06-2026 16:58:18,10-06-2026 16:58:25,6.870s,FAILED
+"DATA BINDING - {""password"":""********"",""targetUrl"":""https://katalian-banking.vercel.app/login"",""userId"":""bankinguser123""}",,,,,,,
+Start listener action : sampleBeforeTestCase,Chrome 149.0.7827.103,,,10-06-2026 16:58:18,10-06-2026 16:58:18,0.004s,PASSED
+"openBrowser("""")",Chrome 149.0.7827.103,Step 1 - Open browser and navigate to the Login page,,10-06-2026 16:58:18,10-06-2026 16:58:20,1.888s,PASSED
+maximizeWindow(),Chrome 149.0.7827.103,,,10-06-2026 16:58:20,10-06-2026 16:58:20,0.368s,PASSED
+navigateToUrl(targetUrl),Chrome 149.0.7827.103,,,10-06-2026 16:58:20,10-06-2026 16:58:21,1.046s,PASSED
+"setText(findTestObject(""Object Repository/VC Example - TC/input_secureId_username""), userId)",Chrome 149.0.7827.103,Step 2 - Authenticate with Secure ID and Access Code,,10-06-2026 16:58:21,10-06-2026 16:58:22,0.692s,PASSED
+"setMaskedText(findTestObject(""Object Repository/VC Example - TC/input_accessCode_password""),*********)",Chrome 149.0.7827.103,,,10-06-2026 16:58:22,10-06-2026 16:58:22,0.503s,PASSED
+"click(findTestObject(""Object Repository/VC Example - TC/button_enterVaultAccess""))",Chrome 149.0.7827.103,,,10-06-2026 16:58:22,10-06-2026 16:58:23,0.318s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/VC Example - TC/label_netLiquidity""), 15)",Chrome 149.0.7827.103,Step 3 - Verify the Dashboard loads,,10-06-2026 16:58:23,10-06-2026 16:58:24,1.460s,PASSED
+"verifyMatch(getUrl(), "".*/dashboard.*"", true)",Chrome 149.0.7827.103,,,10-06-2026 16:58:24,10-06-2026 16:58:24,0.014s,PASSED
+"verifyElementText(findTestObject(""Object Repository/VC Example - TC/label_netLiquidity""), ""Net Liquidity"")",Chrome 149.0.7827.103,"NL-001 - Section shall display the ""Net Liquidity"" label",,10-06-2026 16:58:24,10-06-2026 16:58:25,0.453s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 149.0.7827.103,,,10-06-2026 16:58:25,10-06-2026 16:58:25,0.005s,PASSED
+Video,Chrome 149.0.7827.103,,,10-06-2026 16:58:25,10-06-2026 16:58:25,0.000s,PASSED
+,,,,,,,
+Start listener action : sampleAfterTestSuite,Chrome 149.0.7827.103,,,10-06-2026 16:58:25,10-06-2026 16:58:25,0.001s,PASSED

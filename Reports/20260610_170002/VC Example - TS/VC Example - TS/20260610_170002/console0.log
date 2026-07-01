@@ -1,0 +1,83 @@
+2026-06-10 17:00:04.607 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio Copilot - 11.2.0.app/Contents/Eclipse/configuration/org.eclipse.osgi/151/0/.cp/resources/logback/logback-execution.xml
+2026-06-10 17:00:04.608 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_New/Include/config/log.properties
+2026-06-10 17:00:04.924 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/VC Example - TS/VC Example - TS
+2026-06-10 17:00:04.959 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Kevin Jackey
+2026-06-10 17:00:04.960 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TrueTestGen4Project
+2026-06-10 17:00:04.960 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = kevin.jackey - 192.168.12.126
+2026-06-10 17:00:04.961 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-06-10 17:00:04.961 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.12.126
+2026-06-10 17:00:04.962 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.2.0.0
+Test Suites/VC Example - TS/VC Example - TS
+2026-06-10 17:00:05.023 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-10 17:00:05.023 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/VC Example - TC/VC Example - TC
+2026-06-10 17:00:05.071 INFO  c.k.katalon.core.main.TestCaseExecutor   - targetUrl = https://katalian-banking.vercel.app/login
+2026-06-10 17:00:05.072 INFO  c.k.katalon.core.main.TestCaseExecutor   - userId = bankinguser123
+2026-06-10 17:00:05.072 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = ••••••••
+Test Cases/VC Example - TC/VC Example - TC
+[targetUrl:https://katalian-banking.vercel.app/login, userId:bankinguser123, password:••••••••]
+2026-06-10 17:00:05.084 WARN  c.k.k.c.h.s.CDTVideoRecorder             - No alive Web Driver found!
+2026-06-10 17:00:05.126 DEBUG testcase.VC Example - TC                 - 1: openBrowser("")
+2026-06-10 17:00:05.209 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-10 17:00:05.222 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-10 17:00:06.918 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 434cef03084643e5a74ba71b00f045cd
+2026-06-10 17:00:06.918 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.103
+2026-06-10 17:00:06.918 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-06-10 17:00:06.918 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-10 17:00:06.920 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-10 17:00:06.942 DEBUG testcase.VC Example - TC                 - 2: maximizeWindow()
+2026-06-10 17:00:07.310 DEBUG testcase.VC Example - TC                 - 3: navigateToUrl(targetUrl)
+2026-06-10 17:00:08.426 DEBUG testcase.VC Example - TC                 - 4: setText(findTestObject("Object Repository/VC Example - TC/input_secureId_username"), userId)
+2026-06-10 17:00:09.137 DEBUG testcase.VC Example - TC                 - 5: setMaskedText(findTestObject("Object Repository/VC Example - TC/input_accessCode_password"),*********)
+2026-06-10 17:00:09.626 DEBUG testcase.VC Example - TC                 - 6: click(findTestObject("Object Repository/VC Example - TC/button_enterVaultAccess"))
+2026-06-10 17:00:09.931 DEBUG testcase.VC Example - TC                 - 7: waitForElementVisible(findTestObject("Object Repository/VC Example - TC/label_netLiquidity"), 15)
+2026-06-10 17:00:11.385 DEBUG testcase.VC Example - TC                 - 8: verifyMatch(getUrl(), ".*/dashboard.*", true)
+2026-06-10 17:00:11.398 DEBUG testcase.VC Example - TC                 - 9: netLiquidityLabel = getText(findTestObject("Object Repository/VC Example - TC/label_netLiquidity")).trim()
+2026-06-10 17:00:11.623 DEBUG testcase.VC Example - TC                 - 10: comment("Net Liquidity label rendered as: " + netLiquidityLabel)
+2026-06-10 17:00:11.626 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Net Liquidity label rendered as: NET LIQUIDITY
+2026-06-10 17:00:11.627 DEBUG testcase.VC Example - TC                 - 11: assert netLiquidityLabel.equalsIgnoreCase("Net Liquidity")
+2026-06-10 17:00:11.630 DEBUG testcase.VC Example - TC                 - 12: displayedTotalRaw = getText(findTestObject("Object Repository/VC Example - TC/text_totalBalance"))
+2026-06-10 17:00:11.850 DEBUG testcase.VC Example - TC                 - 13: displayedTotal = displayedTotalRaw.replaceAll("\s+", "")
+2026-06-10 17:00:11.851 DEBUG testcase.VC Example - TC                 - 14: comment("Displayed Net Liquidity: " + displayedTotal)
+2026-06-10 17:00:11.852 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Displayed Net Liquidity: $111,052.21
+2026-06-10 17:00:11.853 DEBUG testcase.VC Example - TC                 - 15: assert displayedTotal ==~ "^\$\d{1,3}(,\d{3})*\.\d{2}$"
+2026-06-10 17:00:11.853 DEBUG testcase.VC Example - TC                 - 16: accountBalances = findWebElements(findTestObject("Object Repository/VC Example - TC/text_accountBalances"), 10)
+2026-06-10 17:00:12.072 DEBUG testcase.VC Example - TC                 - 17: assert accountBalances.size() > 0 : "NL-002 FAILED: No account balance elements found on the Dashboard"
+2026-06-10 17:00:12.073 DEBUG testcase.VC Example - TC                 - 18: expectedTotal = 0.0
+2026-06-10 17:00:12.074 DEBUG testcase.VC Example - TC                 - 19: for (org.openqa.selenium.WebElement balanceElement : accountBalances)
+2026-06-10 17:00:12.074 DEBUG testcase.VC Example - TC                 - 1: balanceText = getText().replaceAll("[\$,\s]", "")
+2026-06-10 17:00:12.080 DEBUG testcase.VC Example - TC                 - 2: comment("Account balance found: " + balanceElement.getText())
+2026-06-10 17:00:12.085 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Account balance found: $5,345.54
+2026-06-10 17:00:12.085 DEBUG testcase.VC Example - TC                 - 3: expectedTotal = expectedTotal.add(new java.math.BigDecimal(balanceText))
+2026-06-10 17:00:12.087 DEBUG testcase.VC Example - TC                 - 1: balanceText = getText().replaceAll("[\$,\s]", "")
+2026-06-10 17:00:12.091 DEBUG testcase.VC Example - TC                 - 2: comment("Account balance found: " + balanceElement.getText())
+2026-06-10 17:00:12.094 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Account balance found: $104,456.67
+2026-06-10 17:00:12.095 DEBUG testcase.VC Example - TC                 - 3: expectedTotal = expectedTotal.add(new java.math.BigDecimal(balanceText))
+2026-06-10 17:00:12.095 DEBUG testcase.VC Example - TC                 - 1: balanceText = getText().replaceAll("[\$,\s]", "")
+2026-06-10 17:00:12.099 DEBUG testcase.VC Example - TC                 - 2: comment("Account balance found: " + balanceElement.getText())
+2026-06-10 17:00:12.102 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Account balance found: $1,250.00
+2026-06-10 17:00:12.103 DEBUG testcase.VC Example - TC                 - 3: expectedTotal = expectedTotal.add(new java.math.BigDecimal(balanceText))
+2026-06-10 17:00:12.103 DEBUG testcase.VC Example - TC                 - 20: actualTotal = new java.math.BigDecimal(displayedTotal.replaceAll([\$,], ))
+2026-06-10 17:00:12.104 DEBUG testcase.VC Example - TC                 - 21: comment("Sum of account balances: " + expectedTotal + " | Displayed Net Liquidity: " + actualTotal)
+2026-06-10 17:00:12.105 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Sum of account balances: 111052.21 | Displayed Net Liquidity: 111052.21
+2026-06-10 17:00:12.106 DEBUG testcase.VC Example - TC                 - 22: assert actualTotal.compareTo(expectedTotal) == 0
+2026-06-10 17:00:12.107 DEBUG testcase.VC Example - TC                 - 23: verifyElementVisible(findTestObject("Object Repository/VC Example - TC/badge_activeAssets"))
+2026-06-10 17:00:12.328 DEBUG testcase.VC Example - TC                 - 24: activeAssetsBadge = getText(findTestObject("Object Repository/VC Example - TC/badge_activeAssets")).trim()
+2026-06-10 17:00:12.544 DEBUG testcase.VC Example - TC                 - 25: assert activeAssetsBadge.equalsIgnoreCase("Active Assets")
+2026-06-10 17:00:12.545 DEBUG testcase.VC Example - TC                 - 26: verifyElementVisible(findTestObject("Object Repository/VC Example - TC/badge_memberSince2021"))
+2026-06-10 17:00:12.763 DEBUG testcase.VC Example - TC                 - 27: memberBadge = getText(findTestObject("Object Repository/VC Example - TC/badge_memberSince2021")).trim()
+2026-06-10 17:00:12.980 DEBUG testcase.VC Example - TC                 - 28: assert memberBadge.equalsIgnoreCase("Member since 2021")
+2026-06-10 17:00:12.981 DEBUG testcase.VC Example - TC                 - 29: click(findTestObject("Object Repository/VC Example - TC/button_moveFunds"))
+2026-06-10 17:00:13.256 DEBUG testcase.VC Example - TC                 - 30: verifyMatch(getUrl(), ".*/transfer.*", true)
+2026-06-10 17:00:13.265 DEBUG testcase.VC Example - TC                 - 31: back()
+2026-06-10 17:00:13.285 DEBUG testcase.VC Example - TC                 - 32: waitForElementVisible(findTestObject("Object Repository/VC Example - TC/label_netLiquidity"), 15)
+2026-06-10 17:00:13.714 DEBUG testcase.VC Example - TC                 - 33: click(findTestObject("Object Repository/VC Example - TC/button_deposit"))
+2026-06-10 17:00:13.986 DEBUG testcase.VC Example - TC                 - 34: verifyMatch(getUrl(), ".*/deposit.*", true)
+2026-06-10 17:00:13.997 DEBUG testcase.VC Example - TC                 - 35: closeBrowser()
+Test Cases/VC Example - TC/VC Example - TC
+PASSED
+2026-06-10 17:00:14.159 INFO  c.k.k.c.c.internal.VideoRecorderService  - Video recording for test case 'Test Cases/VC Example - TC/VC Example - TC' .
+2026-06-10 17:00:14.160 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/VC Example - TC/VC Example - TC
+Test Suites/VC Example - TS/VC Example - TS
+2026-06-10 17:00:14.173 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-06-10 17:00:14.173 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/VC Example - TS/VC Example - TS
+2026-06-10 17:00:14.173 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

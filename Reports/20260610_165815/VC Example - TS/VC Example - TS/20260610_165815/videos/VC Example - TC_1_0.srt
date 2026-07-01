@@ -1,0 +1,44 @@
+1
+00:00:00,000 --> 00:00:00,000
+3. Step 1 - Open browser and navigate to the Login page
+
+2
+00:00:00,000 --> 00:00:00,000
+7. maximizeWindow()
+
+3
+00:00:00,000 --> 00:00:00,000
+11. navigateToUrl(targetUrl)
+
+4
+00:00:00,000 --> 00:00:00,638
+17. Step 2 - Authenticate with Secure ID and Access Code
+
+5
+00:00:00,639 --> 00:00:01,141
+21. setMaskedText(findTestObject("Object Repository/VC Example - TC/input_accessCode_password"), password)
+
+6
+00:00:01,142 --> 00:00:01,456
+25. click(findTestObject("Object Repository/VC Example - TC/button_enterVaultAccess"))
+
+7
+00:00:01,457 --> 00:00:02,921
+31. Step 3 - Verify the Dashboard loads
+
+8
+00:00:02,921 --> 00:00:02,934
+35. verifyMatch(getUrl(), ".*/dashboard.*", true)
+
+9
+00:00:02,935 --> 00:00:03,389
+41. NL-001 - Section shall display the "Net Liquidity" label
+
+10
+00:00:03,390 --> 00:00:03,391
+1. println(testCaseContext.getTestCaseId())
+
+11
+00:00:03,391 --> 00:00:03,394
+5. println(testCaseContext.getTestCaseStatus())
+

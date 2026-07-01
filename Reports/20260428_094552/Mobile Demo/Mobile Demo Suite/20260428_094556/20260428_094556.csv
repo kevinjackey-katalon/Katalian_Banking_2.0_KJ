@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Mobile Demo Suite,,,,28-04-2026 09:45:59,28-04-2026 09:46:44,44.619s,PASSED
+,,,,,,,
+Start listener action : sampleBeforeTestSuite,,,,28-04-2026 09:45:59,28-04-2026 09:45:59,0.008s,PASSED
+,,,,,,,
+Test Cases/01 - Demo Materials/Mobile Demo/Mobile Demo,,,,28-04-2026 09:45:59,28-04-2026 09:46:44,44.555s,PASSED
+Start listener action : sampleBeforeTestCase,,,,28-04-2026 09:45:59,28-04-2026 09:45:59,0.005s,PASSED
+"startApplication(""207ca014-66dd-4231-a989-aad15dd5866c"", true)",,,,28-04-2026 09:45:59,28-04-2026 09:46:33,33.625s,PASSED
+"verifyElementExist(findTestObject(""Mobile Demo/XCUIElementTypeStaticText - Mexican""), 30)",,,,28-04-2026 09:46:33,28-04-2026 09:46:34,1.371s,PASSED
+"tap(findTestObject(""Mobile Demo/XCUIElementTypeStaticText - Mexican""), 10)",,,,28-04-2026 09:46:34,28-04-2026 09:46:36,1.958s,PASSED
+"tap(findTestObject(""Mobile Demo/XCUIElementTypeButton - Start""), 20)",,,,28-04-2026 09:46:36,28-04-2026 09:46:38,1.860s,PASSED
+"tap(findTestObject(""Mobile Demo/XCUIElementTypeButton - Stop""), 20)",,,,28-04-2026 09:46:38,28-04-2026 09:46:40,1.898s,PASSED
+"tap(findTestObject(""Mobile Demo/XCUIElementTypeButton - Back""), 10)",,,,28-04-2026 09:46:40,28-04-2026 09:46:42,1.893s,PASSED
+closeApplication(),,,,28-04-2026 09:46:42,28-04-2026 09:46:44,1.896s,PASSED
+Start listener action : sampleAfterTestCase,,,,28-04-2026 09:46:44,28-04-2026 09:46:44,0.006s,PASSED
+,,,,,,,
+Start listener action : sampleAfterTestSuite,,,,28-04-2026 09:46:44,28-04-2026 09:46:44,0.004s,PASSED
