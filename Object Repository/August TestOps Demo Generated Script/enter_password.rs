@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>enter_password</name>
+   <tag></tag>
+   <elementGuidId>ce3a60de-5165-5907-aaa5-7f4d65977dcf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#password</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&apos;password&apos;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&apos;password&apos;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

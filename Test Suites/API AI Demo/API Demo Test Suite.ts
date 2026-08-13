@@ -15,7 +15,7 @@
       <guid>2d5a8df3-d0f3-4304-994a-1a17ada8095c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API AI Demo/TC01 - Get Users and Validate Username</testCaseId>
+      <testCaseId>Test Cases/02 - Demo Materials - External AI/API AI Demo/TC01 - Get Users and Validate Username</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KB Mobile Recording" time="231.42" tests="1" passed="1" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="KB Mobile Recording" tests="1" passed="1" failures="0" errors="0" incompleted="0" skipped="0" time="231.42" timestamp="2026-07-30T20:26:45.748Z" hostname="kevin.jackey - 192.168.1.68" id="Test Suites/KB Mobile Recording" status="PASSED">
+      <properties>
+         <property name="deviceName" value="Samsung Galaxy S26 Ultra"/>
+         <property name="devicePlatform" value="ANDROID"/>
+         <property name="logFolder" value="/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot/Reports/20260730_162638/KB Mobile Recording/20260730_162644"/>
+         <property name="logFiles" value="/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot/Reports/20260730_162638/KB Mobile Recording/20260730_162644/execution0.log, /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot/Reports/20260730_162638/KB Mobile Recording/20260730_162644/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="kevin.jackey - 192.168.1.68"/>
+         <property name="remoteDriverUrl" value="https://token:eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpZTlDMnN4ZjZ4czczSHJxY0QyejRxcVVzNEFpOWVzNXR5SVVKYmRTYW04In0.eyJleHAiOjE3ODU2MDA5ODcsImlhdCI6MTc4NTQyODE4NywianRpIjoib25ydG5hOmYxMGNkMzZlLWVmZmMtMjYzZC0yOWM5LWRmZDFmYjlmMGI5OSIsImlzcyI6Imh0dHBzOi8vbG9naW4ua2F0YWxvbi5jb20vcmVhbG1zL2thdGFsb24iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiOTc5YzBmNDQtMTBhOC00MjQwLTg3NzgtYWQzODljOThmZTRjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoia2F0YWxvbi1hZG1pbiIsInNpZCI6IjI1Njc2NmU3LWM5YWQtYTIwOS03ZTRlLTNkMGQ1N2NjMDY2NCIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cHM6Ly9teS5rYXRhbG9uLmNvbSIsImh0dHBzOi8vYWRtaW4ua2F0YWxvbi5jb20iXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbInVtYV9hdXRob3JpemF0aW9uIiwiZGVmYXVsdC1yb2xlcy1rYXRhbG9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQiLCJhY2NvdW50X3V1aWQiOiJhNzllYzU0ZS1kNmU1LTQwZTMtOWZhOC1lOGJmMmFmMjA2OTEiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwidXBkYXRlZF90aW1lc3RhbXAiOjE3ODU0MTExNTcwMTIsImxhc3RfbG9naW4iOjE3ODU0MjQyNzMzNzUsIm5hbWUiOiJLZXZpbiBKYWNrZXkiLCJjcmVhdGVkX3RpbWVzdGFtcCI6MTc1ODY0MzY1MjkwNSwicHJlZmVycmVkX3VzZXJuYW1lIjoia2V2aW4uamFja2V5QGthdGFsb24uY29tIiwiZ2l2ZW5fbmFtZSI6IktldmluIiwiZmFtaWx5X25hbWUiOiJKYWNrZXkiLCJlbWFpbCI6ImtldmluLmphY2tleUBrYXRhbG9uLmNvbSJ9.OrJ0umVn4xs-2YGHgcNwnNnbKILyyUXhlWV7MzfVkW-68uNXVu7tfqQY8R3t47iVHQKmSFKVJYDkwvQ_Xfi752_3SjQIXn3bw153dTNFiaX45DHbQLwrnPDFCC9fHBqN_WY3k-zM_jI_7EgSsng3V6Grok-4rjA0qUN2JpM2ykmz6pKJFKhXAwAXVQ8E2FHcHlt6UJKoTbdEAkOlSuS2qxSbzrO3mbv59ej2Ts2iv8aIQzVpcj-LtByt8meoIObTgrAiTXA0qDZj2j3FJBL2yOp32SUqkYjxSbyLWGqz_9hvMrbWwvMauqfJl6bntoDt-96WoutQYfkGiUDbiDM7fQ@testcloud.katalon.com/wd/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;app&quot;: &quot;965afb70-e115-4faf-81cf-572c75147350&quot;,&#xa;  &quot;appium:mjpegServerPort&quot;: 49197,&#xa;  &quot;webSocketURL&quot;: false,&#xa;  &quot;appium:deviceName&quot;: &quot;Any Phone&quot;,&#xa;  &quot;platformName&quot;: &quot;ANDROID&quot;,&#xa;  &quot;appium:platformVersion&quot;: &quot;16&quot;,&#xa;  &quot;katalon:options&quot;: {&#xa;    &quot;executionMode&quot;: &quot;queue&quot;,&#xa;    &quot;metadata&quot;: {&#xa;      &quot;organizationId&quot;: &quot;2154967&quot;,&#xa;      &quot;accountId&quot;: &quot;1509469&quot;,&#xa;      &quot;channel&quot;: &quot;kse;v\u003d11.4.0&quot;,&#xa;      &quot;testOpsExecutionId&quot;: &quot;358e82e4-e103-4307-93f0-4c96e4b630c0&quot;,&#xa;      &quot;projectId&quot;: &quot;3033951&quot;&#xa;    },&#xa;    &quot;appiumClientVersion&quot;: &quot;10.0.0&quot;,&#xa;    &quot;usingTunnel&quot;: false&#xa;  }&#xa;}"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="11.4.0"/>
+         <property name="katalon:caps" value="{&#xa;  &quot;deviceName&quot;: &quot;Samsung Galaxy S26 Ultra&quot;,&#xa;  &quot;executionId&quot;: &quot;358e82e4-e103-4307-93f0-4c96e4b630c0&quot;,&#xa;  &quot;executionSessionId&quot;: &quot;918a43f3-1112-406c-9ee0-400ca837d424&quot;&#xa;}"/>
+         <property name="userFullName" value="Kevin Jackey"/>
+         <property name="hostAddress" value="192.168.1.68"/>
+         <property name="projectName" value="TrueTestGen4Project"/>
+         <property name="deviceName" value="Samsung Galaxy S26 Ultra"/>
+      </properties>
+      <testcase name="Test Cases/KB Mobile Recording" time="231.373" classname="Test Cases/KB Mobile Recording" status="PASSED">
+         <system-out><![CDATA[30-07-2026T16:26:45 - [TEST_CASE][PASSED] - Test Cases/KB Mobile Recording: Test Cases/KB Mobile Recording
+
+30-07-2026T16:26:45 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+30-07-2026T16:26:45 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+30-07-2026T16:26:45 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+30-07-2026T16:26:45 - [TEST_STEP][PASSED] - startApplication("965afb70-e115-4faf-81cf-572c75147350", true): Started application: '965afb70-e115-4faf-81cf-572c75147350'
+
+30-07-2026T16:26:45 - [MESSAGE][INFO] - Overriding application: '965afb70-e115-4faf-81cf-572c75147350' by '965afb70-e115-4faf-81cf-572c75147350'
+
+30-07-2026T16:26:45 - [MESSAGE][INFO] - Override application info: '{"id":"965afb70-e115-4faf-81cf-572c75147350","organizationId":"2154967","name":"Katalian Banking","platform":"ANDROID","status":"READY","size":17209977,"storagePath":"bbccbc42-cf1e-47a7-8ef5-19c030c911af","uploadedDate":"2026-07-30T19:01:02.642243","createdDate":"2026-07-30T19:01:02.642243","updatedDate":"2026-07-30T19:01:06.112526","fileName":"Katalian.Banking (1).apk","metadata":{"identifier":"com.katalon.katalianbanking","name":"Katalian Banking","version":"1.0","versionCode":"1"}}'
+
+30-07-2026T16:26:45 - [MESSAGE][INFO] - Starting application: '965afb70-e115-4faf-81cf-572c75147350'
+
+30-07-2026T16:30:25 - [MESSAGE][WARNING] - Unable to get appium status. Root cause (Cannot invoke "org.osgi.framework.Bundle.getBundleContext()" because the return value of "org.osgi.framework.FrameworkUtil.getBundle(java.lang.Class)" is null)
+
+30-07-2026T16:30:25 - [MESSAGE][PASSED] - Started application: '965afb70-e115-4faf-81cf-572c75147350'
+
+30-07-2026T16:30:25 - [TEST_STEP][PASSED] - setText(findTestObject("KB Mobile Recording/android.widget.EditText"), "bankinguser123", 60): Text 'bankinguser123' has been set to element 'Object Repository/KB Mobile Recording/android.widget.EditText'
+
+30-07-2026T16:30:28 - [MESSAGE][PASSED] - Text 'bankinguser123' has been set to element 'Object Repository/KB Mobile Recording/android.widget.EditText'
+
+30-07-2026T16:30:28 - [TEST_STEP][PASSED] - setText(findTestObject("KB Mobile Recording/android.widget.EditText (1)"), "notapassword@123", 60): Text 'notapassword@123' has been set to element 'Object Repository/KB Mobile Recording/android.widget.EditText (1)'
+
+30-07-2026T16:30:30 - [MESSAGE][PASSED] - Text 'notapassword@123' has been set to element 'Object Repository/KB Mobile Recording/android.widget.EditText (1)'
+
+30-07-2026T16:30:30 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+30-07-2026T16:30:33 - [MESSAGE][PASSED] - Keyboard is hidden
+
+30-07-2026T16:30:33 - [TEST_STEP][PASSED] - tap(findTestObject("KB Mobile Recording/android.widget.Button"), 60): Tapped on element 'Object Repository/KB Mobile Recording/android.widget.Button'
+
+30-07-2026T16:30:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/KB Mobile Recording/android.widget.Button'
+
+30-07-2026T16:30:35 - [TEST_STEP][PASSED] - tap(findTestObject("KB Mobile Recording/android.widget.Button (1)"), 60): Tapped on element 'Object Repository/KB Mobile Recording/android.widget.Button (1)'
+
+30-07-2026T16:30:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/KB Mobile Recording/android.widget.Button (1)'
+
+30-07-2026T16:30:36 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+30-07-2026T16:30:37 - [MESSAGE][PASSED] - Close app successfully
+
+30-07-2026T16:30:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+30-07-2026T16:30:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+30-07-2026T16:30:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-07-2026T16:26:45 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestSuite: null
+
+30-07-2026T16:26:45 - [TEST_STEP][PASSED] - println(testSuiteContext.getTestSuiteId()): null
+
+30-07-2026T16:26:45 - [TEST_SUITE][PASSED] - KB Mobile Recording: null
+
+30-07-2026T16:30:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestSuite: null
+
+30-07-2026T16:30:37 - [TEST_STEP][PASSED] - println(testSuiteContext.getTestSuiteId()): null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

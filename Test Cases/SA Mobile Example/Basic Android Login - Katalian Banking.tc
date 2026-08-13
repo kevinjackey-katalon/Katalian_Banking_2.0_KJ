@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Starts uploaded TestCloud Katalian Banking Android app by application ID, logs in with supplied credentials, and verifies the dashboard loads.</description>
+   <name>Basic Android Login - Katalian Banking</name>
+   <tag>GenAI,SA Mobile Example,android,mobile,login,testcloud</tag>
+   <comment>Updated to use TestCloud application ID in Mobile.startApplication('965afb70-e115-4faf-81cf-572c75147350', true).</comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d57b99fd-2947-4dfc-8751-f74378ca1a2e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2e2bdb57-fcf7-489f-9f04-3b79d3bb1495</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4502f74b-9011-47c5-b9c1-21c6d0bd1638</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b2f2ff27-7bb5-48a3-b927-efc3cbf78f46</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'bankinguser123'</defaultValue>
+      <description>Katalian Banking username / secure ID used for login.</description>
+      <id>69235e1e-23e0-4d63-9f6f-42e9aed28cbb</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'notapassword@123'</defaultValue>
+      <description>Katalian Banking password / access code used for login.</description>
+      <id>ec01dd86-43b4-4690-8b92-cd174a9502d2</id>
+      <masked>true</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'965afb70-e115-4faf-81cf-572c75147350'</defaultValue>
+      <description>TestCloud Application Repository ID for Katalian Banking APK.</description>
+      <id>83d38511-8358-46c8-a096-344d16171442</id>
+      <masked>false</masked>
+      <name>appFileName</name>
+   </variable>
+</TestCaseEntity>

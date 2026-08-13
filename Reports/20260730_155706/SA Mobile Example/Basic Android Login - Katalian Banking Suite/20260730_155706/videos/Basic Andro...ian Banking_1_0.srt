@@ -1,0 +1,68 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. appUnderTest = resolveAppPath(appFileName)
+
+2
+00:00:00,000 --> 00:00:00,000
+1. configuredValue = configuredAppFileName.toString()
+
+3
+00:00:00,000 --> 00:00:00,000
+5. if (!(configuredValue))
+
+4
+00:00:00,000 --> 00:00:00,000
+9. configuredFile = new java.io.File(configuredValue)
+
+5
+00:00:00,000 --> 00:00:00,000
+13. if (configuredFile.isAbsolute() && configuredFile.exists())
+
+6
+00:00:00,000 --> 00:00:00,000
+17. candidateFileNames = [configuredValue]
+
+7
+00:00:00,000 --> 00:00:00,000
+21. if (!(candidateFileNames.contains("Katalian.Banking (1).apk")))
+
+8
+00:00:00,000 --> 00:00:00,000
+1. candidateFileNames.add("Katalian.Banking (1).apk")
+
+9
+00:00:00,000 --> 00:00:00,000
+25. projectDir = new java.io.File(com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())
+
+10
+00:00:00,000 --> 00:00:00,000
+29. apkFile = findFirstFileByName(projectDir, candidateFileNames)
+
+11
+00:00:00,000 --> 00:00:00,000
+1. matchingFile = null
+
+12
+00:00:00,000 --> 00:00:00,000
+5. rootDir.eachFileRecurse({ java.io.File file -> ... })
+
+13
+00:00:00,000 --> 00:00:00,000
+9. return matchingFile
+
+14
+00:00:00,000 --> 00:00:00,000
+33. if (apkFile == null)
+
+15
+00:00:00,000 --> 00:00:00,000
+1. throw new java.io.FileNotFoundException(Unable to locate Android APK using candidates $candidateFileNames under project directory '$projectDir.absolutePath'.)
+
+16
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+17
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+

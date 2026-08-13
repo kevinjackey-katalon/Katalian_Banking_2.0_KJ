@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KB Mobile Recording,,,,30-07-2026 16:26:45,30-07-2026 16:30:37,3m - 51.432s,PASSED
+,,,,,,,
+Start listener action : sampleBeforeTestSuite,,,,30-07-2026 16:26:45,30-07-2026 16:26:45,0.006s,PASSED
+,,,,,,,
+Test Cases/KB Mobile Recording,,,,30-07-2026 16:26:45,30-07-2026 16:30:37,3m - 51.373s,PASSED
+Start listener action : sampleBeforeTestCase,,,,30-07-2026 16:26:45,30-07-2026 16:26:45,0.003s,PASSED
+"startApplication(""965afb70-e115-4faf-81cf-572c75147350"", true)",,,,30-07-2026 16:26:45,30-07-2026 16:30:25,3m - 40.114s,PASSED
+"setText(findTestObject(""KB Mobile Recording/android.widget.EditText""), ""bankinguser123"", 60)",,,,30-07-2026 16:30:25,30-07-2026 16:30:28,2.744s,PASSED
+"setText(findTestObject(""KB Mobile Recording/android.widget.EditText (1)""), ""notapassword@123"", 60)",,,,30-07-2026 16:30:28,30-07-2026 16:30:30,2.047s,PASSED
+hideKeyboard(),,,,30-07-2026 16:30:30,30-07-2026 16:30:33,2.526s,PASSED
+"tap(findTestObject(""KB Mobile Recording/android.widget.Button""), 60)",,,,30-07-2026 16:30:33,30-07-2026 16:30:35,1.750s,PASSED
+"tap(findTestObject(""KB Mobile Recording/android.widget.Button (1)""), 60)",,,,30-07-2026 16:30:35,30-07-2026 16:30:36,1.314s,PASSED
+closeApplication(),,,,30-07-2026 16:30:36,30-07-2026 16:30:37,0.820s,PASSED
+Start listener action : sampleAfterTestCase,,,,30-07-2026 16:30:37,30-07-2026 16:30:37,0.011s,PASSED
+,,,,,,,
+Start listener action : sampleAfterTestSuite,,,,30-07-2026 16:30:37,30-07-2026 16:30:37,0.004s,PASSED

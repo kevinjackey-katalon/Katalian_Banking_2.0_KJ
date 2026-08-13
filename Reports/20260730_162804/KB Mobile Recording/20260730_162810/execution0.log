@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-07-30T20:28:12.483293Z</date>
+  <millis>1785443292483</millis>
+  <nanos>293000</nanos>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/KB Mobile Recording</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">true</property>
+  <property name="retryCount">3</property>
+  <property name="name">KB Mobile Recording</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/KB Mobile Recording</property>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.488950Z</date>
+  <millis>1785443292488</millis>
+  <nanos>950000</nanos>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>userFullName = Kevin Jackey</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="userFullName">Kevin Jackey</property>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.489184Z</date>
+  <millis>1785443292489</millis>
+  <nanos>184000</nanos>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>projectName = TrueTestGen4Project</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="projectName">TrueTestGen4Project</property>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.489356Z</date>
+  <millis>1785443292489</millis>
+  <nanos>356000</nanos>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = kevin.jackey - 192.168.1.68</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">kevin.jackey - 192.168.1.68</property>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.489789Z</date>
+  <millis>1785443292489</millis>
+  <nanos>789000</nanos>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.490012Z</date>
+  <millis>1785443292490</millis>
+  <nanos>12000</nanos>
+  <sequence>5</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.68</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.1.68</property>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.490187Z</date>
+  <millis>1785443292490</millis>
+  <nanos>187000</nanos>
+  <sequence>6</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 11.4.0</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">11.4.0</property>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.492893Z</date>
+  <millis>1785443292492</millis>
+  <nanos>893000</nanos>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleBeforeTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.497141Z</date>
+  <millis>1785443292497</millis>
+  <nanos>141000</nanos>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(testSuiteContext.getTestSuiteId())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">53</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.499818Z</date>
+  <millis>1785443292499</millis>
+  <nanos>818000</nanos>
+  <sequence>11</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(testSuiteContext.getTestSuiteId())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.500054Z</date>
+  <millis>1785443292500</millis>
+  <nanos>54000</nanos>
+  <sequence>12</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleBeforeTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.531285Z</date>
+  <millis>1785443292531</millis>
+  <nanos>285000</nanos>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/KB Mobile Recording</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="origin">MOBILE_RECORDER</property>
+  <property name="name">Test Cases/KB Mobile Recording</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/KB Mobile Recording</property>
+  <property name="source">\Users\kevin.jackey\git\Katalian_Banking_2.0_KJ_Copilot\Test Cases\KB Mobile Recording.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="uuid">eaf9ec5a-1b87-4d14-8622-c24802b4edb7</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.544300Z</date>
+  <millis>1785443292544</millis>
+  <nanos>300000</nanos>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>executionBindingVariables = []</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.544615Z</date>
+  <millis>1785443292544</millis>
+  <nanos>615000</nanos>
+  <sequence>16</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleBeforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.545332Z</date>
+  <millis>1785443292545</millis>
+  <nanos>332000</nanos>
+  <sequence>18</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(testCaseContext.getTestCaseId())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">32</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.547903Z</date>
+  <millis>1785443292547</millis>
+  <nanos>903000</nanos>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(testCaseContext.getTestCaseId())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.548098Z</date>
+  <millis>1785443292548</millis>
+  <nanos>98000</nanos>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(testCaseContext.getTestCaseVariables())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">33</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.548528Z</date>
+  <millis>1785443292548</millis>
+  <nanos>528000</nanos>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(testCaseContext.getTestCaseVariables())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.548648Z</date>
+  <millis>1785443292548</millis>
+  <nanos>648000</nanos>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleBeforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.550836Z</date>
+  <millis>1785443292550</millis>
+  <nanos>836000</nanos>
+  <sequence>24</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>No alive Web Driver found!</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.574623Z</date>
+  <millis>1785443292574</millis>
+  <nanos>623000</nanos>
+  <sequence>25</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplication(&amp;quot;965afb70-e115-4faf-81cf-572c75147350&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.628572Z</date>
+  <millis>1785443292628</millis>
+  <nanos>572000</nanos>
+  <sequence>27</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Overriding application: &amp;apos;965afb70-e115-4faf-81cf-572c75147350&amp;apos; by &amp;apos;965afb70-e115-4faf-81cf-572c75147350&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.628851Z</date>
+  <millis>1785443292628</millis>
+  <nanos>851000</nanos>
+  <sequence>28</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Override application info: &amp;apos;{&amp;quot;id&amp;quot;:&amp;quot;965afb70-e115-4faf-81cf-572c75147350&amp;quot;,&amp;quot;organizationId&amp;quot;:&amp;quot;2154967&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;Katalian Banking&amp;quot;,&amp;quot;platform&amp;quot;:&amp;quot;ANDROID&amp;quot;,&amp;quot;status&amp;quot;:&amp;quot;READY&amp;quot;,&amp;quot;size&amp;quot;:17209977,&amp;quot;storagePath&amp;quot;:&amp;quot;bbccbc42-cf1e-47a7-8ef5-19c030c911af&amp;quot;,&amp;quot;uploadedDate&amp;quot;:&amp;quot;2026-07-30T19:01:02.642243&amp;quot;,&amp;quot;createdDate&amp;quot;:&amp;quot;2026-07-30T19:01:02.642243&amp;quot;,&amp;quot;updatedDate&amp;quot;:&amp;quot;2026-07-30T19:01:06.112526&amp;quot;,&amp;quot;fileName&amp;quot;:&amp;quot;Katalian.Banking (1).apk&amp;quot;,&amp;quot;metadata&amp;quot;:{&amp;quot;identifier&amp;quot;:&amp;quot;com.katalon.katalianbanking&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;Katalian Banking&amp;quot;,&amp;quot;version&amp;quot;:&amp;quot;1.0&amp;quot;,&amp;quot;versionCode&amp;quot;:&amp;quot;1&amp;quot;}}&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:28:12.629103Z</date>
+  <millis>1785443292629</millis>
+  <nanos>103000</nanos>
+  <sequence>29</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting application: &amp;apos;965afb70-e115-4faf-81cf-572c75147350&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:31:20.540223Z</date>
+  <millis>1785443480540</millis>
+  <nanos>223000</nanos>
+  <sequence>32</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to get appium status. Root cause (Cannot invoke &amp;quot;org.osgi.framework.Bundle.getBundleContext()&amp;quot; because the return value of &amp;quot;org.osgi.framework.FrameworkUtil.getBundle(java.lang.Class)&amp;quot; is null)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.osgi.framework.Bundle.getBundleContext()&quot; because the return value of &quot;org.osgi.framework.FrameworkUtil.getBundle(java.lang.Class)&quot; is null
+	at com.kms.katalon.network.apache.services.ApacheHttpClient.getInstance(ApacheHttpClient.java:118)
+	at com.kms.katalon.core.appium.driver.AppiumRequestService.logAppiumInfo(AppiumRequestService.java:36)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:676)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startRemoteMobileDriver(MobileDriverFactory.java:758)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:593)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:89)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:91)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:104)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:52)
+	at KB Mobile Recording.run(KB Mobile Recording:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:515)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:485)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:343)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:217)
+	at S0730_15.run(S0730_15.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">java.lang.NullPointerException</property>
+  <property name="failed.exception.message">Cannot invoke &quot;org.osgi.framework.Bundle.getBundleContext()&quot; because the return value of &quot;org.osgi.framework.FrameworkUtil.getBundle(java.lang.Class)&quot; is null</property>
+</record>
+<record>
+  <date>2026-07-30T20:31:20.817775Z</date>
+  <millis>1785443480817</millis>
+  <nanos>775000</nanos>
+  <sequence>34</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>remoteDriverUrl = https://token:eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpZTlDMnN4ZjZ4czczSHJxY0QyejRxcVVzNEFpOWVzNXR5SVVKYmRTYW04In0.eyJleHAiOjE3ODU2MDA5ODcsImlhdCI6MTc4NTQyODE4NywianRpIjoib25ydG5hOmYxMGNkMzZlLWVmZmMtMjYzZC0yOWM5LWRmZDFmYjlmMGI5OSIsImlzcyI6Imh0dHBzOi8vbG9naW4ua2F0YWxvbi5jb20vcmVhbG1zL2thdGFsb24iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiOTc5YzBmNDQtMTBhOC00MjQwLTg3NzgtYWQzODljOThmZTRjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoia2F0YWxvbi1hZG1pbiIsInNpZCI6IjI1Njc2NmU3LWM5YWQtYTIwOS03ZTRlLTNkMGQ1N2NjMDY2NCIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cHM6Ly9teS5rYXRhbG9uLmNvbSIsImh0dHBzOi8vYWRtaW4ua2F0YWxvbi5jb20iXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbInVtYV9hdXRob3JpemF0aW9uIiwiZGVmYXVsdC1yb2xlcy1rYXRhbG9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQiLCJhY2NvdW50X3V1aWQiOiJhNzllYzU0ZS1kNmU1LTQwZTMtOWZhOC1lOGJmMmFmMjA2OTEiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwidXBkYXRlZF90aW1lc3RhbXAiOjE3ODU0MTExNTcwMTIsImxhc3RfbG9naW4iOjE3ODU0MjQyNzMzNzUsIm5hbWUiOiJLZXZpbiBKYWNrZXkiLCJjcmVhdGVkX3RpbWVzdGFtcCI6MTc1ODY0MzY1MjkwNSwicHJlZmVycmVkX3VzZXJuYW1lIjoia2V2aW4uamFja2V5QGthdGFsb24uY29tIiwiZ2l2ZW5fbmFtZSI6IktldmluIiwiZmFtaWx5X25hbWUiOiJKYWNrZXkiLCJlbWFpbCI6ImtldmluLmphY2tleUBrYXRhbG9uLmNvbSJ9.OrJ0umVn4xs-2YGHgcNwnNnbKILyyUXhlWV7MzfVkW-68uNXVu7tfqQY8R3t47iVHQKmSFKVJYDkwvQ_Xfi752_3SjQIXn3bw153dTNFiaX45DHbQLwrnPDFCC9fHBqN_WY3k-zM_jI_7EgSsng3V6Grok-4rjA0qUN2JpM2ykmz6pKJFKhXAwAXVQ8E2FHcHlt6UJKoTbdEAkOlSuS2qxSbzrO3mbv59ej2Ts2iv8aIQzVpcj-LtByt8meoIObTgrAiTXA0qDZj2j3FJBL2yOp32SUqkYjxSbyLWGqz_9hvMrbWwvMauqfJl6bntoDt-96WoutQYfkGiUDbiDM7fQ@testcloud.katalon.com/wd/hub</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remoteDriverUrl">https://token:eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpZTlDMnN4ZjZ4czczSHJxY0QyejRxcVVzNEFpOWVzNXR5SVVKYmRTYW04In0.eyJleHAiOjE3ODU2MDA5ODcsImlhdCI6MTc4NTQyODE4NywianRpIjoib25ydG5hOmYxMGNkMzZlLWVmZmMtMjYzZC0yOWM5LWRmZDFmYjlmMGI5OSIsImlzcyI6Imh0dHBzOi8vbG9naW4ua2F0YWxvbi5jb20vcmVhbG1zL2thdGFsb24iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiOTc5YzBmNDQtMTBhOC00MjQwLTg3NzgtYWQzODljOThmZTRjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoia2F0YWxvbi1hZG1pbiIsInNpZCI6IjI1Njc2NmU3LWM5YWQtYTIwOS03ZTRlLTNkMGQ1N2NjMDY2NCIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cHM6Ly9teS5rYXRhbG9uLmNvbSIsImh0dHBzOi8vYWRtaW4ua2F0YWxvbi5jb20iXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbInVtYV9hdXRob3JpemF0aW9uIiwiZGVmYXVsdC1yb2xlcy1rYXRhbG9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQiLCJhY2NvdW50X3V1aWQiOiJhNzllYzU0ZS1kNmU1LTQwZTMtOWZhOC1lOGJmMmFmMjA2OTEiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwidXBkYXRlZF90aW1lc3RhbXAiOjE3ODU0MTExNTcwMTIsImxhc3RfbG9naW4iOjE3ODU0MjQyNzMzNzUsIm5hbWUiOiJLZXZpbiBKYWNrZXkiLCJjcmVhdGVkX3RpbWVzdGFtcCI6MTc1ODY0MzY1MjkwNSwicHJlZmVycmVkX3VzZXJuYW1lIjoia2V2aW4uamFja2V5QGthdGFsb24uY29tIiwiZ2l2ZW5fbmFtZSI6IktldmluIiwiZmFtaWx5X25hbWUiOiJKYWNrZXkiLCJlbWFpbCI6ImtldmluLmphY2tleUBrYXRhbG9uLmNvbSJ9.OrJ0umVn4xs-2YGHgcNwnNnbKILyyUXhlWV7MzfVkW-68uNXVu7tfqQY8R3t47iVHQKmSFKVJYDkwvQ_Xfi752_3SjQIXn3bw153dTNFiaX45DHbQLwrnPDFCC9fHBqN_WY3k-zM_jI_7EgSsng3V6Grok-4rjA0qUN2JpM2ykmz6pKJFKhXAwAXVQ8E2FHcHlt6UJKoTbdEAkOlSuS2qxSbzrO3mbv59ej2Ts2iv8aIQzVpcj-LtByt8meoIObTgrAiTXA0qDZj2j3FJBL2yOp32SUqkYjxSbyLWGqz_9hvMrbWwvMauqfJl6bntoDt-96WoutQYfkGiUDbiDM7fQ@testcloud.katalon.com/wd/hub</property>
+</record>
+<record>
+  <date>2026-07-30T20:31:20.820529Z</date>
+  <millis>1785443480820</millis>
+  <nanos>529000</nanos>
+  <sequence>35</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>desiredCapabilities = {
+  &amp;quot;app&amp;quot;: &amp;quot;965afb70-e115-4faf-81cf-572c75147350&amp;quot;,
+  &amp;quot;appium:mjpegServerPort&amp;quot;: 49220,
+  &amp;quot;webSocketURL&amp;quot;: false,
+  &amp;quot;appium:deviceName&amp;quot;: &amp;quot;Any Phone&amp;quot;,
+  &amp;quot;platformName&amp;quot;: &amp;quot;ANDROID&amp;quot;,
+  &amp;quot;appium:platformVersion&amp;quot;: &amp;quot;15&amp;quot;,
+  &amp;quot;katalon:options&amp;quot;: {
+    &amp;quot;executionMode&amp;quot;: &amp;quot;queue&amp;quot;,
+    &amp;quot;metadata&amp;quot;: {
+      &amp;quot;organizationId&amp;quot;: &amp;quot;2154967&amp;quot;,
+      &amp;quot;accountId&amp;quot;: &amp;quot;1509469&amp;quot;,
+      &amp;quot;channel&amp;quot;: &amp;quot;kse;v\u003d11.4.0&amp;quot;,
+      &amp;quot;testOpsExecutionId&amp;quot;: &amp;quot;bcc38d0d-7412-4b74-913a-f8ddf177b2fb&amp;quot;,
+      &amp;quot;projectId&amp;quot;: &amp;quot;3033951&amp;quot;
+    },
+    &amp;quot;appiumClientVersion&amp;quot;: &amp;quot;10.0.0&amp;quot;,
+    &amp;quot;usingTunnel&amp;quot;: false
+  }
+}</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="desiredCapabilities">{
+  &quot;app&quot;: &quot;965afb70-e115-4faf-81cf-572c75147350&quot;,
+  &quot;appium:mjpegServerPort&quot;: 49220,
+  &quot;webSocketURL&quot;: false,
+  &quot;appium:deviceName&quot;: &quot;Any Phone&quot;,
+  &quot;platformName&quot;: &quot;ANDROID&quot;,
+  &quot;appium:platformVersion&quot;: &quot;15&quot;,
+  &quot;katalon:options&quot;: {
+    &quot;executionMode&quot;: &quot;queue&quot;,
+    &quot;metadata&quot;: {
+      &quot;organizationId&quot;: &quot;2154967&quot;,
+      &quot;accountId&quot;: &quot;1509469&quot;,
+      &quot;channel&quot;: &quot;kse;v\u003d11.4.0&quot;,
+      &quot;testOpsExecutionId&quot;: &quot;bcc38d0d-7412-4b74-913a-f8ddf177b2fb&quot;,
+      &quot;projectId&quot;: &quot;3033951&quot;
+    },
+    &quot;appiumClientVersion&quot;: &quot;10.0.0&quot;,
+    &quot;usingTunnel&quot;: false
+  }
+}</property>
+</record>
+<record>
+  <date>2026-07-30T20:31:20.825421Z</date>
+  <millis>1785443480825</millis>
+  <nanos>421000</nanos>
+  <sequence>36</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalon:caps = {
+  &amp;quot;deviceName&amp;quot;: &amp;quot;Samsung Galaxy S25&amp;quot;,
+  &amp;quot;executionId&amp;quot;: &amp;quot;bcc38d0d-7412-4b74-913a-f8ddf177b2fb&amp;quot;,
+  &amp;quot;executionSessionId&amp;quot;: &amp;quot;65beab5e-7b7f-4ecd-bf96-e149098b34e1&amp;quot;
+}</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalon:caps">{
+  &quot;deviceName&quot;: &quot;Samsung Galaxy S25&quot;,
+  &quot;executionId&quot;: &quot;bcc38d0d-7412-4b74-913a-f8ddf177b2fb&quot;,
+  &quot;executionSessionId&quot;: &quot;65beab5e-7b7f-4ecd-bf96-e149098b34e1&quot;
+}</property>
+</record>
+<record>
+  <date>2026-07-30T20:31:20.826204Z</date>
+  <millis>1785443480826</millis>
+  <nanos>204000</nanos>
+  <sequence>37</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = Samsung Galaxy S25</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceName">Samsung Galaxy S25</property>
+</record>
+<record>
+  <date>2026-07-30T20:31:21.221947Z</date>
+  <millis>1785443481221</millis>
+  <nanos>947000</nanos>
+  <sequence>38</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started application: &amp;apos;965afb70-e115-4faf-81cf-572c75147350&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-07-30T20:31:21.237826Z</date>
+  <millis>1785443481237</millis>
+  <nanos>826000</nanos>
+  <sequence>39</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplication(&amp;quot;965afb70-e115-4faf-81cf-572c75147350&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:31:21.238236Z</date>
+  <millis>1785443481238</millis>
+  <nanos>236000</nanos>
+  <sequence>40</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(&amp;quot;KB Mobile Recording/android.widget.EditText&amp;quot;), &amp;quot;bankinguser123&amp;quot;, 60)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2026-07-30T20:31:24.144287Z</date>
+  <millis>1785443484144</millis>
+  <nanos>287000</nanos>
+  <sequence>47</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;bankinguser123&amp;apos; has been set to element &amp;apos;Object Repository/KB Mobile Recording/android.widget.EditText&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-07-30T20:31:24.146685Z</date>
+  <millis>1785443484146</millis>
+  <nanos>685000</nanos>
+  <sequence>48</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(&amp;quot;KB Mobile Recording/android.widget.EditText&amp;quot;), &amp;quot;bankinguser123&amp;quot;, 60)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:31:24.147016Z</date>
+  <millis>1785443484147</millis>
+  <nanos>16000</nanos>
+  <sequence>49</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(&amp;quot;KB Mobile Recording/android.widget.EditText (1)&amp;quot;), &amp;quot;notapassword@123&amp;quot;, 60)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2026-07-30T20:31:26.506076Z</date>
+  <millis>1785443486506</millis>
+  <nanos>76000</nanos>
+  <sequence>56</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;notapassword@123&amp;apos; has been set to element &amp;apos;Object Repository/KB Mobile Recording/android.widget.EditText (1)&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-07-30T20:31:26.510263Z</date>
+  <millis>1785443486510</millis>
+  <nanos>263000</nanos>
+  <sequence>57</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(&amp;quot;KB Mobile Recording/android.widget.EditText (1)&amp;quot;), &amp;quot;notapassword@123&amp;quot;, 60)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:31:26.510654Z</date>
+  <millis>1785443486510</millis>
+  <nanos>654000</nanos>
+  <sequence>58</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : hideKeyboard()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2026-07-30T20:31:28.871370Z</date>
+  <millis>1785443488871</millis>
+  <nanos>370000</nanos>
+  <sequence>61</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keyboard is hidden</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$1.call(Unknown Source)
+com.kms.katalon.core.mobile.keyword.builtin.HideKeyboardKeyword$_hideKeyboard_closure1.doCall(HideKeyboardKeyword.groovy:105)
+com.kms.katalon.core.mobile.keyword.builtin.HideKeyboardKeyword$_hideKeyboard_closure1.doCall(HideKeyboardKeyword.groovy)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.mobile.keyword.builtin.HideKeyboardKeyword.hideKeyboard(HideKeyboardKeyword.groovy:112)
+com.kms.katalon.core.mobile.keyword.builtin.HideKeyboardKeyword.execute(HideKeyboardKeyword.groovy:39)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:104)
+com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.hideKeyboard(MobileBuiltInKeywords.groovy:2730)
+KB Mobile Recording.run(KB Mobile Recording:26)
+</property>
+</record>
+<record>
+  <date>2026-07-30T20:31:28.874835Z</date>
+  <millis>1785443488874</millis>
+  <nanos>835000</nanos>
+  <sequence>62</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : hideKeyboard()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:31:28.875231Z</date>
+  <millis>1785443488875</millis>
+  <nanos>231000</nanos>
+  <sequence>63</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(&amp;quot;KB Mobile Recording/android.widget.Button&amp;quot;), 60)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2026-07-30T20:31:30.826210Z</date>
+  <millis>1785443490826</millis>
+  <nanos>210000</nanos>
+  <sequence>70</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/KB Mobile Recording/android.widget.Button&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-07-30T20:31:30.829208Z</date>
+  <millis>1785443490829</millis>
+  <nanos>208000</nanos>
+  <sequence>71</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(&amp;quot;KB Mobile Recording/android.widget.Button&amp;quot;), 60)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:31:30.829594Z</date>
+  <millis>1785443490829</millis>
+  <nanos>594000</nanos>
+  <sequence>72</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(&amp;quot;KB Mobile Recording/android.widget.Button (1)&amp;quot;), 60)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">30</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2026-07-30T20:31:32.288390Z</date>
+  <millis>1785443492288</millis>
+  <nanos>390000</nanos>
+  <sequence>79</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/KB Mobile Recording/android.widget.Button (1)&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-07-30T20:31:32.292171Z</date>
+  <millis>1785443492292</millis>
+  <nanos>171000</nanos>
+  <sequence>80</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(&amp;quot;KB Mobile Recording/android.widget.Button (1)&amp;quot;), 60)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:31:32.292670Z</date>
+  <millis>1785443492292</millis>
+  <nanos>670000</nanos>
+  <sequence>81</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeApplication()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">33</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2026-07-30T20:31:33.572590Z</date>
+  <millis>1785443493572</millis>
+  <nanos>590000</nanos>
+  <sequence>83</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Close app successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword.closeApplication</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-07-30T20:31:33.574045Z</date>
+  <millis>1785443493574</millis>
+  <nanos>45000</nanos>
+  <sequence>84</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeApplication()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:31:33.575090Z</date>
+  <millis>1785443493575</millis>
+  <nanos>90000</nanos>
+  <sequence>85</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/KB Mobile Recording</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:31:33.575506Z</date>
+  <millis>1785443493575</millis>
+  <nanos>506000</nanos>
+  <sequence>86</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleAfterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:31:33.577627Z</date>
+  <millis>1785443493577</millis>
+  <nanos>627000</nanos>
+  <sequence>88</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(testCaseContext.getTestCaseId())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">42</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-07-30T20:31:33.579531Z</date>
+  <millis>1785443493579</millis>
+  <nanos>531000</nanos>
+  <sequence>89</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(testCaseContext.getTestCaseId())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:31:33.579867Z</date>
+  <millis>1785443493579</millis>
+  <nanos>867000</nanos>
+  <sequence>90</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(testCaseContext.getTestCaseStatus())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">43</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2026-07-30T20:31:33.580855Z</date>
+  <millis>1785443493580</millis>
+  <nanos>855000</nanos>
+  <sequence>92</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(testCaseContext.getTestCaseStatus())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:31:33.581313Z</date>
+  <millis>1785443493581</millis>
+  <nanos>313000</nanos>
+  <sequence>93</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleAfterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:31:33.583315Z</date>
+  <millis>1785443493583</millis>
+  <nanos>315000</nanos>
+  <sequence>94</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/KB Mobile Recording</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="executedKeywords">{
+  &quot;Mobile.tap&quot;: 2,
+  &quot;Mobile.closeApplication&quot;: 1,
+  &quot;Mobile.hideKeyboard&quot;: 1,
+  &quot;Mobile.setText&quot;: 2,
+  &quot;Mobile.startApplication&quot;: 1
+}</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: true,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-07-30T20:31:33.585917Z</date>
+  <millis>1785443493585</millis>
+  <nanos>917000</nanos>
+  <sequence>95</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleAfterTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:31:33.587548Z</date>
+  <millis>1785443493587</millis>
+  <nanos>548000</nanos>
+  <sequence>97</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(testSuiteContext.getTestSuiteId())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">62</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-07-30T20:31:33.588532Z</date>
+  <millis>1785443493588</millis>
+  <nanos>532000</nanos>
+  <sequence>99</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(testSuiteContext.getTestSuiteId())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:31:33.588950Z</date>
+  <millis>1785443493588</millis>
+  <nanos>950000</nanos>
+  <sequence>100</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleAfterTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-07-30T20:31:33.595223Z</date>
+  <millis>1785443493595</millis>
+  <nanos>223000</nanos>
+  <sequence>101</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/KB Mobile Recording</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

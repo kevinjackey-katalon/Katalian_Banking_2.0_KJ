@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KPE - Automated Test Suite,Chrome 150.0.7871.182,"Automated login regression suite for the Katalian Project Example - covers valid login, invalid password, and empty credential scenarios.",,23-07-2026 13:40:46,23-07-2026 13:41:08,22.188s,FAILED
+,,,,,,,
+Start listener action : sampleBeforeTestSuite,Chrome 150.0.7871.182,,,23-07-2026 13:40:46,23-07-2026 13:40:46,0.014s,PASSED
+,,,,,,,
+Test Cases/KPE-Automated/TC01 - Login with Valid Credentials,Chrome 150.0.7871.182,Automated regression test verifying that BankingUser123 can successfully log in to the Katalian Banking application using valid credentials and reach the dashboard.,GenAI,23-07-2026 13:40:46,23-07-2026 13:40:55,9.155s,FAILED
+"DATA BINDING - {""password"":""********"",""username"":""BankingUser123""}",,,,,,,
+Start listener action : sampleBeforeTestCase,Chrome 150.0.7871.182,,,23-07-2026 13:40:46,23-07-2026 13:40:46,0.011s,PASSED
+Start setup action : setup,Chrome 150.0.7871.182,,,23-07-2026 13:40:46,23-07-2026 13:40:50,3.975s,PASSED
+"TrueTestScripts.navigate(""login"")",Chrome 150.0.7871.182,Step 1: Navigate to the login page,,23-07-2026 13:40:50,23-07-2026 13:40:54,4.165s,PASSED
+"setText(findTestObject(""03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/input_secureId""), username)",Chrome 150.0.7871.182,Step 2: Enter the username into the Secure ID field,,23-07-2026 13:40:54,23-07-2026 13:40:54,0.230s,PASSED
+"setEncryptedText(findTestObject(""03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/input_accessCode""), password)",Chrome 150.0.7871.182,Step 3: Enter the password into the Access Code field,,23-07-2026 13:40:54,23-07-2026 13:40:55,0.574s,FAILED
+Start tear down : teardown,Chrome 150.0.7871.182,,,23-07-2026 13:40:55,23-07-2026 13:40:55,0.115s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 150.0.7871.182,,,23-07-2026 13:40:55,23-07-2026 13:40:55,0.006s,PASSED
+Video,Chrome 150.0.7871.182,,,23-07-2026 13:40:55,23-07-2026 13:40:55,0.000s,PASSED
+,,,,,,,
+Test Cases/KPE-Automated/TC02 - Login with Invalid Password,Chrome 150.0.7871.182,"Automated regression test verifying that login is rejected when a valid username is paired with an incorrect password, and that an error message is displayed.",GenAI,23-07-2026 13:40:55,23-07-2026 13:41:02,6.766s,PASSED
+"DATA BINDING - {""password"":""********"",""username"":""BankingUser123""}",,,,,,,
+Start listener action : sampleBeforeTestCase,Chrome 150.0.7871.182,,,23-07-2026 13:40:55,23-07-2026 13:40:55,0.005s,PASSED
+Start setup action : setup,Chrome 150.0.7871.182,,,23-07-2026 13:40:55,23-07-2026 13:40:58,2.424s,PASSED
+"TrueTestScripts.navigate(""login"")",Chrome 150.0.7871.182,Step 1: Navigate to the login page,,23-07-2026 13:40:58,23-07-2026 13:41:01,3.743s,PASSED
+"setText(findTestObject(""03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/input_secureId""), username)",Chrome 150.0.7871.182,Step 2: Enter the username into the Secure ID field,,23-07-2026 13:41:01,23-07-2026 13:41:02,0.217s,PASSED
+"setText(findTestObject(""03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/input_accessCode""), password)",Chrome 150.0.7871.182,Step 3: Enter an incorrect password into the Access Code field,,23-07-2026 13:41:02,23-07-2026 13:41:02,0.119s,PASSED
+"enhancedClick(findTestObject(""03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/button_enterVaultAccess""))",Chrome 150.0.7871.182,Step 4: Click the Enter Vault Access (Login) button,,23-07-2026 13:41:02,23-07-2026 13:41:02,0.071s,PASSED
+"verifyElementPresent(findTestObject(""03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/input_secureId""), 10)",Chrome 150.0.7871.182,Step 5: Verify the user remains on the login page (login rejected) - the username field should still be present,,23-07-2026 13:41:02,23-07-2026 13:41:02,0.037s,PASSED
+Start tear down : teardown,Chrome 150.0.7871.182,,,23-07-2026 13:41:02,23-07-2026 13:41:02,0.107s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 150.0.7871.182,,,23-07-2026 13:41:02,23-07-2026 13:41:02,0.002s,PASSED
+Video,Chrome 150.0.7871.182,,,23-07-2026 13:41:02,23-07-2026 13:41:02,0.000s,PASSED
+,,,,,,,
+Test Cases/KPE-Automated/TC03 - Login with Empty Credentials,Chrome 150.0.7871.182,Automated regression test verifying that clicking Login with empty username and password fields does not navigate away from the login page.,GenAI,23-07-2026 13:41:02,23-07-2026 13:41:08,6.152s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 150.0.7871.182,,,23-07-2026 13:41:02,23-07-2026 13:41:02,0.001s,PASSED
+Start setup action : setup,Chrome 150.0.7871.182,,,23-07-2026 13:41:02,23-07-2026 13:41:04,2.250s,PASSED
+"TrueTestScripts.navigate(""login"")",Chrome 150.0.7871.182,Step 1: Navigate to the login page,,23-07-2026 13:41:04,23-07-2026 13:41:08,3.661s,PASSED
+"enhancedClick(findTestObject(""03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/button_enterVaultAccess""))",Chrome 150.0.7871.182,Step 2: Click the Enter Vault Access (Login) button without entering any credentials,,23-07-2026 13:41:08,23-07-2026 13:41:08,0.067s,PASSED
+"verifyElementPresent(findTestObject(""03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/input_secureId""), 10)",Chrome 150.0.7871.182,Step 3: Verify the user remains on the login page (login blocked) - the username field should still be present,,23-07-2026 13:41:08,23-07-2026 13:41:08,0.031s,PASSED
+Start tear down : teardown,Chrome 150.0.7871.182,,,23-07-2026 13:41:08,23-07-2026 13:41:08,0.103s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 150.0.7871.182,,,23-07-2026 13:41:08,23-07-2026 13:41:08,0.001s,PASSED
+Video,Chrome 150.0.7871.182,,,23-07-2026 13:41:08,23-07-2026 13:41:08,0.000s,PASSED
+,,,,,,,
+Start listener action : sampleAfterTestSuite,Chrome 150.0.7871.182,,,23-07-2026 13:41:08,23-07-2026 13:41:08,0.002s,PASSED

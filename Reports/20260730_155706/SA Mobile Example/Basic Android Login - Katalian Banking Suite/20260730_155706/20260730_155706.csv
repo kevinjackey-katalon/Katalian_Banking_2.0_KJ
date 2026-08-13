@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Basic Android Login - Katalian Banking Suite,,Runs the SA Mobile Example login test on Android TestCloud devices.,,30-07-2026 15:57:08,30-07-2026 15:57:08,0.267s,ERROR
+,,,,,,,
+Start listener action : sampleBeforeTestSuite,,,,30-07-2026 15:57:08,30-07-2026 15:57:08,0.008s,PASSED
+,,,,,,,
+Test Cases/SA Mobile Example/Basic Android Login - Katalian Banking,,"Starts the uploaded Katalian Banking Android APK, logs in with the supplied credentials, and verifies the dashboard loads.","GenAI,SA Mobile Example,android,mobile,login,testcloud",30-07-2026 15:57:08,30-07-2026 15:57:08,0.181s,ERROR
+"DATA BINDING - {""appFileName"":""Katalian Banking (1).apk"",""password"":""********"",""username"":""bankinguser123""}",,,,,,,
+Start listener action : sampleBeforeTestCase,,,,30-07-2026 15:57:08,30-07-2026 15:57:08,0.005s,PASSED
+appUnderTest = resolveAppPath(appFileName),,,,30-07-2026 15:57:08,30-07-2026 15:57:08,0.006s,PASSED
+configuredValue = configuredAppFileName.toString(),,,,30-07-2026 15:57:08,30-07-2026 15:57:08,0.001s,PASSED
+if (!(configuredValue)),,,,30-07-2026 15:57:08,30-07-2026 15:57:08,0.002s,PASSED
+configuredFile = new java.io.File(configuredValue),,,,30-07-2026 15:57:08,30-07-2026 15:57:08,0.000s,PASSED
+if (configuredFile.isAbsolute() && configuredFile.exists()),,,,30-07-2026 15:57:08,30-07-2026 15:57:08,0.001s,PASSED
+candidateFileNames = [configuredValue],,,,30-07-2026 15:57:08,30-07-2026 15:57:08,0.001s,PASSED
+"if (!(candidateFileNames.contains(""Katalian.Banking (1).apk"")))",,,,30-07-2026 15:57:08,30-07-2026 15:57:08,0.004s,PASSED
+projectDir = new java.io.File(com.kms.katalon.core.configuration.RunConfiguration.getProjectDir()),,,,30-07-2026 15:57:08,30-07-2026 15:57:08,0.001s,PASSED
+"apkFile = findFirstFileByName(projectDir, candidateFileNames)",,,,30-07-2026 15:57:08,30-07-2026 15:57:08,0.002s,PASSED
+matchingFile = null,,,,30-07-2026 15:57:08,30-07-2026 15:57:08,0.000s,PASSED
+rootDir.eachFileRecurse({ java.io.File file -> ... }),,,,30-07-2026 15:57:08,30-07-2026 15:57:08,0.033s,PASSED
+return matchingFile,,,,30-07-2026 15:57:08,30-07-2026 15:57:08,0.001s,PASSED
+if (apkFile == null),,,,30-07-2026 15:57:08,30-07-2026 15:57:08,0.015s,ERROR
+Start listener action : sampleAfterTestCase,,,,30-07-2026 15:57:08,30-07-2026 15:57:08,0.002s,PASSED
+,,,,,,,
+Start listener action : sampleAfterTestSuite,,,,30-07-2026 15:57:08,30-07-2026 15:57:08,0.000s,PASSED

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Basic Android Login - Katalian Banking Suite" time="0.25" tests="1" passed="0" failures="0" errors="1" incompleted="0" skipped="0">
+   <testsuite name="Basic Android Login - Katalian Banking Suite" tests="1" passed="0" failures="0" errors="1" incompleted="0" skipped="0" time="0.25" timestamp="2026-07-30T19:57:08.452Z" hostname="kevin.jackey - 192.168.1.68" id="Test Suites/SA Mobile Example/Basic Android Login - Katalian Banking Suite" status="ERROR">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot/Reports/20260730_155706/SA Mobile Example/Basic Android Login - Katalian Banking Suite/20260730_155706"/>
+         <property name="logFiles" value="/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot/Reports/20260730_155706/SA Mobile Example/Basic Android Login - Katalian Banking Suite/20260730_155706/execution0.log, /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot/Reports/20260730_155706/SA Mobile Example/Basic Android Login - Katalian Banking Suite/20260730_155706/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[&#xa;  {&#xa;    &quot;value&quot;: &quot;bankinguser123&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;username&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;••••••••&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;password&quot;,&#xa;    &quot;masked&quot;: true&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;Katalian Banking (1).apk&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;appFileName&quot;,&#xa;    &quot;masked&quot;: false&#xa;  }&#xa;]"/>
+         <property name="hostName" value="kevin.jackey - 192.168.1.68"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="11.4.0"/>
+         <property name="userFullName" value="Kevin Jackey"/>
+         <property name="hostAddress" value="192.168.1.68"/>
+         <property name="projectName" value="TrueTestGen4Project"/>
+      </properties>
+      <testcase name="Test Cases/SA Mobile Example/Basic Android Login - Katalian Banking" time="0.181" classname="Test Cases/SA Mobile Example/Basic Android Login - Katalian Banking" status="ERROR" tag="GenAI,SA Mobile Example,android,mobile,login,testcloud">
+         <properties>
+            <property name="data_binding"><![CDATA[{"appFileName":"Katalian Banking (1).apk","password":"********","username":"bankinguser123"}]]></property>
+         </properties>
+         <error type="ERROR" message="Test Cases/SA Mobile Example/Basic Android Login - Katalian Banking FAILED.&#xa;Reason:&#xa;java.io.FileNotFoundException: Unable to locate Android APK using candidates [Katalian Banking (1).apk, Katalian.Banking (1).apk] under project directory '/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot'.&#xa;	at Basic Android Login - Katalian Banking.resolveAppPath(Basic Android Login - Katalian Banking:56)&#xa;	at Basic Android Login - Katalian Banking.run(Basic Android Login - Katalian Banking:6)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:515)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:506)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:485)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:343)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:217)&#xa;	at S0730_8.run(S0730_8.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;"/>
+         <system-out><![CDATA[30-07-2026T15:57:08 - [TEST_CASE][ERROR] - Test Cases/SA Mobile Example/Basic Android Login - Katalian Banking: Test Cases/SA Mobile Example/Basic Android Login - Katalian Banking FAILED.
+Reason:
+java.io.FileNotFoundException: Unable to locate Android APK using candidates [Katalian Banking (1).apk, Katalian.Banking (1).apk] under project directory '/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot'.
+	at Basic Android Login - Katalian Banking.resolveAppPath(Basic Android Login - Katalian Banking:56)
+	at Basic Android Login - Katalian Banking.run(Basic Android Login - Katalian Banking:6)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:515)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:485)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:343)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:217)
+	at S0730_8.run(S0730_8.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+
+30-07-2026T15:57:08 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+30-07-2026T15:57:08 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+30-07-2026T15:57:08 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+30-07-2026T15:57:08 - [TEST_STEP][PASSED] - appUnderTest = resolveAppPath(appFileName): null
+
+30-07-2026T15:57:08 - [TEST_STEP][PASSED] - configuredValue = configuredAppFileName.toString(): null
+
+30-07-2026T15:57:08 - [TEST_STEP][PASSED] - if (!(configuredValue)): null
+
+30-07-2026T15:57:08 - [TEST_STEP][PASSED] - configuredFile = new java.io.File(configuredValue): null
+
+30-07-2026T15:57:08 - [TEST_STEP][PASSED] - if (configuredFile.isAbsolute() && configuredFile.exists()): null
+
+30-07-2026T15:57:08 - [TEST_STEP][PASSED] - candidateFileNames = [configuredValue]: null
+
+30-07-2026T15:57:08 - [TEST_STEP][PASSED] - if (!(candidateFileNames.contains("Katalian.Banking (1).apk"))): null
+
+30-07-2026T15:57:08 - [TEST_STEP][PASSED] - candidateFileNames.add("Katalian.Banking (1).apk"): null
+
+30-07-2026T15:57:08 - [TEST_STEP][PASSED] - projectDir = new java.io.File(com.kms.katalon.core.configuration.RunConfiguration.getProjectDir()): null
+
+30-07-2026T15:57:08 - [TEST_STEP][PASSED] - apkFile = findFirstFileByName(projectDir, candidateFileNames): null
+
+30-07-2026T15:57:08 - [TEST_STEP][PASSED] - matchingFile = null: null
+
+30-07-2026T15:57:08 - [TEST_STEP][PASSED] - rootDir.eachFileRecurse({ java.io.File file -> ... }): null
+
+30-07-2026T15:57:08 - [TEST_STEP][PASSED] - return matchingFile: null
+
+30-07-2026T15:57:08 - [TEST_STEP][ERROR] - if (apkFile == null): Test Cases/SA Mobile Example/Basic Android Login - Katalian Banking FAILED.
+Reason:
+java.io.FileNotFoundException: Unable to locate Android APK using candidates [Katalian Banking (1).apk, Katalian.Banking (1).apk] under project directory '/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot'.
+	at Basic Android Login - Katalian Banking.resolveAppPath(Basic Android Login - Katalian Banking:56)
+	at Basic Android Login - Katalian Banking.run(Basic Android Login - Katalian Banking:6)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:515)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:485)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:343)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:217)
+	at S0730_8.run(S0730_8.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+
+30-07-2026T15:57:08 - [TEST_STEP][ERROR] - throw new java.io.FileNotFoundException(Unable to locate Android APK using candidates $candidateFileNames under project directory '$projectDir.absolutePath'.): Test Cases/SA Mobile Example/Basic Android Login - Katalian Banking FAILED.
+Reason:
+java.io.FileNotFoundException: Unable to locate Android APK using candidates [Katalian Banking (1).apk, Katalian.Banking (1).apk] under project directory '/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot'.
+	at Basic Android Login - Katalian Banking.resolveAppPath(Basic Android Login - Katalian Banking:56)
+	at Basic Android Login - Katalian Banking.run(Basic Android Login - Katalian Banking:6)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:515)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:485)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:343)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:217)
+	at S0730_8.run(S0730_8.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+
+30-07-2026T15:57:08 - [MESSAGE][ERROR] - Test Cases/SA Mobile Example/Basic Android Login - Katalian Banking FAILED.
+Reason:
+java.io.FileNotFoundException: Unable to locate Android APK using candidates [Katalian Banking (1).apk, Katalian.Banking (1).apk] under project directory '/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot'.
+	at Basic Android Login - Katalian Banking.resolveAppPath(Basic Android Login - Katalian Banking:56)
+	at Basic Android Login - Katalian Banking.run(Basic Android Login - Katalian Banking:6)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:515)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:485)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:343)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:217)
+	at S0730_8.run(S0730_8.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+
+30-07-2026T15:57:08 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+30-07-2026T15:57:08 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+30-07-2026T15:57:08 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[30-07-2026T15:57:08 - [TEST_CASE][ERROR] - Test Cases/SA Mobile Example/Basic Android Login - Katalian Banking: Test Cases/SA Mobile Example/Basic Android Login - Katalian Banking FAILED.
+Reason:
+java.io.FileNotFoundException: Unable to locate Android APK using candidates [Katalian Banking (1).apk, Katalian.Banking (1).apk] under project directory '/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot'.
+	at Basic Android Login - Katalian Banking.resolveAppPath(Basic Android Login - Katalian Banking:56)
+	at Basic Android Login - Katalian Banking.run(Basic Android Login - Katalian Banking:6)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:515)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:485)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:343)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:217)
+	at S0730_8.run(S0730_8.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-07-2026T15:57:08 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestSuite: null
+
+30-07-2026T15:57:08 - [TEST_STEP][PASSED] - println(testSuiteContext.getTestSuiteId()): null
+
+30-07-2026T15:57:08 - [TEST_SUITE][ERROR] - Basic Android Login - Katalian Banking Suite: null
+
+30-07-2026T15:57:08 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestSuite: null
+
+30-07-2026T15:57:08 - [TEST_STEP][PASSED] - println(testSuiteContext.getTestSuiteId()): null]]></system-out>
+      <system-err><![CDATA[30-07-2026T15:57:08 - [TEST_SUITE][ERROR] - Basic Android Login - Katalian Banking Suite: null]]></system-err>
+   </testsuite>
+</testsuites>

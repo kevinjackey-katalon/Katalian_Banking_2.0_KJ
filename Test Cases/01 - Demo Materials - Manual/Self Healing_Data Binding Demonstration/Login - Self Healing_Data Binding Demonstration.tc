@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login - Self Healing_Data Binding Demonstration</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e40a3be9-e729-4c43-a71a-55bdc97fd8a8</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>2f669f8f-5dfe-455f-bc9b-1eef67c29e8b</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Demo/Demo Data File 1</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>2f669f8f-5dfe-455f-bc9b-1eef67c29e8b</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>21ac56b8-729e-4f64-881e-6911d7383f97</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>21ac56b8-729e-4f64-881e-6911d7383f97</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

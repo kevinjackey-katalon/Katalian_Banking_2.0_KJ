@@ -1,0 +1,6 @@
+{
+  "paths": [
+    "Include/features/BDD Gherkin Example/P-01 Net Liquidity label is displayed on dashboard.feature",
+    "Keywords/bdd/steps/NetLiquidityStepDefinitions.groovy"
+  ]
+}

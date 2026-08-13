@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Generated test case: Net Liquidity label is visible on the dashboard after login</description>
+   <name>Net Liquidity label is visible on the dashboard after login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>059a2ae1-7073-515c-992a-8b5cd70092cf</testCaseGuid>
+   <testCaseGuid>6cb67738-181b-5c7d-9997-b9cc02956910</testCaseGuid>
+   <testStep>
+      <index>1</index>
+      <description>Navigate to login page</description>
+   </testStep>
+   <testCaseGuid>cb7cce24-d687-5777-a8da-84c65af2c202</testCaseGuid>
+   <testStep>
+      <index>2</index>
+      <description>Enter username</description>
+   </testStep>
+   <testCaseGuid>bcbfb40e-3ca1-58d0-beef-89482afcbf38</testCaseGuid>
+   <testStep>
+      <index>3</index>
+      <description>Enter password</description>
+   </testStep>
+   <testCaseGuid>56c24091-e672-508b-adc4-175697eae00e</testCaseGuid>
+   <testStep>
+      <index>4</index>
+      <description>Click Enter Vault Access button</description>
+   </testStep>
+</TestCaseEntity>

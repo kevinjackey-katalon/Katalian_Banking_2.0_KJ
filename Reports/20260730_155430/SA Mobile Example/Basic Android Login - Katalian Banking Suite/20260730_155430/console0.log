@@ -1,0 +1,75 @@
+2026-07-30 15:54:32.080 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio Copilot - 11.4.0.app/Contents/Eclipse/configuration/org.eclipse.osgi/159/0/.cp/resources/logback/logback-execution.xml
+2026-07-30 15:54:32.081 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot/Include/config/log.properties
+2026-07-30 15:54:32.412 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/SA Mobile Example/Basic Android Login - Katalian Banking Suite
+2026-07-30 15:54:32.437 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Kevin Jackey
+2026-07-30 15:54:32.437 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TrueTestGen4Project
+2026-07-30 15:54:32.438 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = kevin.jackey - 192.168.1.68
+2026-07-30 15:54:32.438 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-07-30 15:54:32.438 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.68
+2026-07-30 15:54:32.439 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.4.0
+Test Suites/SA Mobile Example/Basic Android Login - Katalian Banking Suite
+2026-07-30 15:54:32.490 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-30 15:54:32.490 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/SA Mobile Example/Basic Android Login - Katalian Banking
+2026-07-30 15:54:32.529 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = bankinguser123
+2026-07-30 15:54:32.529 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = ••••••••
+2026-07-30 15:54:32.530 INFO  c.k.katalon.core.main.TestCaseExecutor   - appFileName = Katalian Banking (1).apk
+Test Cases/SA Mobile Example/Basic Android Login - Katalian Banking
+[appFileName:Katalian Banking (1).apk, password:••••••••, username:bankinguser123]
+2026-07-30 15:54:32.537 WARN  c.k.k.c.h.s.CDTVideoRecorder             - No alive Web Driver found!
+2026-07-30 15:54:32.578 DEBUG t.Basic Android Login - Katalian Banking - 1: appUnderTest = resolveAppPath(appFileName)
+2026-07-30 15:54:32.583 DEBUG t.Basic Android Login - Katalian Banking - 1: configuredValue = configuredAppFileName.toString()
+2026-07-30 15:54:32.584 DEBUG t.Basic Android Login - Katalian Banking - 2: if (!(configuredValue))
+2026-07-30 15:54:32.586 DEBUG t.Basic Android Login - Katalian Banking - 3: configuredFile = new java.io.File(configuredValue)
+2026-07-30 15:54:32.587 DEBUG t.Basic Android Login - Katalian Banking - 4: if (configuredFile.isAbsolute() && configuredFile.exists())
+2026-07-30 15:54:32.588 DEBUG t.Basic Android Login - Katalian Banking - 5: projectDir = new java.io.File(com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())
+2026-07-30 15:54:32.588 DEBUG t.Basic Android Login - Katalian Banking - 6: apkFile = findFileByName(projectDir, configuredValue)
+2026-07-30 15:54:32.591 DEBUG t.Basic Android Login - Katalian Banking - 1: matchingFile = null
+2026-07-30 15:54:32.591 DEBUG t.Basic Android Login - Katalian Banking - 2: rootDir.eachFileRecurse({ java.io.File file -> ... })
+2026-07-30 15:54:32.610 DEBUG t.Basic Android Login - Katalian Banking - 3: return matchingFile
+2026-07-30 15:54:32.611 DEBUG t.Basic Android Login - Katalian Banking - 7: if (apkFile == null)
+2026-07-30 15:54:32.611 DEBUG t.Basic Android Login - Katalian Banking - 1: throw new java.io.FileNotFoundException(Unable to locate Android APK '$configuredValue' under project directory '$projectDir.absolutePath'.)
+2026-07-30 15:54:32.621 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/SA Mobile Example/Basic Android Login - Katalian Banking FAILED.
+Reason:
+java.io.FileNotFoundException: Unable to locate Android APK 'Katalian Banking (1).apk' under project directory '/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot'.
+	at Basic Android Login - Katalian Banking.resolveAppPath(Basic Android Login - Katalian Banking:50)
+	at Basic Android Login - Katalian Banking.run(Basic Android Login - Katalian Banking:6)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:515)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:485)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:343)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:217)
+	at S0730_5.run(S0730_5.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-07-30 15:54:32.624 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/SA Mobile Example/Basic Android Login - Katalian Banking FAILED.
+Reason:
+java.io.FileNotFoundException: Unable to locate Android APK 'Katalian Banking (1).apk' under project directory '/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot'.
+	at Basic Android Login - Katalian Banking.resolveAppPath(Basic Android Login - Katalian Banking:50)
+	at Basic Android Login - Katalian Banking.run(Basic Android Login - Katalian Banking:6)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:515)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:485)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:343)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:217)
+	at S0730_5.run(S0730_5.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+Test Cases/SA Mobile Example/Basic Android Login - Katalian Banking
+ERROR
+2026-07-30 15:54:32.628 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/SA Mobile Example/Basic Android Login - Katalian Banking
+Test Suites/SA Mobile Example/Basic Android Login - Katalian Banking Suite
+2026-07-30 15:54:32.646 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-07-30 15:54:32.646 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/SA Mobile Example/Basic Android Login - Katalian Banking Suite
+2026-07-30 15:54:32.646 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

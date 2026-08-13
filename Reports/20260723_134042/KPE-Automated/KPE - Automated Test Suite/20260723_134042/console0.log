@@ -1,0 +1,162 @@
+2026-07-23 13:40:45.936 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio Copilot - 11.3.0.app/Contents/Eclipse/configuration/org.eclipse.osgi/159/0/.cp/resources/logback/logback-execution.xml
+2026-07-23 13:40:45.938 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot/Include/config/log.properties
+2026-07-23 13:40:46.403 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/KPE-Automated/KPE - Automated Test Suite
+2026-07-23 13:40:46.441 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Kevin Jackey
+2026-07-23 13:40:46.441 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TrueTestGen4Project
+2026-07-23 13:40:46.442 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = kevin.jackey - 192.168.1.68
+2026-07-23 13:40:46.442 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-07-23 13:40:46.443 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.68
+2026-07-23 13:40:46.443 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.3.0.0
+Test Suites/KPE-Automated/KPE - Automated Test Suite
+2026-07-23 13:40:46.519 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-23 13:40:46.520 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/KPE-Automated/TC01 - Login with Valid Credentials
+2026-07-23 13:40:46.545 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = BankingUser123
+2026-07-23 13:40:46.546 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = ••••••••
+Test Cases/KPE-Automated/TC01 - Login with Valid Credentials
+[password:••••••••, username:BankingUser123]
+2026-07-23 13:40:46.566 WARN  c.k.k.c.h.s.CDTVideoRecorder             - No alive Web Driver found!
+2026-07-23 13:40:46.613 DEBUG t.TC01 - Login with Valid Credentials    - 1: openBrowser("")
+2026-07-23 13:40:46.734 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2026-07-23 13:40:46.823 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-23 13:40:49.933 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 65c33162c4c065eb99e4ecfd6db0a49e
+2026-07-23 13:40:49.934 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.182
+2026-07-23 13:40:49.935 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-07-23 13:40:49.935 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-23 13:40:49.938 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-23 13:40:49.970 DEBUG t.TC01 - Login with Valid Credentials    - 2: setViewPortSize(1541, 929)
+2026-07-23 13:40:50.546 DEBUG t.TC01 - Login with Valid Credentials    - 1: TrueTestScripts.navigate("login")
+2026-07-23 13:40:54.710 DEBUG t.TC01 - Login with Valid Credentials    - 2: setText(findTestObject("03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/input_secureId"), username)
+2026-07-23 13:40:54.941 DEBUG t.TC01 - Login with Valid Credentials    - 3: setEncryptedText(findTestObject("03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/input_accessCode"), password)
+2026-07-23 13:40:55.513 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to set encrypted text for object 'Object Repository/03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/input_accessCode' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/input_accessCode'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:104)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1113)
+	at TC01 - Login with Valid Credentials.run(TC01 - Login with Valid Credentials:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0723_0.run(S0723_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: java.lang.IllegalArgumentException: Illegal base64 character 3a
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:66)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy60.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:104)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1113)
+	at Script1784828142566.run(Script1784828142566.groovy:20)
+	... 13 more
+)
+2026-07-23 13:40:55.516 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/KPE-Automated/TC01 - Login with Valid Credentials FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/input_accessCode'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:104)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1113)
+	at TC01 - Login with Valid Credentials.run(TC01 - Login with Valid Credentials:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0723_0.run(S0723_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: java.lang.IllegalArgumentException: Illegal base64 character 3a
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:66)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy60.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+
+2026-07-23 13:40:55.519 DEBUG t.TC01 - Login with Valid Credentials    - 1: closeBrowser()
+Test Cases/KPE-Automated/TC01 - Login with Valid Credentials
+FAILED
+2026-07-23 13:40:55.673 INFO  c.k.k.c.c.internal.VideoRecorderService  - Video recording for test case 'Test Cases/KPE-Automated/TC01 - Login with Valid Credentials' .
+2026-07-23 13:40:55.674 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/KPE-Automated/TC01 - Login with Valid Credentials
+2026-07-23 13:40:55.685 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-23 13:40:55.686 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/KPE-Automated/TC02 - Login with Invalid Password
+2026-07-23 13:40:55.694 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = BankingUser123
+2026-07-23 13:40:55.695 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = ••••••••
+Test Cases/KPE-Automated/TC02 - Login with Invalid Password
+[password:••••••••, username:BankingUser123]
+2026-07-23 13:40:55.701 WARN  c.k.k.c.h.s.CDTVideoRecorder             - No alive Web Driver found!
+2026-07-23 13:40:55.723 DEBUG t.TC02 - Login with Invalid Password     - 1: openBrowser("")
+2026-07-23 13:40:55.726 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2026-07-23 13:40:55.728 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-23 13:40:57.570 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5c5143cc0fba440e810eca0dfa67f7ea
+2026-07-23 13:40:57.571 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.182
+2026-07-23 13:40:57.571 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-07-23 13:40:57.572 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-23 13:40:57.572 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-23 13:40:57.586 DEBUG t.TC02 - Login with Invalid Password     - 2: setViewPortSize(1541, 929)
+2026-07-23 13:40:58.127 DEBUG t.TC02 - Login with Invalid Password     - 1: TrueTestScripts.navigate("login")
+2026-07-23 13:41:01.869 DEBUG t.TC02 - Login with Invalid Password     - 2: setText(findTestObject("03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/input_secureId"), username)
+2026-07-23 13:41:02.087 DEBUG t.TC02 - Login with Invalid Password     - 3: setText(findTestObject("03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/input_accessCode"), password)
+2026-07-23 13:41:02.206 DEBUG t.TC02 - Login with Invalid Password     - 4: enhancedClick(findTestObject("03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/button_enterVaultAccess"))
+2026-07-23 13:41:02.276 DEBUG t.TC02 - Login with Invalid Password     - 5: verifyElementPresent(findTestObject("03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/input_secureId"), 10)
+2026-07-23 13:41:02.322 DEBUG t.TC02 - Login with Invalid Password     - 1: closeBrowser()
+Test Cases/KPE-Automated/TC02 - Login with Invalid Password
+PASSED
+2026-07-23 13:41:02.451 INFO  c.k.k.c.c.internal.VideoRecorderService  - Video recording for test case 'Test Cases/KPE-Automated/TC02 - Login with Invalid Password' .
+2026-07-23 13:41:02.452 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/KPE-Automated/TC02 - Login with Invalid Password
+2026-07-23 13:41:02.455 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-23 13:41:02.455 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/KPE-Automated/TC03 - Login with Empty Credentials
+Test Cases/KPE-Automated/TC03 - Login with Empty Credentials
+[:]
+2026-07-23 13:41:02.463 WARN  c.k.k.c.h.s.CDTVideoRecorder             - No alive Web Driver found!
+2026-07-23 13:41:02.481 DEBUG t.TC03 - Login with Empty Credentials    - 1: openBrowser("")
+2026-07-23 13:41:02.482 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2026-07-23 13:41:02.484 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-23 13:41:04.153 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d6191278ca48ed6392adc2a320002056
+2026-07-23 13:41:04.154 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.182
+2026-07-23 13:41:04.155 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-07-23 13:41:04.156 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-23 13:41:04.156 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-23 13:41:04.167 DEBUG t.TC03 - Login with Empty Credentials    - 2: setViewPortSize(1541, 929)
+2026-07-23 13:41:04.716 DEBUG t.TC03 - Login with Empty Credentials    - 1: TrueTestScripts.navigate("login")
+2026-07-23 13:41:08.377 DEBUG t.TC03 - Login with Empty Credentials    - 2: enhancedClick(findTestObject("03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/button_enterVaultAccess"))
+2026-07-23 13:41:08.445 DEBUG t.TC03 - Login with Empty Credentials    - 3: verifyElementPresent(findTestObject("03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/input_secureId"), 10)
+2026-07-23 13:41:08.483 DEBUG t.TC03 - Login with Empty Credentials    - 1: closeBrowser()
+Test Cases/KPE-Automated/TC03 - Login with Empty Credentials
+PASSED
+2026-07-23 13:41:08.606 INFO  c.k.k.c.c.internal.VideoRecorderService  - Video recording for test case 'Test Cases/KPE-Automated/TC03 - Login with Empty Credentials' .
+2026-07-23 13:41:08.606 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/KPE-Automated/TC03 - Login with Empty Credentials
+Test Suites/KPE-Automated/KPE - Automated Test Suite
+2026-07-23 13:41:08.621 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-07-23 13:41:08.621 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/KPE-Automated/KPE - Automated Test Suite
+2026-07-23 13:41:08.621 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

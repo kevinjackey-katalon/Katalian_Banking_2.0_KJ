@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validates Net Liquidity display items on dashboard after login.</description>
+   <name>VC Example - TC</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3b8d4a9b-4e3d-45e4-a2b4-1a26b2a64d60</testCaseGuid>
+   <variable>
+      <defaultValue>'https://katalian-banking.vercel.app/login'</defaultValue>
+      <description>Login URL</description>
+      <id>9c936cb2-cd35-4ef1-ba97-15ace5f09b4e</id>
+      <masked>false</masked>
+      <name>targetUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>'bankinguser123'</defaultValue>
+      <description>Login user id</description>
+      <id>5aad7225-59b7-457b-b986-fb454d0792e4</id>
+      <masked>false</masked>
+      <name>userId</name>
+   </variable>
+   <variable>
+      <defaultValue>'notapassword@123'</defaultValue>
+      <description>Login password</description>
+      <id>747e1606-8e1e-4f9f-8d51-4652b053a1b6</id>
+      <masked>true</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,14 +1,3 @@
 {
-  "brokenTestObjects": [
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken",
-      "brokenLocator": "//*[@id \u003d \u0027broken___username\u0027]",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "internal:attr\u003d[placeholder\u003d\"USER_0000\"i]",
-      "proposedLocatorMethod": "SMART_LOCATOR",
-      "recoveryMethod": "SMART_LOCATOR",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken_SMART_LOCATOR.png"
-    }
-  ]
+  "brokenTestObjects" : [ ]
 }

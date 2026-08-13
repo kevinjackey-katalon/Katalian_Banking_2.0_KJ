@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Basic Android Login - Katalian Banking Suite,,Runs the SA Mobile Example login test on Android TestCloud devices.,,30-07-2026 15:54:40,30-07-2026 15:54:40,0.279s,ERROR
+,,,,,,,
+Start listener action : sampleBeforeTestSuite,,,,30-07-2026 15:54:40,30-07-2026 15:54:40,0.007s,PASSED
+,,,,,,,
+Test Cases/SA Mobile Example/Basic Android Login - Katalian Banking,,"Starts the uploaded Katalian Banking Android APK, logs in with the supplied credentials, and verifies the dashboard loads.","GenAI,SA Mobile Example,android,mobile,login,testcloud",30-07-2026 15:54:40,30-07-2026 15:54:40,0.195s,ERROR
+"DATA BINDING - {""appFileName"":""Katalian Banking (1).apk"",""password"":""********"",""username"":""bankinguser123""}",,,,,,,
+Start listener action : sampleBeforeTestCase,,,,30-07-2026 15:54:40,30-07-2026 15:54:40,0.006s,PASSED
+appUnderTest = resolveAppPath(appFileName),,,,30-07-2026 15:54:40,30-07-2026 15:54:40,0.008s,PASSED
+configuredValue = configuredAppFileName.toString(),,,,30-07-2026 15:54:40,30-07-2026 15:54:40,0.002s,PASSED
+if (!(configuredValue)),,,,30-07-2026 15:54:40,30-07-2026 15:54:40,0.002s,PASSED
+configuredFile = new java.io.File(configuredValue),,,,30-07-2026 15:54:40,30-07-2026 15:54:40,0.002s,PASSED
+if (configuredFile.isAbsolute() && configuredFile.exists()),,,,30-07-2026 15:54:40,30-07-2026 15:54:40,0.001s,PASSED
+projectDir = new java.io.File(com.kms.katalon.core.configuration.RunConfiguration.getProjectDir()),,,,30-07-2026 15:54:40,30-07-2026 15:54:40,0.001s,PASSED
+"apkFile = findFileByName(projectDir, configuredValue)",,,,30-07-2026 15:54:40,30-07-2026 15:54:40,0.003s,PASSED
+matchingFile = null,,,,30-07-2026 15:54:40,30-07-2026 15:54:40,0.002s,PASSED
+rootDir.eachFileRecurse({ java.io.File file -> ... }),,,,30-07-2026 15:54:40,30-07-2026 15:54:40,0.024s,PASSED
+return matchingFile,,,,30-07-2026 15:54:40,30-07-2026 15:54:40,0.001s,PASSED
+if (apkFile == null),,,,30-07-2026 15:54:40,30-07-2026 15:54:40,0.016s,ERROR
+Start listener action : sampleAfterTestCase,,,,30-07-2026 15:54:40,30-07-2026 15:54:40,0.002s,PASSED
+,,,,,,,
+Start listener action : sampleAfterTestSuite,,,,30-07-2026 15:54:40,30-07-2026 15:54:40,0.002s,PASSED

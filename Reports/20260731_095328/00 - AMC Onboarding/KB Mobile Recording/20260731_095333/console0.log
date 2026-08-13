@@ -1,0 +1,38 @@
+2026-07-31 09:53:34.968 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio Copilot - 11.4.0.app/Contents/Eclipse/configuration/org.eclipse.osgi/159/0/.cp/resources/logback/logback-execution.xml
+2026-07-31 09:53:34.969 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot/Include/config/log.properties
+2026-07-31 09:53:35.282 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/00 - AMC Onboarding/KB Mobile Recording
+2026-07-31 09:53:35.312 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Kevin Jackey
+2026-07-31 09:53:35.312 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TrueTestGen4Project
+2026-07-31 09:53:35.312 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = kevin.jackey - 192.168.1.68
+2026-07-31 09:53:35.312 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-07-31 09:53:35.312 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.68
+2026-07-31 09:53:35.313 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.4.0
+Test Suites/00 - AMC Onboarding/KB Mobile Recording
+2026-07-31 09:53:35.354 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-31 09:53:35.354 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/00 - AMC Onboarding/KB Mobile Recording
+Test Cases/00 - AMC Onboarding/KB Mobile Recording
+[:]
+2026-07-31 09:53:35.375 WARN  c.k.k.c.h.s.CDTVideoRecorder             - No alive Web Driver found!
+2026-07-31 09:53:35.401 DEBUG testcase.KB Mobile Recording             - 1: startApplication("965afb70-e115-4faf-81cf-572c75147350", true)
+2026-07-31 09:53:35.455 INFO  c.k.k.c.m.k.b.StartApplicationKeyword    - Overriding application: '965afb70-e115-4faf-81cf-572c75147350' by '965afb70-e115-4faf-81cf-572c75147350'
+2026-07-31 09:53:35.455 INFO  c.k.k.c.m.k.b.StartApplicationKeyword    - Override application info: '{"id":"965afb70-e115-4faf-81cf-572c75147350","organizationId":"2154967","name":"Katalian Banking","platform":"ANDROID","status":"READY","size":17209977,"storagePath":"bbccbc42-cf1e-47a7-8ef5-19c030c911af","uploadedDate":"2026-07-30T19:01:02.642243","createdDate":"2026-07-30T19:01:02.642243","updatedDate":"2026-07-30T19:01:06.112526","fileName":"Katalian.Banking (1).apk","metadata":{"identifier":"com.katalon.katalianbanking","name":"Katalian Banking","version":"1.0","versionCode":"1"}}'
+2026-07-31 09:53:35.455 INFO  c.k.k.c.m.k.b.StartApplicationKeyword    - Starting application: '965afb70-e115-4faf-81cf-572c75147350'
+2026-07-31 09:53:35.474 INFO  c.k.k.core.appium.util.AppiumDriverUtil  - There are uncompatible capabilities keys which will be replaced: app=appium:app
+2026-07-31 09:53:59.503 WARN  c.k.k.c.a.driver.AppiumRequestService    - Unable to get appium status. Root cause (Cannot invoke "org.osgi.framework.Bundle.getBundleContext()" because the return value of "org.osgi.framework.FrameworkUtil.getBundle(java.lang.Class)" is null)
+2026-07-31 09:53:59.729 INFO  c.k.k.c.a.driver.AppiumDriverManager     - remoteDriverUrl = https://token:eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpZTlDMnN4ZjZ4czczSHJxY0QyejRxcVVzNEFpOWVzNXR5SVVKYmRTYW04In0.eyJleHAiOjE3ODU2MDA5ODcsImlhdCI6MTc4NTQyODE4NywianRpIjoib25ydG5hOmYxMGNkMzZlLWVmZmMtMjYzZC0yOWM5LWRmZDFmYjlmMGI5OSIsImlzcyI6Imh0dHBzOi8vbG9naW4ua2F0YWxvbi5jb20vcmVhbG1zL2thdGFsb24iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiOTc5YzBmNDQtMTBhOC00MjQwLTg3NzgtYWQzODljOThmZTRjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoia2F0YWxvbi1hZG1pbiIsInNpZCI6IjI1Njc2NmU3LWM5YWQtYTIwOS03ZTRlLTNkMGQ1N2NjMDY2NCIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cHM6Ly9teS5rYXRhbG9uLmNvbSIsImh0dHBzOi8vYWRtaW4ua2F0YWxvbi5jb20iXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbInVtYV9hdXRob3JpemF0aW9uIiwiZGVmYXVsdC1yb2xlcy1rYXRhbG9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQiLCJhY2NvdW50X3V1aWQiOiJhNzllYzU0ZS1kNmU1LTQwZTMtOWZhOC1lOGJmMmFmMjA2OTEiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwidXBkYXRlZF90aW1lc3RhbXAiOjE3ODU0MTExNTcwMTIsImxhc3RfbG9naW4iOjE3ODU0MjQyNzMzNzUsIm5hbWUiOiJLZXZpbiBKYWNrZXkiLCJjcmVhdGVkX3RpbWVzdGFtcCI6MTc1ODY0MzY1MjkwNSwicHJlZmVycmVkX3VzZXJuYW1lIjoia2V2aW4uamFja2V5QGthdGFsb24uY29tIiwiZ2l2ZW5fbmFtZSI6IktldmluIiwiZmFtaWx5X25hbWUiOiJKYWNrZXkiLCJlbWFpbCI6ImtldmluLmphY2tleUBrYXRhbG9uLmNvbSJ9.OrJ0umVn4xs-2YGHgcNwnNnbKILyyUXhlWV7MzfVkW-68uNXVu7tfqQY8R3t47iVHQKmSFKVJYDkwvQ_Xfi752_3SjQIXn3bw153dTNFiaX45DHbQLwrnPDFCC9fHBqN_WY3k-zM_jI_7EgSsng3V6Grok-4rjA0qUN2JpM2ykmz6pKJFKhXAwAXVQ8E2FHcHlt6UJKoTbdEAkOlSuS2qxSbzrO3mbv59ej2Ts2iv8aIQzVpcj-LtByt8meoIObTgrAiTXA0qDZj2j3FJBL2yOp32SUqkYjxSbyLWGqz_9hvMrbWwvMauqfJl6bntoDt-96WoutQYfkGiUDbiDM7fQ@testcloud.katalon.com/wd/hub
+2026-07-31 09:53:59.732 INFO  c.k.k.c.a.driver.AppiumDriverManager     - desiredCapabilities = {\n  "app": "965afb70-e115-4faf-81cf-572c75147350",\n  "appium:mjpegServerPort": 52107,\n  "webSocketURL": false,\n  "appium:deviceName": "Any Phone",\n  "platformName": "ANDROID",\n  "appium:platformVersion": "15",\n  "katalon:options": {\n    "executionMode": "queue",\n    "metadata": {\n      "organizationId": "2154967",\n      "accountId": "1509469",\n      "channel": "kse;v\u003d11.4.0",\n      "testOpsExecutionId": "b54072e6-6c31-450a-b02e-0015de339d12",\n      "projectId": "3033951"\n    },\n    "appiumClientVersion": "10.0.0",\n    "usingTunnel": false\n  }\n}
+2026-07-31 09:53:59.735 INFO  c.k.k.c.a.driver.AppiumDriverManager     - katalon:caps = {\n  "deviceName": "Motorola Moto G54 5G",\n  "executionId": "b54072e6-6c31-450a-b02e-0015de339d12",\n  "executionSessionId": "96a1e0db-7be9-41d6-8793-97e2142acdf6"\n}
+2026-07-31 09:53:59.736 INFO  c.k.k.c.a.driver.AppiumDriverManager     - deviceName = Motorola Moto G54 5G
+2026-07-31 09:54:00.085 DEBUG testcase.KB Mobile Recording             - 2: setText(findTestObject("KB Mobile Recording/android.widget.EditText"), "bankinguser123", 60)
+2026-07-31 09:54:03.582 DEBUG testcase.KB Mobile Recording             - 3: setText(findTestObject("KB Mobile Recording/android.widget.EditText (1)"), "notapassword@123", 60)
+2026-07-31 09:54:05.857 DEBUG testcase.KB Mobile Recording             - 4: hideKeyboard()
+2026-07-31 09:54:07.219 DEBUG testcase.KB Mobile Recording             - 5: tap(findTestObject("KB Mobile Recording/android.widget.Button"), 60)
+2026-07-31 09:54:09.197 DEBUG testcase.KB Mobile Recording             - 6: tap(findTestObject("KB Mobile Recording/android.widget.Button (1)"), 60)
+2026-07-31 09:54:12.065 DEBUG testcase.KB Mobile Recording             - 7: closeApplication()
+Test Cases/00 - AMC Onboarding/KB Mobile Recording
+PASSED
+2026-07-31 09:54:13.300 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/00 - AMC Onboarding/KB Mobile Recording
+Test Suites/00 - AMC Onboarding/KB Mobile Recording
+2026-07-31 09:54:13.310 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-07-31 09:54:13.311 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/00 - AMC Onboarding/KB Mobile Recording
+2026-07-31 09:54:13.311 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

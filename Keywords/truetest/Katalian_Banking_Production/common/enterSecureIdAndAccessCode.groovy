@@ -11,23 +11,23 @@ public class enterSecureIdAndAccessCode {
 
 		"Step 1: Click on input secureId"
 
-		WebUI.enhancedClick(findTestObject('AI-Generated/Katalian Banking Production/Page_login/input_secureId'))
+		WebUI.enhancedClick(findTestObject('03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/input_secureId'))
 
 		"Step 2: Enter input value in input secureId"
 
-		WebUI.setText(findTestObject('AI-Generated/Katalian Banking Production/Page_login/input_secureId'), input_secureId)
+		WebUI.setText(findTestObject('03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/input_secureId'), input_secureId)
 
 		"Step 3: Click on input accessCode"
 
-		WebUI.enhancedClick(findTestObject('AI-Generated/Katalian Banking Production/Page_login/input_accessCode'))
+		WebUI.enhancedClick(findTestObject('03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/input_accessCode'))
 
 		"Step 4: Enter input value in input accessCode"
 
-		WebUI.setText(findTestObject('AI-Generated/Katalian Banking Production/Page_login/input_accessCode'), input_accessCode)
+		WebUI.setText(findTestObject('03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/input_accessCode'), input_accessCode)
 
 		"Step 5: Click on button enterVaultAccess"
 
-		WebUI.enhancedClick(findTestObject('AI-Generated/Katalian Banking Production/Page_login/button_enterVaultAccess'))
+		WebUI.enhancedClick(findTestObject('03 - AI-Generated - KAI/AI-Generated/Katalian Banking Production/Page_login/button_enterVaultAccess'))
 	}
 }
 

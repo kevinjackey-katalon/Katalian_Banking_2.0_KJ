@@ -1,0 +1,36 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. startApplication("965afb70-e115-4faf-81cf-572c75147350", true)
+
+2
+00:00:00,000 --> 00:00:00,000
+5. setText(findTestObject("KB Mobile Recording/android.widget.EditText"), "bankinguser123", 60)
+
+3
+00:00:00,000 --> 00:00:00,000
+9. setText(findTestObject("KB Mobile Recording/android.widget.EditText (1)"), "notapassword@123", 60)
+
+4
+00:00:00,000 --> 00:00:00,000
+13. hideKeyboard()
+
+5
+00:00:00,000 --> 00:00:00,000
+17. tap(findTestObject("KB Mobile Recording/android.widget.Button"), 60)
+
+6
+00:00:00,000 --> 00:00:00,000
+21. tap(findTestObject("KB Mobile Recording/android.widget.Button (1)"), 60)
+
+7
+00:00:00,000 --> 00:00:00,000
+25. closeApplication()
+
+8
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+9
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+
