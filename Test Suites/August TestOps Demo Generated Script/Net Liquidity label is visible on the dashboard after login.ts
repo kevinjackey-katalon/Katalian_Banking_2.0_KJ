@@ -17,7 +17,7 @@
       <guid>7e9217a4-0c4a-586f-a594-00717d69c34c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/August TestOps Demo Generated Script/Net Liquidity label is visible on the dashboard after login</testCaseId>
+      <testCaseId>Test Cases/TestOps AI Demo Scripts/Net Liquidity label is visible on the dashboard after login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

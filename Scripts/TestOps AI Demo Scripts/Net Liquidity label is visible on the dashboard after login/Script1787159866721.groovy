@@ -17,17 +17,17 @@ WebUI.openBrowser('https://katalian-banking.vercel.app/login')
 // Step: Enter username
 // Type "bankinguser123" into "enter_username"
 // Note: WebUI.setText uses sendKeys — if this input does not respond (React/Vue app), replace with executeJavaScript to set value directly
-WebUI.setText(findTestObject('Object Repository/August TestOps Demo Generated Script/enter_username'), 'bankinguser123')
+WebUI.setText(findTestObject('Object Repository/TestOps AI Demo Scripts/enter_username'), 'bankinguser123')
 
 // Step: Enter password
 // Type "<<secret:vault:Katalian_Banking_Password>>" into "enter_password"
 // Note: WebUI.setText uses sendKeys — if this input does not respond (React/Vue app), replace with executeJavaScript to set value directly
-WebUI.setText(findTestObject('Object Repository/August TestOps Demo Generated Script/enter_password'), '<<secret:vault:Katalian_Banking_Password>>')
+WebUI.setText(findTestObject('Object Repository/TestOps AI Demo Scripts/enter_password'), '<<secret:vault:Katalian_Banking_Password>>')
 
 // Step: Click Enter Vault Access button
 // Click "click_enter_vault_access_button"
-WebUI.scrollToElement(findTestObject('Object Repository/August TestOps Demo Generated Script/click_enter_vault_access_button'), 30)
-WebUI.click(findTestObject('Object Repository/August TestOps Demo Generated Script/click_enter_vault_access_button'))
+WebUI.scrollToElement(findTestObject('Object Repository/TestOps AI Demo Scripts/click_enter_vault_access_button'), 30)
+WebUI.click(findTestObject('Object Repository/TestOps AI Demo Scripts/click_enter_vault_access_button'))
 
 // Close browser
 WebUI.closeBrowser()

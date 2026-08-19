@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated conversion of REQ-004 NL Positive - Deposit Button Navigates to Deposit using agentic run outcome as oracle.</description>
+   <name>REQ-004 NL Positive - Deposit Button Navigates to Deposit (Automated)</name>
+   <tag>GenAI,Deposit,REQ-004</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7b58f7f7-cde4-4d58-a1d9-06f7fc6fd901</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0ff7445a-7de6-4c8c-9b44-3aee8f60623e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad0f5a7d-9bc8-4fcc-b20f-7f4a0ec2210c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://katalian-banking.vercel.app/login'</defaultValue>
+      <description>Login URL for Katalian Banking Production</description>
+      <id>0ff7445a-7de6-4c8c-9b44-3aee8f60623e</id>
+      <masked>false</masked>
+      <name>targetUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>'bankinguser123'</defaultValue>
+      <description>Valid username from TC-17997970</description>
+      <id>ad0f5a7d-9bc8-4fcc-b20f-7f4a0ec2210c</id>
+      <masked>false</masked>
+      <name>userId</name>
+   </variable>
+</TestCaseEntity>

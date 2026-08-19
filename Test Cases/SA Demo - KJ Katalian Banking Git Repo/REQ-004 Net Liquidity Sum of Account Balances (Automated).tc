@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated conversion of REQ-004 Net Liquidity Sum of Account Balances. Logs in with the TC-17997970 user data and verifies the displayed Net Liquidity equals the sum of the displayed account balances.</description>
+   <name>REQ-004 Net Liquidity Sum of Account Balances (Automated)</name>
+   <tag>GenAI,REQ-004,AgenticExecution,NetLiquidity</tag>
+   <comment>Password is retrieved only from the project secret GlobalVariable.Katalian_Banking_Password. This test case does not call or leverage an existing test case.</comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6e79a37f-3601-4ca7-8cc3-9e22c726097c</testCaseGuid>
+   <variable>
+      <defaultValue>'https://katalian-banking.vercel.app/login'</defaultValue>
+      <description>Katalian Banking Production login URL.</description>
+      <id>3730843f-2002-4bbc-bc79-e3784f562a2c</id>
+      <masked>false</masked>
+      <name>targetUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>'bankinguser123'</defaultValue>
+      <description>Valid username from Login Test Case TC-17997970.</description>
+      <id>e8f5a004-800c-493f-8000-09ba7acfba0d</id>
+      <masked>false</masked>
+      <name>userId</name>
+   </variable>
+   <variable>
+      <defaultValue>'Katalian_Banking_Password'</defaultValue>
+      <description>Project secret name used for the password entry; value is never stored in the test case.</description>
+      <id>65a1d70f-6976-4854-9c55-c9568b4db31d</id>
+      <masked>true</masked>
+      <name>passwordSecret</name>
+   </variable>
+</TestCaseEntity>
