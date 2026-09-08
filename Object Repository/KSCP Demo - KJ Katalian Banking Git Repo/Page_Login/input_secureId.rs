@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Login submit button.</description>
-   <name>button_enterVaultAccess</name>
+   <description>Secure ID input on login page</description>
+   <name>input_secureId</name>
    <tag></tag>
-   <elementGuidId>eac2beda-404a-4c61-9f3a-1e153a5c140f</elementGuidId>
+   <elementGuidId>51faf9f6-a6c6-4e8b-ac02-ad46fca130d0</elementGuidId>
    <origin>STUDIOASSIST</origin>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit' and normalize-space()='Enter Vault Access']</value>
+         <value>//input[@id='username']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

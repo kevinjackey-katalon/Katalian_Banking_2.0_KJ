@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validates Deposit button navigation from dashboard Net Liquidity section to /deposit.</description>
+   <name>REQ-004 NL Positive - Deposit Button Navigates to Deposit</name>
+   <tag>GenAI,REQ-004,Navigation,Automated,Positive,NetLiquidity</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>095af124-f017-446e-9317-8dbf91ac8a22</testCaseGuid>
+   <variable>
+      <defaultValue>'https://katalian-banking.vercel.app/login'</defaultValue>
+      <description>Login URL for target environment</description>
+      <id>6a9aef62-8ab5-4c4f-936c-16298dad4ef6</id>
+      <masked>false</masked>
+      <name>targetUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>'bankinguser123'</defaultValue>
+      <description>Login username/secure ID</description>
+      <id>4045d3f3-c459-42d7-95e1-8164dba98475</id>
+      <masked>false</masked>
+      <name>userId</name>
+   </variable>
+   <variable>
+      <defaultValue>'notapassword@123'</defaultValue>
+      <description>Login password</description>
+      <id>2533a13e-1f7f-4f7c-afb6-b82d4a307eff</id>
+      <masked>true</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

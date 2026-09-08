@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Displayed checking account card.</description>
-   <name>checking_account_card</name>
+   <description>Password field on Katalian Banking login page</description>
+   <name>TC19608466_LoginPassword</name>
    <tag></tag>
-   <elementGuidId>42fc5afe-ad83-4b0f-b134-22d6d473a9b2</elementGuidId>
+   <elementGuidId>e50b5095-1999-4842-8707-168121943ec3</elementGuidId>
    <origin>STUDIOASSIST</origin>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[1]/div[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[1]</value>
+         <value>//input[@id='password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

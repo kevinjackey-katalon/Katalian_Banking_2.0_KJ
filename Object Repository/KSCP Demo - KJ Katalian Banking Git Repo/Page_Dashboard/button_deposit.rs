@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Displayed credit card balance area.</description>
-   <name>credit_card_balance</name>
+   <description>Deposit action button on dashboard net liquidity section</description>
+   <name>button_deposit</name>
    <tag></tag>
-   <elementGuidId>dc225d8e-cdeb-4ba8-9eca-97a077d713e4</elementGuidId>
+   <elementGuidId>4b667cc2-7983-41f2-a014-812263abd209</elementGuidId>
    <origin>STUDIOASSIST</origin>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[1]/div[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[2]</value>
+         <value>//button[normalize-space()='Deposit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

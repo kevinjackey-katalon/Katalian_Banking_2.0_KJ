@@ -6,15 +6,15 @@
    <elementGuidId>13e071fb-ee4c-4f74-9d68-3414a1f6d513</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>IMAGE</key>
+         <key>XPATH</key>
+         <value>//*[@id = 'broken___username']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#username</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id = 'broken___username']</value>
+         <key>IMAGE</key>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -36,7 +36,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c87da0f1-94c1-406c-9ebe-f4b074ec3a72</webElementGuid>
+      <webElementGuid>087d79bc-fbf4-4fbc-9113-8757ac349a3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +44,7 @@
       <name>id</name>
       <type>Main</type>
       <value>username</value>
-      <webElementGuid>048503d6-4b48-4655-8de7-c38501e600aa</webElementGuid>
+      <webElementGuid>a705c129-960c-43a5-91a8-d155845b838b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>class</name>
       <type>Main</type>
       <value>block w-full px-4 py-4 bg-slate-950 border border-white/5 rounded-2xl shadow-inner placeholder-slate-800 focus:outline-none focus:border-emerald-500/50 focus:ring-4 focus:ring-emerald-500/5 transition-all duration-300 text-sm text-white font-medium </value>
-      <webElementGuid>942246f0-589f-4fbb-90ed-4506171ac701</webElementGuid>
+      <webElementGuid>9690fdfb-94b2-422f-b9a4-6e343a1fcd29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,7 +60,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>USER_0000</value>
-      <webElementGuid>7d080595-750e-43f9-9a02-a0fb8db84775</webElementGuid>
+      <webElementGuid>fe463e65-a9c0-4403-82a5-4a2147e1c893</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-3d2c3dd43d9fa890160f2bddb48eef38</value>
-      <webElementGuid>feedc479-dcfb-4c0e-86b9-e69794f7b9d8</webElementGuid>
+      <webElementGuid>81571b9b-35fd-4d5a-a628-ddf7fd1216e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,6 +76,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'username']</value>
-      <webElementGuid>0a45c139-3aff-4063-8150-e33784538c54</webElementGuid>
+      <webElementGuid>67108b42-430b-4889-a40b-cdf18a0f0179</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

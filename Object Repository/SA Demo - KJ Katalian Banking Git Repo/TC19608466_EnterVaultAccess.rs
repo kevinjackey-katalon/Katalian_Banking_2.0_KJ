@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Displayed savings account card ending 7222.</description>
-   <name>savings_account_card_1</name>
+   <description>Login button on Katalian Banking login page</description>
+   <name>TC19608466_EnterVaultAccess</name>
    <tag></tag>
-   <elementGuidId>94f9562b-a65a-4e62-b171-e5a820c79a02</elementGuidId>
+   <elementGuidId>67fa0d7a-432e-4d58-ba81-cf8135f83917</elementGuidId>
    <origin>STUDIOASSIST</origin>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[1]/div[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[4]</value>
+         <value>//button[normalize-space()='Enter Vault Access']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

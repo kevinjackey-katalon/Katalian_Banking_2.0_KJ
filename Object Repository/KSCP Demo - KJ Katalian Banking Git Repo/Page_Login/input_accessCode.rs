@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Secure ID username field for Katalian Banking Production login.</description>
-   <name>input_secureId</name>
+   <description>Access Code password input on login page</description>
+   <name>input_accessCode</name>
    <tag></tag>
-   <elementGuidId>af318588-e808-4a81-9f75-54e178e2bc76</elementGuidId>
+   <elementGuidId>05901387-99d9-4e01-ab8d-491bdffd87b7</elementGuidId>
    <origin>STUDIOASSIST</origin>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='username']</value>
+         <value>//input[@id='password' and @type='password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

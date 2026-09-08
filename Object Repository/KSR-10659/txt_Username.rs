@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Dashboard main container used to confirm successful login.</description>
-   <name>dashboard_main</name>
+   <description>Username input on Katalian Banking login page</description>
+   <name>txt_Username</name>
    <tag></tag>
-   <elementGuidId>bf033dca-9ff2-442f-961f-0fcd3bfafbc6</elementGuidId>
+   <elementGuidId>5bbe2495-cb47-412d-a10e-6d7b685128fd</elementGuidId>
    <origin>STUDIOASSIST</origin>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//main</value>
+         <key>CSS</key>
+         <value>input#username</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

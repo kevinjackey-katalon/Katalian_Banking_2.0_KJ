@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automated implementation of TestOps Test Case TC-19608466. Logs into Katalian Banking Production and validates the Net Liquidity dashboard label and calculated total against displayed account balances.</description>
+   <name>TC-19608466 Net Liquidity Sum of Account Balances</name>
+   <tag>GenAI,REQ-004,automated,TC-19608466</tag>
+   <comment>Source: Katalian Banking 2.0 / TC-19608466. Password must be supplied through the protected GlobalVariable.Katalian_Banking_Password execution setting.</comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>41a89560-7143-4be8-a7b8-ed1c5ebf6517</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad740426-33db-434b-988e-49b59fd03339</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'[MASKED]'</defaultValue>
+      <description>Protected login password. Bind this variable to the Katalian_Banking_Password secret in the execution profile before running.</description>
+      <id>ad740426-33db-434b-988e-49b59fd03339</id>
+      <masked>true</masked>
+      <name>Katalian_Banking_Password</name>
+   </variable>
+</TestCaseEntity>

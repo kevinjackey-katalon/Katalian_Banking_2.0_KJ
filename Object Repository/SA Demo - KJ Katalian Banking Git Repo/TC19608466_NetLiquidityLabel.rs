@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Displayed savings account card ending 1234.</description>
-   <name>savings_account_card_2</name>
+   <description>Net Liquidity label on dashboard</description>
+   <name>TC19608466_NetLiquidityLabel</name>
    <tag></tag>
-   <elementGuidId>1def98c0-cb5f-4775-9056-5350617a8192</elementGuidId>
+   <elementGuidId>7d7f3cf6-18a0-4bb1-b4f5-d457ca4e7372</elementGuidId>
    <origin>STUDIOASSIST</origin>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[1]/div[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[2]</value>
+         <value>//*[normalize-space(text())='Net Liquidity']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

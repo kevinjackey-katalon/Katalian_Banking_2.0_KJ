@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Displayed Net Liquidity total.</description>
-   <name>net_liquidity_amount</name>
+   <description>Login submit button</description>
+   <name>button_enterVaultAccess</name>
    <tag></tag>
-   <elementGuidId>aff40ba1-0220-4346-a62a-08e17d335e40</elementGuidId>
+   <elementGuidId>808787d7-b15a-4090-bb96-b41830cfc017</elementGuidId>
    <origin>STUDIOASSIST</origin>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//p[normalize-space()='Net Liquidity']/following::h2[1]</value>
+         <value>//button[@type='submit' and normalize-space()='Enter Vault Access']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

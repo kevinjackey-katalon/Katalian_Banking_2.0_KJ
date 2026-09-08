@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to the CSTN search page, capture the complete right-side Handsontable grid into arrays, and compare every header and cell with the SJCH Sample data file.</description>
+   <name>Compare SJCH Results Table With Sample Data</name>
+   <tag>GenAI,data-driven,SJCH,table</tag>
+   <comment>Uses the Handsontable data model when available so virtualized rows are included; fails explicitly instead of hanging when the data file is not configured.</comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1049dc97-d62e-4760-b9df-55e193779fab</testCaseGuid>
+</TestCaseEntity>
