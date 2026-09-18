@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Net Liquidity total equals sum of all account balances for multi-account user</description>
+   <name>TC-20111566 Net Liquidity total equals sum of all account balances for multi-account user</name>
+   <tag>GenAI,NL-007,NL-005,NL-006,NL-003,NL-004,FR-001,NL-001,NL-002</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a448fd93-6fa9-45b1-a41c-a445fa6ad85c</testCaseGuid>
+</TestCaseEntity>
