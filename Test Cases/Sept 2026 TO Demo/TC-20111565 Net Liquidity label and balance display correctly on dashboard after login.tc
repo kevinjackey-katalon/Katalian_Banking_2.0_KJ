@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Net Liquidity label and balance display correctly on dashboard after login</description>
+   <name>TC-20111565 Net Liquidity label and balance display correctly on dashboard after login</name>
+   <tag>GenAI,NL-007,NL-005,NL-006,NL-003,NL-004,FR-001,NL-001,NL-002</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9dd0a509-2a9f-45db-be54-fe6be1e52408</testCaseGuid>
+</TestCaseEntity>
