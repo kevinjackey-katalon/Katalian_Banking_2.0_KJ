@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login and access the vault. Initiate a fund transfer by selecting origin and amount. Authorize the transfer and verify return to home page.</description>
+   <name>TC14-Transfer Funds from Account</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>TRUETEST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2a146a86-9589-40cb-b3a8-686f82e7c887</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 4: Enter secure ID and access code to access vault - (Input data variable)</description>
+      <id>71d7b9f0-46bb-422d-90dc-2e0a6257bb7f</id>
+      <masked>false</masked>
+      <name>input_accessCode</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 8: Enter input value in input liquidCapitalAmount - (Input data variable)</description>
+      <id>c936bfc6-293b-4202-844a-74aaee954d00</id>
+      <masked>false</masked>
+      <name>input_liquidCapitalAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 4: Enter secure ID and access code to access vault - (Input data variable)</description>
+      <id>c935724c-998d-4cf5-81ca-764075cc6af9</id>
+      <masked>false</masked>
+      <name>input_secureId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 6: Select option with input value from select originLiquidity - (Input data variable)</description>
+      <id>3e28a23b-41d1-4f1e-bddd-e568fefdb0a9</id>
+      <masked>false</masked>
+      <name>select_originLiquidity</name>
+   </variable>
+</TestCaseEntity>

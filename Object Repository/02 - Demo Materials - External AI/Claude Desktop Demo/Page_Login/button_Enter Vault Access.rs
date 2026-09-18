@@ -7,12 +7,16 @@
    <origin>STUDIOASSIST</origin>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//button[(text() = 'Enter Vault Access' or . = 'Enter Vault Access') and @type = 'submit']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>.tracking-tight</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[(text() = 'Enter Vault Access' or . = 'Enter Vault Access') and @type = 'submit']</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Enter Vault Access' or . = 'Enter Vault Access') and @type = 'submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -30,7 +34,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c67d5c7b-551e-4f73-97ee-edd03971a02c</webElementGuid>
+      <webElementGuid>0f827d83-03f2-407c-9245-f4ab31677365</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>relative inline-flex items-center justify-center font-bold py-3 px-6 rounded-2xl transition-all duration-300 active:scale-[0.98] disabled:opacity-30 disabled:cursor-not-allowed text-sm overflow-hidden bg-emerald-500 hover:bg-emerald-400 text-slate-950 shadow-[0_10px_20px_rgba(16,185,129,0.2)] w-full py-4 text-base font-black tracking-tight</value>
-      <webElementGuid>256125b2-41ff-4689-a593-c66dbcf4d37d</webElementGuid>
+      <webElementGuid>d2e2d93b-79b4-47b2-ad37-2ff95935cbe4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Enter Vault Access</value>
-      <webElementGuid>8ea38c16-0f87-4027-ace0-914a9d40a6f4</webElementGuid>
+      <webElementGuid>74b9ec77-6f9c-48e5-a894-9b341b21ebd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>7a725de3-c1ce-495c-b618-d19feb081baa</webElementGuid>
+      <webElementGuid>94c637eb-5e89-4818-b0c6-a0825587853d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' tracking-tight ')]</value>
-      <webElementGuid>3878917d-c156-4c46-ae39-40c88cc380fc</webElementGuid>
+      <webElementGuid>106c786c-b389-4a4c-aa87-e4426e39173a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Enter Vault Access' or . = 'Enter Vault Access') and @type = 'submit']</value>
-      <webElementGuid>76dc5723-af77-44ba-a596-8f5dfe00f7e8</webElementGuid>
+      <webElementGuid>9f0923cc-d6c2-4673-946e-9c08833c291a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +82,6 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' tracking-tight ')]</value>
-      <webElementGuid>e4fa02e4-5f6c-45d0-8d97-d37904880f4e</webElementGuid>
+      <webElementGuid>67832dcc-eea9-442c-90f1-07d01c88d61d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

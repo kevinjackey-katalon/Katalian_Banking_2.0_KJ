@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login - Self Healing_Data Binding Demonstration</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10019&quot;:&quot;0|i0009b:&quot;,&quot;customfield_10000&quot;:&quot;{}&quot;,&quot;customfield_10103&quot;:{&quot;self&quot;:&quot;https://giavannaesposito-1763584177283.atlassian.net/rest/api/2/customFieldOption/10021&quot;,&quot;value&quot;:&quot;Critical&quot;,&quot;id&quot;:&quot;10021&quot;,&quot;color&quot;:&quot;ORANGE_DARKER&quot;}},&quot;status&quot;:{&quot;id&quot;:10001,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://giavannaesposito-1763584177283.atlassian.net/&quot;,&quot;statusCategory&quot;:{&quot;id&quot;:4,&quot;key&quot;:&quot;indeterminate&quot;,&quot;colorName&quot;:&quot;yellow&quot;,&quot;self&quot;:&quot;https://giavannaesposito-1763584177283.atlassian.net/rest/api/2/statuscategory/4&quot;,&quot;name&quot;:&quot;In Progress&quot;},&quot;self&quot;:&quot;https://giavannaesposito-1763584177283.atlassian.net/rest/api/2/status/10001&quot;,&quot;name&quot;:&quot;In Progress&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://giavannaesposito-1763584177283.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;KB&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;Katalian Banking&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;REQ-004 Subtask 1 - Validate Page Display Items - Net Liquidity&quot;,&quot;description&quot;:&quot;h3. *High Level Page Summary*\n\nProvide authenticated users with a comprehensive overview of their financial portfolio, including account balances, quick actions, product applications, and asset management tools.\n\n----\n\nh3. *High Level Page Description*\n\nThe Dashboard serves as the primary landing page for authenticated users. It displays a consolidated view of all accounts, total net liquidity, and provides quick access to key banking functions including transfers, deposits, account applications, and security features.\n\n----\n\nh3. *SubTask 1 - Display Total Net Liquidity*\n\n||ID||Requirement||Priority||\n|FR-001|System shall display total net liquidity (sum of all account balances)|High|\n\n----\n\nh3. *Net Liquidity Section*\n\n||ID||Requirement||\n|NL-001|Section shall display \&quot;Net Liquidity\&quot; label|\n|NL-002|Total balance shall be calculated as sum of all account balances|\n|NL-003|Balance shall be formatted as currency with dollar sign, thousands separator, and 2 decimal places|\n|NL-004|Section shall display \&quot;Active Assets\&quot; status badge|\n|NL-005|Section shall display \&quot;Member since 2021\&quot; badge|\n|NL-006|\&quot;Move Funds\&quot; button shall navigate to /transfer|\n|NL-007|\&quot;Deposit\&quot; button shall navigate to /deposit|\n\n||ID||Requirement||Priority||\n|FR-001|System shall display total net liquidity (sum of all account balances)|High|\n\n----\n\n*Desktop Layout (lg screens):*\n\n{noformat}+------------------------------------------+\n|          Net Liquidity Section           |\n|   [Total Balance]  [Move Funds][Deposit] |\n+------------------------------------------+\n|                    |                     |\n|  Accounts \u0026 Cards  |  Asset Management   |\n|  (8 columns)       |  Sidebar            |\n|                    |  (4 columns)        |\n|  [Account Cards]   |  [Quick Links]      |\n|                    |                     |\n|  Apply for New     |  [Promo Banner]     |\n|  Products          |                     |\n|  [Product Buttons] |                     |\n+------------------------------------------+{noformat}&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;kjackey1@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Kevin Jackey&quot;,&quot;accountId&quot;:&quot;70121:8c9dd5ab-d96a-45dd-9bff-6ae2d11144c7&quot;,&quot;self&quot;:&quot;https://giavannaesposito-1763584177283.atlassian.net/rest/api/2/user?accountId\u003d70121%3A8c9dd5ab-d96a-45dd-9bff-6ae2d11144c7&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;kjackey1@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Kevin Jackey&quot;,&quot;accountId&quot;:&quot;70121:8c9dd5ab-d96a-45dd-9bff-6ae2d11144c7&quot;,&quot;self&quot;:&quot;https://giavannaesposito-1763584177283.atlassian.net/rest/api/2/user?accountId\u003d70121%3A8c9dd5ab-d96a-45dd-9bff-6ae2d11144c7&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://giavannaesposito-1763584177283.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://giavannaesposito-1763584177283.atlassian.net/rest/api/2/issue/KB-32/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[{&quot;self&quot;:&quot;https://giavannaesposito-1763584177283.atlassian.net/rest/api/2/version/10001&quot;,&quot;id&quot;:10001,&quot;description&quot;:&quot;&quot;,&quot;name&quot;:&quot;Core Transactions&quot;,&quot;isArchived&quot;:false,&quot;isReleased&quot;:false}],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://giavannaesposito-1763584177283.atlassian.net/rest/api/latest/issue/10653&quot;,&quot;key&quot;:&quot;KB-32&quot;,&quot;id&quot;:10653}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e40a3be9-e729-4c43-a71a-55bdc97fd8a8</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>2f669f8f-5dfe-455f-bc9b-1eef67c29e8b</id>
+      <iterationEntity>
+         <iterationType>RANGE</iterationType>
+         <value>1-2</value>
+      </iterationEntity>
+      <testDataId>Data Files/Demo/Demo Data File 1</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>2f669f8f-5dfe-455f-bc9b-1eef67c29e8b</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>21ac56b8-729e-4f64-881e-6911d7383f97</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>21ac56b8-729e-4f64-881e-6911d7383f97</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

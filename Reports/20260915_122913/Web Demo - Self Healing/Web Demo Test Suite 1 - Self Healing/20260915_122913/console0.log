@@ -1,0 +1,111 @@
+2026-09-15 12:29:14.329 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio Copilot - 11.5.0.app/Contents/Eclipse/configuration/org.eclipse.osgi/166/0/.cp/resources/logback/logback-execution.xml
+2026-09-15 12:29:14.330 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot/Include/config/log.properties
+2026-09-15 12:29:14.601 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Web Demo - Self Healing/Web Demo Test Suite 1 - Self Healing
+2026-09-15 12:29:14.629 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Kevin Jackey
+2026-09-15 12:29:14.629 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TrueTestGen4Project
+2026-09-15 12:29:14.629 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = kevin.jackey - 192.168.1.68
+2026-09-15 12:29:14.630 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-09-15 12:29:14.630 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.68
+2026-09-15 12:29:14.630 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.5.0
+Test Suites/Web Demo - Self Healing/Web Demo Test Suite 1 - Self Healing
+2026-09-15 12:29:14.673 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-15 12:29:14.674 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/01 - Demo Materials - Katalon AI/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration
+2026-09-15 12:29:14.694 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = bankinguser123
+Test Cases/01 - Demo Materials - Katalon AI/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration
+[username:bankinguser123]
+2026-09-15 12:29:14.701 WARN  c.k.k.c.h.s.CDTVideoRecorder             - No alive Web Driver found!
+2026-09-15 12:29:14.724 DEBUG  Self Healing_Data Binding Demonstration - 1: url = application_domain + "/login"
+2026-09-15 12:29:14.747 DEBUG  Self Healing_Data Binding Demonstration - 2: common.utilities.shared_functions.userLogin(url)
+2026-09-15 12:29:14.757 INFO  com.kms.katalon.core.util.KeywordUtil    - [Step] Open browser and navigate to: https://katalian-banking.vercel.app//login
+2026-09-15 12:29:14.821 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-15 12:29:14.833 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-15 12:29:16.414 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b9defcf3fe164c68ec49dffeca2b1671
+2026-09-15 12:29:16.415 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.37
+2026-09-15 12:29:16.415 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-15 12:29:16.415 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-15 12:29:16.416 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-15 12:29:17.824 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - common.utilities.shared_functions.userLogin is PASSED
+2026-09-15 12:29:17.824 DEBUG  Self Healing_Data Binding Demonstration - 3: if (waitForPageLoad(30) == false)
+2026-09-15 12:29:17.856 DEBUG  Self Healing_Data Binding Demonstration - 4: else
+2026-09-15 12:29:17.857 DEBUG  Self Healing_Data Binding Demonstration - 1: setText(findTestObject("Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken"), username)
+2026-09-15 12:29:27.981 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken'. Try using Self-healing.
+2026-09-15 12:29:27.985 INFO  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] No working XPath is found.
+2026-09-15 12:29:28.306 INFO  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] Screenshot: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot/Reports/Self-healing/Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken_SMART_LOCATOR.png
+2026-09-15 12:29:28.309 WARN  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken' was broken. Propose an alternative one: 'internal:attr=[placeholder="USER_0000"i]'.
+2026-09-15 12:29:28.317 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2026-09-15 12:29:38.525 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken'. Try using Self-healing.
+2026-09-15 12:29:38.528 INFO  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] No working XPath is found.
+2026-09-15 12:29:38.651 INFO  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] Screenshot: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot/Reports/Self-healing/Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken_SMART_LOCATOR.png
+2026-09-15 12:29:38.654 WARN  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken' was broken. Propose an alternative one: 'internal:attr=[placeholder="USER_0000"i]'.
+2026-09-15 12:29:38.657 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2026-09-15 12:29:38.733 DEBUG  Self Healing_Data Binding Demonstration - 2: setEncryptedText(findTestObject("01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo")
+2026-09-15 12:29:39.031 DEBUG  Self Healing_Data Binding Demonstration - 3: click(findTestObject("01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access"))
+2026-09-15 12:29:39.076 DEBUG  Self Healing_Data Binding Demonstration - 4: closeBrowser()
+Test Cases/01 - Demo Materials - Katalon AI/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration
+PASSED
+2026-09-15 12:29:52.319 INFO  c.k.k.c.c.internal.VideoRecorderService  - Video recording for test case 'Test Cases/01 - Demo Materials - Katalon AI/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration' .
+2026-09-15 12:29:52.319 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/01 - Demo Materials - Katalon AI/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration
+2026-09-15 12:29:52.320 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2026-09-15 12:29:52.321 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2026-09-15 12:29:52.321 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2026-09-15 12:29:52.321 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2026-09-15 12:29:52.321 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2026-09-15 12:29:52.329 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-15 12:29:52.329 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/01 - Demo Materials - Katalon AI/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration
+2026-09-15 12:29:52.335 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = thiswillfail
+Test Cases/01 - Demo Materials - Katalon AI/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration
+Test Cases/01 - Demo Materials - Katalon AI/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration
+PASSED
+2026-09-15 12:29:52.319 INFO  c.k.k.c.c.internal.VideoRecorderService  - Video recording for test case 'Test Cases/01 - Demo Materials - Katalon AI/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration' .
+2026-09-15 12:29:52.319 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/01 - Demo Materials - Katalon AI/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration
+2026-09-15 12:29:52.320 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2026-09-15 12:29:52.321 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2026-09-15 12:29:52.321 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2026-09-15 12:29:52.321 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2026-09-15 12:29:52.321 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2026-09-15 12:29:52.329 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-15 12:29:52.329 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/01 - Demo Materials - Katalon AI/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration
+2026-09-15 12:29:52.335 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = thiswillfail
+Test Cases/01 - Demo Materials - Katalon AI/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration
+[username:thiswillfail]
+2026-09-15 12:29:52.338 WARN  c.k.k.c.h.s.CDTVideoRecorder             - No alive Web Driver found!
+2026-09-15 12:29:52.339 DEBUG  Self Healing_Data Binding Demonstration - 1: url = application_domain + "/login"
+2026-09-15 12:29:52.340 DEBUG  Self Healing_Data Binding Demonstration - 2: common.utilities.shared_functions.userLogin(url)
+2026-09-15 12:29:52.341 INFO  com.kms.katalon.core.util.KeywordUtil    - [Step] Open browser and navigate to: https://katalian-banking.vercel.app//login
+2026-09-15 12:29:52.341 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-15 12:29:52.342 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-15 12:29:53.312 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a321020e5d2ace8bde3fe8bd58ae7997
+2026-09-15 12:29:53.313 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.37
+2026-09-15 12:29:53.313 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-09-15 12:29:53.313 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-09-15 12:29:53.313 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-15 12:29:54.632 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - common.utilities.shared_functions.userLogin is PASSED
+2026-09-15 12:29:54.633 DEBUG  Self Healing_Data Binding Demonstration - 3: if (waitForPageLoad(30) == false)
+2026-09-15 12:29:54.640 DEBUG  Self Healing_Data Binding Demonstration - 4: else
+2026-09-15 12:29:54.640 DEBUG  Self Healing_Data Binding Demonstration - 1: setText(findTestObject("Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken"), username)
+2026-09-15 12:30:04.775 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken'. Try using Self-healing.
+2026-09-15 12:30:04.776 INFO  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] No working XPath is found.
+2026-09-15 12:30:04.876 INFO  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] Screenshot: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot/Reports/Self-healing/Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken_SMART_LOCATOR.png
+2026-09-15 12:30:04.878 WARN  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken' was broken. Propose an alternative one: 'internal:attr=[placeholder="USER_0000"i]'.
+2026-09-15 12:30:04.883 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2026-09-15 12:30:14.928 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken'. Try using Self-healing.
+2026-09-15 12:30:14.933 INFO  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] No working XPath is found.
+2026-09-15 12:30:15.011 INFO  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] Screenshot: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot/Reports/Self-healing/Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken_SMART_LOCATOR.png
+2026-09-15 12:30:15.013 WARN  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken' was broken. Propose an alternative one: 'internal:attr=[placeholder="USER_0000"i]'.
+2026-09-15 12:30:15.023 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2026-09-15 12:30:15.103 DEBUG  Self Healing_Data Binding Demonstration - 2: setEncryptedText(findTestObject("01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo")
+2026-09-15 12:30:15.366 DEBUG  Self Healing_Data Binding Demonstration - 3: click(findTestObject("01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access"))
+2026-09-15 12:30:15.400 DEBUG  Self Healing_Data Binding Demonstration - 4: closeBrowser()
+Test Cases/01 - Demo Materials - Katalon AI/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration
+PASSED
+2026-09-15 12:30:30.044 INFO  c.k.k.c.c.internal.VideoRecorderService  - Video recording for test case 'Test Cases/01 - Demo Materials - Katalon AI/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration' .
+2026-09-15 12:30:30.045 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/01 - Demo Materials - Katalon AI/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration
+2026-09-15 12:30:30.045 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2026-09-15 12:30:30.045 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2026-09-15 12:30:30.045 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2026-09-15 12:30:30.046 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2026-09-15 12:30:30.046 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+Test Suites/Web Demo - Self Healing/Web Demo Test Suite 1 - Self Healing
+2026-09-15 12:30:30.062 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-09-15 12:30:30.062 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Web Demo - Self Healing/Web Demo Test Suite 1 - Self Healing
+2026-09-15 12:30:30.062 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

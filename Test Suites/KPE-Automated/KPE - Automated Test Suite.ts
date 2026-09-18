@@ -4,7 +4,9 @@
    <name>KPE - Automated Test Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <maxConcurrentInstances>1</maxConcurrentInstances>
    <numberOfRerun>0</numberOfRerun>
+   <orchestration>CLASSIC</orchestration>
    <origin>STUDIOASSIST</origin>
    <pageLoadTimeout>0</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -15,7 +17,7 @@
       <guid>92fdc855-36c8-484d-831f-de6e134e951e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/KPE-Automated/TC01 - Login with Valid Credentials</testCaseId>
+      <testCaseId>Test Cases/02 - Demo Materials - External AI/KPE-Automated/TC01 - Login with Valid Credentials</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -34,7 +36,7 @@
       <guid>a28218d7-f380-4fe2-9651-4c2a553c95d4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/KPE-Automated/TC02 - Login with Invalid Password</testCaseId>
+      <testCaseId>Test Cases/02 - Demo Materials - External AI/KPE-Automated/TC02 - Login with Invalid Password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -53,7 +55,7 @@
       <guid>48492ff9-e46c-4d34-8887-bb1f856b27d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/KPE-Automated/TC03 - Login with Empty Credentials</testCaseId>
+      <testCaseId>Test Cases/02 - Demo Materials - External AI/KPE-Automated/TC03 - Login with Empty Credentials</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

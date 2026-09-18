@@ -17,7 +17,7 @@
       <guid>da0be9e7-ce08-4fb3-8ca5-636dc0d6305e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SA Mobile Example/Basic Android Login - Katalian Banking</testCaseId>
+      <testCaseId>Test Cases/01 - Demo Materials - Katalon AI/SA Mobile Example/Basic Android Login - Katalian Banking</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

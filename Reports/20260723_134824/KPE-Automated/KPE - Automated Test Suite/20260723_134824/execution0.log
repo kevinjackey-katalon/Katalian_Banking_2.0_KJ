@@ -3285,10 +3285,6 @@ TC03 - Login with Empty Credentials.run(TC03 - Login with Empty Credentials:17)
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2026-07-28T19:27:59.775093Z</date>
   <millis>1785266879775</millis>
@@ -3510,5 +3506,21 @@ See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json</
   <escapedJava>false</escapedJava>
   <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap</property>
   <property name="testops-execution-stacktrace"></property>
+</record>
+</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-09-15T14:16:12.615566Z</date>
+  <millis>1789481772615</millis>
+  <nanos>566000</nanos>
+  <sequence>666</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>4807</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
 </record>
 </log>

@@ -1,0 +1,12 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. url = application_domain + "/login"
+
+2
+00:00:00,000 --> 00:00:00,000
+5. common.utilities.shared_functions.userLogin(url)
+
+3
+00:00:00,000 --> 00:00:00,000
+9. if (waitForPageLoad(30) == false)
+

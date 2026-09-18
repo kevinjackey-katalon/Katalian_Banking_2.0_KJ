@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Web Demo Test Suite 1" time="47.932" tests="2" passed="2" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Web Demo Test Suite 1" tests="2" passed="2" failures="0" errors="0" incompleted="0" skipped="0" time="47.932" timestamp="2026-09-11T18:58:12.629Z" hostname="kevin.jackey - 192.168.1.68" id="Test Suites/Web Demo/Web Demo Test Suite 1" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot/Reports/20260911_145810/Web Demo/Web Demo Test Suite 1/20260911_145810"/>
+         <property name="logFiles" value="/Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot/Reports/20260911_145810/Web Demo/Web Demo Test Suite 1/20260911_145810/execution0.log, /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot/Reports/20260911_145810/Web Demo/Web Demo Test Suite 1/20260911_145810/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[&#xa;  {&#xa;    &quot;value&quot;: &quot;thiswillfail&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;username&quot;,&#xa;    &quot;masked&quot;: false&#xa;  }&#xa;]"/>
+         <property name="hostName" value="kevin.jackey - 192.168.1.68"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="11.5.0"/>
+         <property name="browser" value="Chrome 153.0.8010.37"/>
+         <property name="userFullName" value="Kevin Jackey"/>
+         <property name="hostAddress" value="192.168.1.68"/>
+         <property name="sessionId" value="f9400758885bcc03ee22c63dd9c344be"/>
+         <property name="projectName" value="TrueTestGen4Project"/>
+         <property name="seleniumVersion" value="4.46.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/01 - Demo Materials - Manual/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration" time="25.202" classname="Test Cases/01 - Demo Materials - Manual/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration" status="PASSED" tag="GenAI">
+         <properties>
+            <property name="data_binding"><![CDATA[{"username":"bankinguser123"}]]></property>
+         </properties>
+         <system-out><![CDATA[11-09-2026T14:58:12 - [TEST_CASE][PASSED] - Test Cases/01 - Demo Materials - Manual/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration: Test Cases/01 - Demo Materials - Manual/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration
+
+11-09-2026T14:58:12 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+11-09-2026T14:58:12 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+11-09-2026T14:58:12 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+11-09-2026T14:58:12 - [TEST_STEP][PASSED] - url = application_domain + "/login": null
+
+11-09-2026T14:58:12 - [TEST_STEP][PASSED] - common.utilities.shared_functions.userLogin(url): common.utilities.shared_functions.userLogin is PASSED
+
+11-09-2026T14:58:12 - [MESSAGE][INFO] - [Step] Open browser and navigate to: https://katalian-banking.vercel.app//login
+
+11-09-2026T14:58:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-09-2026T14:58:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-09-2026T14:58:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalian-banking.vercel.app//login'
+
+11-09-2026T14:58:16 - [MESSAGE][PASSED] - common.utilities.shared_functions.userLogin is PASSED
+
+11-09-2026T14:58:16 - [TEST_STEP][PASSED] - if (waitForPageLoad(30) == false): Wait for page load successfully
+
+11-09-2026T14:58:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+11-09-2026T14:58:16 - [TEST_STEP][PASSED] - else: Browser is closed
+
+11-09-2026T14:58:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken"), username): Text 'bankinguser123' is set on object 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken'
+
+11-09-2026T14:58:26 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken'. Try using Self-healing.
+
+11-09-2026T14:58:26 - [MESSAGE][INFO] - [WEBUI-SELF-HEALING] No working XPath is found.
+
+11-09-2026T14:58:26 - [MESSAGE][INFO] - [WEBUI-SELF-HEALING] Screenshot: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot/Reports/Self-healing/Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken_SMART_LOCATOR.png
+
+11-09-2026T14:58:26 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken' was broken. Propose an alternative one: 'internal:attr=[placeholder="USER_0000"i]'.
+
+11-09-2026T14:58:26 - [MESSAGE][WARNING] - Waiting for element timed out
+
+11-09-2026T14:58:36 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken'. Try using Self-healing.
+
+11-09-2026T14:58:36 - [MESSAGE][INFO] - [WEBUI-SELF-HEALING] No working XPath is found.
+
+11-09-2026T14:58:37 - [MESSAGE][INFO] - [WEBUI-SELF-HEALING] Screenshot: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot/Reports/Self-healing/Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken_SMART_LOCATOR.png
+
+11-09-2026T14:58:37 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken' was broken. Propose an alternative one: 'internal:attr=[placeholder="USER_0000"i]'.
+
+11-09-2026T14:58:37 - [MESSAGE][WARNING] - Waiting for element timed out
+
+11-09-2026T14:58:37 - [MESSAGE][PASSED] - Text 'bankinguser123' is set on object 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken'
+
+11-09-2026T14:58:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo"): Text ****** has been set on object 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password'
+
+11-09-2026T14:58:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password'
+
+11-09-2026T14:58:37 - [TEST_STEP][PASSED] - click(findTestObject("01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access")): Object: 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access' is clicked on
+
+11-09-2026T14:58:37 - [MESSAGE][PASSED] - Object: 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access' is clicked on
+
+11-09-2026T14:58:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-09-2026T14:58:37 - [MESSAGE][PASSED] - Browser is closed
+
+11-09-2026T14:58:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+11-09-2026T14:58:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+11-09-2026T14:58:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+11-09-2026T14:58:37 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/01 - Demo Materials - Manual/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration' .
+
+11-09-2026T14:58:37 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/01 - Demo Materials - Manual/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 - Demo Materials - Manual/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration" time="22.675" classname="Test Cases/01 - Demo Materials - Manual/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration" status="PASSED" tag="GenAI">
+         <properties>
+            <property name="data_binding"><![CDATA[{"username":"thiswillfail"}]]></property>
+         </properties>
+         <system-out><![CDATA[11-09-2026T14:58:37 - [TEST_CASE][PASSED] - Test Cases/01 - Demo Materials - Manual/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration: Test Cases/01 - Demo Materials - Manual/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration
+
+11-09-2026T14:58:37 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+11-09-2026T14:58:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+11-09-2026T14:58:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+11-09-2026T14:58:37 - [TEST_STEP][PASSED] - url = application_domain + "/login": null
+
+11-09-2026T14:58:37 - [TEST_STEP][PASSED] - common.utilities.shared_functions.userLogin(url): common.utilities.shared_functions.userLogin is PASSED
+
+11-09-2026T14:58:37 - [MESSAGE][INFO] - [Step] Open browser and navigate to: https://katalian-banking.vercel.app//login
+
+11-09-2026T14:58:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-09-2026T14:58:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-09-2026T14:58:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalian-banking.vercel.app//login'
+
+11-09-2026T14:58:39 - [MESSAGE][PASSED] - common.utilities.shared_functions.userLogin is PASSED
+
+11-09-2026T14:58:39 - [TEST_STEP][PASSED] - if (waitForPageLoad(30) == false): Wait for page load successfully
+
+11-09-2026T14:58:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+11-09-2026T14:58:39 - [TEST_STEP][PASSED] - else: Browser is closed
+
+11-09-2026T14:58:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken"), username): Text 'thiswillfail' is set on object 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken'
+
+11-09-2026T14:58:49 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken'. Try using Self-healing.
+
+11-09-2026T14:58:49 - [MESSAGE][INFO] - [WEBUI-SELF-HEALING] No working XPath is found.
+
+11-09-2026T14:58:49 - [MESSAGE][INFO] - [WEBUI-SELF-HEALING] Screenshot: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot/Reports/Self-healing/Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken_SMART_LOCATOR.png
+
+11-09-2026T14:58:49 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken' was broken. Propose an alternative one: 'internal:attr=[placeholder="USER_0000"i]'.
+
+11-09-2026T14:58:49 - [MESSAGE][WARNING] - Waiting for element timed out
+
+11-09-2026T14:58:59 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken'. Try using Self-healing.
+
+11-09-2026T14:58:59 - [MESSAGE][INFO] - [WEBUI-SELF-HEALING] No working XPath is found.
+
+11-09-2026T14:59:00 - [MESSAGE][INFO] - [WEBUI-SELF-HEALING] Screenshot: /Users/kevin.jackey/git/Katalian_Banking_2.0_KJ_Copilot/Reports/Self-healing/Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken_SMART_LOCATOR.png
+
+11-09-2026T14:59:00 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken' was broken. Propose an alternative one: 'internal:attr=[placeholder="USER_0000"i]'.
+
+11-09-2026T14:59:00 - [MESSAGE][WARNING] - Waiting for element timed out
+
+11-09-2026T14:59:00 - [MESSAGE][PASSED] - Text 'thiswillfail' is set on object 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_username_broken'
+
+11-09-2026T14:59:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password"), "CS9RmWxFPRFoMJc95WUBEN4WG8mxfTJo"): Text ****** has been set on object 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password'
+
+11-09-2026T14:59:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/input_password'
+
+11-09-2026T14:59:00 - [TEST_STEP][PASSED] - click(findTestObject("01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access")): Object: 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access' is clicked on
+
+11-09-2026T14:59:00 - [MESSAGE][PASSED] - Object: 'Object Repository/01 - Demo Materials - Manual/Self-Healing Objects/Page_Katalian Bank  Private Wealth Management/button_Enter Vault Access' is clicked on
+
+11-09-2026T14:59:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-09-2026T14:59:00 - [MESSAGE][PASSED] - Browser is closed
+
+11-09-2026T14:59:00 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+11-09-2026T14:59:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+11-09-2026T14:59:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+11-09-2026T14:59:00 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/01 - Demo Materials - Manual/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration' .
+
+11-09-2026T14:59:00 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/01 - Demo Materials - Manual/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-09-2026T14:58:12 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestSuite: null
+
+11-09-2026T14:58:12 - [TEST_STEP][PASSED] - println(testSuiteContext.getTestSuiteId()): null
+
+11-09-2026T14:58:12 - [TEST_SUITE][PASSED] - Web Demo Test Suite 1: null
+
+11-09-2026T14:59:00 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestSuite: null
+
+11-09-2026T14:59:00 - [TEST_STEP][PASSED] - println(testSuiteContext.getTestSuiteId()): null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -37,7 +37,7 @@
             <runConfigurationId>TestCloud</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Web Demo/Web Demo Test Suite 1</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Web Demo/Web Demo Test Suite 1 - Self Healing</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -69,7 +69,7 @@
             <runConfigurationId>TestCloud</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Web Demo/Web Demo Test Suite 1</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Web Demo/Web Demo Test Suite 1 - Self Healing</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

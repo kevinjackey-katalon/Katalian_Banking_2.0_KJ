@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Web Demo Test Suite 1,Chrome 153.0.8010.37,,,11-09-2026 14:58:12,11-09-2026 14:59:00,47.943s,PASSED
+,,,,,,,
+Start listener action : sampleBeforeTestSuite,Chrome 153.0.8010.37,,,11-09-2026 14:58:12,11-09-2026 14:58:12,0.006s,PASSED
+,,,,,,,
+Test Cases/01 - Demo Materials - Manual/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration,Chrome 153.0.8010.37,,GenAI,11-09-2026 14:58:12,11-09-2026 14:58:37,25.202s,PASSED
+"DATA BINDING - {""username"":""bankinguser123""}",,,,,,,
+Start listener action : sampleBeforeTestCase,Chrome 153.0.8010.37,,,11-09-2026 14:58:12,11-09-2026 14:58:12,0.004s,PASSED
+"url = application_domain + ""/login""",Chrome 153.0.8010.37,,,11-09-2026 14:58:12,11-09-2026 14:58:12,0.027s,PASSED
+common.utilities.shared_functions.userLogin(url),Chrome 153.0.8010.37,,,11-09-2026 14:58:12,11-09-2026 14:58:16,3.349s,PASSED
+if (waitForPageLoad(30) == false),Chrome 153.0.8010.37,,,11-09-2026 14:58:16,11-09-2026 14:58:16,0.035s,PASSED
+else,Chrome 153.0.8010.37,,,11-09-2026 14:58:16,11-09-2026 14:58:37,21.692s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 153.0.8010.37,,,11-09-2026 14:58:37,11-09-2026 14:58:37,0.003s,PASSED
+Video,Chrome 153.0.8010.37,,,11-09-2026 14:58:37,11-09-2026 14:58:37,0.001s,PASSED
+,,,,,,,
+Test Cases/01 - Demo Materials - Manual/Self Healing_Data Binding Demonstration/Login - Self Healing_Data Binding Demonstration,Chrome 153.0.8010.37,,GenAI,11-09-2026 14:58:37,11-09-2026 14:59:00,22.675s,PASSED
+"DATA BINDING - {""username"":""thiswillfail""}",,,,,,,
+Start listener action : sampleBeforeTestCase,Chrome 153.0.8010.37,,,11-09-2026 14:58:37,11-09-2026 14:58:37,0.001s,PASSED
+"url = application_domain + ""/login""",Chrome 153.0.8010.37,,,11-09-2026 14:58:37,11-09-2026 14:58:37,0.000s,PASSED
+common.utilities.shared_functions.userLogin(url),Chrome 153.0.8010.37,,,11-09-2026 14:58:37,11-09-2026 14:58:39,1.551s,PASSED
+if (waitForPageLoad(30) == false),Chrome 153.0.8010.37,,,11-09-2026 14:58:39,11-09-2026 14:58:39,0.007s,PASSED
+else,Chrome 153.0.8010.37,,,11-09-2026 14:58:39,11-09-2026 14:59:00,21.087s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 153.0.8010.37,,,11-09-2026 14:59:00,11-09-2026 14:59:00,0.001s,PASSED
+Video,Chrome 153.0.8010.37,,,11-09-2026 14:59:00,11-09-2026 14:59:00,0.001s,PASSED
+,,,,,,,
+Start listener action : sampleAfterTestSuite,Chrome 153.0.8010.37,,,11-09-2026 14:59:00,11-09-2026 14:59:00,0.001s,PASSED
