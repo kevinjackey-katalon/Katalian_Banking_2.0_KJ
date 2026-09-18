@@ -57,4 +57,8 @@ WebUI.waitForPageLoad(10)
 String depositUrl = WebUI.getUrl()
 assert depositUrl.endsWith("/deposit") : "[NL-007] Deposit did not navigate to /deposit. Actual URL: ${depositUrl}"
 WebUI.closeBrowser()
+<<<<<<< HEAD
 KeywordUtil.logInfo("TC-20111566 PASSED: Net Liquidity total verified against computed sum of all account balances.")
+=======
+KeywordUtil.logInfo("TC-20111566 PASSED: Net Liquidity total verified against computed sum of all account balances.")
+>>>>>>> branch 'main' of https://github.com/kevinjackey-katalon/Katalian_Banking_2.0_KJ
