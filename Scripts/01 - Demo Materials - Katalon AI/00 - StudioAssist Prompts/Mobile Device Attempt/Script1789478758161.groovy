@@ -18,6 +18,14 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /*
-
+Build me a Katalon Mobile Script using the following parameters:
+1. Application: "Katalian Banking.ipa" in the "Katalian Banking 2.0" project
+2. Katalon TestCloud Device: iOS 18
+3. Folder Location for Test and Object Files: "00-Mobile_Demo", if folder does not exist then create it
+4. Steps:
+a. Open Application
+b. Perform User Login with the following credentials:
+i. Username: bankinguser123
+ii. password: notapassword@123
 
 */
